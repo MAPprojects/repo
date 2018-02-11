@@ -1,0 +1,16 @@
+ISR_B█Istorie█română█BUGET█80
+SE_T█Sport█engleză█TAXĂ█10
+IG_B█Informatică█germană█BUGET█80
+IM_B█Informatică█maghiară█BUGET█70
+MIR_B█Mate-info█română█BUGET█110
+MR_B█Matematică█română█BUGET█80
+IR_B█Informatică█română█BUGET█3
+IG_T█Informatica█germană█TAXĂ█80
+IE_T█Informatică█engleză█TAXĂ█100
+SE_B█SportD█engleză█BUGET█23
+MIR_T█Mate-info█română█TAXĂ█80
+ISR_T█Istorie█română█TAXĂ█80
+IM_T█Informatică█maghiară█TAXĂ█20
+IR_T█Informatică█română█TAXĂ█100
+IE_B█Informatică█engleză█BUGET█120
+MR_T█Matematică█română█TAXĂ█70

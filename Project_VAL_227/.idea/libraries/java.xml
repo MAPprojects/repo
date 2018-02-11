@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/debugger/src/main/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/examples/src/main/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/examples/src/test/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/fontbox/src/main/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/fontbox/src/test/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/pdfbox/src/main/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/pdfbox/src/test/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/preflight/src/main/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/preflight/src/test/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/tools/src/main/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/tools/src/test/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/xmpbox/src/main/java" />
+      <root url="file://$PROJECT_DIR$/pdfbox-2.0.8/xmpbox/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainBorderPane" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: rgb(0, 26, 51);" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.adminUI.CandidatController">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefWidth="391.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <TableView fx:id="tabelCandidați" prefWidth="391.0" style="-fx-background-color: rgb(0, 34, 68);" VBox.vgrow="ALWAYS">
+                     <columns>
+                        <TableColumn fx:id="tabelCandidați_CNP" prefWidth="30.0" text="CNP" />
+                        <TableColumn fx:id="tabelCandidați_Nume" prefWidth="90.0" style="-fx-font-weight: bold;" text="Nume" />
+                        <TableColumn fx:id="tabelCandidați_Prenume" prefWidth="100.0" style="-fx-font-weight: bold;" text="Prenume" />
+                        <TableColumn fx:id="tabelCandidați_Telefon" prefWidth="90.0" text="Telefon" />
+                        <TableColumn fx:id="tabelCandidați_Email" maxWidth="1.7976931348623157E308" prefWidth="175.0" text="E-mail" />
+                     </columns>
+                  </TableView>
+                  <Pagination fx:id="paginare" maxPageIndicatorCount="1" />
+                  <CheckBox fx:id="checkBoxAfișarePaginată" mnemonicParsing="false" onAction="#changeTabel_afișarePaginată" text="Afișare paginată" textFill="#b2b2b2">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </CheckBox>
+               </children>
+            </VBox>
+            <VBox maxWidth="300.0" prefWidth="300.0" style="-fx-background-color: rgb(0, 26, 51);">
+               <children>
+                  <GridPane alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="256.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="152.0" minWidth="20.0" prefWidth="120.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="150.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="25.0" minHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="100.0" minHeight="0.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <TextField fx:id="câmpSearchCandidat" onKeyReleased="#cautăCandidat" onMouseClicked="#ascundeLupaCandidat" onMouseEntered="#ascundeLupaCandidat" onMouseExited="#aratăLupaCandidat" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="2.0" top="5.0" />
+                           </GridPane.margin>
+                           <opaqueInsets>
+                              <Insets left="20.0" />
+                           </opaqueInsets>
+                        </TextField>
+                        <ImageView fx:id="lupaSearchCandidat" fitHeight="25.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <image>
+                              <Image url="@../../images/UC_SEARCH_ICON_170616.PNG" />
+                           </image>
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="2.0" top="5.0" />
+                           </GridPane.margin>
+                        </ImageView>
+                        <ListView fx:id="listViewSearchCandidat" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseEntered="#completareCâmpuri_SearchCandidat" prefHeight="75.0" prefWidth="0.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <GridPane.margin>
+                              <Insets left="2.0" top="2.0" />
+                           </GridPane.margin>
+                        </ListView>
+                        <ChoiceBox fx:id="candidatSearchOptions" prefWidth="150.0" style="-fx-background-color: rgb(0, 34, 68);" GridPane.rowIndex="1" /> <!-- -fx-text-base-color -->
+                        <Label text="Caută după" textFill="#b2b2b2" />
+                        <ImageView fitHeight="20.0" fitWidth="20.0" onMouseClicked="#închideSearchCandidat" onMouseEntered="#setOpacityXcandidat_100" onMouseExited="#setOpacityXcandidat_50" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" fx:id="x_searchCandidat">
+                           <image>
+                              <Image url="@../../images/X.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                           <GridPane.margin>
+                              <Insets right="2.0" />
+                           </GridPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </GridPane>
+                  <GridPane alignment="CENTER_RIGHT" VBox.vgrow="NEVER">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="60.0" prefWidth="60.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="175.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <TextField fx:id="câmpCandidatID" onKeyReleased="#handlerTextFielduri" GridPane.columnIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="câmpCandidatNume" onKeyReleased="#handlerTextFielduri" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="câmpCandidatPrenume" layoutX="105.0" layoutY="43.0" onKeyReleased="#handlerTextFielduri" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="câmpCandidatTelefon" onKeyReleased="#handlerTextFielduri" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="câmpCandidatEmail" onKeyReleased="#handlerTextFielduri" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <Label text="CNP" textFill="WHITE">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="Nume" textFill="WHITE" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="Telefon" textFill="WHITE" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="E-mail" textFill="WHITE" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="47.0" text="Prenume" textFill="WHITE" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" />
+                           </GridPane.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </GridPane>
+                  <HBox minWidth="150.0">
+                     <children>
+                        <Button fx:id="butonCandidatAdaugă" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#adaugăCandidat" prefHeight="25.0" style="-fx-background-color: rgb(0, 59, 119);" text="Adaugă" textFill="WHITE" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="5.0" right="2.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="butonCandidatModifică" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#modificăCandidat" style="-fx-background-color: rgb(0, 59, 119);" text="Modifică" textFill="WHITE" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="2.0" right="2.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="butonCandidatȘterge" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ștergeCandidat" style="-fx-background-color: rgb(0, 59, 119);" text="Șterge" textFill="WHITE" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="2.0" right="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <VBox fx:id="vBoxMesajeSmart" prefHeight="50.0" VBox.vgrow="ALWAYS">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

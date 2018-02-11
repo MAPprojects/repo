@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="950.0" style="-fx-background-color: rgb(0, 13, 26);" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.userUI.UserController">
+   <center>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox>
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../images/Sigla%20UBB.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Înscriere la facultate" textFill="#909090">
+                     <font>
+                        <Font name="Century Gothic Bold" size="40.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefWidth="200.0" style="-fx-background-color: rgb(0, 26, 51);" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="TOP_CENTER" minWidth="320.0" prefWidth="320.0" style="-fx-background-color: rgb(0, 27, 35);">
+                     <children>
+                        <GridPane alignment="CENTER_RIGHT" minWidth="30.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="ALWAYS" maxWidth="199.0" minWidth="10.0" prefWidth="60.0" />
+                              <ColumnConstraints hgrow="ALWAYS" maxWidth="197.0" minWidth="10.0" prefWidth="170.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints maxHeight="25.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="25.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="câmpSearchSecție" onKeyReleased="#cautăSecții" onMouseClicked="#ascundeLupa" onMouseEntered="#ascundeLupa" onMouseExited="#aratăLupa" GridPane.columnIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="2.0" top="5.0" />
+                                 </GridPane.margin>
+                                 <opaqueInsets>
+                                    <Insets left="20.0" />
+                                 </opaqueInsets>
+                              </TextField>
+                              <ImageView fx:id="lupaSearchSecție" fitHeight="25.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                                 <image>
+                                    <Image url="@../../images/UC_SEARCH_ICON_170616.PNG" />
+                                 </image>
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="2.0" top="5.0" />
+                                 </GridPane.margin>
+                              </ImageView>
+                              <Label text="Caută:" textFill="#b2b2b2" />
+                              <ImageView fitHeight="20.0" fitWidth="20.0" onMouseClicked="#închideSearch" onMouseEntered="#setOpacityX_100" onMouseExited="#setOpacity_50" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT" fx:id="x_searchSecție">
+                                 <image>
+                                    <Image url="@../../images/X.png" />
+                                 </image>
+                                 <viewport>
+                                    <Rectangle2D />
+                                 </viewport>
+                                 <GridPane.margin>
+                                    <Insets right="2.0" />
+                                 </GridPane.margin>
+                              </ImageView>
+                              <ChoiceBox fx:id="choiceBoxLimbaDePredare" prefWidth="197.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+                                 <padding>
+                                    <Insets left="2.0" />
+                                 </padding>
+                                 <GridPane.margin>
+                                    <Insets left="2.0" />
+                                 </GridPane.margin>
+                              </ChoiceBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </GridPane>
+                        <Label text="Toate secțiile disponibile:" textFill="WHITE">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="tabelToateSecțiile" minHeight="100.0" onMouseClicked="#handlerTabelToateSecțiile" prefHeight="300.0" prefWidth="105.0" style="-fx-background-color: rgb(0, 27, 35);" stylesheets="@../../css/Tabel_albastru_2.css" VBox.vgrow="SOMETIMES">
+                          <columns>
+                            <TableColumn fx:id="tabelToateSecțiile_ID" maxWidth="100.0" minWidth="25.0" prefWidth="40.0" text="ID" />
+                            <TableColumn fx:id="tabelToateSecțiile_Nume" maxWidth="1.7976931348623157E308" minWidth="50.0" prefWidth="120.0" style="-fx-font-weight: bold;" text="Nume" />
+                              <TableColumn fx:id="tabelToateSecțiile_LimbaDePredare" maxWidth="1.7976931348623157E308" minWidth="50.0" prefWidth="70.0" style="-fx-font-weight: bold;" text="Limba" />
+                              <TableColumn fx:id="tabelToateSecțiile_FormaDeFinanțare" maxWidth="1.7976931348623157E308" minWidth="50.0" prefWidth="70.0" text="Finanțare" />
+                          </columns>
+                        </TableView>
+                        <Pagination fx:id="paginare" maxPageIndicatorCount="1" />
+                        <CheckBox fx:id="checkBoxAfișarePaginată" mnemonicParsing="false" onAction="#changeTabel_afișarePaginată" text="Afișare paginată" textFill="#b2b2b2">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                     </children>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox HBox.hgrow="SOMETIMES">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <children>
+                        <VBox alignment="TOP_CENTER">
+                           <children>
+                              <Label text="Secții alese:" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Italic" size="14.0" />
+                                 </font>
+                              </Label>
+                              <TableView fx:id="tabelSecțiiAlese" minHeight="50.0" onMouseClicked="#handlerTabelSecțiiAlese" prefHeight="350.0" style="-fx-background-color: rgb(0, 26, 51);" stylesheets="@../../css/Tabel_albastru_1.css" VBox.vgrow="ALWAYS">
+                                 <columns>
+                                    <TableColumn fx:id="tabelSecțiiAlese_prioritate" maxWidth="100.0" minWidth="25.0" prefWidth="60.0" sortable="false" text="Prioritate" />
+                                    <TableColumn fx:id="tabelSecțiiAlese_ID" maxWidth="100.0" minWidth="25.0" prefWidth="40.0" sortable="false" text="ID" />
+                                    <TableColumn fx:id="tabelSecțiiAlese_nume" minWidth="100.0" prefWidth="120.0" sortable="false" style="-fx-font-weight: bold;" text="Nume" />
+                                    <TableColumn fx:id="tabelSecțiiAlese_limbaPredare" minWidth="100.0" prefWidth="105.0" sortable="false" style="-fx-font-weight: bold;" text="Limba de predare" />
+                                    <TableColumn fx:id="tabelSecțiiAlese_formaFinanțare" minWidth="100.0" prefWidth="115.0" sortable="false" text="Forma de finanțare" />
+                                    <TableColumn fx:id="tabelSecțiiAlese_nrLocuri" minWidth="100.0" prefWidth="100.0" sortable="false" text="Nr. Locuri" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </VBox>
+                        <HBox fx:id="hBoxSecțieSelectată" VBox.vgrow="SOMETIMES">
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                           <children>
+                              <VBox minWidth="300.0" prefWidth="300.0" HBox.hgrow="SOMETIMES">
+                                 <children>
+                                    <GridPane maxWidth="250.0" prefWidth="300.0">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" percentWidth="0.0" prefWidth="80.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <TextField fx:id="câmpSecție_ID" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </TextField>
+                                          <TextField fx:id="câmpSecție_nume" editable="false" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </TextField>
+                                          <Label text="ID secție" textFill="WHITE" GridPane.rowIndex="1">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label text="Nume secție" textFill="WHITE" GridPane.rowIndex="2">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="Nr. locuri" textFill="WHITE" GridPane.rowIndex="5">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <TextField fx:id="câmpSecție_nrLocuri" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </TextField>
+                                          <Label text="Prioritate" textFill="WHITE">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <ChoiceBox fx:id="choiceBoxPrioritateSecție" onMouseClicked="#modificăSecție" prefWidth="50.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS">
+                                             <opaqueInsets>
+                                                <Insets />
+                                             </opaqueInsets>
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </ChoiceBox>
+                                          <Label layoutX="15.0" layoutY="77.0" text="Limba" textFill="WHITE" GridPane.rowIndex="3">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="10.0" layoutY="107.0" text="Finanțare" textFill="WHITE" GridPane.rowIndex="4">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <TextField fx:id="câmpSecție_limbaDePredare" editable="false" layoutX="95.0" layoutY="73.0" style="-fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </TextField>
+                                          <TextField fx:id="câmpSecție_FormaDeFinanțare" editable="false" layoutX="95.0" layoutY="103.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                             <GridPane.margin>
+                                                <Insets left="5.0" />
+                                             </GridPane.margin>
+                                          </TextField>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </GridPane>
+                                    <HBox alignment="TOP_CENTER" maxWidth="280.0" prefWidth="280.0">
+                                       <children>
+                                          <Button fx:id="butonAdaugăSecție" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#adaugăSecție" style="-fx-background-color: rgb(0, 59, 119);" text="Adaugă" textFill="WHITE" HBox.hgrow="ALWAYS">
+                                             <HBox.margin>
+                                                <Insets right="2.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Button fx:id="butonȘtergeSecție" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ștergeSecție" style="-fx-background-color: rgb(0, 59, 119);" text="Șterge" textFill="WHITE" HBox.hgrow="ALWAYS">
+                                             <HBox.margin>
+                                                <Insets left="2.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="5.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <VBox fx:id="vBoxMesajeSmart" minHeight="70.0">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
+                              </VBox>
+                              <HBox alignment="TOP_RIGHT" HBox.hgrow="SOMETIMES">
+                                 <children>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <PieChart fx:id="pieChart_optăriSecție" title="Optarea secției de către candidați" />
+                                          <Label fx:id="labelNrOptări" alignment="TOP_LEFT" minWidth="30.0" textFill="#a4a4a4" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                                             <GridPane.margin>
+                                                <Insets right="10.0" top="30.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Contul meu">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#openWindowDatePersonale" text="Date personale" />
+                  <MenuItem mnemonicParsing="false" onAction="#openWindowȘtergeCont" text="Ieșire din concurs" />
+                  <MenuItem mnemonicParsing="false" onAction="#logOut" text="Log out" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Navigare">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#openWindowStatisticaAlegerilor" text="Statistica alegerilor" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Unelte">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#openWindowGenerareContract" text="Generează contract" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#afișareHelp" text="Instrucțiuni" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

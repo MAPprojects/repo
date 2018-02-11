@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: rgb(0, 26, 51);" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.adminUI.RepartizareController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: rgb(0, 13, 26);" BorderPane.alignment="CENTER">
+         <children>
+            <Label onMouseClicked="#refresh" text="Repartizarea candidaților" textFill="#909090">
+               <font>
+                  <Font name="Century Gothic Bold" size="40.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <left>
+            <VBox minWidth="250.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <GridPane alignment="CENTER_RIGHT" maxWidth="394.0" prefHeight="32.0" prefWidth="394.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="80.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="100.0" prefWidth="200.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="25.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="100.0" minHeight="0.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <TextField fx:id="câmpSearchSecție" onKeyReleased="#cautăSecție" onMouseClicked="#ascundeLupaSecție" onMouseEntered="#ascundeLupaSecție" onMouseExited="#aratăLupaSecție" GridPane.columnIndex="1">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="2.0" top="5.0" />
+                           </GridPane.margin>
+                           <opaqueInsets>
+                              <Insets left="20.0" />
+                           </opaqueInsets>
+                        </TextField>
+                        <ImageView fx:id="lupaSearchSecție" fitHeight="25.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                           <image>
+                              <Image url="@../../images/UC_SEARCH_ICON_170616.PNG" />
+                           </image>
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="2.0" top="5.0" />
+                           </GridPane.margin>
+                        </ImageView>
+                        <Label text="Caută după ID:" textFill="#b2b2b2" />
+                        <ImageView fitHeight="20.0" fitWidth="20.0" onMouseClicked="#închideSearchSecție" onMouseEntered="#setOpacityXsecție_100" onMouseExited="#setOpacityXsecție_50" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT" fx:id="x_searchSecție">
+                           <image>
+                              <Image url="@../../images/X.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                           <GridPane.margin>
+                              <Insets right="2.0" />
+                           </GridPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" top="5.0" />
+                     </VBox.margin>
+                  </GridPane>
+                  <TableView fx:id="tabelSecții" onMouseClicked="#handlerTabelSecții" prefWidth="391.0" style="-fx-background-color: rgb(0, 34, 68);" VBox.vgrow="ALWAYS">
+                     <columns>
+                        <TableColumn fx:id="tabelSecții_ID" prefWidth="40.0" text="ID" />
+                        <TableColumn fx:id="tabelSecții_Nume" prefWidth="110.0" style="-fx-font-weight: bold;" text="Nume" />
+                        <TableColumn fx:id="tabelSecții_LimbaDePredare" style="-fx-font-weight: bold;" text="Limba" />
+                        <TableColumn fx:id="tabelSecții_FormaDeFinanțare" text="Finanțare" />
+                        <TableColumn fx:id="tabelSecții_NrLocuri" prefWidth="70.0" text="Nr. locuri" />
+                     </columns>
+                  </TableView>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+               <children>
+                  <BorderPane fx:id="borderPaneCandidați" VBox.vgrow="ALWAYS">
+                     <center>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="47.0">
+                                 <children>
+                                    <Label text="Candidații repartizați la secția" textFill="#909090">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </Label>
+                                    <Label fx:id="labelNumeSecție" layoutX="145.0" layoutY="38.0" text="Nume secție" textFill="#909090">
+                                       <font>
+                                          <Font name="System Italic" size="14.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <TableView fx:id="tabelCandidați" prefWidth="391.0" style="-fx-background-color: rgb(0, 34, 68);" VBox.vgrow="ALWAYS">
+                                 <columns>
+                                    <TableColumn fx:id="tabelCandidați_Nr" prefWidth="50.0" text="Nr." />
+                                    <TableColumn fx:id="tabelCandidați_CNP" prefWidth="100.0" text="CNP" />
+                                    <TableColumn fx:id="tabelCandidați_Nume" prefWidth="150.0" style="-fx-font-weight: bold;" text="Nume" />
+                                    <TableColumn fx:id="tabelCandidați_Prenume" prefWidth="250.0" style="-fx-font-weight: bold;" text="Prenume" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </VBox>
+                     </center>
+                  </BorderPane>
+                  <Button mnemonicParsing="false" onAction="#printează" style="-fx-background-color: rgb(0, 59, 119);" text="Printează" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>

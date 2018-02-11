@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane minHeight="200.0" minWidth="100.0" style="-fx-background-color: rgb(0, 13, 26);" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.loginWindow.LoginWindowController">
+   <children>
+      <BorderPane fx:id="borderPaneLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" visible="false">
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/Sigla%20UBB.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Label text="Login">
+                     <font>
+                        <Font name="Calibri" size="50.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <GridPane maxWidth="200.0" prefWidth="200.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="CNP" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="15.0" text="Parolă" textFill="WHITE" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="câmpLogin_CNP" onKeyReleased="#tryLogin" GridPane.columnIndex="1" />
+                        <PasswordField fx:id="câmpLogin_Parolă" onKeyReleased="#tryLogin" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </GridPane>
+                  <Button fx:id="butonLogin" mnemonicParsing="false" onAction="#login" onMouseEntered="#evidențiazăButonLogin" onMouseExited="#reseteazăButonLogin" style="-fx-background-color: rgb(0, 34, 68);" text="Login" textAlignment="CENTER" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Label fx:id="labelCreeazăContNou" onMouseClicked="#goToCreeazăContNou" onMouseEntered="#evidențiazăLabelCCN" onMouseExited="#resetLabelCCN" text="Creează un cont nou">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+            </VBox>
+         </center>
+         <bottom>
+            <VBox alignment="TOP_CENTER" maxHeight="60.0" minHeight="60.0" prefHeight="60.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="labelEroriLogin" />
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="30.0" />
+               </BorderPane.margin>
+            </VBox>
+         </bottom>
+         <top>
+            <VBox maxHeight="60.0" minHeight="60.0" prefHeight="60.0" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+      <BorderPane fx:id="borderPaneCreareCont" prefHeight="500.0" prefWidth="300.0">
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <GridPane maxWidth="200.0" prefWidth="200.0" VBox.vgrow="NEVER">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                      <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                      <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="NEVER" />
+                        <RowConstraints minHeight="40.0" prefHeight="50.0" valignment="TOP" vgrow="NEVER" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="CNP" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="câmpCC_CNP" onKeyReleased="#tryCreeazăCont" GridPane.columnIndex="1" />
+                        <TextField fx:id="câmpCC_Nume" onKeyReleased="#tryCreeazăCont" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField fx:id="câmpCC_Prenume" onKeyReleased="#tryCreeazăCont" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextField fx:id="câmpCC_Telefon" onKeyReleased="#tryCreeazăCont" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label text="Nume" textFill="WHITE" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Prenume" textFill="WHITE" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Telefon" textFill="WHITE" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="E-mail" textFill="WHITE" GridPane.rowIndex="4">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Parolă" textFill="WHITE" GridPane.rowIndex="6">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelConfirmareParolă" prefWidth="75.0" text="Confirmare parolă" textFill="WHITE" GridPane.rowIndex="7">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="câmpCC_Email" onKeyReleased="#tryCreeazăCont" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <PasswordField fx:id="câmpCC_Parolă" onKeyReleased="#tryCreeazăCont" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <PasswordField fx:id="câmpCC_ConfirmareParolă" onKeyReleased="#tryCreeazăCont" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </GridPane>
+                  <Button fx:id="butonCreeazăCont" mnemonicParsing="false" onMouseClicked="#creeazăCont" onMouseEntered="#evidențiazăButonCreeazăCont" onMouseExited="#reseteazăButonCreeazăCont" style="-fx-background-color: rgb(0, 34, 68);" text="Creează cont" textAlignment="CENTER" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Label fx:id="labelÎnapoiLaLogin" onMouseClicked="#goToLogin" onMouseEntered="#evidențiazăLabelÎLL" onMouseExited="#resetLabelÎLL" text="Înapoi la login">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </center>
+         <bottom>
+            <VBox alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" minHeight="50.0" prefHeight="110.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="labelEroriCreareCont" />
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </VBox>
+         </bottom>
+         <top>
+            <VBox maxHeight="50.0" prefHeight="50.0" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+   </children>
+</StackPane>
