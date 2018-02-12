@@ -1,0 +1,11 @@
+Adaugare NotaNr.Tema:6;Nota:10;Deadline saptamana:14;Saptamana predarii temei:14;Eventuale observatii:Bine boss,ala-i tati!
+Adaugare NotaNr.Tema:5;Nota:8;Deadline saptamana:13;Saptamana predarii temei:14;Eventuale observatii:nota faina boss!
+Adaugare NotaNr.Tema:4;Nota:1;Deadline saptamana:11;Saptamana predarii temei:14;Eventuale observatii:dfghjklp;'lkhgfd
+Adaugare NotaNr.Tema:3;Nota:1;Deadline saptamana:8;Saptamana predarii temei:14;Eventuale observatii:
+Adaugare NotaNr.Tema:6;Nota:10;Deadline saptamana:14;Saptamana predarii temei:14;Eventuale observatii:
+Adaugare NotaNr.Tema:8;Nota:8;Deadline saptamana:14;Saptamana predarii temei:15;Eventuale observatii:
+Adaugare NotaNr.Tema:7;Nota:8;Deadline saptamana:14;Saptamana predarii temei:15;Eventuale observatii:bag pula in tine
+Adaugare NotaNr.Tema:5;Nota:6;Deadline saptamana:13;Saptamana predarii temei:15;Eventuale observatii:bag pula in tine
+Adaugare NotaNr.Tema:3;Nota:1;Deadline saptamana:8;Saptamana predarii temei:15;Eventuale observatii:du-te drec
+Adaugare NotaNr.Tema:6;Nota:9;Deadline saptamana:14;Saptamana predarii temei:13;Eventuale observatii:
+Adaugare NotaNr.Tema:5;Nota:1;Deadline saptamana:13;Saptamana predarii temei:13;Eventuale observatii:

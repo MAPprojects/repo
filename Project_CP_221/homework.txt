@@ -1,0 +1,5 @@
+1|3|tema1
+2|5|tema2
+3|11|tema5
+4|3|tema3
+5|8|tema4

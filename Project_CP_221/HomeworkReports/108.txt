@@ -1,0 +1,2 @@
+Nr.Tema:12;Nota:7;Deadline saptamana:13;Saptamana predarii temei:13;Eventuale observatii:
+Nr.Tema:2;Nota:1;Deadline saptamana:5;Saptamana predarii temei:13;Eventuale observatii:

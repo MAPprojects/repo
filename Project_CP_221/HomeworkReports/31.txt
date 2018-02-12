@@ -1,0 +1,5 @@
+Nr.Tema:4;Nota:10;Deadline saptamana:14;Saptamana predarii temei:13;Eventuale observatii:
+Adaugare NotaNr.Tema:3;Nota:8;Deadline saptamana:12;Saptamana predarii temei:13;Eventuale observatii:intarziere
+Nr.Tema:4;Nota:10;Deadline saptamana:14;Saptamana predarii temei:13;Eventuale observatii:
+Nr.Tema:4;Nota:10;Deadline saptamana:14;Saptamana predarii temei:13;Eventuale observatii:
+Nr.Tema:3;Nota:1;Deadline saptamana:12;Saptamana predarii temei:17;Eventuale observatii:

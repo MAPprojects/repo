@@ -1,0 +1,40 @@
+.root {
+    -fx-app-background: cornsilk;
+    -fx-background-color: -fx-app-background;
+    -fx-padding: 20;
+}
+
+.right-page-turn {
+    -fx-rotate: 3;
+    -fx-translate-y: -2;
+    -fx-background-insets: 20 10 15 80;
+    -fx-background-color: -fx-app-background;
+    -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 0, 15);
+}
+
+.MainPane {
+    -fx-background-color: whitesmoke;
+    -fx-border-color: transparent;
+}
+
+.blue-background
+{
+    -fx-background-color:lightblue;
+    -fx-text-fill: coral;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-color:grey;
+    -fx-border-radius:3px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+
+    -fx-background-color: lightblue;
+
+}

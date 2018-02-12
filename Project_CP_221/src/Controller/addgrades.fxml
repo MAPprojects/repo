@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<AnchorPane fx:id="ancora" styleClass="root" prefHeight="352.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerFXMLAddGrades">
+   <stylesheets>
+       <URL value="@../Controller/design.css">
+       </URL>
+   </stylesheets>
+
+    <children>
+      <TableView fx:id="tableViewHw" editable="true" layoutX="96.0" layoutY="34.0" prefHeight="302.0" prefWidth="365.0">
+          <columns>
+          <TableColumn fx:id="columnId" prefWidth="91.0" text="Id">
+              <cellValueFactory>
+                  <PropertyValueFactory property="idHomework" />
+              </cellValueFactory>
+          </TableColumn>
+
+          <TableColumn prefWidth="91.0" text="Deadline">
+              <cellValueFactory>
+                  <PropertyValueFactory property="deadline" />
+              </cellValueFactory>
+          </TableColumn>
+
+       <TableColumn prefWidth="78.0" text="Description">
+           <cellValueFactory>
+               <PropertyValueFactory property="description" />
+           </cellValueFactory>
+       </TableColumn>
+              <TableColumn fx:id="columnGrade" editable="true" onEditCommit="#handlerOnEdit" prefWidth="104.0" text="Grade">
+              </TableColumn>
+          </columns>
+      </TableView>
+   </children>
+</AnchorPane>

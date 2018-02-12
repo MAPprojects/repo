@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import java.net.URL?>
+<?import javafx.scene.control.ToggleGroup?>
+<BorderPane fx:id="MainPane" prefHeight="403.0" prefWidth="780.0" xmlns:buttonSendEmail="http://javafx.com/javafx/8.0.121" xmlns:ns="http://javafx.com/javafx" xmlns:textFieldHw="http://javafx.com/javafx/8.0.121" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerFXML">
+    <stylesheets>
+    <URL value="@../Controller/design.css">
+    </URL>
+    </stylesheets>
+    <center>
+        <TabPane fx:id="tabPaneAll"  prefHeight="403.0" prefWidth="766.0" style="-fx-border-color: gray;">
+            <stylesheets>
+                <URL value="@../Controller/design.css">
+                </URL>
+            </stylesheets>
+            <Tab  styleClass="blue-background" closable="false" text="Students">
+                <graphic>
+                    <ImageView fitHeight="25" preserveRatio="true">
+                        <image>
+                            <Image url="@/hat.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+                <AnchorPane>
+                    <AnchorPane fx:id="anchorPaneTableViewStudents">
+                        <TableView  fx:id="tableViewStudents" styleClass="blue-border" layoutX="354.0" layoutY="14.0" prefHeight="330.0" prefWidth="378.0" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="354.0" AnchorPane.rightAnchor="46.0" AnchorPane.topAnchor="14.0">
+                            <columns>
+                                <TableColumn text="Id" >
+                                    <cellValueFactory>
+                                        <PropertyValueFactory property="idStudent" />
+                                    </cellValueFactory>
+                                </TableColumn>
+
+                                <TableColumn text="Name">
+                                    <cellValueFactory>
+                                        <PropertyValueFactory property="name" />
+                                    </cellValueFactory>
+                                </TableColumn>
+
+                                <TableColumn prefWidth="56.0" text="Email">
+                                    <cellValueFactory>
+                                        <PropertyValueFactory property="email" />
+                                    </cellValueFactory>
+                                </TableColumn>
+                                <TableColumn prefWidth="68.0" text="Group">
+                                    <cellValueFactory>
+                                        <PropertyValueFactory property="group" />
+                                    </cellValueFactory>
+                                </TableColumn>
+                                <TableColumn prefWidth="116.0" text="Professor">
+                                    <cellValueFactory>
+                                        <PropertyValueFactory property="professor" />
+                                    </cellValueFactory>
+                                </TableColumn>
+                            </columns>
+                        </TableView>
+
+                    </AnchorPane>
+                               <TextField fx:id="textFieldStudentFind" layoutX="25.0" layoutY="319.0" promptText="~Find~" styleClass="blue-background" />
+                                          <RadioButton fx:id="radioButtonFilterStudent3" layoutX="23.0" layoutY="266.0" onAction="#handlerFilterStudents3" text="Students having same professor ordered by name" />
+                                          <RadioButton fx:id="radioButtonFilterStudent2" layoutX="23.0" layoutY="242.0" onAction="#handlerFilterStudents2" text="Students having same group alphabetically" />
+                                          <RadioButton fx:id="radioButtonFilterStudent1" layoutX="23.0" layoutY="218.0" onAction="#handlerFilterStudents1" text="Students starting with" />
+   
+                                          <Button fx:id="buttonAddStudent" styleClass="blue-background" layoutX="25.0" layoutY="182.0" onAction="#handlerAddStudentEvent" text="Add" />
+                                          <Button fx:id="buttonDeleteStudent" styleClass="blue-background" layoutX="103.0" layoutY="182.0" onAction="#handlerDeleteStudentEvent" text="Delete" />
+                                          <Button fx:id="buttonUpdateStudent" styleClass="blue-background" layoutX="193.0" layoutY="182.0" onAction="#handlerUpdateStudentEvent" text="Update" />
+                                      <Label  layoutX="36.0" layoutY="21.0" text="Id:" />
+                                      <Label layoutX="25.0" layoutY="52.0" text="Name:" />
+                                      <Label layoutX="29.0" layoutY="82.0" text="Email:" />
+                                      <Label layoutX="27.0" layoutY="114.0" text="Group:" />
+                                      <Label layoutX="17.0" layoutY="145.0" text="Professor:" />
+                                      <TextField  styleClass="blue-background" fx:id="textFieldProfessor" layoutX="99.0" layoutY="141.0" promptText="~Professor~" />
+                                      <TextField styleClass="blue-background" fx:id="textFieldGroup" layoutX="99.0" layoutY="110.0" promptText="~Group~" />
+                                      <TextField styleClass="blue-background" fx:id="textFieldEmail" layoutX="99.0" layoutY="78.0" promptText="~Email adress~" />
+                                      <TextField styleClass="blue-background" fx:id="textFieldName" layoutX="99.0" layoutY="48.0" promptText="~Name~" />
+                                      <TextField styleClass="blue-background" fx:id="textFieldId" layoutX="99.0" layoutY="17.0" promptText="~Id~" />
+                                    <TextField styleClass="blue-background" fx:id="textFieldFilterStudent" layoutX="25.0" layoutY="291.0" promptText="~String parameter~" />
+                                <fx:define>
+                                    <ToggleGroup fx:id="groupFilterStudents" />
+                                </fx:define>
+                </AnchorPane>
+            </Tab>
+
+            <Tab styleClass="blue-background" closable="false" text="Homework">
+                <graphic>
+                    <ImageView fitHeight="20" preserveRatio="true">
+                        <image>
+                            <Image url="@/homework.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+                <BorderPane>
+                    <top>
+                        <Label fx:id="labelCurrentWeek" alignment="CENTER" prefHeight="17.0" prefWidth="172.0" />
+                    </top>
+                    <right>
+                        <AnchorPane>
+                            <ListView styleClass="blue-background" fx:id="listViewHomework" prefHeight="354.0" prefWidth="332.0" AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="-74.0" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="10">
+                                <TableColumn text="Id">
+                                    <cellValueFactory>
+                                        <PropertyValueFactory property="idStudent" />
+                                    </cellValueFactory>
+                                </TableColumn>
+
+
+                            </ListView>
+
+                        </AnchorPane>
+                    </right>
+                    <left>
+                        <AnchorPane>
+                            <GridPane vgap="7" AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="10">
+                                <Label text="Id" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                <Label text="Deadline" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                <Label text="Description" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                <TextField styleClass="blue-background" fx:id="textFieldIdHw" promptText="~Id~" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                <TextField styleClass="blue-background" fx:id="textFieldDeadline" promptText="~Deadline~" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                <TextField styleClass="blue-background" fx:id="textFieldDescription" promptText="~Description~" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                <HBox   spacing="10" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="3">
+                                    <Button styleClass="blue-background" fx:id="buttonAddHomework" onAction="#handlerAddHomeworkEvent" text="Add Homework" />
+                                    <Button  styleClass="blue-background" fx:id="buttonUpdateHomework" onAction="#handlerModifyDeadlineHomeworkEvent" text="Extend deadline" />
+                                </HBox>
+                        <CheckBox styleClass="check-box" fx:id="checkBoxFilter1Hw" mnemonicParsing="false" onAction="#handlerHomeworkFilters" text="StillInProgress" GridPane.rowIndex="4" />
+                        <CheckBox styleClass="check-box" fx:id="checkBoxFilter2Hw" mnemonicParsing="false" onAction="#handlerHomeworkFilters" text="HavingGivenString" GridPane.rowIndex="5" />
+                        <CheckBox styleClass="check-box" fx:id="checkBoxFilter3Hw" mnemonicParsing="false" onAction="#handlerHomeworkFilters" text="HavingGivenDeadline" GridPane.rowIndex="6" />
+                        <TextField styleClass="blue-background" fx:id="textFieldHwFilter2" prefHeight="25.0" prefWidth="108.0" promptText="~String~" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+                        <TextField styleClass="blue-background" fx:id="textFieldHwFilter3" promptText="Deadline-must be integer" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <columnConstraints>
+                           <ColumnConstraints />
+                           <ColumnConstraints />
+                           <ColumnConstraints />
+                        </columnConstraints>
+                        <rowConstraints>
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                        </rowConstraints>
+
+
+                            </GridPane>
+                        </AnchorPane>
+                    </left>
+
+                </BorderPane>
+            </Tab>
+
+
+
+            <Tab styleClass="blue-background" fx:id="tabGrades" closable="false" text="Grades">
+                <graphic>
+                    <ImageView fitHeight="20" preserveRatio="true">
+                        <image>
+                            <Image url="@/grade.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+
+
+                <AnchorPane>
+                    <AnchorPane fx:id="anchorPaneTableViewGrades">
+                    <TableView fx:id="tableViewGrades" editable="true" layoutX="384.0" layoutY="14.0" prefHeight="329.0" prefWidth="340.0">
+                        <columns>
+                            <TableColumn prefWidth="91.0" text="Student">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="idStudent" />
+                                </cellValueFactory>
+                            </TableColumn>
+
+                            <TableColumn prefWidth="81.0" text="Homework">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="idHomework" />
+                                </cellValueFactory>
+                            </TableColumn>
+
+                            <TableColumn editable="true" prefWidth="86.0" text="Value">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="value" />
+                                </cellValueFactory>
+                            </TableColumn>
+
+                            <TableColumn prefWidth="81.0" text="Name">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="name" />
+                                </cellValueFactory>
+                            </TableColumn>
+                        </columns>
+                    </TableView>
+                    </AnchorPane>
+                    <Slider  fx:id="sliderGrades" layoutX="25.0" layoutY="38.0">
+                    </Slider>
+                    <ComboBox styleClass="blue-background" fx:id="comboBoxStudents" layoutX="20.0" layoutY="94.0" prefWidth="150.0" promptText="Students" />
+                    <ComboBox styleClass="blue-background" fx:id="comboBoxHw" layoutX="190.0" layoutY="94.0" prefWidth="150.0" promptText="Homework" />
+                    <Label fx:id="labelGradeValue" layoutX="190.0" layoutY="37.0" text="Label" />
+                    <Button styleClass="blue-background" fx:id="buttonAddGrade" layoutX="25.0" layoutY="58.0" mnemonicParsing="false" onAction="#handlerAddGrade" text="AddGrade" />
+                    <Button styleClass="blue-background" fx:id="buttonUpdateGrade" layoutX="118.0" layoutY="58.0" mnemonicParsing="false" onAction="#handlerUpdateGrade" text="UpdateGrade" />
+                    <TextArea  fx:id="textArea" layoutX="18.0" layoutY="131.0" prefHeight="127.0" prefWidth="321.0" promptText="~Notes about grade~" />
+                    <CheckBox styleClass="check-box" fx:id="checkBoxFilter1Grades" layoutX="24.0" layoutY="275.0" mnemonicParsing="false" onAction="#handlerGradesFilters" text="SameValue" />
+                    <CheckBox styleClass="check-box" fx:id="checkBoxFilter2Grades" layoutX="24.0" layoutY="305.0" mnemonicParsing="false" onAction="#handlerGradesFilters" text="SameStudent" />
+                    <CheckBox styleClass="check-box" fx:id="checkBoxFilter3Grades" layoutX="24.0" layoutY="335.0" mnemonicParsing="false" onAction="#handlerGradesFilters" text="SameHomework" />
+                </AnchorPane>
+            </Tab>
+
+
+
+            <Tab styleClass="blue-background" closable="false" text="Reports">
+                <graphic>
+                    <ImageView fitHeight="20" preserveRatio="true">
+                        <image>
+                            <Image url="@/reports.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+
+
+                <AnchorPane>
+                    <children>
+                  <ListView fx:id="listViewReport" layoutX="513.0" layoutY="16.0" prefHeight="389.0" prefWidth="235.0"  />
+                  <Button styleClass="blue-background" fx:id="buttonGenerateReport" layoutX="389.0" layoutY="184.0" mnemonicParsing="false" onAction="#handlerResolvReport" prefHeight="54.0" prefWidth="100.0" text="GenerateReport" />
+                  <TableView styleClass="blue-background" fx:id="tableViewReport" layoutX="51.0" layoutY="16.0" prefHeight="379.0" prefWidth="315.0">
+
+                      <columns>
+                      <TableColumn prefWidth="91.0" text="Student">
+                          <cellValueFactory>
+                              <PropertyValueFactory property="idStudent" />
+                          </cellValueFactory>
+                      </TableColumn>
+
+
+                          <TableColumn prefWidth="115.0" text="Name">
+                              <cellValueFactory>
+                                  <PropertyValueFactory property="name" />
+                              </cellValueFactory>
+                          </TableColumn>
+
+                          <TableColumn prefWidth="108.0" text="Grade">
+                              <cellValueFactory>
+                                  <PropertyValueFactory property="gradeDouble" />
+                              </cellValueFactory>
+                          </TableColumn>
+
+                      </columns>
+                  </TableView>
+                    </children></AnchorPane>
+            </Tab>
+            <Tab styleClass="blue-background" id="TabClose" closable="false" onSelectionChanged="#handlerCloseRequest" text="Exit">
+                <graphic>
+                    <ImageView fitHeight="20" preserveRatio="true">
+                        <image>
+                            <Image url="@/exit.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+
+            </Tab>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+        </TabPane>
+    </center>
+</BorderPane>

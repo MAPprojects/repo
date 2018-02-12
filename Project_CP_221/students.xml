@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Students>
+  <student>
+    <id>1</id>
+    <name>Firtulescu Vlad</name>
+    <email>Firtulescu.Vlad@yahoo.com</email>
+    <group>gr223</group>
+    <professor>Boian</professor>
+    <grade>18</grade>
+    <numberOfGrades>2</numberOfGrades>
+    <homeworkOnTime>0</homeworkOnTime>
+  </student>
+  <student>
+    <id>2</id>
+    <name>Popa Antonia</name>
+    <email>Popa.Antonia@yahoo.com</email>
+    <group>gr225</group>
+    <professor>Czibula</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>3</id>
+    <name>Ardelean Ovidiu</name>
+    <email>Ardelean.Ovidiu@yahoo.com</email>
+    <group>gr226</group>
+    <professor>Vancea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>4</id>
+    <name>Firtulescu Ioana</name>
+    <email>Firtulescu.Ioana@yahoo.com</email>
+    <group>gr225</group>
+    <professor>Bufnea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>5</id>
+    <name>Ghiurea Andrei</name>
+    <email>Ghiurea.Andrei@yahoo.com</email>
+    <group>gr221</group>
+    <professor>Vancea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>6</id>
+    <name>Jecan Dominik</name>
+    <email>Jecan.Dominik@yahoo.com</email>
+    <group>gr226</group>
+    <professor>Popescu</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>7</id>
+    <name>Dobrogean Mark</name>
+    <email>Dobrogean.Mark@yahoo.com</email>
+    <group>gr223</group>
+    <professor>Vancea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>8</id>
+    <name>Popa Ilie</name>
+    <email>Popa.Ilie@yahoo.com</email>
+    <group>gr222</group>
+    <professor>Bufnea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>9</id>
+    <name>Ardelean Ioana</name>
+    <email>Ardelean.Ioana@yahoo.com</email>
+    <group>gr221</group>
+    <professor>Czibula</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>10</id>
+    <name>Georgescu Vlad</name>
+    <email>Georgescu.Vlad@yahoo.com</email>
+    <group>gr223</group>
+    <professor>Vancea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>11</id>
+    <name>Muntean Paula</name>
+    <email>Muntean.Paula@yahoo.com</email>
+    <group>gr226</group>
+    <professor>Bufnea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>12</id>
+    <name>Mot Bogdan</name>
+    <email>Mot.Bogdan@yahoo.com</email>
+    <group>gr226</group>
+    <professor>Czibula</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>13</id>
+    <name>Firtulescu Antonia</name>
+    <email>Firtulescu.Antonia@yahoo.com</email>
+    <group>gr227</group>
+    <professor>Czibula</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>14</id>
+    <name>Pop Paula</name>
+    <email>Pop.Paula@yahoo.com</email>
+    <group>gr221</group>
+    <professor>Czibula</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>15</id>
+    <name>Popa Nicoleta</name>
+    <email>Popa.Nicoleta@yahoo.com</email>
+    <group>gr222</group>
+    <professor>Boian</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>16</id>
+    <name>Popescu Paula</name>
+    <email>Popescu.Paula@yahoo.com</email>
+    <group>gr223</group>
+    <professor>Czibula</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>17</id>
+    <name>Ardelean Alexandra</name>
+    <email>Ardelean.Alexandra@yahoo.com</email>
+    <group>gr225</group>
+    <professor>Boian</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>18</id>
+    <name>Popescu Dominik</name>
+    <email>Popescu.Dominik@yahoo.com</email>
+    <group>gr222</group>
+    <professor>Serban</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>19</id>
+    <name>Ionescu Paul</name>
+    <email>Ionescu.Paul@yahoo.com</email>
+    <group>gr227</group>
+    <professor>Popescu</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>20</id>
+    <name>Dobrogean Vlad</name>
+    <email>Dobrogean.Vlad@yahoo.com</email>
+    <group>gr221</group>
+    <professor>Popescu</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>21</id>
+    <name>Popa Antonia</name>
+    <email>Popa.Antonia@yahoo.com</email>
+    <group>gr223</group>
+    <professor>Bufnea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>22</id>
+    <name>Muntean Antonia</name>
+    <email>Muntean.Antonia@yahoo.com</email>
+    <group>gr224</group>
+    <professor>Serban</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>23</id>
+    <name>Jecan Iulia</name>
+    <email>Jecan.Iulia@yahoo.com</email>
+    <group>gr222</group>
+    <professor>Bufnea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>24</id>
+    <name>Popa Adina</name>
+    <email>Popa.Adina@yahoo.com</email>
+    <group>gr227</group>
+    <professor>Serban</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>25</id>
+    <name>Mot Bogdan</name>
+    <email>Mot.Bogdan@yahoo.com</email>
+    <group>gr225</group>
+    <professor>Bufnea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>26</id>
+    <name>Ghiurea Ilie</name>
+    <email>Ghiurea.Ilie@yahoo.com</email>
+    <group>gr225</group>
+    <professor>Popescu</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>27</id>
+    <name>Firtulescu Nicolae</name>
+    <email>Firtulescu.Nicolae@yahoo.com</email>
+    <group>gr222</group>
+    <professor>Boian</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  <student>
+    <id>28</id>
+    <name>Georgescu Nicoleta</name>
+    <email>Georgescu.Nicoleta@yahoo.com</email>
+    <group>gr225</group>
+    <professor>Bufnea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+  
+  <student>
+    <id>30</id>
+    <name>Ghiurea Paul</name>
+    <email>Ghiurea.Paul@yahoo.com</email>
+    <group>gr224</group>
+    <professor>Vancea</professor>
+    <grade>0</grade>
+    <numberOfGrades>0</numberOfGrades>
+    <homeworkOnTime>1</homeworkOnTime>
+  </student>
+<student><id>31</id><name>John</name><email>cus.paul@yahoo.com</email><group>gr221</group><professor>Serban</professor><grade>11</grade><numberOfGrades>2</numberOfGrades><homeworkOnTime>0</homeworkOnTime></student></Students>

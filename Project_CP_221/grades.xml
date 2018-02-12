@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Grades>
+
+<grade><idStudent>1</idStudent><idHomework>4</idHomework><value>10</value><name>Firtulescu Vlad</name></grade><grade><idStudent>31</idStudent><idHomework>4</idHomework><value>10</value><name>John</name></grade><grade><idStudent>1</idStudent><idHomework>3</idHomework><value>8</value><name>Firtulescu Vlad</name></grade><grade><idStudent>31</idStudent><idHomework>3</idHomework><value>1</value><name>John</name></grade></Grades>

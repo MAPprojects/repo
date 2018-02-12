@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Homework>
+  <homework>
+    <id>1</id>
+    <deadline>3</deadline>
+    <description>tema1</description>
+    <delays>0</delays>
+  </homework>
+
+
+  <homework>
+    <id>2</id>
+    <deadline>5</deadline>
+    <description>tema2</description>
+    <delays>0</delays>
+  </homework>
+
+
+  <homework>
+    <id>3</id>
+    <deadline>12</deadline>
+    <description>tema3</description>
+    <delays>4</delays>
+  </homework>
+
+
+  <homework>
+    <id>4</id>
+    <deadline>14</deadline>
+    <description>tema4</description>
+    <delays>0</delays>
+  </homework>
+</Homework>
