@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="380.0" prefHeight="380.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.GUI.RaportsCtrl">
+   <children>
+      <BorderPane fx:id="borderPane" maxHeight="375.0" prefHeight="375.0" prefWidth="600.0">
+         <right>
+            <GridPane prefHeight="380.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="200.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" onAction="#mediaChart" prefHeight="50.0" prefWidth="200.0" text="Final Grades" />
+                  <Button mnemonicParsing="false" onAction="#hardest3" prefHeight="50.0" prefWidth="200.0" text="Top 3 Hardest Projects" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" onAction="#inExamenChart" prefHeight="50.0" prefWidth="200.0" text="Students in Exam" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" onAction="#noPenality" prefHeight="50.0" prefWidth="200.0" text="Students Without Penality" GridPane.rowIndex="3" />
+                  <Button mnemonicParsing="false" onAction="#exportImage" prefHeight="50.0" prefWidth="200.0" text="Export" GridPane.rowIndex="6" />
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </GridPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

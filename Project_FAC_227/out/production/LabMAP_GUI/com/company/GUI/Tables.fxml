@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane prefHeight="375.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.GUI.TablesCtrl">
+   <children>
+      <Accordion fx:id="tableTabs" prefHeight="375.2" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <panes>
+          <TitledPane fx:id="studentsTab" onMouseClicked="#getStudentControlls" text="Students">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="studentTable" prefHeight="260.0" prefWidth="400.0">
+                           <columns>
+                              <TableColumn fx:id="numeStudentC" prefWidth="125.60002708435059" resizable="false" text="Name" />
+                              <TableColumn fx:id="grupaStudentC" prefWidth="50.4000244140625" resizable="false" text="Group" />
+                              <TableColumn fx:id="emailStudentC" prefWidth="99.20002746582031" resizable="false" text="eMail" />
+                              <TableColumn fx:id="profStudentC" prefWidth="120.0" resizable="false" text="Teacher" />
+                           </columns>
+                        </TableView>
+                        <BorderPane layoutX="-2.0" layoutY="257.0" prefHeight="46.0" prefWidth="402.0">
+                           <center>
+                              <Slider fx:id="sliderS" blockIncrement="1.0" majorTickUnit="1.0" max="2.0" min="1.0" minorTickCount="0" showTickLabels="true" snapToTicks="true" BorderPane.alignment="CENTER" />
+                           </center>
+                           <left>
+                              <Button fx:id="prevS" mnemonicParsing="false" onAction="#navigateLeftS" prefWidth="40.0" text="&lt;&lt;" BorderPane.alignment="CENTER">
+                                 <BorderPane.margin>
+                                    <Insets left="50.0" />
+                                 </BorderPane.margin>
+                              </Button>
+                           </left>
+                           <right>
+                              <Button fx:id="nextS" mnemonicParsing="false" onAction="#navigateRightS" prefWidth="40.0" text="&gt;&gt;" BorderPane.alignment="CENTER">
+                                 <BorderPane.margin>
+                                    <Insets right="50.0" />
+                                 </BorderPane.margin>
+                              </Button>
+                           </right>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane expanded="false" onMouseClicked="#getTemaControlls" text="Projects">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="temaTable" prefHeight="260.0" prefWidth="400.0">
+                           <columns>
+                              <TableColumn fx:id="descTemaC" prefWidth="137.59996664524078" text="Description" />
+                              <TableColumn fx:id="deadlineTemaC" prefWidth="60.800048828125" text="Deadline" />
+                           </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <BorderPane layoutX="-1.0" layoutY="257.0" prefHeight="45.0" prefWidth="402.0">
+                           <center>
+                              <Slider fx:id="sliderT" blockIncrement="1.0" majorTickUnit="1.0" max="2.0" min="1.0" minorTickCount="0" showTickLabels="true" snapToTicks="true" BorderPane.alignment="CENTER" />
+                           </center>
+                           <left>
+                              <Button fx:id="prevT" mnemonicParsing="false" onAction="#navigateLeftT" prefWidth="40.0" text="&lt;&lt;" BorderPane.alignment="CENTER">
+                                 <BorderPane.margin>
+                                    <Insets left="50.0" />
+                                 </BorderPane.margin>
+                              </Button>
+                           </left>
+                           <right>
+                              <Button fx:id="nextT" mnemonicParsing="false" onAction="#navigateRightT" prefWidth="40.0" text="&gt;&gt;" BorderPane.alignment="CENTER">
+                                 <BorderPane.margin>
+                                    <Insets right="50.0" />
+                                 </BorderPane.margin>
+                              </Button>
+                           </right>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane expanded="false" onMouseClicked="#getNotaControlls" text="Grades">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="notaTable" prefHeight="260.0" prefWidth="398.0">
+                           <columns>
+                              <TableColumn fx:id="studentNameC" prefWidth="137.59996664524078" text="Student" />
+                              <TableColumn fx:id="temaDescC" prefWidth="60.800048828125" text="Project" />
+                              <TableColumn fx:id="notaC" prefWidth="60.800048828125" text="Grade" />
+                           </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <BorderPane layoutX="-1.0" layoutY="257.0" prefHeight="45.0" prefWidth="400.0">
+                           <center>
+                              <Slider fx:id="sliderN" blockIncrement="1.0" majorTickUnit="1.0" max="2.0" min="1.0" minorTickCount="0" showTickLabels="true" snapToTicks="true" BorderPane.alignment="CENTER" />
+                           </center>
+                           <left>
+                              <Button fx:id="prevN" mnemonicParsing="false" onAction="#navigateLeftN" prefWidth="40.0" text="&lt;&lt;" BorderPane.alignment="CENTER">
+                                 <BorderPane.margin>
+                                    <Insets left="50.0" />
+                                 </BorderPane.margin>
+                              </Button>
+                           </left>
+                           <right>
+                              <Button fx:id="nextN" mnemonicParsing="false" onAction="#navigateRightN" prefWidth="40.0" text="&gt;&gt;" BorderPane.alignment="CENTER">
+                                 <BorderPane.margin>
+                                    <Insets right="50.0" />
+                                 </BorderPane.margin>
+                              </Button>
+                           </right>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>

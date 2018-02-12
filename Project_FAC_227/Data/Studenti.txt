@@ -1,0 +1,13 @@
+1,Ione,12,aegbaueb@yahoo.com,Istvan
+2,Abdul,51,wnfaowfbau@gmail.com,Istvan
+3,Bob,999,b0b@poli.ro,Romonti
+4,Mirciulica,6,unmail@yahoo.com,Popescu
+5,Marcel,20,email@yahoo.com,Istvan
+6,Ludovic,12,classic@gmail.com,Romonti
+7,Luci,214,tu@yahoo.com,Sasu
+8,Sobi,999,nuare@gmail.com,Romonti
+9,Mirel,21,qwifnq@gmail.com,Sasu
+10,Dorel,124,amporcidevanzare@gmail.com,Popescu
+11,Costel,124,domsofer_niiii@yahoo.com,Sasu
+12,Marius,124,mariusica@yahoo.com,Popescu
+13,Naruto,1337,sasukeeee@konoha.jp,Kakashi

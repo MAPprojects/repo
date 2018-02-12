@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.GUI.FiltersCtrl">
+   <top>
+      <BorderPane prefHeight="60.0" prefWidth="202.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label text="Entity Selection" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="5.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <center>
+            <ComboBox fx:id="entitySelection" onAction="#setInterface" prefWidth="150.0" BorderPane.alignment="CENTER">
+               <tooltip>
+                  <Tooltip text="Selecteaza entitatea dorita pentru filtrari" />
+               </tooltip></ComboBox>
+         </center>
+         <bottom>
+            <Line endX="100.0" startX="-100.0" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </top>
+   <bottom>
+      <Pane prefHeight="165.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="inputField" layoutX="26.0" layoutY="27.0" />
+            <Label fx:id="inputText" layoutX="83.0" layoutY="5.0" text="Input" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="goButton" contentDisplay="CENTER" layoutX="63.0" layoutY="57.0" mnemonicParsing="false" onAction="#apply" text="Apply filter" />
+            <BorderPane layoutY="103.0" prefHeight="46.0" prefWidth="200.0">
+               <center>
+                  <Slider fx:id="sliderS" blockIncrement="1.0" majorTickUnit="1.0" max="2.0" min="1.0" minorTickCount="0" showTickLabels="true" snapToTicks="true" BorderPane.alignment="CENTER" />
+               </center>
+               <left>
+                  <Button fx:id="prevS" mnemonicParsing="false" onAction="#navigateLeftS" prefWidth="40.0" text="&lt;&lt;" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="15.0" />
+                     </BorderPane.margin>
+                  </Button>
+               </left>
+               <right>
+                  <Button fx:id="nextS" mnemonicParsing="false" onAction="#navigateRightS" prefWidth="40.0" text="&gt;&gt;" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets right="15.0" />
+                     </BorderPane.margin>
+                  </Button>
+               </right>
+            </BorderPane>
+            <Label fx:id="inputText1" layoutX="81.0" layoutY="88.0" text="Pages" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </bottom>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <left>
+            <Slider fx:id="sliderSelector" blockIncrement="1.0" majorTickUnit="3.0" max="3.0" min="1.0" minorTickCount="2" orientation="VERTICAL" prefHeight="112.0" prefWidth="25.0" showTickMarks="true" snapToTicks="true" value="2.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="30.0" right="20.0" top="30.0" />
+               </BorderPane.margin>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </Slider>
+         </left>
+         <bottom>
+            <Line endX="100.0" startX="-100.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="167.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="f1" layoutY="25.0" text="Label">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Label>
+                  <Label fx:id="f2" layoutY="70.0" text="Label">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Label>
+                  <Label fx:id="f3" layoutY="115.0" text="Label">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>

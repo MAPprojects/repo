@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="375.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.GUI.WelcomeScreenCtrl">
+   <children>
+      <ImageView fx:id="crudI" fitHeight="170.0" fitWidth="271.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@q1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filtrariI" fitHeight="170.0" fitWidth="170.0" layoutX="189.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@q2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logI" fitHeight="170.0" fitWidth="170.0" layoutX="14.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@q3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="raportI" fitHeight="170.0" fitWidth="170.0" layoutX="189.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@q4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="weekI" fitHeight="75.0" fitWidth="222.0" layoutX="364.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@q5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="themeI" fitHeight="75.0" fitWidth="222.0" layoutX="364.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@q6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="passI" fitHeight="75.0" fitWidth="222.0" layoutX="364.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@q7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="exitI" fitHeight="75.0" fitWidth="222.0" layoutX="364.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@q8.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

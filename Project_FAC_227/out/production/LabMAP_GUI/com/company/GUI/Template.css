@@ -1,0 +1,216 @@
+.table-view{
+    -fx-table-cell-border-color: xaccx;
+    -fx-control-inner-background: xbgx;
+    -fx-control-inner-background-alt: xbg2x;
+    -fx-table-cell-border-size: 120%;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: xtxtx ;
+    -fx-font-weight: normal;
+    -fx-font-family: "Arial";
+}
+
+.table-row-cell:selected{
+    -fx-background-color: xaccx;
+}
+
+.table-view .label{
+    -fx-text-fill: xtxtx;
+}
+
+.table-view .column-header{
+    -fx-background-color: xbg2x;
+    -fx-border-color: xaccx;
+}
+
+
+.table-view .column-header .label{
+    -fx-background-color: linear-gradient(xbgx,xbg2x);
+}
+
+.titled-pane{;
+    -fx-text-fill: xaccx;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 100%;
+}
+
+.tilted-pane > .content{
+    -fx-background-color: xbgx;
+}
+
+.titled-pane > .title{
+    -fx-background-color: linear-gradient(xbgx, xbg2x);
+}
+
+.titled-pane > .title > .label{
+    -fx-text-fill: xaccx;
+}
+
+.titled-pane > .title > .arrow-button > .arrow{
+    -fx-background-color: xaccx;
+    -fx-text-fill: xaccx;
+}
+
+.slider .track{
+    -fx-background-color: xaccx;
+    -fx-control-inner-background: xaccx;
+}
+
+.slider .axis{
+    -fx-tick-label-fill: xaccx;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.slider{
+    -fx-background-color: xbgx;
+}
+
+.button{
+    -fx-background-color: linear-gradient(xaccx,xacc2x);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6), 3, 0.0, 0, 1);
+    -fx-text-fill: xtxtx;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.anchor-pane{
+    -fx-background-color: xbgx;
+}
+
+.label
+{
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-text-fill: xaccx;
+}
+
+.grid{
+    -fx-background-color: xbgx;
+}
+
+.pane{
+    -fx-background-color: xbgx;
+}
+
+.pane1{
+    -fx-background-color: xbg2x;
+}
+
+.slider1{
+    -fx-background-color: xbg2x;
+}
+
+.anchor-pane{
+    -fx-background-color: xbgx;
+}
+
+.menu{
+    -fx-text-fill: xtxtx;
+}
+
+.menu-bar{
+    -fx-background-color: xbg2x;
+}
+
+.menu-button{
+    -fx-background-color: xbgx;
+    -fx-border-color: xaccx;
+}
+
+.menu-item{
+    -fx-background-color: xbgx;
+    -fx-border-color: xbgx;
+}
+
+.context-menu{
+    -fx-background-color: xbgx;
+}
+
+.menu-item:hover{
+    -fx-background-color: xtxtx;
+}
+
+.list-view{
+    -fx-background-color: xbgx;
+
+}
+
+.list-view > .list-cell:selected{
+    -fx-background-color: xaccx;
+}
+
+.list-view > .list-cell{
+    -fx-background-color: xbgx;
+    -fx-text-fill: xtxtx;
+}
+
+.list-view:selected{
+    -fx-background-color: xaccx;
+}
+
+.combo-box{
+    -fx-text-fill: xtxtx;
+}
+
+.combo-box:selected{
+    -fx-background-color: xtxtx;
+}
+
+.combo-box > .list-cell{
+    -fx-border-color: xaccx;
+}
+
+.combo-box > .arrow-button{
+    -fx-background-color: xaccx;
+}
+
+.combo-box > .menu-item:hover{
+    -fx-background-color: xaccx;
+}
+
+.tab{
+    -fx-background-color: xbgx;
+}
+
+
+
+.tab-pane > .tab{
+    -fx-background-color: xbg2x;
+    -fx-text-fill: xtxtx;
+}
+
+.tab-pane .tab:selected{
+    -fx-background-color: xbgx;
+}
+
+.tab-pane .tab:selected .tab-label{
+    -fx-text-fill: xtxtx;
+}
+
+.tab-pane .tab-label{
+    -fx-text-fill: grey;
+}
+
+.tab-pane > .tab-header-area > .label{
+    -fx-text-fill: xtxtx;
+}
+
+.tab-pane > .tab-header-area .tab-header-background{
+    -fx-background-color: xacc2x;
+    -fx-text-fill: xtxtx;
+}
+
+.tab-pane .arrow-button{
+    -fx-background-color: xbgx;
+}
+
+.text-area{
+    -fx-text-fill: xtxtx;
+}
+
+.text-area .content{
+    -fx-background-color: xbgx;
+}

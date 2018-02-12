@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="375.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.GUI.TopLabelsCtrl">
+   <top>
+      <Label fx:id="nr1" text="Label" visible="false" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="100.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <Label fx:id="nr2" text="Label" visible="false" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Label fx:id="nr3" text="Label" visible="false" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="100.0" />
+         </BorderPane.margin>
+      </Label>
+   </bottom>
+</BorderPane>

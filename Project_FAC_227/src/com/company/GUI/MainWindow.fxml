@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.GUI.MainWindowCtrl">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="401.0" prefWidth="600.0">
+         <top>
+            <MenuBar prefHeight="25.0" prefWidth="529.0" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Tools">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#setTables" text="CRUD" />
+                        <MenuItem fx:id="filtersMenu" mnemonicParsing="false" onAction="#setFilter" text="Filters" />
+                        <MenuItem mnemonicParsing="false" onAction="#setLogs" text="Logs" />
+                        <MenuItem fx:id="raportMenu" mnemonicParsing="false" onAction="#setRaports" text="Raports" />
+                  </items>
+                </Menu>
+                  <Menu fx:id="configMenu" mnemonicParsing="false" text="Config">
+                    <items>
+                      <MenuItem fx:id="currentWeek" mnemonicParsing="false" onAction="#openConfigWindow" text="Current Week" />
+                        <MenuItem mnemonicParsing="false" onAction="#openThemeWindow" text="App Theme" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Options">
+                    <items>
+                        <MenuItem fx:id="passMenu" mnemonicParsing="false" onAction="#passwordChange" text="Password Change" />
+                      <MenuItem mnemonicParsing="false" onAction="#logOff" text="LogOff" />
+                    </items>
+                  </Menu>
+              </menus>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </MenuBar>
+         </top>
+         <center>
+            <Pane id="mainViewPane" prefHeight="376.0" prefWidth="400.0" BorderPane.alignment="CENTER" />
+         </center>
+         <right>
+            <Pane id="sideActionPane" prefHeight="376.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
