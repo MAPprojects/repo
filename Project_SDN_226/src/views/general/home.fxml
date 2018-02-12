@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rightWindow" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.homeController">
+   <children>
+      <Pane id="registeredPane" layoutX="41.0" layoutY="37.0" prefHeight="114.0" prefWidth="226.0" style="-fx-background-color: #cbcbb3;" stylesheets="@../../css/dashboard.css">
+         <children>
+            <Label layoutY="73.0" prefHeight="7.0" prefWidth="194.0" style="-fx-background-color: #5DB95C;">
+               <font>
+                  <Font size="4.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="90.0" prefHeight="17.0" prefWidth="178.0" text="Number of registered candidates" />
+            <Label layoutX="124.0" layoutY="15.0" text="REGISTERED" textFill="#030000" />
+            <Label fx:id="registeredCount" layoutX="146.0" layoutY="40.0" text="100">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Pane id="registeredImagePane" layoutY="-28.0" prefHeight="87.0" prefWidth="91.0" stylesheets="@../../css/dashboard.css">
+               <children>
+                  <ImageView fitHeight="61.0" fitWidth="69.0" layoutX="15.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/ic_school_white_48dp_2x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane id="departmentPane" layoutX="427.0" layoutY="37.0" prefHeight="114.0" prefWidth="226.0" style="-fx-background-color: #cbcbb3;" stylesheets="@../../css/dashboard.css" AnchorPane.rightAnchor="56.0">
+         <children>
+            <Pane id="departmentImagePane" layoutY="-29.0" prefHeight="87.0" prefWidth="91.0" stylesheets="@../../css/dashboard.css">
+               <children>
+                  <ImageView fitHeight="61.0" fitWidth="69.0" layoutX="15.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/ic_storage_white_48dp_2x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label layoutY="73.0" prefHeight="7.0" prefWidth="194.0" style="-fx-background-color: #D8544F;">
+               <font>
+                  <Font size="4.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="90.0" prefHeight="17.0" prefWidth="178.0" text="Number of departments" />
+            <Label layoutX="114.0" layoutY="15.0" prefHeight="17.0" prefWidth="91.0" text="DEPARTMENTS" />
+            <Label fx:id="departmentCount" layoutX="146.0" layoutY="40.0" text="100">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <AreaChart fx:id="areaChart" layoutX="25.0" layoutY="226.0" legendVisible="false" prefHeight="321.0" prefWidth="637.0" title="Number of students enrolled this month">
+        <xAxis>
+          <CategoryAxis label="Day of the Month" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Students" side="LEFT" />
+        </yAxis>
+      </AreaChart>
+   </children>
+</AnchorPane>

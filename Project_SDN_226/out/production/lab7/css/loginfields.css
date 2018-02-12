@@ -1,0 +1,7 @@
+.text-input {
+     -fx-prompt-text-fill: white;
+	 -fx-text-fill: white;
+}
+.text-input:focused {
+   -fx-prompt-text-fill: white;
+}

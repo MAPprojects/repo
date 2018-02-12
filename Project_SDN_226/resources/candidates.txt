@@ -1,0 +1,4 @@
+1;dragos;072841356;ste.dragos02@gmail.com
+2;filip;0723555482;filip@gmail.com
+3;alex;0649641230;alex@yahoo.com
+10;andrei;0515532356;andrei@yahoo.com

@@ -1,0 +1,4 @@
+1;Computer Science;220
+3;Mathematics & Computer Science;200
+6;Mathematics;346
+7;cs;100

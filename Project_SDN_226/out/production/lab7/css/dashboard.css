@@ -1,0 +1,30 @@
+#registeredPane{
+    -fx-background-color: white;
+    -fx-background-radius: 4;
+
+   }
+
+
+#side_button:hover{
+    -fx-text-fill: white;
+}
+
+
+
+
+#registeredImagePane{
+    -fx-background-color: #1564C0;
+    -fx-background-radius: 4;
+}
+
+
+#departmentPane{
+    -fx-background-color: white;
+    -fx-background-radius: 4;
+}
+
+#departmentImagePane{
+    -fx-background-color: #F87951;
+    -fx-background-radius: 4;
+}
+
