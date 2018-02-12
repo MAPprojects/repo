@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="rootAnchorPane" prefHeight="650.0" prefWidth="1000.0"
+            stylesheets="@login.css" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="controller.LoginController">
+    <children>
+        <Pane fx:id="loginPane" layoutX="346.0" layoutY="148.0" prefHeight="414.0" prefWidth="324.0">
+            <children>
+                <Pane fx:id="spiralPane1" layoutX="-35.0" layoutY="47.0" prefHeight="19.0" prefWidth="68.0"/>
+                <Pane fx:id="spiralPane2" layoutX="-35.0" layoutY="87.0" prefHeight="19.0" prefWidth="68.0"/>
+                <Pane fx:id="spiralPane3" layoutX="-35.0" layoutY="127.0" prefHeight="19.0" prefWidth="68.0"/>
+                <Pane fx:id="spiralPane4" layoutX="-35.0" layoutY="167.0" prefHeight="19.0" prefWidth="68.0"/>
+                <Pane fx:id="spiralPane5" layoutX="-35.0" layoutY="207.0" prefHeight="19.0" prefWidth="68.0"/>
+                <Pane fx:id="spiralPane6" layoutX="-35.0" layoutY="247.0" prefHeight="19.0" prefWidth="68.0"/>
+                <Pane fx:id="spiralPane7" layoutX="-35.0" layoutY="287.0" prefHeight="19.0" prefWidth="68.0"/>
+                <Pane fx:id="spiralPane8" layoutX="-35.0" layoutY="327.0" prefHeight="19.0" prefWidth="68.0"/>
+                <Text fx:id="textUserSauEmail" layoutX="40.0" layoutY="176.0" stroke="#1ec1da" strokeLineCap="ROUND"
+                      strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL SAU USERNAME"
+                      wrappingWidth="284.8033752441406">
+                    <font>
+                        <Font size="24.0"/>
+                    </font>
+                    <effect>
+                        <Glow level="0.72"/>
+                    </effect>
+                </Text>
+                <Text fx:id="textParola" layoutX="40.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="PAROLA" wrappingWidth="248.80338287353516">
+                    <font>
+                        <Font size="24.0"/>
+                    </font>
+                    <effect>
+                        <Glow level="0.72"/>
+                    </effect>
+                </Text>
+                <TextField fx:id="loginMailUserField" layoutX="48.0" layoutY="183.0" maxHeight="-Infinity"
+                           maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0"
+                           prefWidth="222.0"/>
+                <PasswordField fx:id="loginPasswordField" layoutX="48.0" layoutY="280.0" maxHeight="-Infinity"
+                               maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0"
+                               prefWidth="222.0"/>
+                <Text fx:id="textAmUitatPArola" layoutX="182.0" layoutY="271.0" onMouseClicked="#amUitatParolaHandler"
+                      strokeType="OUTSIDE" strokeWidth="0.0" text="Am uitat parola" wrappingWidth="99.47003173828125">
+                    <font>
+                        <Font name="System Italic" size="12.0"/>
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+        <Pane fx:id="paneButoaneSendAndChangePass" layoutX="291.0" layoutY="563.0" prefHeight="79.0" prefWidth="430.0">
+            <children>
+                <Button fx:id="submitButtonLogIn" layoutX="43.0" layoutY="28.0" mnemonicParsing="false"
+                        onMouseClicked="#submitInfohandler" prefHeight="32.0" prefWidth="155.0" text="SUBMIT"
+                        textFill="DARKCYAN">
+                    <font>
+                        <Font name="System Bold" size="12.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="schibareParolaButtonLogIN" layoutX="233.0" layoutY="27.0" mnemonicParsing="false"
+                        onMouseClicked="#changePasswordHandler" prefHeight="32.0" prefWidth="155.0"
+                        text="SCHIMARE PAROLA" textFill="WHITE"/>
+            </children>
+        </Pane>
+        <ImageView fitHeight="238.0" fitWidth="226.0" layoutX="25.0" layoutY="32.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@sticky_note_png.png"/>
+            </image>
+            <viewport>
+                <Rectangle2D/>
+            </viewport>
+        </ImageView>
+        <Pane layoutX="35.0" layoutY="51.0" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Text fx:id="loginTextEroare" fill="#ff0404" layoutX="30.0" layoutY="50.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" wrappingWidth="138.00001341104507">
+                    <font>
+                        <Font name="System Bold" size="18.0"/>
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

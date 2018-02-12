@@ -1,0 +1,71 @@
+#rootAnchorPane {
+    -fx-background-image: url("/views/login/login_background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+#spiralPane1, #spiralPane2, #spiralPane3, #spiralPane4, #spiralPane5, #spiralPane6, #spiralPane7, #spiralPane8 {
+    -fx-background-color: silver;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+}
+
+.text-field {
+    -fx-font-size: 20px;
+    -fx-font-family: fantasy;
+    -fx-background-color: #fff6ac;
+    -fx-border-color: black;
+    -fx-border-style: double;
+    /*-fx-background-radius: 30;*/
+    /*-fx-border-radius: 30;*/
+    -fx-border-width: 5;
+    -fx-background-insets: 5px;
+
+}
+
+#loginPane {
+    -fx-background-color: darkcyan;
+    -fx-border-color: black;
+    -fx-border-style: double;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-width: 5;
+    -fx-background-insets: 5px;
+}
+
+#submitButtonLogIn {
+    -fx-background-color: white;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-width: 6;
+    -fx-background-insets: 5px;
+    -fx-border-color: darkcyan;
+}
+
+#submitButtonLogIn:hover {
+    -fx-background-color: darkcyan;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+
+#schibareParolaButtonLogIN {
+    -fx-background-color: darkcyan;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-width: 6;
+    -fx-background-insets: 5px;
+    -fx-border-color: white;
+}
+
+#schibareParolaButtonLogIN:hover {
+    -fx-background-color: white;
+    -fx-border-color: darkcyan;
+    -fx-text-fill: darkcyan;
+}
+
+#textAmUitatPArola:hover {
+    -fx-underline: true;
+    -fx-cursor: hand;
+}

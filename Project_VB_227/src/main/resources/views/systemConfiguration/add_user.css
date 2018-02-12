@@ -1,0 +1,55 @@
+.label {
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: transparent;
+}
+
+.combo-box {
+    -fx-background-color: #fff6ac;
+    /*-fx-border-color: black;*/
+    -fx-background-insets: 5px;
+}
+
+.combo-box .list-view .list-cell {
+    -fx-background-color: #fff6ac;
+}
+
+.combo-box .list-view .list-cell:hover {
+    -fx-text-fill: black;
+}
+
+.text-field {
+    -fx-font-size: 20px;
+    -fx-font-family: fantasy;
+    -fx-background-color: #fff6ac;
+    -fx-border-color: black;
+    /*-fx-background-radius: 30;*/
+    /*-fx-border-radius: 30;*/
+    -fx-border-width: 5;
+    -fx-background-insets: 5px;
+
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+}
+
+#bottomPane .text-field {
+    -fx-max-width: 200px;
+    -fx-min-width: 200px;
+    -fx-font-weight: normal;
+    -fx-font-size: 14;
+}
+
+#bottomPane {
+    -fx-font-weight: bold;
+}
+
+#addUserRoot {
+    -fx-background-color: darkcyan;
+    -fx-background-radius: 30;
+    -fx-border-color: black;
+    -fx-border-width: 6;
+    -fx-border-radius: 30;
+    -fx-background-insets: 5px;
+}

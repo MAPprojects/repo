@@ -1,0 +1,97 @@
+
+.combo-box-base {
+    -fx-background-color: aquamarine;
+    /*-fx-background-radius: 30;*/
+    -fx-background-insets: 3;
+    -fx-border-radius: 3;
+    -fx-border-width: 3;
+    -fx-border-color: #00aaaa;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+
+}
+
+.combo-box-base .arrow-button {
+    -fx-background-color: #00aaaa;
+}
+
+.chart-bar {
+    -fx-background-color: #00aaaa;
+    -fx-font-weight: bold;
+    -fx-background-position: center;
+}
+
+.bat-chart {
+    -fx-background-color: #00aaaa;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+}
+
+.scroll-bar {
+    -fx-background-color: aquamarine;
+    -fx-border-color: darkcyan;
+    -fx-border-width: 3;
+    -fx-min-width: 200;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: aquamarine;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: darkcyan;
+}
+
+#paneOptiuniMeniu {
+    -fx-background-color: aquamarine;
+}
+
+#centerPaneStatistics {
+    -fx-background-color: darkcyan;
+}
+
+#paneOptiuniMeniu .button {
+    -fx-background-color: transparent;
+    /*-fx-font-weight: bold;*/
+    -fx-font-size: 18;
+}
+
+#paneOptiuniMeniu .button:hover {
+    -fx-background-color: darkcyan;
+}
+
+#paneChartsCenter {
+    -fx-background-color: aquamarine;
+    -fx-background-radius: 30;
+    -fx-border-color: #00aaaa;
+    -fx-border-width: 6;
+    -fx-border-radius: 30;
+    -fx-background-insets: 5;
+    /*-fx-background-image: url("/views/statisticsView/blue-polygon.jpg");*/
+    /*-fx-background-repeat: no-repeat;*/
+    /*-fx-background-size: cover, auto;*/
+}
+
+#paneChartsCenter .button {
+    /*-fx-background-color: transparent;*/
+    -fx-font-weight: bold;
+    /*-fx-background-color: #00aaaa;*/
+    /*-fx-background-radius: 30;*/
+    /*-fx-background-insets: 3;*/
+    /*-fx-border-width: 4;*/
+    /*-fx-border-color: darkcyan;*/
+    /*-fx-border-radius: 30;*/
+    -fx-background-color: white;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-width: 6;
+    -fx-background-insets: 5px;
+    -fx-border-color: darkcyan;
+}
+
+#paneChartsCenter .button :selected {
+    -fx-background-color: darkcyan;
+}

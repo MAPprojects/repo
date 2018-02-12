@@ -1,0 +1,73 @@
+#addTemaRootAnchor {
+    -fx-background-color: darkcyan;
+    -fx-background-radius: 30;
+    -fx-border-color: black;
+    -fx-border-width: 6;
+    -fx-border-radius: 30;
+    -fx-background-insets: 5px;
+}
+
+.text-field {
+    -fx-font-size: 20px;
+    -fx-font-family: fantasy;
+    -fx-background-color: #fff6ac;
+    -fx-border-color: black;
+    /*-fx-background-radius: 30;*/
+    /*-fx-border-radius: 30;*/
+    -fx-border-width: 5;
+    -fx-background-insets: 5px;
+
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+}
+
+.label {
+    -fx-font-weight: bold;
+}
+
+#addTemaDialogBorderPane {
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+}
+
+.button {
+    -fx-background-color: transparent;
+}
+
+.text-area {
+    -fx-background-color: #fff6ac;
+    -fx-border-color: black;
+    /*-fx-background-radius: 30;*/
+    -fx-border-width: 6;
+}
+
+/*-------------------Basic settings for scroll-----------------*/
+.scroll-bar {
+    -fx-background-color: #9FA559;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: #9FA559;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #fff6ac;
+}
+
+/*-------------------------------------------------------------*/
+
+.text-area .content {
+    /*-fx-font-size: 13px;*/
+    /*-fx-font-family: fantasy;*/
+    -fx-background-color: #fff6ac;
+    /*-fx-border-color: black;*/
+    /*-fx-background-radius: 30;*/
+    /*-fx-border-radius: 30;*/
+    /*-fx-border-width: 6;*/
+    /*!*-fx-border-radius: 30;*!*/
+    /*-fx-border-width: 5;*/
+    /*-fx-background-insets: 5px;*/
+
+    /*-fx-border-radius: 30;*/
+    /*-fx-background-radius: 30;*/
+}

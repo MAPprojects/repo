@@ -1,0 +1,25 @@
+#rootPane {
+    -fx-background-color: darkcyan;
+    -fx-background-radius: 30;
+    -fx-border-color: black;
+    -fx-border-width: 6;
+    -fx-border-radius: 30;
+    -fx-background-insets: 5px;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-width: 3;
+    -fx-background-insets: 3;
+    -fx-border-color: aquamarine;
+}
+
+.button :hover {
+    -fx-cursor: hand;
+    -fx-background-color: darkcyan;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}

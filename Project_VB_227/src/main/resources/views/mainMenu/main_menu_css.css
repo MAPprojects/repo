@@ -1,0 +1,67 @@
+/*.button {*/
+/*-fx-background-color: yellow;*/
+/*}*/
+
+/*#menuImagePane {*/
+/*!*-fx-background-image: url("/menuItems/yellow_background.jpg");*!*/
+/*-fx-background-color: yellow;*/
+/*}*/
+
+/*#menuBurronsToolbar{*/
+/*-fx-background-color: forestgreen;*/
+/*}*/
+
+/*#menuButtonsPane{*/
+/*-fx-background-color: forestgreen;*/
+/*}*/
+
+.button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-width: 6;
+    -fx-background-insets: 5px;
+    -fx-border-color: darkcyan;
+    -fx-text-fill: darkcyan;
+}
+
+.button:hover {
+    -fx-background-color: darkcyan;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+
+    -fx-translate-y: -16;
+}
+
+#anchorMenuPane {
+    -fx-background-image: url("/views/mainMenu/beach_blurred.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+}
+
+#studentiMenuStackPane:hover, #setariMenuStackPane:hover, #logoutStackPane:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #fde295;
+    -fx-background-radius: 30;
+}
+
+#setariProfSiStudenti {
+    -fx-background-color: darkcyan;
+    -fx-background-insets: 3;
+    -fx-background-radius: 30;
+    -fx-border-color: aquamarine;
+    -fx-border-width: 3;
+    -fx-border-radius: 30;
+    -fx-font-weight: bold;
+}
+
+/*#menuButtonsPane {*/
+/*-fx-background-color: transparent;*/
+/*-fx-background-repeat: no-repeat;*/
+/*-fx-background-size: cover;*/
+/*-fx-background-radius: 30;*/
+/*-fx-border-radius: 30;*/
+/*-fx-border-color: white;*/
+/*-fx-border-width: 6;*/
+/*}*/

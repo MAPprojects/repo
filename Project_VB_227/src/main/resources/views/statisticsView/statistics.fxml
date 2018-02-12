@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="650.0" prefWidth="1000.0" stylesheets="@statistics.css"
+            xmlns="http://javafx.com/javafx/9.0.1" fx:controller="controller.StatisticsController">
+    <children>
+        <BorderPane fx:id="borderPaneStatistici" prefHeight="650.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0"
+                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <left>
+                <Pane fx:id="paneOptiuniMeniu" prefHeight="650.0" prefWidth="126.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button contentDisplay="TOP" layoutX="11.0" layoutY="25.0" mnemonicParsing="false"
+                                onMouseClicked="#backToMenuHandler" prefHeight="59.0" prefWidth="106.0" text="Inapoi">
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="69.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../menu_utils_png/back_icon.png"/>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button contentDisplay="TOP" layoutX="4.0" layoutY="130.0" mnemonicParsing="false"
+                                onMouseClicked="#generareRaport" prefHeight="133.0" prefWidth="117.0"
+                                text="Raport detaliat" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="59.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../menu_utils_png/circle_more_detail-512.png"/>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button contentDisplay="TOP" layoutX="7.0" layoutY="261.0" mnemonicParsing="false"
+                                onMouseClicked="#initiateReportDownloadAsPng" prefHeight="138.0" prefWidth="117.0"
+                                text="Export to PDF" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="76.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../menu_utils_png/237009-file_document__arrow_move_export-512.png"/>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                    </children>
+                </Pane>
+            </left>
+            <center>
+                <Pane fx:id="centerPaneStatistics" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Pane fx:id="paneChartsCenter" layoutX="40.0" layoutY="90.0" prefHeight="476.0"
+                              prefWidth="805.0">
+                            <children>
+                                <Pane fx:id="paneOptiuniRapoarte" layoutX="140.0" layoutY="30.0" prefHeight="412.0"
+                                      prefWidth="511.0">
+                                    <children>
+                                        <Button fx:id="raportMediiButton" layoutX="20.0" layoutY="40.0"
+                                                mnemonicParsing="false" prefHeight="80.0" prefWidth="480.0"
+                                                text="Raport cu mediile actuale ale studentilor">
+                                            <font>
+                                                <Font name="System Bold" size="18.0"/>
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="49.0" fitWidth="57.0" pickOnBounds="true"
+                                                           preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@../mainMenu/student_button_image.png"/>
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                        <Button fx:id="raportMediiTemeButton" layoutX="20.0" layoutY="150.0"
+                                                mnemonicParsing="false" prefHeight="80.0" prefWidth="480.0"
+                                                text="Raport cu mediile notelor acordate temelor">
+                                            <font>
+                                                <Font size="18.0"/>
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="49.0" fitWidth="57.0" pickOnBounds="true"
+                                                           preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@../mainMenu/homework.png"/>
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                        <Button fx:id="raportPromovatiMedii" layoutX="20.0" layoutY="260.0"
+                                                mnemonicParsing="false" prefHeight="80.0" prefWidth="480.0"
+                                                text="Raport cu studentii care pot intra in examen">
+                                            <graphic>
+                                                <ImageView fitHeight="49.0" fitWidth="57.0" pickOnBounds="true"
+                                                           preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@../mainMenu/note_button_image.png"/>
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                            <font>
+                                                <Font size="18.0"/>
+                                            </font>
+                                        </Button>
+                                        <Pane fx:id="paneEroareRaport" layoutX="78.0" layoutY="350.0" prefHeight="52.0"
+                                              prefWidth="369.0">
+                                            <children>
+                                                <Text fx:id="mesajEroareRaport" fill="RED" layoutX="63.0" layoutY="32.0"
+                                                      strokeType="OUTSIDE" strokeWidth="0.0"
+                                                      text="Niciun raport selectat" wrappingWidth="293.3333740234375">
+                                                    <font>
+                                                        <Font name="System Bold" size="18.0"/>
+                                                    </font>
+                                                </Text>
+                                                <ImageView fx:id="imageEroare" fitHeight="46.0" fitWidth="60.0"
+                                                           layoutX="10.0" layoutY="4.0" pickOnBounds="true"
+                                                           preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@../systemConfiguration/warning-icon-png-2745.png"/>
+                                                    </image>
+                                                </ImageView>
+                                            </children>
+                                        </Pane>
+                                    </children>
+                                </Pane>
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
