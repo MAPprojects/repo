@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controller.HomeworkController">
+    <children>
+        <TableView fx:id="table" prefWidth="615.0">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="44.0" text="ID"/>
+                <TableColumn fx:id="taskColumn" prefWidth="479.0" text="Task"/>
+                <TableColumn fx:id="deadlineColumn" prefWidth="90.0" text="Deadline"/>
+            </columns>
+        </TableView>
+        <TextField fx:id="taskText" layoutX="635.0" layoutY="180.0" prefHeight="31.0" prefWidth="237.0"
+                   promptText="Task Homework"/>
+        <TextField fx:id="deadlineText" layoutX="635.0" layoutY="222.0" prefHeight="31.0" prefWidth="237.0"
+                   promptText="Deadline Homework"/>
+        <Label layoutX="635.0" layoutY="359.0" text="Action :"/>
+        <ComboBox fx:id="actionsChoose" layoutX="702.0" layoutY="354.0" prefHeight="31.0" prefWidth="170.0"
+                  promptText="Choose Action"/>
+        <Button layoutX="635.0" layoutY="419.0" mnemonicParsing="false" onAction="#handleAction" prefHeight="31.0"
+                prefWidth="237.0" text="Apply"/>
+        <Pagination fx:id="paginator" prefHeight="500.0" prefWidth="615.0"/>
+        <Label layoutX="43.0" layoutY="516.0" text="Page Size : " />
+        <ComboBox fx:id="pageCombo" layoutX="127.0" layoutY="511.0" prefHeight="31.0" prefWidth="75.0" />
+    </children>
+</AnchorPane>

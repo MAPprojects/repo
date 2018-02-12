@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="mainLayout" prefHeight="700.0" prefWidth="900.0" stylesheets="@../CSS/index.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainMenuController">
+    <top>
+        <AnchorPane>
+            <MenuBar prefHeight="32.0" prefWidth="521.0">
+                <menus>
+                    <Menu mnemonicParsing="false" text="File">
+                        <MenuItem mnemonicParsing="false" onAction="#handleStudents" text="Students"/>
+                        <MenuItem mnemonicParsing="false" onAction="#handleHomeworks" text="Homeworks"/>
+                        <MenuItem mnemonicParsing="false" onAction="#handleNotes" text="Grades"/>
+                        <MenuItem mnemonicParsing="false" onAction="#handleClose" text="Close"/>
+                    </Menu>
+                    <Menu mnemonicParsing="false" text="Statistics">
+                        <MenuItem mnemonicParsing="false" onAction="#handleAverage" text="Average grades"/>
+                        <MenuItem mnemonicParsing="false" onAction="#handleStatisticsHomeworks" text="Homeworks"/>
+                        <MenuItem mnemonicParsing="false" onAction="#handleStatisticsStudents1"
+                                  text="Eligible Students"/>
+                        <MenuItem mnemonicParsing="false" onAction="#handleStatisticsStudents2"
+                                  text="Up-to-date Students"/>
+                    </Menu>
+                    <Menu fx:id="userWelcome" mnemonicParsing="false" text="Text">
+                        <MenuItem mnemonicParsing="false" onAction="#events" text="Events"/>
+                        <MenuItem fx:id="add_admin" mnemonicParsing="false" onAction="#setAdmins" text="Add Admin"/>
+                        <MenuItem mnemonicParsing="false" onAction="#updateProfile" text="Update Profile"/>
+                        <MenuItem mnemonicParsing="false" onAction="#updatePassword" text="Update Password"/>
+                        <MenuItem fx:id="mailoption" mnemonicParsing="false" onAction="#MailOption" text="MailOption"/>
+                        <MenuItem mnemonicParsing="false" onAction="#handleLogOut" text="Log Out"/>
+                    </Menu>
+                </menus>
+            </MenuBar>
+            <ImageView fx:id="imageView" fitHeight="100.0" fitWidth="100.0" layoutX="556.0" pickOnBounds="true" preserveRatio="true" styleClass="image-view" />
+         <Label fx:id="userDetails" layoutX="662.0" layoutY="16.0" styleClass="user-details" text="Label" />
+         <Hyperlink layoutX="662.0" layoutY="57.0" onAction="#updateProfile" styleClass="user-details" text="Update Profile" />
+        </AnchorPane>
+    </top>
+</BorderPane>

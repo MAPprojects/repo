@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="789.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EventController">
+    <Pagination fx:id="paginator1" layoutX="16.0" layoutY="14.0" prefHeight="319.0" prefWidth="770.0" />
+    <Pagination fx:id="paginator2" layoutX="16.0" layoutY="465.0" prefHeight="319.0" prefWidth="770.0" />
+   <ComboBox fx:id="actions" layoutX="551.0" layoutY="368.0" prefHeight="31.0" prefWidth="218.0" />
+   <Label fx:id="label" layoutX="490.0" layoutY="373.0" text="Action :" />
+   <Button fx:id="applyBtn" layoutX="551.0" layoutY="414.0" mnemonicParsing="false" onAction="#handleApply" prefHeight="31.0" prefWidth="218.0" text="Apply" />
+   <TextField fx:id="name" layoutX="47.0" layoutY="368.0" promptText="Event Name" />
+   <TextField fx:id="detalii" layoutX="47.0" layoutY="414.0" promptText="Event Details" />
+   <DatePicker fx:id="evdate" layoutX="252.0" layoutY="368.0" promptText="Event Date" />
+   <DatePicker fx:id="deadlinedate" layoutX="252.0" layoutY="414.0" promptText="Deadline" />
+</AnchorPane>

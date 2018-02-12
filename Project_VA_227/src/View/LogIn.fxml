@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane prefHeight="569.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LogIn">
+    <center>
+        <AnchorPane BorderPane.alignment="CENTER">
+            <Button fx:id="logInButton" layoutY="285.0" mnemonicParsing="false" onAction="#handleLogIn" onKeyPressed="#onEnter" prefHeight="31.0" prefWidth="315.0" text="Log In" />
+            <Button layoutY="327.0" mnemonicParsing="false" onAction="#handleLogInFacebook" onKeyPressed="#onEnter" prefHeight="31.0" prefWidth="315.0" text="Log In With Facebook" />
+            <Button layoutY="368.0" mnemonicParsing="false" onAction="#handleRegister" onKeyPressed="#onEnter" prefHeight="31.0" prefWidth="315.0" text="Register" />
+            <Hyperlink layoutX="97.0" layoutY="413.0" text="Forgot password" onAction="#forgotPassword" />
+            <TextField fx:id="username" layoutY="185.0" prefHeight="31.0" prefWidth="315.0" promptText="Username" />
+            <PasswordField fx:id="password" layoutY="232.0" prefHeight="31.0" prefWidth="315.0" promptText="Password" />
+        </AnchorPane>
+    </center>
+    <left>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="539.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" BorderPane.alignment="CENTER" />
+    </left>
+    <right>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="540.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" BorderPane.alignment="CENTER" />
+    </right>
+</BorderPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StatisticsController">
+   <Button layoutX="667.0" layoutY="555.0" mnemonicParsing="false" onAction="#handleActionHomeworks" prefHeight="31.0" prefWidth="219.0" text="Reload" />
+   <LineChart fx:id="linechart" layoutX="14.0" layoutY="14.0" prefHeight="516.0" prefWidth="870.0">
+     <xAxis>
+       <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+     </xAxis>
+     <yAxis>
+       <NumberAxis fx:id="yAxis" side="LEFT" />
+     </yAxis>
+   </LineChart>
+   <Label layoutX="63.0" layoutY="530.0" prefHeight="21.0" prefWidth="426.0" fx:id="max_label" />
+    <Button layoutX="424.0" layoutY="555.0" mnemonicParsing="false" onAction="#SaveToPDF" prefHeight="31.0" prefWidth="219.0" text="Save To Pdf" />
+</AnchorPane>

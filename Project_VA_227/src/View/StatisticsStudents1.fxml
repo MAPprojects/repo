@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StatisticsController">
+    <Button layoutX="667.0" layoutY="555.0" mnemonicParsing="false" onAction="#handleActionStudents1" prefHeight="31.0" prefWidth="219.0" text="Reload" />
+    <TableView fx:id="tableEligibili" layoutX="14.0" layoutY="14.0" prefHeight="518.0" prefWidth="864.0">
+        <columns>
+            <TableColumn fx:id="idColumn1" prefWidth="44.0" text="ID" />
+            <TableColumn fx:id="nameColumn1" prefWidth="204.0" text="Nume" />
+            <TableColumn fx:id="grupaColumn1" prefWidth="83.0" text="Grupa" />
+            <TableColumn fx:id="emailColumn1" prefWidth="281.0" text="Email" />
+            <TableColumn fx:id="profesorColumn1" prefWidth="250.0" text="Profesor" />
+        </columns>
+    </TableView>
+    <Button layoutX="424.0" layoutY="555.0" mnemonicParsing="false" onAction="#SaveToPDF" prefHeight="31.0" prefWidth="219.0" text="Save To Pdf" />
+</AnchorPane>

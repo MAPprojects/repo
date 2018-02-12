@@ -1,0 +1,5 @@
+Files/key.pub
+Files/pass.txt
+out/*
+*.log
+.idea/*

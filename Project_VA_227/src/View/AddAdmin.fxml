@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane prefHeight="569.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddAdmin">
+    <center>
+        <AnchorPane>
+            <children>
+                <ComboBox fx:id="users" layoutY="75.0" onAction="#selectedChange" prefHeight="31.0" prefWidth="284.0" promptText="Choose User" />
+                <Button fx:id="addbtn" layoutY="439.0" mnemonicParsing="false" onAction="#add_admin" prefHeight="31.0" prefWidth="284.0" text="Add Admin" />
+            <ImageView fx:id="image" fitHeight="100.0" fitWidth="100.0" layoutX="92.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="26.0" layoutY="248.0" fx:id="userDetails" />
+            </children>
+        </AnchorPane>
+    </center>
+    <left>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="539.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" BorderPane.alignment="CENTER" />
+    </left>
+    <right>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="540.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" BorderPane.alignment="CENTER" />
+    </right>
+</BorderPane>

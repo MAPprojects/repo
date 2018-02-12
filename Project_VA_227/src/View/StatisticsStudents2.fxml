@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="600.0" prefWidth="900.0"
+            xmlns="http://javafx.com/javafx/8.0.121" fx:controller="Controller.StatisticsController">
+    <Button layoutX="667.0" layoutY="555.0" mnemonicParsing="false" onAction="#handleActionStudents2" prefHeight="31.0"
+            prefWidth="219.0" text="Reload"/>
+    <TableView fx:id="tableRespecta" layoutX="14.0" layoutY="14.0" prefHeight="518.0" prefWidth="864.0">
+        <columns>
+            <TableColumn fx:id="idColumn2" prefWidth="44.0" text="ID"/>
+            <TableColumn fx:id="nameColumn2" prefWidth="204.0" text="Nume"/>
+            <TableColumn fx:id="grupaColumn2" prefWidth="83.0" text="Grupa"/>
+            <TableColumn fx:id="emailColumn2" prefWidth="281.0" text="Email"/>
+            <TableColumn fx:id="profesorColumn2" prefWidth="250.0" text="Profesor"/>
+        </columns>
+    </TableView>
+    <Button layoutX="424.0" layoutY="555.0" mnemonicParsing="false" onAction="#SaveToPDF" prefHeight="31.0" prefWidth="219.0" text="Save To Pdf" />
+</AnchorPane>
