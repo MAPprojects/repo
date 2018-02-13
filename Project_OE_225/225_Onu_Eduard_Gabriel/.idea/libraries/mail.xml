@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="mail">
+    <CLASSES>
+      <root url="jar://E:/INTELIJ/mail.jar!/" />
+      <root url="jar://E:/INTELIJ/javax.mail.jar!/" />
+      <root url="jar://E:/INTELIJ/activation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
