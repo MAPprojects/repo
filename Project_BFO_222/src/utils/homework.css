@@ -1,0 +1,17 @@
+#homeworkMenu{
+    /*-fx-background-color: #6495ED;*/
+    /*-fx-background-image: url("back2.jpg");
+        -fx-background-repeat: stretch;
+        -fx-background-size: 600 600;
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);*/
+}
+#addHomeworkButton{
+     -fx-background-radius:90;
+ }
+#deleteHomeworkButton{
+    -fx-background-radius:90;
+}
+#updateHomeworkButton{
+    -fx-background-radius:90;
+}

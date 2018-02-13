@@ -1,0 +1,106 @@
+#firstMenu{
+
+     -fx-font-family: Verdana;
+ }
+ #secondMenu{
+
+      -fx-font-family: Verdana;
+  }
+
+
+  #lastMenu{
+       -fx-font-family: Verdana;
+   }
+
+   #filtrari{
+    -fx-font-family:Verdana;
+   }
+
+#studentButton{
+    -fx-background-color:transparent;
+}
+
+#logInButton{
+    -fx-background-radius:90;
+}
+
+#reloadCaptchaButton{
+    -fx-background-radius:20;
+}
+
+
+
+.root {
+-fx-base: rgb(50, 50, 50);
+-fx-background: rgb(50, 50, 50);
+-fx-control-inner-background:  rgb(50, 50, 50);
+}
+
+.tab {
+-fx-background-color: linear-gradient(to top, -fx-base, derive(-fx-base,30%));
+}
+
+.menu-bar {
+-fx-background-color: linear-gradient(to bottom, -fx-base, derive(-fx-base,30%));
+}
+
+.tool-bar:horizontal {
+-fx-background-color:linear-gradient(to bottom, derive(-fx-base,+50%), derive(-fx-base,-40%), derive(-fx-base,-20%));
+}
+
+.button {
+-fx-background-color: transparent;
+}
+
+.button:hover {
+-fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+-fx-color: -fx-hover-base;
+}
+.text-field {
+ -fx-border-color: yellow;
+ -fx-border-width: 1px ;
+ -fx-prompt-text-fill:gray;
+ -fx-prompt-text-width:1px;
+}
+
+.table-view {
+-fx-table-cell-border-color:derive(-fx-base,+10%);
+-fx-table-header-border-color:derive(-fx-base,+20%);
+}
+
+.list-view{
+-fx-table-cell-border-color:derive(-fx-base,+10%);
+-fx-table-header-border-color:derive(-fx-base,+20%);
+}
+
+.split-pane:horizontal > * > .split-pane-divider {
+-fx-border-color: transparent -fx-base transparent -fx-base;
+-fx-background-color: transparent, derive(-fx-base,20%);
+-fx-background-insets: 0, 0 1 0 1;
+}
+
+.my-gridpane {
+-fx-background-color: radial-gradient(radius 100%, derive(-fx-base,20%), derive(-fx-base,-20%));
+}
+
+.separator-label {
+-fx-text-fill: orange;
+}
+
+.table-row-cell:odd{-fx-background-color:	#808080;}
+.table-row-cell:hover{-fx-background-color: #87CEFA}
+.table-row-cell:selected {-fx-background-color: 	#20B2AA;}
+
+
+.text-field:hover
+{
+    -fx-background-color: transparent, #909090, transparent, black;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+}
+
+.list-cell:hover{
+    -fx-background-color:#87CEFA
+}
+
+

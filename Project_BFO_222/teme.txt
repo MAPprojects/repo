@@ -1,0 +1,4 @@
+1|Reflexivitate|14
+2|Lambda|7
+3|C#|13
+4|Lambda2|6

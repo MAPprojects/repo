@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="homeworkMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="841.0" stylesheets="@homework.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LabController">
+   <children>
+      <Pagination fx:id="pagination" layoutX="-21.0" layoutY="15.0" prefHeight="344.0" prefWidth="521.0" />
+      <TableView fx:id="tableView2" layoutX="-21.0" layoutY="14.0" prefHeight="344.0" prefWidth="521.0">
+        <columns>
+          <TableColumn fx:id="numar" prefWidth="133.0" text="Numar" />
+          <TableColumn fx:id="deadline" prefWidth="227.0" text="Deadline" />
+            <TableColumn fx:id="descriere" prefWidth="163.0" text="Descriere" />
+        </columns>
+      </TableView>
+      <GridPane layoutX="556.0" layoutY="16.0" prefHeight="124.0" prefWidth="280.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="135.0" minWidth="10.0" prefWidth="55.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="175.0" minWidth="10.0" prefWidth="175.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="105.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="101.0" minHeight="9.0" prefHeight="28.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="71.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="20.0" prefWidth="59.0" text="Numar" textFill="#ffffff">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Deadline" textFill="#ffffff" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Descriere" textFill="#ffffff" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="numarField" prefHeight="25.0" prefWidth="195.0" GridPane.columnIndex="1" />
+            <TextField fx:id="deadlineField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="descriereField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Button fx:id="addHomeworkButton" layoutX="566.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleAddButton">
+          <graphic>
+              <ImageView fitHeight="45" fitWidth="45">
+                  <image>
+                      <Image url="/utils/addHome.png" />
+                  </image>
+              </ImageView>
+          </graphic>
+      </Button>
+      <Button fx:id="updateHomeworkButton" layoutX="756.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleUpdateButton">
+          <graphic>
+              <ImageView fitHeight="45" fitWidth="45">
+                  <image>
+                      <Image url="/utils/upHome.png" />
+                  </image>
+              </ImageView>
+          </graphic>
+      </Button>
+      <Button fx:id="deleteHomeworkButton" layoutX="665.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleDeleteButton" prefHeight="48.0" prefWidth="56.0">
+          <graphic>
+              <ImageView fitHeight="45" fitWidth="45">
+                  <image>
+                      <Image url="/utils/delHome.png" />
+                  </image>
+              </ImageView>
+          </graphic>
+      </Button>
+
+       <Text fill="WHITE" layoutX="607.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Laboratories" wrappingWidth="378.0000076889992">
+           <font>
+               <Font name="Verdana Bold Italic" size="20.0" />
+           </font>
+       </Text>
+
+      <ImageView fx:id="imgForHomework" fitHeight="300.0" fitWidth="300.0" layoutX="566.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="/utils/imgForHomework.jpg" />
+          </image>
+      </ImageView>
+   </children>
+</AnchorPane>

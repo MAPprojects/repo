@@ -1,0 +1,38 @@
+<useri>
+	<user>
+		<nume>admin</nume>
+		<parola>21232f297a57a5a743894a0e4a801fc3</parola>
+		<categorie></categorie>
+	</user>
+	<user>
+		<nume>bfir2051@scs.ubbcluj.ro</nume>
+		<parola>8287458823facb8ff918dbfabcd22ccb</parola>
+		<categorie>student</categorie>
+	</user>
+	<user>
+		<nume>bair@scs.ubbcluj.ro</nume>
+		<parola>21232f297a57a5a743894a0e4a801fc3</parola>
+		<categorie>student</categorie>
+	</user>
+	<user>
+		<nume>chise@yahoo.com</nume>
+		<parola>5f039b4ef0058a1d652f13d612375a5b</parola>
+		<categorie>student</categorie>
+	</user>
+	<user>
+		<nume>kk@scs.ubbcluj.ro</nume>
+		<parola>cb42e130d1471239a27fca6228094f0e</parola>
+		<categorie>student</categorie>
+	</user>
+	<user>
+		<nume>dsa@scs.ubbcluj.ro</nume>
+		<parola>3d4044d65abdda407a92991f1300ec97</parola>
+		<categorie>student</categorie>
+	</user>
+	<user>
+		<nume>test@yahoo.com</nume>
+		<parola>098f6bcd4621d373cade4e832627b4f6</parola>
+		<categorie>student</categorie>
+	</user>
+
+</useri>

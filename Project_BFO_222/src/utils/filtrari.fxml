@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FilterController">
+   <children>
+      <ListView fx:id="listView" layoutX="-66.0" layoutY="20.0" prefHeight="400.0" prefWidth="301.0" />
+      <RadioButton fx:id="stud" layoutX="278.0" layoutY="132.0" mnemonicParsing="false" onAction="#initForStudents" text="Studenti" />
+      <RadioButton fx:id="lab" layoutX="276.0" layoutY="321.0" mnemonicParsing="false" onAction="#initForLabs" text="Laboratoare" />
+      <RadioButton fx:id="grade" layoutX="488.0" layoutY="132.0" mnemonicParsing="false" onAction="#initForGrades" text="Note" />
+      <TextField fx:id="nameField" layoutX="278.0" layoutY="20.0" prefHeight="25.0" prefWidth="102.0" promptText="Nume">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="groupField" layoutX="278.0" layoutY="55.0" prefHeight="25.0" prefWidth="102.0" promptText="Grupa">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="mailField" layoutX="278.0" layoutY="90.0" prefHeight="25.0" prefWidth="102.0" promptText="Mail">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <CheckBox fx:id="checkName" layoutX="249.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleRadioStudents" prefHeight="17.0" prefWidth="2.0" />
+      <CheckBox fx:id="checkGroup" layoutX="249.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleRadioStudents" prefHeight="17.0" prefWidth="12.0" />
+      <CheckBox fx:id="checkMail" layoutX="249.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleRadioStudents" prefHeight="17.0" prefWidth="29.0" />
+      <TextField fx:id="deadField" layoutX="255.0" layoutY="188.0" promptText="Deadline">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="temaField" layoutX="457.0" layoutY="20.0" prefHeight="25.0" prefWidth="133.0" promptText="Id superior tema">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="gradeField" layoutX="457.0" layoutY="56.0" prefHeight="25.0" prefWidth="133.0" promptText="Nota">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <CheckBox fx:id="checkID" layoutX="428.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleRadioGrades" />
+      <CheckBox fx:id="checkGrade" layoutX="428.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleRadioGrades" />
+      <Text fill="WHITE" layoutX="401.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filters" wrappingWidth="222.340208850801">
+         <font>
+            <Font name="Verdana Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="deadMare" layoutX="255.0" layoutY="228.0" mnemonicParsing="false" onAction="#handleRadioLabs" text="Dead mai mare" />
+      <RadioButton fx:id="deadMic" layoutX="255.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleRadioLabs" text="Dead mai mic" />
+      <CheckBox fx:id="deadPar" layoutX="255.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleRadioLabs" text="Dead par" />
+      <RadioButton fx:id="gradeBig" layoutX="428.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleRadioGrades" prefHeight="17.0" prefWidth="108.0" text="Nota mai mare" />
+      <RadioButton fx:id="gradeEqual" layoutX="536.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleRadioGrades" text="Aceeasi nota" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+.button:pressed {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+
+#addGrade{
+     -fx-background-radius:50;
+ }
+#deleteGrade{
+    -fx-background-radius:90;
+}
+#updateGrade{
+    -fx-background-radius:90;
+}

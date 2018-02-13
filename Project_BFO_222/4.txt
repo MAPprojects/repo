@@ -1,0 +1,9 @@
+Adaugare nota NumarTema:2 Nota:10 DeadLine:13 Saptamana predarii:12 Observatii:Nu e cazul
+Adaugare nota NumarTema:5 Nota:3 DeadLine:14 Saptamana predarii:12 Observatii:Nu e cazul
+Adaugare nota NumarTema:6 Nota:8 DeadLine:14 Saptamana predarii:12 Observatii:Nu e cazul
+Adaugare nota NumarTema:1 Nota:3 DeadLine:14 Saptamana predarii:13 Observatii:Nu e cazul
+Adaugare nota NumarTema:2 Nota:8 DeadLine:14 Saptamana predarii:13 Observatii:Nu e cazul
+Adaugare nota NumarTema:5 Nota:0 DeadLine:13 Saptamana predarii:14 Observatii:Nu e cazul
+Modificare nota NumarTema:5 Nota:6 DeadLine:13 Saptamana predarii:10 Observatii:Nu e cazul
+Adaugare nota NumarTema:4 Nota:6 DeadLine:13 Saptamana predarii:10 Observatii:Nu e cazul
+Modificare nota NumarTema:2 Nota:9 DeadLine:14 Saptamana predarii:10 Observatii:Nu e cazul

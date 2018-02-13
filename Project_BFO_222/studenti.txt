@@ -1,0 +1,5 @@
+1|Boros Florin|222|oti_otniel97@yahoo.com|P1
+2|Boros Otniel|221|oti_otniel97@yahoo.com|P2
+3|Chise Bogdan|227|chise_b@yahoo.com|P3
+4|Caba Lorena|222|cb_lore@yahoo.com|P4
+5|Boros Otniel|225|flo97@gmail.com|P1

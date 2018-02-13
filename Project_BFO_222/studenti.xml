@@ -1,0 +1,39 @@
+<students>
+	<student id="1">
+		<nume>Boros Otniel</nume>
+		<grupa>222</grupa>
+		<email>bfir2051@scs.ubbcluj.ro</email>
+		<profesor>Camelia</profesor>
+	</student>
+	<student id="2">
+		<nume>Boros Alexandru</nume>
+		<grupa>221</grupa>
+		<email>bair@scs.ubbcluj.ro</email>
+		<profesor>Istvan</profesor>
+	</student>
+	<student id="3">
+		<nume>dsa</nume>
+		<grupa>223</grupa>
+		<email>chise@yahoo.com</email>
+		<profesor>dsa</profesor>
+	</student>
+	<student id="4">
+		<nume>kk</nume>
+		<grupa>223</grupa>
+		<email>kk@scs.ubbcluj.ro</email>
+		<profesor>dsa</profesor>
+	</student>
+	<student id="5">
+		<nume>a</nume>
+		<grupa>227</grupa>
+		<email>dsa@scs.ubbcluj.ro</email>
+		<profesor>sa</profesor>
+	</student>
+	<student id="7">
+		<nume>test</nume>
+		<grupa>226</grupa>
+		<email>test@yahoo.com</email>
+		<profesor>test</profesor>
+	</student>
+
+</students>
