@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" styleClass="background" stylesheets="@menuBar.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewFXML.RootLayoutController">
+   <top>
+      <AnchorPane prefHeight="34.0" prefWidth="600.0" styleClass="background" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar prefHeight="28.0" prefWidth="600.0">
+              <menus>
+                <Menu mnemonicParsing="false" onAction="#handleStudentsCRUD" onShowing="#handleStudentsCRUD" text="Students">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Students Database" />
+                     </items>
+                </Menu>
+                <Menu mnemonicParsing="false" onAction="#handleTemeCRUD" onShowing="#handleTemeCRUD" text="Assignments">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Assignments Database" />
+                     </items>
+                </Menu>
+                <Menu mnemonicParsing="false" onAction="#handleNote" onShowing="#handleNote" text="Grades">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Grades Database" />
+                     </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" onAction="#handleStatistics" onShowing="#handleStatistics" text="Statistics">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Statistics charts" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

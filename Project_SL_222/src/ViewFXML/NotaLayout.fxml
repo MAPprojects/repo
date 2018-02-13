@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@menuBar.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewFXML.NotaLayoutController">
+   <children>
+      <SplitPane dividerPositions="0.38166666666666665" prefHeight="410.0" prefWidth="612.0" styleClass="background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="408.0" prefWidth="229.0" styleClass="background" stylesheets="@menuBar.css">
+               <children>
+                  <Label layoutX="22.0" layoutY="30.0" styleClass="label-header" text="Details" />
+                  <Label layoutX="-3.0" layoutY="113.0" styleClass="label-bright" text=" ID Student" />
+                  <Label layoutY="149.0" styleClass="label-bright" text="Student Name" />
+                  <Label layoutY="220.0" styleClass="label-bright" text="Value" />
+                  <Label layoutX="-1.0" layoutY="185.0" styleClass="label-bright" text="Nr Assignment" />
+                  <Button fx:id="addBtn" layoutX="23.0" layoutY="300.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleSaveNota" style="-fx-border-color: #1d1d1d;" />
+                  <TextField fx:id="idStudent" layoutX="109.0" layoutY="111.0" prefHeight="25.0" prefWidth="110.0" />
+                  <TextField fx:id="nrTema" layoutX="109.0" layoutY="179.0" prefHeight="25.0" prefWidth="110.0" />
+                  <TextField fx:id="valoare" layoutX="109.0" layoutY="213.0" prefHeight="25.0" prefWidth="110.0" />
+                  <TextField fx:id="numeField" editable="false" layoutX="109.0" layoutY="145.0" prefHeight="25.0" prefWidth="110.0" />
+                  <Button fx:id="updatebtn" layoutX="82.0" layoutY="300.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleUpdateNota" style="-fx-border-color: #1d1d1d;" />
+                  <MenuButton fx:id="filterBtn" layoutX="122.0" layoutY="300.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" prefHeight="10.0" style="-fx-border-color: #1d1d1d; -fx-text-fill: WHITE;" styleClass="background">
+                     <items>
+                        <Menu mnemonicParsing="false" text="Filter by value">
+                           <items>
+                              <MenuItem mnemonicParsing="false">
+                                 <graphic>
+                                    <SplitPane dividerPositions="0.5">
+                                       <items>
+                                          <TextField fx:id="filterValueField" prefWidth="100.0" styleClass="text-field" stylesheets="@menuBar.css" />
+                                          <Button fx:id="doneBtn1" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleFilterValue" style="-fx-border-color: #1d1d1d;" />
+                                       </items>
+                                    </SplitPane>
+                                 </graphic>
+                              </MenuItem>
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Filter by student ID">
+                           <items>
+                              <MenuItem mnemonicParsing="false">
+                                 <graphic>
+                                    <SplitPane dividerPositions="0.5">
+                                       <items>
+                                          <TextField fx:id="filteridField" prefWidth="100.0" styleClass="text-field" stylesheets="@menuBar.css" />
+                                          <Button fx:id="doneBtn2" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleFilterId" style="-fx-border-color: #1d1d1d;" />
+                                       </items>
+                                    </SplitPane>
+                                 </graphic>
+                              </MenuItem>
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Grades between 2 values">
+                           <items>
+                              <MenuItem mnemonicParsing="false">
+                                 <graphic>
+                                    <SplitPane dividerPositions="0.5">
+                                       <items>
+                                          <HBox prefHeight="30.0" prefWidth="200.0">
+                                             <children>
+                                                <TextField fx:id="filterminvalueField" />
+                                                <TextField fx:id="filtermaxvalueField" />
+                                             </children>
+                                          </HBox>
+                                          <Button fx:id="doneBtn3" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleFilterValues" style="-fx-border-color: #1d1d1d;" />
+                                       </items>
+                                    </SplitPane>
+                                 </graphic>
+                              </MenuItem>
+                           </items>
+                        </Menu>
+                     </items>
+                  </MenuButton>
+                  <Label layoutY="254.0" styleClass="label-bright" text="Obs" />
+                  <TextField fx:id="obsField" layoutX="109.0" layoutY="247.0" prefHeight="25.0" prefWidth="110.0" />
+                  <Label layoutX="5.0" layoutY="342.0" prefHeight="54.0" prefWidth="44.0" style="-fx-font-size: 10;" text="Rows per&#10;page" textAlignment="CENTER">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="399.0" prefWidth="347.0" stylesheets="@menuBar.css">
+               <children>
+                  <Pagination fx:id="pagination" prefHeight="399.0" prefWidth="386.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <fx:define>
+                  <TableView fx:id="notaTable" layoutX="-4.0" layoutY="-3.0" onMouseClicked="#umpleFielduri" prefHeight="399.0" prefWidth="347.0" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <columns>
+                        <TableColumn fx:id="studentName" prefWidth="123.0" text="Student Name" />
+                        <TableColumn fx:id="temaName" prefWidth="150.0" text="Assignment Name" />
+                        <TableColumn fx:id="value" prefWidth="88.0" text="Value" />
+                     </columns>
+                  </TableView>
+                  </fx:define>
+                  </Pagination>
+                  <Button fx:id="refreshBtn" layoutX="320.0" layoutY="355.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#handleRefresh" style="-fx-border-color: #1d1d1d#1d1d1d;" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+      <Slider fx:id="slider" layoutX="52.0" layoutY="361.0" />
+   </children>
+</AnchorPane>

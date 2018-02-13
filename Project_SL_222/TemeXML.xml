@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<assignments>
+    <assignment nr="9">
+        <description>Tema9</description>
+        <deadline>9</deadline>
+    </assignment>
+    <assignment nr="10">
+        <description>Tema10</description>
+        <deadline>10</deadline>
+    </assignment>
+    <assignment nr="11">
+        <description>Tema11</description>
+        <deadline>16</deadline>
+    </assignment>
+    <assignment nr="12">
+        <description>Tema12</description>
+        <deadline>13</deadline>
+    </assignment>
+    <assignment nr="13">
+        <description>Tema13</description>
+        <deadline>12</deadline>
+    </assignment>
+    <assignment nr="14">
+        <description>Tema14</description>
+        <deadline>14</deadline>
+    </assignment>
+    <assignment nr="15">
+        <description>Tema15</description>
+        <deadline>11</deadline>
+    </assignment>
+    <assignment nr="16">
+        <description>Tema16</description>
+        <deadline>10</deadline>
+    </assignment>
+</assignments>

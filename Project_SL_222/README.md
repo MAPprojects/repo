@@ -1,0 +1,7 @@
+TAGS:
+	1.MAIL(COMPONENT: JAVAX MAIL)
+	2.XML
+
+EXTRA TAGS:
+	1.Pagination
+	2.PDF Export

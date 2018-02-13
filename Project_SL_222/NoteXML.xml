@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grades>
+    <grade idStudent="85" nrTema="11">
+        <valoare>8.0</valoare>
+    </grade>
+    <grade idStudent="997" nrTema="13">
+        <valoare>7.0</valoare>
+    </grade>
+    <grade idStudent="85" nrTema="16">
+        <valoare>5.0</valoare>
+    </grade>
+    <grade idStudent="85" nrTema="15">
+        <valoare>5.0</valoare>
+    </grade>
+    <grade idStudent="85" nrTema="14">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="85" nrTema="13">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="85" nrTema="12">
+        <valoare>8.5</valoare>
+    </grade>
+    <grade idStudent="85" nrTema="10">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="85" nrTema="9">
+        <valoare>9.5</valoare>
+    </grade>
+    <grade idStudent="61" nrTema="9">
+        <valoare>7.0</valoare>
+    </grade>
+    <grade idStudent="61" nrTema="10">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="61" nrTema="11">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="61" nrTema="12">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="61" nrTema="13">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="61" nrTema="14">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="61" nrTema="15">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="61" nrTema="16">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="105" nrTema="14">
+        <valoare>8.0</valoare>
+    </grade>
+    <grade idStudent="105" nrTema="15">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="105" nrTema="16">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="105" nrTema="12">
+        <valoare>8.0</valoare>
+    </grade>
+    <grade idStudent="105" nrTema="13">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="105" nrTema="11">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="105" nrTema="10">
+        <valoare>1.0</valoare>
+    </grade>
+    <grade idStudent="105" nrTema="9">
+        <valoare>1.0</valoare>
+    </grade>
+    <grade idStudent="60" nrTema="16">
+        <valoare>4.0</valoare>
+    </grade>
+    <grade idStudent="60" nrTema="15">
+        <valoare>6.0</valoare>
+    </grade>
+    <grade idStudent="60" nrTema="13">
+        <valoare>7.0</valoare>
+    </grade>
+    <grade idStudent="60" nrTema="14">
+        <valoare>6.0</valoare>
+    </grade>
+    <grade idStudent="60" nrTema="12">
+        <valoare>8.5</valoare>
+    </grade>
+    <grade idStudent="60" nrTema="11">
+        <valoare>7.0</valoare>
+    </grade>
+    <grade idStudent="60" nrTema="10">
+        <valoare>2.5</valoare>
+    </grade>
+    <grade idStudent="60" nrTema="9">
+        <valoare>4.0</valoare>
+    </grade>
+    <grade idStudent="81" nrTema="16">
+        <valoare>8.5</valoare>
+    </grade>
+    <grade idStudent="81" nrTema="15">
+        <valoare>4.0</valoare>
+    </grade>
+    <grade idStudent="81" nrTema="14">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="80" nrTema="16">
+        <valoare>8.5</valoare>
+    </grade>
+    <grade idStudent="80" nrTema="15">
+        <valoare>4.0</valoare>
+    </grade>
+    <grade idStudent="80" nrTema="14">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="80" nrTema="13">
+        <valoare>5.5</valoare>
+    </grade>
+    <grade idStudent="80" nrTema="12">
+        <valoare>8.8</valoare>
+    </grade>
+    <grade idStudent="80" nrTema="11">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="80" nrTema="10">
+        <valoare>4.5</valoare>
+    </grade>
+    <grade idStudent="80" nrTema="9">
+        <valoare>3.0</valoare>
+    </grade>
+    <grade idStudent="101" nrTema="16">
+        <valoare>7.0</valoare>
+    </grade>
+    <grade idStudent="101" nrTema="15">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="997" nrTema="15">
+        <valoare>5.0</valoare>
+    </grade>
+    <grade idStudent="997" nrTema="11">
+        <valoare>9.0</valoare>
+    </grade>
+    <grade idStudent="997" nrTema="16">
+        <valoare>6.0</valoare>
+    </grade>
+    <grade idStudent="997" nrTema="9">
+        <valoare>4.0</valoare>
+    </grade>
+    <grade idStudent="997" nrTema="10">
+        <valoare>5.0</valoare>
+    </grade>
+    <grade idStudent="997" nrTema="12">
+        <valoare>8.0</valoare>
+    </grade>
+    <grade idStudent="997" nrTema="14">
+        <valoare>9.0</valoare>
+    </grade>
+</grades>

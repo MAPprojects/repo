@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+    <student id="50">
+        <name>abcd</name>
+        <group>111</group>
+        <email>aaaa</email>
+        <teacher>abcd</teacher>
+    </student>
+    <student id="60">
+        <name>Larisa</name>
+        <group>222</group>
+        <email>lari@yahoo.com</email>
+        <teacher>Nicolae</teacher>
+    </student>
+    <student id="61">
+        <name>Alina</name>
+        <group>222</group>
+        <email>alina@yahoo.com</email>
+        <teacher>Bogdan</teacher>
+    </student>
+    <student id="80">
+        <name>hdbshj</name>
+        <group>222</group>
+        <email>aaaa</email>
+        <teacher>dvcghdsv</teacher>
+    </student>
+    <student id="81">
+        <name>Alina</name>
+        <group>222</group>
+        <email>alina</email>
+        <teacher>hsbsh</teacher>
+    </student>
+    <student id="85">
+        <name>Alina</name>
+        <group>222</group>
+        <email>sakjn</email>
+        <teacher>smjdn</teacher>
+    </student>
+    <student id="100">
+        <name>sjkn</name>
+        <group>222</group>
+        <email>abcd</email>
+        <teacher>vnjjnj</teacher>
+    </student>
+    <student id="101">
+        <name>Laura</name>
+        <group>222</group>
+        <email>laurascurtu1997@yahoo.com</email>
+        <teacher>Camelia</teacher>
+    </student>
+    <student id="102">
+        <name>Larisa</name>
+        <group>234</group>
+        <email>scurtularisa_1997@yahoo.com</email>
+        <teacher>abcd</teacher>
+    </student>
+    <student id="105">
+        <name>Zeb</name>
+        <group>321</group>
+        <email>eusebiu.dusa@yahoo.com</email>
+        <teacher>Nimeni</teacher>
+    </student>
+    <student id="997">
+        <name>Alex</name>
+        <group>222</group>
+        <email>alex.cornea19@gmail.com</email>
+        <teacher>eu</teacher>
+    </student>
+</students>

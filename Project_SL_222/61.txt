@@ -1,0 +1,22 @@
+Adaugare nota Tema: 10 Nota: 1.0 Deadline: 5 Saptamana predarii: 11
+Observatii Tema 10 : dwef
+Adaugare nota Tema: 10 Nota: 2.0 Deadline: 5 Saptamana predarii: 11
+Observatii Tema 10 : 
+Modificare nota Tema: 10 Nota: 4.0 Deadline: 5 Saptamana predarii: 11
+Observatii Tema 10 : 
+Modificare nota Tema: 10 Nota: 4.0 Deadline: 5 Saptamana predarii: 11
+Observatii Tema 10 : 
+Modificare nota Tema: 10 Nota: 4.0 Deadline: 5 Saptamana predarii: 11
+Observatii Tema 10 : 
+Modificare nota Tema: 10 Nota: 4.0 Deadline: 5 Saptamana predarii: 11
+Observatii Tema 10 : 
+Modificare nota Tema: 10 Nota: 4.0 Deadline: 5 Saptamana predarii: -38
+Observatii Tema 10 : 
+Adaugare nota Tema: 12 Nota: 7.0 Deadline: 13 Saptamana predarii: 14
+Observatii Tema 12 : 
+Modificare nota Tema: 11 Nota: 3.5 Deadline: 16 Saptamana predarii: 15
+Observatii Tema 11 : 
+Modificare nota Tema: 11 Nota: 2.5 Deadline: 16 Saptamana predarii: 15
+Observatii Tema 11 : 
+Modificare nota Tema: 11 Nota: 3.5 Deadline: 16 Saptamana predarii: 15
+Observatii Tema 11 : 

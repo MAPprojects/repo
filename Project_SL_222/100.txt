@@ -1,0 +1,12 @@
+Adaugare nota Tema: 10 Nota: 0.0 Deadline: 5 Saptamana predarii: 11
+Observatii Tema 10 : 
+Adaugare nota Tema: 12 Nota: 10.0 Deadline: 13 Saptamana predarii: 11
+Observatii Tema 12 : 
+Adaugare nota Tema: 5 Nota: 2.5 Deadline: 6 Saptamana predarii: 11
+Observatii Tema 5 : 
+Modificare nota Tema: 10 Nota: 0.0 Deadline: 5 Saptamana predarii: 13
+Observatii Tema 10 : 
+Modificare nota Tema: 10 Nota: 0.0 Deadline: 5 Saptamana predarii: 13
+Observatii Tema 10 : 
+Modificare nota Tema: 16 Nota: 5.5 Deadline: 10 Saptamana predarii: 13
+Observatii Tema 16 : 

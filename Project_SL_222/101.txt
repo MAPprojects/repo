@@ -1,0 +1,32 @@
+Adaugare nota Tema: 15 Nota: 6.0 Deadline: 11 Saptamana predarii: 11
+Observatii Tema 15 : 
+Adaugare nota Tema: 16 Nota: 6.0 Deadline: 10 Saptamana predarii: 11
+Observatii Tema 16 : 
+Adaugare nota Tema: 12 Nota: 6.0 Deadline: 13 Saptamana predarii: 11
+Observatii Tema 12 : 
+Modificare nota Tema: 12 Nota: 10.0 Deadline: 13 Saptamana predarii: 11
+Observatii Tema 12 : 
+Adaugare nota Tema: 5 Nota: 4.0 Deadline: 6 Saptamana predarii: 11
+Observatii Tema 5 : 
+Adaugare nota Tema: 15 Nota: 9.0 Deadline: 11 Saptamana predarii: 11
+Observatii Tema 15 : 
+Modificare nota Tema: 16 Nota: 6.0 Deadline: 10 Saptamana predarii: 13
+Observatii Tema 16 : 
+Adaugare nota Tema: 14 Nota: 9.0 Deadline: 14 Saptamana predarii: 15
+Observatii Tema 14 : Perfect
+Adaugare nota Tema: 15 Nota: 6.0 Deadline: 11 Saptamana predarii: 15
+Observatii Tema 15 : 
+Adaugare nota Tema: 12 Nota: 8.0 Deadline: 13 Saptamana predarii: 15
+Observatii Tema 12 : bun
+Adaugare nota Tema: 13 Nota: 7.0 Deadline: 12 Saptamana predarii: 15
+Observatii Tema 13 : intarziere
+Adaugare nota Tema: 11 Nota: 10.0 Deadline: 15 Saptamana predarii: 15
+Observatii Tema 11 : bun
+Adaugare nota Tema: 11 Nota: 10.0 Deadline: 15 Saptamana predarii: 15
+Observatii Tema 11 : sn
+Adaugare nota Tema: 14 Nota: 7.0 Deadline: 14 Saptamana predarii: 15
+Observatii Tema 14 : sjnkj
+Adaugare nota Tema: 10 Nota: 4.0 Deadline: 10 Saptamana predarii: 15
+Observatii Tema 10 : abcd
+Adaugare nota Tema: 9 Nota: 4.0 Deadline: 9 Saptamana predarii: 15
+Observatii Tema 9 : obs

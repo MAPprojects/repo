@@ -1,0 +1,11 @@
+60|Larisa|222|lari@yahoo.com|Nicolae
+61|Alina|222|alina@yahoo.com|Bogdan
+80|hdbshj|222|djhj|dvcghdsv
+81|Alina|222|alina|hsbsh
+85|Alina|222|sakjn|smjdn
+100|sjkn|222|dnskj|vnjjnj
+101|Laura|222|laurascurtu1997@yahoo.com|Camelia
+102|Larisa|234|scurtularisa_1997@yahoo.com|abcd
+103|Liliana|223|lilianascurtu@yahoo.com|abcd
+105|Zeb|321|eusebiu.dusa@yahoo.com|Nimeni
+997|Alex|222|alexBo$$2018@hotmail.com|eu

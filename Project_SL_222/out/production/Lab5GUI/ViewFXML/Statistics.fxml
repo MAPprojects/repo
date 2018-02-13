@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchor" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@menuBar.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewFXML.StatisticsController">
+   <children>
+      <SplitPane dividerPositions="0.30333333333333334" prefHeight="400.0" prefWidth="600.0" styleClass="background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Label layoutX="30.0" layoutY="137.0" styleClass="label-header" text="Statistics" />
+                  <MenuButton fx:id="charts" layoutX="35.0" layoutY="185.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleClearChart" onDragDetected="#handleClearChart" prefHeight="10.0" style="-fx-border-color: #1d1d1d; -fx-text-fill: WHITE;" styleClass="background">
+                     <items>
+                        <MenuItem fx:id="item1" mnemonicParsing="false" onAction="#handleAverageStudents" text="Average for each student" />
+                        <MenuItem fx:id="item2" mnemonicParsing="false" onAction="#handleAssignment" text="The hardest assignment" />
+                        <MenuItem fx:id="item3" mnemonicParsing="false" onAction="#handleExam" text="Students who can take the exam" />
+                        <MenuItem fx:id="item4" mnemonicParsing="false" onAction="#handle3Averages" text="The first 3 averages" />
+                     </items>
+                  </MenuButton>
+                  <Button fx:id="export" layoutX="42.0" layoutY="225.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#writeChartToPDF" style="-fx-border-color: #1d1d1d;" />
+                  <Label layoutX="103.0" layoutY="197.0" text="Charts" textAlignment="CENTER" />
+                  <Label layoutX="94.0" layoutY="228.0" text="Export to &#10;PDF" textAlignment="CENTER" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <BarChart fx:id="barChart" layoutX="-63.0" prefHeight="399.0" prefWidth="374.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" fx:id="x" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="y" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

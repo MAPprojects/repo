@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@menuBar.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewFXML.TemaLayoutController">
+   <children>
+      <SplitPane dividerPositions="0.34833333333333333" layoutX="10.0" layoutY="1.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1d1d1d;" styleClass="background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="382.0" prefWidth="192.0" styleClass="background" stylesheets="@menuBar.css">
+               <children>
+                  <Label layoutX="22.0" layoutY="30.0" styleClass="label-header" text="Details" />
+                  <Label layoutX="15.0" layoutY="111.0" styleClass="label-bright" text="NR" />
+                  <Label layoutX="15.0" layoutY="148.0" styleClass="label-bright" text="Descriere" />
+                  <Label layoutX="14.0" layoutY="184.0" styleClass="label-bright" text="Deadline" />
+                  <TextField fx:id="nrField" layoutX="86.0" layoutY="107.0" prefHeight="25.0" prefWidth="110.0" />
+                  <TextField fx:id="descriereField" layoutX="86.0" layoutY="141.0" prefHeight="25.0" prefWidth="110.0" />
+                  <TextField fx:id="deadlineField" layoutX="86.0" layoutY="175.0" prefHeight="25.0" prefWidth="110.0" />
+                  <MenuButton fx:id="filterBtn" layoutX="122.0" layoutY="300.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" prefHeight="10.0" style="-fx-border-color: #1d1d1d#1d1d1d; -fx-text-fill: WHITE;" styleClass="background">
+                     <items>
+                        <Menu mnemonicParsing="false" style="-fx-border-color: #1d1d1d;" text="Filter by description">
+                           <items>
+                              <MenuItem mnemonicParsing="false">
+                                 <graphic>
+                                    <SplitPane dividerPositions="0.5">
+                                       <items>
+                                          <TextField fx:id="filterbydescriptionField" prefWidth="100.0" styleClass="text-field" stylesheets="@menuBar.css" />
+                                          <Button fx:id="doneBtn3" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleFilterByDescription" style="-fx-border-color: #1d1d1d;" />
+                                       </items>
+                                    </SplitPane>
+                                 </graphic>
+                              </MenuItem>
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" style="-fx-border-color: #1d1d1d;" text="Filter by deadline">
+                           <items>
+                              <MenuItem mnemonicParsing="false">
+                                 <graphic>
+                                    <SplitPane dividerPositions="0.5">
+                                       <items>
+                                          <TextField fx:id="filterbydeadlineField" prefWidth="100.0" styleClass="text-field" stylesheets="@menuBar.css" />
+                                          <Button fx:id="doneBtn2" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleFilterByDeadline" style="-fx-border-color: #1d1d1d;" stylesheets="@menuBar.css" />
+                                       </items>
+                                    </SplitPane>
+                                 </graphic>
+                              </MenuItem>
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" style="-fx-border-color: #1d1d1d;" text="Deadline between 2 values">
+                           <items>
+                              <MenuItem mnemonicParsing="false">
+                                 <graphic>
+                                    <SplitPane dividerPositions="0.5">
+                                       <items>
+                                          <HBox prefHeight="30.0" prefWidth="200.0">
+                                             <children>
+                                                <TextField fx:id="filterdeadlineminField" />
+                                                <TextField fx:id="filterdeadlinemaxField" />
+                                             </children>
+                                          </HBox>
+                                          <Button fx:id="doneBtn1" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleFilterValues" style="-fx-border-color: #1d1d1d;" stylesheets="@menuBar.css" />
+                                       </items>
+                                    </SplitPane>
+                                 </graphic>
+                              </MenuItem>
+                           </items>
+                        </Menu>
+                     </items>
+                  </MenuButton>
+                  <Button fx:id="addBtn" layoutX="25.0" layoutY="300.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleSaveTema" style="-fx-border-color: #1d1d1d;" styleClass="background" />
+                  <Button fx:id="updatebtn" layoutX="82.0" layoutY="300.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleEditTema" style="-fx-border-color: #1d1d1d#1d1d1d;" styleClass="background" />
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="399.0" prefWidth="347.0" stylesheets="@menuBar.css">
+               <children>
+                  <Pagination fx:id="pagination" prefHeight="399.0" prefWidth="386.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <fx:define>
+                  <TableView fx:id="temaTable" layoutX="-4.0" layoutY="-3.0" onMouseClicked="#umpleFielduri" prefHeight="399.0" prefWidth="347.0" styleClass="table-row-cell" stylesheets="@menuBar.css" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <columns>
+                        <TableColumn fx:id="nr" prefWidth="75.0" text="NR" />
+                        <TableColumn fx:id="descriere" prefWidth="187.0" text="Description" />
+                        <TableColumn fx:id="deadline" prefWidth="127.0" text="Deadline" />
+                     </columns>
+                  </TableView>
+                  </fx:define>
+                  </Pagination>
+                  <Button fx:id="refreshBtn" layoutX="340.0" layoutY="351.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#handleRefresh" style="-fx-border-color: #1d1d1d#1d1d1d;" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+      <Label layoutX="5.0" layoutY="342.0" prefHeight="54.0" prefWidth="44.0" style="-fx-font-size: 10;" text="Rows per&#10;page" textAlignment="CENTER">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Slider fx:id="slider" layoutX="52.0" layoutY="361.0" />
+   </children>
+</AnchorPane>
