@@ -1,0 +1,1 @@
+Adaugare nota, nrTema: 1, Nota: 4, Deadline: 3, Saptamana predarii: 5. Observatii: Nota a fost scazuta cu 4 datorita intarzierii! Nota initiala: 8

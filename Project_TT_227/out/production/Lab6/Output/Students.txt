@@ -1,0 +1,6 @@
+1,Tritean Tudor,227,tudortritean@gmail.com,Istvan
+2,Todoran Lidia,227,todoranelena@yahoo.com,Camelia
+3,Faur Adrian,227,adrianfaur@gmail.com,Istvan
+4,Brasovean Delia,221,delia_adelcar@yahoo.com,Camelia
+5,Holhos Denisa,224,holhosdenisamara@gmail.com,Gabi
+6,Vintila Teo,227,teovintila@gmail.com,Sotropa

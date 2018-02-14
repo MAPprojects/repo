@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="479.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EmailForm">
+   <children>
+      <TextArea fx:id="txtArea" layoutX="14.0" layoutY="151.0" prefHeight="268.0" prefWidth="513.0" promptText="Write a message..." />
+      <VBox layoutX="14.0" layoutY="1.0" prefHeight="175.0" prefWidth="513.0" spacing="10.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="30.0">
+               <children>
+                  <Label text="From:" />
+                  <TextField fx:id="txtFrom" disable="true" prefHeight="31.0" prefWidth="282.0" text="Tritean Tudor (tudortritean@gmail.com)" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="48.0">
+               <children>
+                  <Label text="To:" />
+                  <ChoiceBox fx:id="choiceTo" prefHeight="31.0" prefWidth="282.0" translateX="-4.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="15.0">
+               <children>
+                  <Label text="Subject:" />
+                  <TextField fx:id="txtSubject" prefHeight="31.0" prefWidth="283.0" translateX="3.0" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+      <HBox alignment="CENTER_RIGHT" layoutX="14.0" layoutY="419.0" prefHeight="60.0" prefWidth="513.0" spacing="20.0">
+         <children>
+            <Button fx:id="btnSend" mnemonicParsing="false" onAction="#sendEmail" prefHeight="35.0" prefWidth="64.0" style="-fx-background-color: rgb(0,80,100);" text="Send" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#00000080" height="2.0" offsetY="3.0" radius="0.0" spread="0.02" width="0.0" />
+               </effect>
+            </Button>
+            <Button fx:id="btnClear" mnemonicParsing="false" onAction="#clear" prefHeight="31.0" prefWidth="72.0" style="-fx-background-color: rgb(0,80,100);" text="Clear" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#0000007f" height="2.0" offsetY="3.0" radius="0.0" spread="0.02" width="0.0" />
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

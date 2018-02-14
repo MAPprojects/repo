@@ -1,0 +1,2 @@
+Adaugare nota, nrTema: 7, Nota: 10, Deadline: 13, Saptamana predarii: 5. Observatii: -
+Modificare nota, Tema: 7, Nota: 10, Deadline: 13, Saptamana predarii: 5. Observatii: Nota nu a fost modificata deoarece este mai mare sau egala cu cea noua. Nota propusa: 9. 
