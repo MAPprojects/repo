@@ -1,0 +1,15 @@
+adaugare nota,2,10,7,0,df
+adaugare nota,1,8,4,5,nup
+adaugare nota,3,7,9,0,-
+adaugare nota,5,10,12,0,bla
+modificare nota,5,5,12,0,
+modificare nota,5,5,12,0,
+modificare nota,5,5,12,0,
+modificare nota,5,5,12,0,
+adaugare nota,4,5,9,0,nup
+adaugare nota,7,5,8,0,nu
+modificare nota,2,7,2,0,Modifiare
+modificare nota,3,7,3,0,
+modificare nota,2,9,2,0,
+modificare nota,2,9,2,0,studentul 4 
+modificare nota,2,10,4,0,

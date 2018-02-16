@@ -1,0 +1,5 @@
+adaugare nota,2,6,7,0,Nu a reusit sa faca stergerea
+adaugare nota,3,4,9,0,gh
+modificare nota,3,5,9,0,
+adaugare nota,6,5,10,0,nup
+modificare nota,12,8,12,0,geniu

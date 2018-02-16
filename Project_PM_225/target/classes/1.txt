@@ -1,0 +1,6 @@
+modificare nota,3,2,9,0,re
+adaugare nota,2,10,7,0,Este un geniu!
+adaugare nota,2,10,7,0,nimic
+adaugare nota,1,3,4,0,nu
+modificare nota,2,5,8,0,
+modificare nota,2,5,8,0,

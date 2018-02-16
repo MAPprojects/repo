@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<studenti>
+    <student id="4">
+        <nume>Poicrea Ionica</nume>
+        <grupa>333</grupa>
+        <email>studentubbinfo@gmail.com</email>
+        <indrumator>Bota;</indrumator>
+    </student>
+    <student id="10">
+        <nume>Pop Emanuel</nume>
+        <grupa>839</grupa>
+        <email>studentubbinfo@gmail.com</email>
+        <indrumator>Grigore Razvan;</indrumator>
+    </student>
+    <student id="20">
+        <nume>Ex4Pop Madalin</nume>
+        <grupa>200</grupa>
+        <email>studentubbinfo@gmail.com</email>
+        <indrumator>Bota Florentin;</indrumator>
+    </student>
+    <student id="80">
+        <nume>Pop Nicolaelp</nume>
+        <grupa>890</grupa>
+        <email>studentubbinfo@gmail.com</email>
+        <indrumator>Bota;</indrumator>
+    </student>
+    <student id="16">
+        <nume>Pasca</nume>
+        <grupa>999</grupa>
+        <email>studentubbinfo@gmail.com</email>
+        <indrumator>Bota;</indrumator>
+    </student>
+    <student id="2">
+        <nume>Pop Loredan</nume>
+        <grupa>123</grupa>
+        <email>studentubbinfo@gmail.com</email>
+        <indrumator>Petrea Vasile;</indrumator>
+    </student>
+    <student id="53">
+        <nume>Lkd</nume>
+        <grupa>123</grupa>
+        <email>studentubbinfo@gmail.com</email>
+        <indrumator>NIF;</indrumator>
+    </student>
+    <student id="98">
+        <nume>Jdsf</nume>
+        <grupa>345</grupa>
+        <email>jdfnj@fdf.sd</email>
+        <indrumator>MDs;</indrumator>
+    </student>
+    <student id="41">
+        <nume>Pds</nume>
+        <grupa>354</grupa>
+        <email>kdfdm@kdd.sd</email>
+        <indrumator>Mdf;</indrumator>
+    </student>
+    <student id="85">
+        <nume>Gregorie Nicu</nume>
+        <grupa>785</grupa>
+        <email>ndjf@kf.fj</email>
+        <indrumator>Bota</indrumator>
+    </student>
+    <student id="34">
+        <nume>Ionica</nume>
+        <grupa>234</grupa>
+        <email>fhgsad@sdf.fd</email>
+        <indrumator>Bota</indrumator>
+    </student>
+    <student id="37">
+        <nume>Pop George</nume>
+        <grupa>225</grupa>
+        <email>studentubbinfo@gmail.com</email>
+        <indrumator>Bota Florentin</indrumator>
+    </student>
+    <student id="38">
+        <nume>Popescu</nume>
+        <grupa>123</grupa>
+        <email>popescu@gmail.com</email>
+        <indrumator>Bota</indrumator>
+    </student>
+    <student id="95">
+        <nume>JHs</nume>
+        <grupa>784</grupa>
+        <email>mdff@kdf.com</email>
+        <indrumator>Lsd;</indrumator>
+    </student>
+    <student id="897">
+        <nume>Pop</nume>
+        <grupa>123</grupa>
+        <email>dsgfdg@asf.sdf</email>
+        <indrumator>Murgu</indrumator>
+    </student>
+    <student id="1234">
+        <nume>Pop Gheorghe</nume>
+        <grupa>657</grupa>
+        <email>dsfkuk@fds.df</email>
+        <indrumator>Bota</indrumator>
+    </student>
+    <student id="769">
+        <nume>Dinu Pasca</nume>
+        <grupa>123</grupa>
+        <email>pascanicodim@yahoo.com</email>
+        <indrumator>Pasca Madalin</indrumator>
+    </student>
+    <student id="1">
+        <nume>Pop</nume>
+        <grupa>123</grupa>
+        <email>jdfsngf@dfm.dr</email>
+        <indrumator>Bota</indrumator>
+    </student>
+    <student id="587">
+        <nume>Ion</nume>
+        <grupa>546</grupa>
+        <email>ion@fcom.com</email>
+        <indrumator>Nume</indrumator>
+    </student>
+    <student id="1171">
+        <nume>Iulia</nume>
+        <grupa>244</grupa>
+        <email>iuila@gmial.com</email>
+        <indrumator>Ion</indrumator>
+    </student>
+    <student id="132">
+        <nume>Madalin Pasca</nume>
+        <grupa>225</grupa>
+        <email>madalinpasca@gmail.com</email>
+        <indrumator>Bota Florentin</indrumator>
+    </student>
+</studenti>

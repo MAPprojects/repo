@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController_FXML">
+  <tabs>
+    <Tab fx:id="rapoarte" text="Rapoarte">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="raportBut1" layoutX="119.0" layoutY="34.0" mnemonicParsing="false" onAction="#onActionRaportBut1" text="Raport 1" />
+                  <Button fx:id="raportBut2" layoutX="119.0" layoutY="80.0" mnemonicParsing="false" onAction="#onActionRaportBut2" text="Raport 2" />
+                  <Button fx:id="raportBut3" layoutX="119.0" layoutY="123.0" mnemonicParsing="false" onAction="#onActionRaportBut3" text="Raport 3" />
+                  <Label layoutX="233.0" layoutY="38.0" text="Studenti care intra in examen(medie mai mare decat 4.0)" />
+                  <Label layoutX="233.0" layoutY="84.0" text="Media ponderata a fiecarui student" />
+                  <Label layoutX="233.0" layoutY="127.0" text="Procentaj studenti cu media peste 7.0" />
+               </children>
+            </AnchorPane>
+         </content></Tab>
+    <Tab fx:id="student" onSelectionChanged="#studentInterface" text="Student">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+    <Tab fx:id="laborator" onSelectionChanged="#laboratorInterface" text="Laborator">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+      <Tab fx:id="nota" onSelectionChanged="#notaInterface" text="Nota">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

@@ -1,0 +1,4 @@
+1,numere prime,4
+3,media aritmetica8,9
+4,divide et impera,9
+5,asta,8

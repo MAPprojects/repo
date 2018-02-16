@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<note>
+    <nota idStudent="4">
+        <valoare>10</valoare>
+        <numarTema>2</numarTema>
+    </nota>
+    <nota idStudent="10">
+        <valoare>5</valoare>
+        <numarTema>1</numarTema>
+    </nota>
+    <nota idStudent="20">
+        <valoare>8</valoare>
+        <numarTema>12</numarTema>
+    </nota>
+    <nota idStudent="80">
+        <valoare>5</valoare>
+        <numarTema>12</numarTema>
+    </nota>
+    <nota idStudent="16">
+        <valoare>5</valoare>
+        <numarTema>11</numarTema>
+    </nota>
+    <nota idStudent="2">
+        <valoare>5</valoare>
+        <numarTema>8</numarTema>
+    </nota>
+    <nota idStudent="53">
+        <valoare>5</valoare>
+        <numarTema>10</numarTema>
+    </nota>
+    <nota idStudent="98">
+        <valoare>5</valoare>
+        <numarTema>10</numarTema>
+    </nota>
+    <nota idStudent="41">
+        <valoare>5</valoare>
+        <numarTema>2</numarTema>
+    </nota>
+    <nota idStudent="85">
+        <valoare>5</valoare>
+        <numarTema>3</numarTema>
+    </nota>
+    <nota idStudent="38">
+        <valoare>5</valoare>
+        <numarTema>7</numarTema>
+    </nota>
+    <nota idStudent="95">
+        <valoare>5</valoare>
+        <numarTema>1</numarTema>
+    </nota>
+    <nota idStudent="587">
+        <valoare>5</valoare>
+        <numarTema>4</numarTema>
+    </nota>
+    <nota idStudent="1171">
+        <valoare>5</valoare>
+        <numarTema>8</numarTema>
+    </nota>
+    <nota idStudent="80">
+        <valoare>8</valoare>
+        <numarTema>13</numarTema>
+    </nota>
+    <nota idStudent="19">
+        <valoare>8</valoare>
+        <numarTema>3</numarTema>
+    </nota>
+    <nota idStudent="10">
+        <valoare>8</valoare>
+        <numarTema>3</numarTema>
+    </nota>
+    <nota idStudent="2">
+        <valoare>10</valoare>
+        <numarTema>4</numarTema>
+    </nota>
+</note>

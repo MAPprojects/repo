@@ -1,0 +1,3 @@
+adaugare nota,5,3,5,0,nu sa pregatit suficient
+adaugare nota,5,4,5,0,nu
+adaugare nota,5,3,5,0,nup

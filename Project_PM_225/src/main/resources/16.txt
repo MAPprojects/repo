@@ -1,0 +1,7 @@
+adaugare nota,2,10,7,0,II un student eminent! :)))
+modificare nota,2,10,7,0,Este un geniu!
+adaugare nota,1,6,4,0,dsfsfdg
+adaugare nota,4,3,10,0,nu am
+modificare nota,4,10,10,0,
+modificare nota,1,9,4,0,
+modificare nota,4,2,9,0,

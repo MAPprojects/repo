@@ -1,0 +1,18 @@
+4,Poicrea Ionica,333,studentubbinfo@gmail.com,Bota;
+10,Pop Emanuel,839,studentubbinfo@gmail.com,Grigore Razvan;
+20,Ex4Pop Madalin,200,studentubbinfo@gmail.com,Bota Florentin;
+80,Pop Nicolaelp,890,studentubbinfo@gmail.com,Bota;
+17,Lkd,394,studentubbinfo@gmail.com,Nvf;
+16,Pasca,999,studentubbinfo@gmail.com,Bota;
+2,Pop Loredan,123,studentubbinfo@gmail.com,Petrea Vasile;
+53,Lkd,123,studentubbinfo@gmail.com,NIF;
+98,Jdsf,345,jdfnj@fdf.sd,MDs;
+41,Pds,354,kdfdm@kdd.sd,Mdf;
+85,Gregorie Nicu,785,ndjf@kf.fj,Bota
+34,Ionica,234,fhgsad@sdf.fd,Bota
+37,Pop George,225,studentubbinfo@gmail.com,Bota Florentin
+38,Popescu,123,popescu@gmail.com,Bota
+95,JHs,784,mdff@kdf.com,Lsd;
+897,Pop,123,dsgfdg@asf.sdf,Murgu
+1234,Pop Gheorghe,657,dsfkuk@fds.df,Bota
+769,Dinu Pasca,123,pascanicodim@yahoo.com,Pasca Madalin

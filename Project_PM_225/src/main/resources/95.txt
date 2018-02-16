@@ -1,0 +1,2 @@
+adaugare nota,5,10,12,0,dgfg
+adaugare nota,3,7,9,0,hyjgghhg

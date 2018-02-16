@@ -1,0 +1,4 @@
+adaugare nota,1,3,4,0,---
+modificare nota,1,6,4,0,
+adaugare nota,3,6,9,0,nup
+adaugare nota,4,6,9,0,nup

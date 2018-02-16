@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentController.StudentUpdateController_FXML">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="458.0">
+         <children>
+            <Label alignment="CENTER" layoutX="50.0" layoutY="29.0" text="Modificare student">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" layoutX="59.0" layoutY="126.0" prefHeight="201.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="idField" alignment="CENTER" disable="true" promptText="Numar matricol">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="numeField" alignment="CENTER" promptText="Noul nume">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="grupaField" alignment="CENTER" promptText="Noua grupa">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="emailField" alignment="CENTER" promptText="Noul email">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="profesorField" alignment="CENTER" promptText="Noul profesor" />
+               </children>
+            </VBox>
+            <Button layoutX="229.0" layoutY="357.0"  onAction="#UpdateHandler" text="Modificare" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

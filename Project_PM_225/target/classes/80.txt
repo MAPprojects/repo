@@ -1,0 +1,4 @@
+adaugare nota,3,7,9,0,Nu am
+adaugare nota,1,8,4,5,intarziere
+modificare nota,3,10,9,0,
+adaugare nota,13,8,10,0,geniu
