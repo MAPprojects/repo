@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="anchorpane" prefHeight="796.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.StudentsControllerFXML">
+   <children>
+      <Button fx:id="bt_saveStudent" layoutX="760.0" layoutY="170.0" mnemonicParsing="false" onAction="#handleSaveStudent" prefHeight="25.0" prefWidth="32.0">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/add-plus-button.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <VBox fx:id="tf_vbox" layoutX="71.0" layoutY="170.0" prefHeight="515.0" prefWidth="689.0">
+         <children>
+            <TableView fx:id="tf_table" prefHeight="455.0" prefWidth="694.0">
+               <columns>
+                  <TableColumn fx:id="c_id" prefWidth="100.0" text="ID" />
+                  <TableColumn fx:id="c_Nume" minWidth="0.0" prefWidth="130.0" text="Nume" />
+                  <TableColumn fx:id="c_Grupa" minWidth="0.0" prefWidth="107.0" text="Grupa" />
+                  <TableColumn fx:id="c_indrumator" maxWidth="362.0" minWidth="-1.0" prefWidth="150.0" text="Indrumator" />
+                  <TableColumn fx:id="c_Email" minWidth="0.0" prefWidth="135.0" text="Email" />
+                  <TableColumn fx:id="c_Action" minWidth="0.0" prefWidth="50.0" />
+               </columns>
+            </TableView>
+            <Pagination fx:id="paginator" prefHeight="53.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+      <TextField fx:id="tf_searchID" layoutX="71.0" layoutY="127.0" onKeyPressed="#handleFilterData" prefHeight="25.0" prefWidth="95.0" promptText="Search ID" />
+      <TextField fx:id="tf_searchNume" layoutX="191.0" layoutY="127.0" onKeyPressed="#handleFilterData" prefHeight="25.0" prefWidth="95.0" promptText="Search Nume" />
+      <TextField fx:id="tf_searchGrupa" layoutX="306.0" layoutY="127.0" onKeyPressed="#handleFilterData" prefHeight="25.0" prefWidth="95.0" promptText="Search Grupa" />
+      <TextField fx:id="tf_searchEmail" layoutX="594.0" layoutY="127.0" onKeyPressed="#handleFilterData" prefHeight="25.0" prefWidth="95.0" promptText="Search Email" />
+      <ComboBox fx:id="tf_searchIndrumator" layoutX="407.0" layoutY="127.0" prefWidth="150.0" />
+   </children>
+   <stylesheets>
+      <URL value="@img/button.css" />
+      <URL value="@cssSheet/thema.css" />
+   </stylesheets>
+</AnchorPane>

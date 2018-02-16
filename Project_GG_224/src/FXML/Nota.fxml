@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="anchorpane" prefHeight="755.0" prefWidth="1061.0" stylesheets="@cssSheet/thema.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.NotaControllerFXML">
+   <children>
+      <VBox fx:id="vbox" layoutX="39.0" layoutY="104.0" prefHeight="422.0" prefWidth="683.0">
+         <children>
+            <TableView fx:id="table" prefHeight="367.0" prefWidth="674.0">
+              <columns>
+                <TableColumn fx:id="c_numeStudent" prefWidth="263.0" text="Nume Student" />
+                <TableColumn fx:id="c_Grupa" prefWidth="149.0" text="Grupa" />
+                  <TableColumn fx:id="c_medie" prefWidth="90.0" text="Medie" />
+                  <TableColumn fx:id="c_butonAdauga" minWidth="15.0" prefWidth="58.0" />
+                  <TableColumn fx:id="c_viewButton" prefWidth="55.0" />
+                  <TableColumn fx:id="c_SendEmail" prefWidth="57.0" />
+              </columns>
+            </TableView>
+            <Pagination fx:id="paginator" prefHeight="57.0" prefWidth="214.0" />
+         </children>
+      </VBox>
+      <Button fx:id="buttonPDF" layoutX="740.0" layoutY="200.0" mnemonicParsing="false" onAction="#handlePDFCreate" prefHeight="56.0" prefWidth="164.0" text="PDF" />
+      <TextField fx:id="tf_searchNume" layoutX="51.0" layoutY="62.0" onKeyPressed="#handleFilterData" prefHeight="25.0" prefWidth="248.0" promptText="Search dupa numele studentului" />
+      <TextField fx:id="tf_searchGrupa" layoutX="306.0" layoutY="62.0" onKeyPressed="#handleFilterData" promptText="Search dupa grupa" />
+      <Button layoutX="740.0" layoutY="266.0" mnemonicParsing="false" onAction="#handlePDFCreateExamen" prefHeight="56.0" prefWidth="164.0" text="Examen" />
+      <Button layoutX="740.0" layoutY="337.0" mnemonicParsing="false" onAction="#handlePDFCreateStatistics" prefHeight="56.0" prefWidth="164.0" text="Statistics" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+.split-pane{
+    -fx-border-color:   #475680 ;
+    -fx-background-color:   #475680   ;
+
+}
+.table-view .column-header .label {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill:black;
+    -fx-alignment: center;
+    -fx-opacity: 3;
+}
+
+#anchorpane {
+    -fx-background-color:#475680 ;
+
+}
+
+
+
+
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.table-view {
+    -fx-base: #E6DEDE;
+    -fx-control-inner-background: #E6DEDE;
+    -fx-background-color: #E6DEDE;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 15;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color:
+            transparent
+            transparent
+            derive(-fx-base, 80%)
+            transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+#piechart{
+    -fx-font-size: 25px;
+    -fx-text-fill: #1d1d1d;
+
+}
+
+.label{
+    -fx-text-fill: white;
+}

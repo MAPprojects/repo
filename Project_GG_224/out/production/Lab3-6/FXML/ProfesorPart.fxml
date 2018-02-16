@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="733.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.ProfesorPartController">
+   <items>
+    <AnchorPane id="anchorpane" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="324.0">
+         <children>
+            <Button fx:id="b_changePass" layoutX="12.0" layoutY="669.0" mnemonicParsing="false" onAction="#handleChangePass" text="Change Password" />
+            <Button fx:id="b_logout" layoutX="211.0" layoutY="669.0" mnemonicParsing="false" onAction="#handleLogout" text="Log Out" />
+            <Button layoutX="-6.0" layoutY="252.0" mnemonicParsing="false" onAction="#handleShowStudent" prefHeight="51.0" prefWidth="333.0" text="   Informatii studenti">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="51.0" fitWidth="60.0" layoutX="12.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/Student.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="-4.0" layoutY="348.0" mnemonicParsing="false" onAction="#handleNoteGUI" prefHeight="62.0" prefWidth="333.0" text="Note" />
+            <ImageView fitHeight="51.0" fitWidth="68.0" layoutX="12.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/grades.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="-2.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleTemeGUI" prefHeight="62.0" prefWidth="333.0" text="Teme" />
+            <ImageView fitHeight="51.0" fitWidth="60.0" layoutX="12.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/homework.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="99.0" fitWidth="324.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/logo_ubb_albastru.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="-4.0" layoutY="156.0" mnemonicParsing="false" onAction="#handleHome" prefHeight="51.0" prefWidth="333.0" text="HOME" />
+            <ImageView fitHeight="51.0" fitWidth="72.0" layoutX="12.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/home-black-building-symbol.png" />
+               </image>
+            </ImageView>
+         </children>
+         <stylesheets>
+            <URL value="@cssSheet/thema.css" />
+            <URL value="@img/button.css" />
+         </stylesheets>
+      </AnchorPane>
+      <AnchorPane id="anchorpane" fx:id="TF_PANE" prefHeight="796.0" prefWidth="946.0">
+         <stylesheets>
+            <URL value="@img/button.css" />
+            <URL value="@cssSheet/thema.css" />
+         </stylesheets>
+         <children>
+            <PieChart id="piechart" fx:id="pieChart" layoutX="8.0" layoutY="14.0" onMousePressed="#handlePieChart" prefHeight="705.0" prefWidth="927.0" />
+         </children></AnchorPane>
+   </items>
+</SplitPane>

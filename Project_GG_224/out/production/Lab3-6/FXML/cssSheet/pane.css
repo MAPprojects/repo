@@ -1,0 +1,9 @@
+#StudentiExamen{
+    -fx-background-color: red;
+
+}
+
+.label{
+    -fx-font: 16px;
+    -fx-text-fill: white;
+}

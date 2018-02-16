@@ -1,0 +1,1 @@
+Adaugare nota;6;2;10;5;2;Adaugare nota;6;3;10;7;2;Adaugare nota;6;1;2;10;2;Adaugare nota;6;2;10;5;5;Adaugare nota;6;1;10;10;5;Adaugare nota;6;3;10;7;5;

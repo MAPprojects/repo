@@ -1,0 +1,2 @@
+Adaugare nota;10;2;10;10;5;Observatii: -;
+Adaugare nota;10;1;5;10;5;Adaugare nota;10;2;10;5;5;Adaugare nota;10;3;10;7;5;
