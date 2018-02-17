@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="535.0" prefWidth="789.0" style="-fx-background-color: #4d5656;" stylesheets="@hamburger.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlFiles.FirstPage">
+   <children>
+      <JFXHamburger fx:id="hamburger" layoutX="710.0" layoutY="30.0" stylesheets="@hamburger.css">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXHamburger>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="160.0" layoutY="-2.0" prefHeight="535.0" prefWidth="179.0" style="-fx-background-color: #4d5656;" />
+      <AnchorPane fx:id="anchorPane" layoutX="197.0" layoutY="65.0" prefHeight="448.0" prefWidth="557.0" style="-fx-background-color: #4d5656;">
+         <children>
+            <Label layoutX="13.0" layoutY="81.0" prefHeight="143.0" prefWidth="516.0" text="HIGH SCHOOLS' MANAGER" textAlignment="CENTER">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#594307f2" />
+                        <Stop color="#171105" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="System Italic" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="143.0" layoutY="224.0" prefHeight="143.0" prefWidth="221.0" text="New App for managing the options of students for high school ." textFill="#2e2b0f" wrapText="true">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView glyphName="GRADUATION_CAP" layoutX="437.0" layoutY="388.0" size="70" wrappingWidth="59.57143020629883" />
+            <FontAwesomeIconView glyphName="STACK_OVERFLOW" layoutX="31.0" layoutY="84.0" size="70" wrappingWidth="59.57143020629883" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

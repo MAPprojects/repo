@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="184.0" style="-fx-background-color: #f5b041;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="185.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img2.png" />
+         </image></ImageView>
+      <Button fx:id="buttonCandidates" accessibleText="material1" mnemonicParsing="false" prefHeight="50.0" prefWidth="186.0" stylesheets="@myCss.css" text="Candidates">
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button accessibleText="material2" mnemonicParsing="false" prefHeight="52.0" prefWidth="184.0" stylesheets="@myCss.css" text="Sections">
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@section.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button accessibleText="material3" mnemonicParsing="false" prefHeight="48.0" prefWidth="184.0" stylesheets="@myCss.css" text="Options">
+         <graphic>
+            <ImageView accessibleText="material3" fitHeight="21.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@option.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button accessibleText="material4" mnemonicParsing="false" prefHeight="48.0" prefWidth="187.0" stylesheets="@myCss.css" text="Exit" textAlignment="CENTER">
+         <graphic>
+            <ImageView accessibleText="materialFour" fitHeight="34.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@exit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</VBox>

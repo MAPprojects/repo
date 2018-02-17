@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="280.0" prefWidth="400.0" style="-fx-background-color: #4d5656;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlFiles.EditOption">
+   <children>
+      <Button layoutX="154.0" layoutY="217.0" mnemonicParsing="false" onAction="#updateHandler" stylesheets="@button.css" text="Update" textFill="#fff2f2" />
+      <Label layoutX="42.0" layoutY="42.0" text="Id candiate" />
+      <Label layoutX="46.0" layoutY="99.0" text="Id section" />
+      <Label layoutX="52.0" layoutY="162.0" text="Prioritty" />
+      <TextField fx:id="idCandidate" layoutX="166.0" layoutY="37.0" />
+      <TextField fx:id="idSection" layoutX="166.0" layoutY="94.0" />
+      <TextField fx:id="priority" layoutX="166.0" layoutY="157.0" />
+   </children>
+</AnchorPane>

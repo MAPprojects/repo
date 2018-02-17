@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPaneW" prefHeight="448.0" prefWidth="576.0" style="-fx-background-color: #4d5656;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="26.0" layoutY="81.0" prefHeight="143.0" prefWidth="490.0" text="HIGH SCHOOLS' MANAGER" textAlignment="CENTER">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#594307f2" />
+                  <Stop color="#030a06" offset="0.9869281045751634" />
+                  <Stop color="#11303c21" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="224.0" prefHeight="143.0" prefWidth="221.0" text="New App for managing the options of students for high school ." textFill="#382b14" wrapText="true">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+      <FontAwesomeIconView glyphName="STACK_OVERFLOW" layoutX="41.0" layoutY="94.0" size="70" wrappingWidth="59.57143020629883" />
+      <FontAwesomeIconView glyphName="GRADUATION_CAP" layoutX="447.0" layoutY="398.0" size="70" wrappingWidth="59.57143020629883" />
+   </children>
+</AnchorPane>

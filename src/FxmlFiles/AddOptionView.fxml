@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="280.0" prefWidth="400.0" style="-fx-background-color: #4d5656;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlFiles.AddOptionView">
+   <children>
+      <Button layoutX="170.0" layoutY="210.0" mnemonicParsing="false" onAction="#addHandler" stylesheets="@button.css" text="Add" />
+      <TextField fx:id="priority" layoutX="107.0" layoutY="154.0" promptText="Priority" />
+      <ComboBox fx:id="comboCandidate" layoutX="107.0" layoutY="24.0" prefHeight="31.0" prefWidth="187.0" promptText="Choose Candidate" />
+      <ComboBox fx:id="comboSection" layoutX="107.0" layoutY="93.0" prefHeight="31.0" prefWidth="187.0" promptText="ChooseSection" />
+   </children>
+</AnchorPane>

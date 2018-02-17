@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="438.0" prefWidth="570.0" style="-fx-background-color: #4d5656;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlFiles.CandidatesView">
+   <children>
+      <TableView fx:id="candidatesView" layoutY="97.0" prefHeight="262.0" prefWidth="570.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="73.0" text="Id" />
+          <TableColumn fx:id="nameColumn" prefWidth="290.0" text="Name" />
+            <TableColumn fx:id="phoneColumn" prefWidth="177.0" text="Phone Number" />
+        </columns>
+      </TableView>
+      <TextField fx:id="filter" layoutX="39.0" layoutY="55.0" prefHeight="31.0" prefWidth="180.0" promptText="Find..." />
+      <ComboBox fx:id="comboSorter" layoutX="255.0" layoutY="55.0" onAction="#sortHandler" prefHeight="31.0" prefWidth="180.0" promptText="Sort List" />
+      <FontAwesomeIconView fx:id="updateButton" glyphName="GEAR" layoutX="492.0" layoutY="78.0" onMouseClicked="#updateButtonHandler" size="20" />
+      <FontAwesomeIconView fx:id="deleteButton" glyphName="CLOSE" layoutX="532.0" layoutY="78.0" onMouseClicked="#deleteButtonHandler" size="20" />
+      <FontAwesomeIconView fx:id="addButton" glyphName="PLUS" layoutX="452.0" layoutY="78.0" onMouseClicked="#addButtonHandler" size="20" wrappingWidth="25.28571256995201">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="106.0" layoutY="6.0" prefHeight="21.0" prefWidth="329.0" text="CANDIDATES">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b86307" />
+                  <Stop color="#000000ea" offset="0.5679170218812163" />
+                  <Stop color="BLACK" offset="0.5882352941176471" />
+                  <Stop color="#431a0f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

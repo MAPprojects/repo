@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onDragDetected="#generateHandler" prefHeight="438.0" prefWidth="570.0" style="-fx-background-color: #4d5656;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlFiles.OptionsView">
+   <children>
+      <TableView fx:id="optionsView" layoutY="97.0" prefHeight="262.0" prefWidth="570.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="idCandColumn" prefWidth="156.0" text="Candidate" />
+            <TableColumn fx:id="idSecColumn" prefWidth="226.0" text="Section" />
+            <TableColumn fx:id="priorityColumn" prefWidth="112.0" text="Priority" />
+        </columns>
+      </TableView>
+      <TextField fx:id="filter" layoutX="39.0" layoutY="55.0" prefHeight="31.0" prefWidth="180.0" promptText="Find..." />
+      <ComboBox fx:id="comboSorter" layoutX="255.0" layoutY="55.0" onAction="#sortHandler" prefHeight="31.0" prefWidth="180.0" promptText="Sort List" />
+      <Button layoutX="427.0" layoutY="373.0" mnemonicParsing="false" onAction="#generateHandler" stylesheets="@button.css" text="Generate PDF" />
+      <FontAwesomeIconView fx:id="deleteButton" glyphName="CLOSE" layoutX="516.0" layoutY="74.0" onMouseClicked="#deleteButtonHandler" size="20">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="updateButton" glyphName="GEAR" layoutX="482.0" layoutY="75.0" onMouseClicked="#updateButtonHandler" size="20">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="addButton" glyphName="PLUS" layoutX="448.0" layoutY="76.0" onMouseClicked="#addButtonHandler" size="20">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <Label alignment="CENTER" layoutX="63.0" layoutY="6.0" prefHeight="21.0" prefWidth="486.0" text="OPTIONS">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#93b807" />
+                  <Stop color="#140808" offset="0.5261437908496732" />
+                  <Stop color="#ba6f0f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>

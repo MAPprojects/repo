@@ -1,0 +1,8 @@
+Informatica romana;150
+Informatica engleza;24
+Informatica germana;23
+Mate-Info;45
+Matematica;56
+Lb.Roma;123
+Lb. Spaniola;345
+Geografia Romaniei;123

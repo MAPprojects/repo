@@ -1,0 +1,16 @@
+32;Antonia;0874
+16;Pop Gavril;0743454640
+17;Popan Denisa-Camelia;0756915110
+18;Popan Tabita-Alina;0741414141
+20;Gadalean Iulia-Gabriela;0753485317
+21;Pasca Marian;0741454748
+22;Luca Alex;0712536254
+23;Hristea Antoaneta;0741524572
+24;Nyilas Diana;0741414147
+25;Chis Mihai;0721232425
+26;Antal Alex;075869585
+27;Amaicalitei Andrian-Paul;0748596857
+28;Maria;0452
+29;Zlotz Istvanffy;07425
+30;dede;3
+31;Vaida Vaida;12
