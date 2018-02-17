@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import java.net.URL?>
+<?import javafx.scene.image.ImageView?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.NotaControllerS"
+            prefHeight="400.0" prefWidth="600.0">
+    <left>
+        <GridPane alignment="TOP_CENTER" styleClass="gridPane1" hgap="10" vgap="10">
+            <stylesheets>
+                <URL value="@../View/Nota.css" />
+            </stylesheets>
+            <ImageView fitHeight="400" fitWidth="300" onMouseClicked="#logout" styleClass="imageView" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+        </GridPane>
+    </left>
+    <center>
+        <GridPane alignment="TOP_CENTER" styleClass="gridPane2">
+            <stylesheets>
+                <URL value="@../View/Teme.css" />
+            </stylesheets>
+        </GridPane>
+    </center>
+    <right>
+        <GridPane alignment="CENTER" styleClass="gridPane3" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <stylesheets>
+                <URL value="@../View/Nota.css" />
+            </stylesheets>
+            <TableView fx:id="tableNote" onScroll="#scroll" prefHeight="400" prefWidth="500">
+                <columns>
+                    <TableColumn text="IDStudent" styleClass="idStudentCol">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="iDStudent" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="NrTema" styleClass="nrTemaCol">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="nrTema" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Nota" styleClass="notaCol">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="valoare" />
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                </columnResizePolicy>
+            </TableView>
+            <HBox alignment="BOTTOM_CENTER" prefWidth="584.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                <TextField fx:id="idsText" styleClass="ids" alignment="CENTER">
+                </TextField>
+                <Separator orientation="VERTICAL" prefHeight="30.0" prefWidth="40.0" visible="false" />
+                <TextField fx:id="nrtText" styleClass="nrt" alignment="CENTER">
+                </TextField>
+                <Separator orientation="VERTICAL" prefHeight="30.0" prefWidth="40.0" visible="false" />
+                <TextField fx:id="valText" styleClass="val"/>
+            </HBox>
+        </GridPane>
+    </right>
+</BorderPane>

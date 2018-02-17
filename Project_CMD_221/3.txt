@@ -1,0 +1,7 @@
+IDStudent: 3 NrTema: 3 Nota: 7 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 3 NrTema: 3 Nota: 6 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 3 NrTema: 3 Nota: 5 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 3 NrTema: 3 Nota: 6 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 3 NrTema: 3 Nota: 7 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 3 NrTema: 1 Nota: 7 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 3 NrTema: 3 Nota: 7 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota

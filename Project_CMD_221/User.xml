@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Users>
+<User>
+<username>paul@gmail.com</username>
+<password>paulica</password>
+<tip1>1</tip1>
+<tip2>1</tip2>
+</User>
+<User>
+<username>profa@gmail.com</username>
+<password>doamna</password>
+<tip1>0</tip1>
+<tip2>0</tip2>
+</User>
+<User>
+<username>mire@yahoo.com</username>
+<password>12345678</password>
+<tip1>1</tip1>
+<tip2>1</tip2>
+</User>
+<User>
+<username>czelimark@gmail.com</username>
+<password>bine</password>
+<tip1>1</tip1>
+<tip2>2</tip2>
+</User>
+</Users>

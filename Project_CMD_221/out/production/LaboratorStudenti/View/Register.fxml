@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<?import java.net.URL?>
+<?import javafx.scene.image.ImageView?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.RegisterController"
+            prefHeight="400.0" prefWidth="600.0">
+    <center>
+        <GridPane styleClass="gridPane" alignment="CENTER" hgap="10" vgap="10">
+            <stylesheets>
+                <URL value="@../View/Login.css" />
+            </stylesheets>
+            <VBox alignment="CENTER" styleClass="vbox">
+            <Label styleClass="labelUser" text="Username" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </padding>
+            </Label>
+            <TextField fx:id="usernameText" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <font>
+                    <Font name="Harrington" size="16" />
+                </font>
+            </TextField>
+            <Label styleClass="labelPassword" text="Password" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </padding>
+            </Label>
+            <PasswordField fx:id="passwordText" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <font>
+                    <Font name="Harrington" size="16" />
+                </font>
+            </PasswordField>
+            <Label styleClass="labelPasswordConfirmation" text="Password Confirmation" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </padding>
+            </Label>
+            <PasswordField fx:id="passwordTextConfirmation" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                <font>
+                    <Font name="Harrington" size="16" />
+                </font>
+            </PasswordField>
+                <HBox alignment="CENTER" spacing="5" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+            <Label styleClass="labelTip" text="Tip" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </padding>
+            </Label>
+            <fx:define>
+                <ToggleGroup fx:id="toggleGroupRadio"/>
+            </fx:define>
+            <RadioButton styleClass="radioButtonStudent" fx:id="radioButtonStudent" toggleGroup="$toggleGroupRadio" layoutX="232.0" layoutY="58.0" mnemonicParsing="false" text="Student" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                <padding>
+                    <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                </padding>
+            </RadioButton>
+            <RadioButton styleClass="radioButtonProfesor" fx:id="radioButtonProfesor" toggleGroup="$toggleGroupRadio" layoutX="232.0" layoutY="89.0" mnemonicParsing="false" text="Profesor" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                <padding>
+                    <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                </padding>
+            </RadioButton>
+                </HBox>
+                <Button styleClass="button1" onAction="#registerButton" text="Register" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="Harrington" size="16" />
+                    </font>
+                </Button>
+            </VBox>
+        </GridPane>
+    </center>
+</BorderPane>

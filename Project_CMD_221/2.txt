@@ -1,0 +1,17 @@
+IDStudent: 2 NrTema: 2 Nota: 8 Deadline: 14 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 2 Nota: 8 Deadline: 14 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 6 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 2 Nota: 7 Deadline: 14 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 6 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 5 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 6 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 6 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 7 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 2 Nota: 8 Deadline: 14 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 6 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 3 Deadline: 13 Saptamana predarii: 14 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 7 Deadline: 14 Saptamana predarii: 15 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 4 Nota: 7 Deadline: 14 Saptamana predarii: 15 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 2 Nota: 7 Deadline: 13 Saptamana predarii: 13 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 9 Deadline: 14 Saptamana predarii: 13 Observatii: - Adaugare nota
+IDStudent: 2 NrTema: 1 Nota: 9 Deadline: 14 Saptamana predarii: 13 Observatii: - Adaugare nota

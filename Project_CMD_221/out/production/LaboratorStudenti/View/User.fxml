@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.UserController">
+    <center>
+        <GridPane hgap="10" styleClass="gridPane" vgap="10">
+            <stylesheets>
+                <URL value="@../View/Login.css" />
+            </stylesheets>
+            <VBox alignment="CENTER" styleClass="vbox">
+            <Label styleClass="labelUser" text="Username" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </padding>
+            </Label>
+            <TextField fx:id="usernameText" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <font>
+                    <Font name="Harrington" size="16" />
+                </font>
+
+            </TextField>
+            <Label styleClass="labelPassword" text="Password" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </padding>
+            </Label>
+            <PasswordField fx:id="passwordText" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <font>
+                    <Font name="Harrington" size="16" />
+                </font>
+            </PasswordField>
+            <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="0.0" visible="false" />
+            <HBox spacing="5" GridPane.columnIndex="0" GridPane.columnSpan="3" GridPane.rowIndex="3">
+                <Button onAction="#loginButton" styleClass="button1" text="Login">
+                </Button>
+                <Button onAction="#registerButton" styleClass="button2" text="Register">
+                </Button>
+            </HBox>
+            </VBox>
+         <columnConstraints>
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+    </center>
+
+</BorderPane>

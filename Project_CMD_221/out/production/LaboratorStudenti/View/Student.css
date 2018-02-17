@@ -1,0 +1,257 @@
+.gridPane1 {
+    -fx-background-image: url("../View/Images/image_part_001.jpg");
+}
+
+.gridPane2 {
+    -fx-background-image: url("../View/Images/image_part_002.jpg");
+}
+
+.gridPane3 {
+    -fx-background-image: url("../View/Images/image_part_003.jpg");
+}
+
+.imageView11 {
+    -fx-image: url("../View/Images/1.jpg");
+}
+
+.imageView11:hover {
+    -fx-image: url("../View/Images/add.png");
+}
+
+.imageView2 {
+    -fx-image: url("../View/Images/2.jpg");
+}
+
+.imageView2:hover {
+    -fx-image: url("../View/Images/update.png");
+}
+
+.imageView3 {
+    -fx-image: url("../View/Images/3.jpg");
+}
+
+.imageView3:hover {
+    -fx-image: url("../View/Images/delete.png");
+}
+
+.imageView4 {
+    -fx-image: url("../View/Images/4.jpg");
+}
+
+.imageView4:hover {
+    -fx-image: url("../View/Images/filter.png");
+}
+
+.imageView5 {
+    -fx-image: url("../View/Images/5.jpg");
+}
+
+.imageView5:hover {
+    -fx-image: url("../View/Images/raport.png");
+}
+
+.imageView6 {
+    -fx-image: url("../View/Images/6.jpg");
+}
+
+.imageView6:hover {
+    -fx-image: url("../View/Images/raport2.png");
+}
+
+.imageView7 {
+    -fx-image: url("../View/Images/7.jpg");
+}
+
+.imageView7:hover {
+    -fx-image: url("../View/Images/music.png");
+}
+
+.imageView8 {
+    -fx-image: url("../View/Images/8.jpg");
+}
+
+.imageView8:hover {
+    -fx-image: url("../View/Images/clear.png");
+}
+
+.imageView9 {
+    -fx-image: url("../View/Images/9.jpg");
+}
+
+.imageView9:hover {
+    -fx-image: url("../View/Images/logout.png");
+}
+
+.imageView1 {
+    -fx-image: url("../View/Images/1.jpg");
+}
+
+.imageView1:hover {
+    -fx-image: url("../View/hover.jpg");
+}
+
+.id {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+}
+
+.nume {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+}
+
+.email {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+}
+
+.grupa {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+}
+
+.prof {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+}
+
+.idCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.idCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.numeCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.numeCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.emailCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.emailCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.grupaCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.grupaCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.profCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.profCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.checkBoxGrupa {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-padding: 10px 10px 10px 10px;
+}
+
+.checkBoxProf {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-padding: 10px 10px 10px 10px;
+}
+
+.checkBoxPrimaLitera {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-padding: 10px 10px 10px 10px;
+}

@@ -1,0 +1,229 @@
+.gridPane1 {
+    -fx-background-image: url("../View/Images/backNota1.jpg");
+}
+
+.gridPane2 {
+    -fx-background-image: url("../View/Images/backNota2.jpg");
+}
+
+.gridPane3 {
+    -fx-background-image: url("../View/Images/backNota3.jpg");
+}
+
+.imageView {
+    -fx-image: url("../View/Images/questionMark.jpg");
+}
+
+.imageView:hover {
+    -fx-image: url("../View/Images/logoutTeme.jpg");
+}
+
+.imageView11 {
+    -fx-image: url("../View/Images/nota1.jpg");
+}
+
+.imageView11:hover {
+    -fx-image: url("../View/Images/nota.png");
+}
+
+.imageView2 {
+    -fx-image: url("../View/Images/nota2.jpg");
+}
+
+.imageView2:hover {
+    -fx-image: url("../View/Images/deadline.png");
+}
+
+.imageView3 {
+    -fx-image: url("../View/Images/nota3.jpg");
+}
+
+.imageView3:hover {
+    -fx-image: url("../View/Images/delete.png");
+}
+
+.imageView4 {
+    -fx-image: url("../View/Images/nota4.jpg");
+}
+
+.imageView4:hover {
+    -fx-image: url("../View/Images/filter.png");
+}
+
+.imageView5 {
+    -fx-image: url("../View/Images/nota5.jpg");
+}
+
+.imageView5:hover {
+    -fx-image: url("../View/Images/filter2.png");
+}
+
+.imageView6 {
+    -fx-image: url("../View/Images/nota6.jpg");
+}
+
+.imageView6:hover {
+    -fx-image: url("../View/Images/filter3.png");
+}
+
+.imageView7 {
+    -fx-image: url("../View/Images/nota7.jpg");
+}
+
+.imageView7:hover {
+    -fx-image: url("../View/Images/raport2.png");
+}
+
+.imageView8 {
+    -fx-image: url("../View/Images/nota8.jpg");
+}
+
+.imageView8:hover {
+    -fx-image: url("../View/Images/clear.png");
+}
+
+.imageView9 {
+    -fx-image: url("../View/Images/nota9.jpg");
+}
+
+.imageView9:hover {
+    -fx-image: url("../View/Images/logout.png");
+}
+
+.imageView1 {
+    -fx-image: url("../View/Images/1.jpg");
+}
+
+.imageView1:hover {
+    -fx-image: url("../View/hover.jpg");
+}
+
+.ids {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
+
+.nume {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
+
+.nrt {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
+
+.val {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
+
+.idStudentCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.idStudentCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.numeCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.numeCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.nrTemaCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.nrTemaCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.notaCol {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-alignment: center;
+}
+
+.notaCol Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+.comboBoxNote {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}

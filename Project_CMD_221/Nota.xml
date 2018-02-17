@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+<Nota>
+<ids>1</ids>
+<nume>Mark</nume>
+<nrt>5</nrt>
+<val>10</val>
+</Nota>
+<Nota>
+<ids>1</ids>
+<nume>Mark</nume>
+<nrt>1</nrt>
+<val>10</val>
+</Nota>
+<Nota>
+<ids>1</ids>
+<nume>Mark</nume>
+<nrt>2</nrt>
+<val>10</val>
+</Nota>
+</Note>
