@@ -1,0 +1,85 @@
+<students><student id="1">
+<nume>Claudia</nume>
+<grupa>213</grupa>
+<email>ioanaclaudia137@gmail.com</email>
+<profesor>Pop Ion</profesor>
+</student>
+<student id="2">
+<nume>Ioana</nume>
+<grupa>23</grupa>
+<email>ioana_claudia_37@yahoo.com</email>
+<profesor>Pop Ion</profesor>
+</student>
+<student id="3">
+<nume>Ana</nume>
+<grupa>28</grupa>
+<email>ana@mail.com</email>
+<profesor>Popescu Maria</profesor>
+</student>
+<student id="99">
+<nume>Pavel</nume>
+<grupa>9</grupa>
+<email>pavel@gmail.ro</email>
+<profesor>Pop Ion</profesor>
+</student>
+<student id="4">
+<nume>Mihai</nume>
+<grupa>126</grupa>
+<email>miha@yahoo.com</email>
+<profesor>Popescu Maria</profesor>
+</student>
+<student id="37">
+<nume>Maria</nume>
+<grupa>13</grupa>
+<email>mari@yahoo.com</email>
+<profesor>Pop Ana-Maria</profesor>
+</student>
+<student id="5">
+<nume>Lucian</nume>
+<grupa>27</grupa>
+<email>luci@mail.ro</email>
+<profesor>Pop Ion</profesor>
+</student>
+<student id="6">
+<nume>Pop Marian</nume>
+<grupa>13</grupa>
+<email>ma@mail.ro</email>
+<profesor>Popescu Maria</profesor>
+</student>
+<student id="7">
+<nume>Ion Pop</nume>
+<grupa>78</grupa>
+<email>ion@yahoo.com</email>
+<profesor>Popescu Maria</profesor>
+</student>
+<student id="8">
+<nume>Flaviu</nume>
+<grupa>78</grupa>
+<email>fla@mail.ro</email>
+<profesor>Popescu Maria</profesor>
+</student>
+<student id="10">
+<nume>Teodora</nume>
+<grupa>2133</grupa>
+<email>teo@mail.ro</email>
+<profesor>Pop Maria</profesor>
+</student>
+<student id="45">
+<nume>George</nume>
+<grupa>8</grupa>
+<email>geo@mail.com</email>
+<profesor>Ioana</profesor>
+</student>
+<student id="370">
+<nume>Flavia</nume>
+<grupa>13</grupa>
+<email>flavia@yahoo.com</email>
+<profesor>Popescu Maria</profesor>
+</student>
+<student id="89">
+<nume>Diana</nume>
+<grupa>28</grupa>
+<email>ioanaclaudia137@gmail.com</email>
+<profesor>Pop Ion</profesor>
+</student>
+</students>

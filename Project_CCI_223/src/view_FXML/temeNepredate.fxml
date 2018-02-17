@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="480.0" prefWidth="629.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerTemeNepredate">
+   <children>
+      <TableView fx:id="tableViewTeme" layoutX="14.0" layoutY="44.0" prefHeight="353.0" prefWidth="558.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="83.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="44.0">
+         <columns>
+            <TableColumn fx:id="columnNrTema" editable="false" prefWidth="104.0" text="Numar tema" />
+            <TableColumn fx:id="columnCerinta" prefWidth="109.0" text="Cerinta" />
+            <TableColumn fx:id="columnDeadline" minWidth="6.0" onEditCommit="#handleEditCell" prefWidth="81.0" text="Deadline" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <ComboBox fx:id="comboBoxFiltrariTemeLaborator" layoutX="11.0" layoutY="10.0" prefWidth="150.0" promptText="Filtrare">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
+      <TextField fx:id="textFieldFiltrariTeme" layoutX="195.0" layoutY="10.0" prefHeight="29.0" prefWidth="372.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <ImageView fx:id="imageAdd" fitHeight="44.0" fitWidth="44.0" layoutX="572.0" layoutY="44.0" onMouseClicked="#handleAdd" onMouseEntered="#handleImageEnterAdd" onMouseExited="#handleImageExitAdd" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@temaa.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="imageUpdate" fitHeight="44.0" fitWidth="44.0" layoutX="572.0" layoutY="87.0" onMouseClicked="#handleUpdate" onMouseEntered="#handleImageEnterUpdate" onMouseExited="#handleImageExitUpdate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@updateFile.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Pagination fx:id="paginationTeme" layoutY="43.0" prefHeight="403.0" prefWidth="569.0" />
+      <Label layoutX="10.0" layoutY="446.0" prefHeight="24.0" prefWidth="84.0" text="Items per page" />
+      <ComboBox fx:id="comboBoxItemsPerPage" layoutX="102.0" layoutY="447.0" prefHeight="24.0" prefWidth="104.0" promptText="10" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="511.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerStudent">
+   <children>
+      <TableView fx:id="tableViewStudenti" layoutX="14.0" layoutY="44.0" prefHeight="380.0" prefWidth="558.0" AnchorPane.bottomAnchor="87.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="44.0">
+         <columns>
+            <TableColumn fx:id="columnID" editable="false" prefWidth="52.0" text="ID" />
+            <TableColumn fx:id="columnNume" onEditCommit="#handleEditColumnNume" prefWidth="106.0" text="Nume" />
+            <TableColumn fx:id="columnGrupa" minWidth="6.0" onEditCommit="#handleEditColumnGrupa" prefWidth="70.0" text="Grupa" />
+            <TableColumn fx:id="columnEmail" onEditCommit="#handleEditColumnEmail" prefWidth="125.0" text="E-mail" />
+            <TableColumn fx:id="columnProfesor" onEditCommit="#handleEditColumnProfesor" prefWidth="116.0" text="Profesor" />
+            <TableColumn fx:id="tableColumnSelect" minWidth="0.0" prefWidth="31.0" />
+            <TableColumn fx:id="tableColumnLog" prefWidth="56.0" text="LogFile" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="comboBoxFiltrariStudenti" layoutX="11.0" layoutY="10.0" onAction="#handleComboBoxFiltrariStudenti" prefWidth="150.0" promptText="Filtrare">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ComboBox>
+      <TextField fx:id="textFieldFiltrariStudenti" layoutX="195.0" layoutY="10.0" prefHeight="25.0" prefWidth="374.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <ImageView fx:id="imageAdd" fitHeight="44.0" fitWidth="44.0" layoutX="572.0" layoutY="44.0" onMouseClicked="#handleAddStudent" onMouseEntered="#handleImageEnterAdd" onMouseExited="#handleImageExitAdd" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Add-Male-User-icon.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="imageUpdate" fitHeight="44.0" fitWidth="44.0" layoutX="572.0" layoutY="87.0" onMouseClicked="#handleUpdateStudent" onMouseEntered="#handleImageEnterUpdate" onMouseExited="#handleImageExitUpdate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@update-st.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="imageRemove" fitHeight="44.0" fitWidth="44.0" layoutX="573.0" layoutY="131.0" onMouseClicked="#handleDeleteStudent" onMouseEntered="#handleImageEnterRemove" onMouseExited="#handleImageExitRemove" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Male-user-remove-icon.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Pagination fx:id="paginationStudenti" layoutX="11.0" layoutY="42.0" prefHeight="431.0" prefWidth="558.0" />
+      <Label layoutX="14.0" layoutY="473.0" prefHeight="24.0" prefWidth="84.0" text="Items per page" />
+      <ComboBox fx:id="comboBoxItemsPerPage" layoutX="106.0" layoutY="474.0" prefHeight="24.0" prefWidth="104.0" promptText="10" />
+      <ImageView fx:id="image" fitHeight="44.0" fitWidth="44.0" layoutX="575.0" layoutY="380.0" onMouseClicked="#handleSendMail" onMouseEntered="#handleImageEntered" onMouseExited="#handleImageExit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@login/mail.gif" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

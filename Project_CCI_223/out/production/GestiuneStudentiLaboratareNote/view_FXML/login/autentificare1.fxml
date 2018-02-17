@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="myrectangle" arcHeight="5.0" arcWidth="5.0" height="200.0" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="2.0" width="200.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="DARKCYAN" />
+                  <Stop color="DARKCYAN" offset="0.3436426116838488" />
+                  <Stop color="#d3f2f7" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="DARKCYAN" />
+                  <Stop color="DARKCYAN" offset="0.3436426116838488" />
+                  <Stop color="#d3f2f7" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Rectangle>
+      <JFXPasswordField fx:id="jfxPasswordFieldpass" focusColor="#2848ab" layoutX="23.0" layoutY="79.0" onAction="#handleTextField" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Password" unFocusColor="#c5eeee" />
+      <JFXTextField fx:id="jfxTextFieldUsername" focusColor="#2848ab" layoutX="23.0" layoutY="41.0" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Username" unFocusColor="#c5eeee">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </JFXTextField>
+      <Label fx:id="labelMesaje" layoutX="23.0" layoutY="14.0" AnchorPane.leftAnchor="23.0" />
+      <JFXPasswordField fx:id="jfxPasswordFieldpass1" focusColor="#2848ab" layoutX="23.0" layoutY="122.0" onAction="#handleTextField" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Confirm Password" unFocusColor="#c5eeee" />
+   </children>
+</AnchorPane>

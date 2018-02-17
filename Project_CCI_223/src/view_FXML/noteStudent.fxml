@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import org.controlsfx.control.CheckComboBox?>
+
+<AnchorPane prefHeight="480.0" prefWidth="629.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerNoteStudent">
+   <children>
+      <TableView fx:id="tableViewNote" layoutX="13.0" layoutY="73.0" prefHeight="321.0" prefWidth="558.0" AnchorPane.bottomAnchor="86.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="58.0" AnchorPane.topAnchor="73.0">
+         <columns>
+            <TableColumn fx:id="columnIdStudent" editable="false" prefWidth="69.0" text="IdStudent" />
+            <TableColumn fx:id="tableColumnNumeStudent" prefWidth="120.0" text="Nume student" />
+            <TableColumn fx:id="columnNrTema" prefWidth="64.0" text="NrTema" />
+            <TableColumn fx:id="tableColumnCerinta" prefWidth="172.0" text="Cerinta" />
+            <TableColumn fx:id="tableColumnDeadline" prefWidth="62.0" text="Deadline" />
+            <TableColumn fx:id="columnValoare" minWidth="6.0" onEditCommit="#handleEditCell" prefWidth="69.0" text="Valoare" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="comboBoxFiltrariNote" layoutX="11.0" layoutY="10.0" prefWidth="150.0" promptText="Filtrare">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
+      <TextField fx:id="textFieldFiltrariNote" layoutX="198.0" layoutY="36.0" prefHeight="25.0" prefWidth="104.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <ImageView fx:id="imageAdd" fitHeight="44.0" fitWidth="44.0" layoutX="577.0" layoutY="73.0" onMouseClicked="#handleAdd" onMouseEntered="#handleImageEnterAdd" onMouseExited="#handleImageExitAdd" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@add-icon3.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="imageUpdate" fitHeight="44.0" fitWidth="44.0" layoutX="577.0" layoutY="116.0" onMouseClicked="#handleUpdate" onMouseEntered="#handleImageEnterUpdate" onMouseExited="#handleImageExitUpdate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@update1.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <CheckComboBox fx:id="checkComboBoxIdStudent" layoutX="335.0" layoutY="36.0" prefHeight="27.0" prefWidth="104.0" />
+      <CheckComboBox fx:id="checkComboBoxNrTema" layoutX="467.0" layoutY="37.0" prefHeight="27.0" prefWidth="104.0" />
+      <Pagination fx:id="paginationNote" layoutX="14.0" layoutY="73.0" prefHeight="373.0" prefWidth="558.0" />
+      <Label layoutX="14.0" layoutY="444.0" prefHeight="24.0" prefWidth="84.0" text="Items per page" />
+      <ComboBox fx:id="comboBoxItemsPerPage" layoutX="106.0" layoutY="445.0" prefHeight="24.0" prefWidth="104.0" promptText="10" />
+      <Label layoutX="198.0" layoutY="14.0" text="Valoare nota" />
+      <Label fx:id="labelIdStudent" layoutX="335.0" layoutY="14.0" text="Id Student" />
+      <Label layoutX="467.0" layoutY="14.0" text="Numar teme" />
+   </children>
+</AnchorPane>

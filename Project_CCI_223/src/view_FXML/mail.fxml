@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerMail">
+   <children>
+      <Text layoutX="44.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send EMAIL">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.48333333333333334" centerY="0.5" focusDistance="-0.39534883720930236" radius="0.7558139534883721">
+               <stops>
+                  <Stop color="DARKCYAN" />
+                  <Stop color="ALICEBLUE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <JFXTextField fx:id="textFieldSubject" layoutX="44.0" layoutY="143.0" onMouseClicked="#handleTextField" prefHeight="25.0" prefWidth="317.0" promptText="Subject" />
+      <JFXTextArea fx:id="textAreaMessage" layoutX="44.0" layoutY="200.0" onMouseClicked="#handleTextField" prefHeight="150.0" prefWidth="317.0" promptText="Message" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="412.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@login/postman.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image" fitHeight="56.0" fitWidth="67.0" layoutX="516.0" layoutY="322.0" onMouseClicked="#handleSendMail" onMouseEntered="#handleImageEntered" onMouseExited="#handleImageExit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@login/email-logo-png.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <JFXTextField fx:id="textFieldEmail" editable="false" layoutX="44.0" layoutY="97.0" prefHeight="25.0" prefWidth="317.0" />
+      <JFXCheckBox fx:id="jfxCheckBox" layoutX="44.0" layoutY="358.0" text="Includere si continut fisier LOG" />
+      <Label fx:id="labelMesaje" layoutX="412.0" layoutY="275.0" />
+   </children>
+</AnchorPane>

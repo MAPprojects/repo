@@ -1,0 +1,52 @@
+<note>
+	<nota id="866782091">
+		<idStudent>2</idStudent>
+		<nrTema>3</nrTema>
+		<valoare>10.0</valoare>
+	</nota>
+	<nota id="977986473">
+		<idStudent>1</idStudent>
+		<nrTema>1</nrTema>
+		<valoare>5.0</valoare>
+	</nota>
+	<nota id="314619291">
+		<idStudent>1</idStudent>
+		<nrTema>2</nrTema>
+		<valoare>8.0</valoare>
+	</nota>
+	<nota id="1366115123">
+		<idStudent>1</idStudent>
+		<nrTema>4</nrTema>
+		<valoare>10.0</valoare>
+	</nota>
+	<nota id="1080353642">
+		<idStudent>1</idStudent>
+		<nrTema>3</nrTema>
+		<valoare>10.0</valoare>
+	</nota>
+	<nota id="1043958451">
+		<idStudent>7</idStudent>
+		<nrTema>3</nrTema>
+		<valoare>9.6</valoare>
+	</nota>
+	<nota id="448462762">
+		<idStudent>2</idStudent>
+		<nrTema>2</nrTema>
+		<valoare>7.89</valoare>
+	</nota>
+	<nota id="529358149">
+		<idStudent>7</idStudent>
+		<nrTema>4</nrTema>
+		<valoare>9.5</valoare>
+	</nota>
+	<nota id="536460791">
+		<idStudent>7</idStudent>
+		<nrTema>6</nrTema>
+		<valoare>6.8</valoare>
+	</nota>
+	<nota id="644637585">
+		<idStudent>89</idStudent>
+		<nrTema>6</nrTema>
+		<valoare>8.0</valoare>
+	</nota>
+</note>

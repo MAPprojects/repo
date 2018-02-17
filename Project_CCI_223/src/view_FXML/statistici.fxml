@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="560.0" prefWidth="641.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerStatistici">
+   <children>
+      <ComboBox fx:id="comboBoxStatistici" layoutX="11.0" layoutY="3.0" prefHeight="29.0" prefWidth="325.0" promptText="Statistica">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
+      <AnchorPane fx:id="anchorPaneTipStatistica" layoutX="2.0" layoutY="33.0" prefHeight="507.0" prefWidth="635.0" />
+   </children>
+</AnchorPane>

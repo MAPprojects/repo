@@ -1,0 +1,266 @@
+.button{
+    -fx-text-fill: darkcyan;
+    -fx-font-family: "Corbel";
+    -fx-font-weight: bold;
+    -fx-font-size: 13 pt;
+    -fx-border-color: darkcyan;
+    -fx-background-color: linear-gradient(#90f2c9, #d3f2f7);
+    -fx-effect: dropshadow( three-pass-box , rgba(8, 183, 159, 0.6), 5,0.1 , 1 , 1 );
+    -fx-border-radius: 3,4px;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient( #d3f2f7,#90f2c9);
+}
+
+
+.tab-pane .tab{
+    -fx-background-color: rgba(144, 242, 201, 0.35);
+    -fx-text-fill:darkcyan;
+    -fx-border-style: hidden;
+    -fx-font-size: 13 pt;
+    -fx-font-family: "Corbel";
+}
+.tab-pane .tab:selected{
+    -fx-background-color: linear-gradient(#90f2c9, #d3f2f7);
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: darkcyan;
+    -fx-font-size: 13 pt;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: darkcyan;
+}
+
+.combo-box .list-cell{
+    -fx-border-color: #00dcdc;
+    -fx-text-fill:darkcyan;
+    -fx-font-family: "Corbel";
+    -fx-font: bold;
+    -fx-prompt-text-fill: darkcyan;
+    -fx-background-color: linear-gradient(#90f2c9, #d3f2f7);
+    -fx-border-radius: 3,4px;
+}
+
+.combo-box .cell:selected {
+    -fx-text-fill: #005d5d;
+    -fx-font-weight: bold;
+    -fx-background-color: #90f2c9;
+}
+
+.combo-box .prompt-text{
+    -fx-background-color: linear-gradient(#90f2c9, #d3f2f7);
+}
+.combo-box .arrow{
+    -fx-background-color: darkcyan;
+}
+
+/*.cb {
+    -fx-background-color: linear-gradient(#90f2c9, #d3f2f7);
+}
+
+Text Color
+   .cb .label {
+       -fx-text-fill: #d61b30;
+   }*/
+
+.choice-box > *{
+    -fx-border-color: #00dcdc;
+    -fx-text-fill:darkcyan;
+    -fx-font-family: "Corbel";
+    -fx-font: bold;
+    -fx-prompt-text-fill: darkcyan;
+    -fx-background-color: linear-gradient(#90f2c9, #d3f2f7);
+    -fx-border-radius: 3,4px;
+    -fx-mark-color: darkcyan;
+
+}
+
+.choice-box > .label { -fx-text-fill: darkcyan; }
+
+.choice-box .cell:selected > *{
+    -fx-text-fill: #005d5d;
+    -fx-font-weight: bold;
+    -fx-background-color: #90f2c9;
+}
+
+.choice-box .prompt-text{
+    -fx-background-color: linear-gradient(#90f2c9, #d3f2f7);
+}
+.choice-box .arrow{
+    -fx-background-color: darkcyan;
+}
+
+.label{
+    -fx-text-fill: darkcyan;
+    -fx-font-weight: bold;
+    -fx-font-family: "Corbel";
+}
+.text-field{
+    -fx-background-color: aliceblue;
+    -fx-font-size: 13 pt;
+    -fx-text-fill: darkcyan;
+    -fx-border-color: #90f2c9;
+    -fx-font-family: "Corbel";
+}
+
+.table-row-cell:selected{
+    -fx-background-color: #41f2c3;
+}
+.table-row-cell:selected .text{
+    -fx-fill: darkcyan;
+    -fx-font-weight: bold;
+    -fx-font-family: "Corbel";
+}
+
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header{
+    -fx-background-color: linear-gradient(#90f2c9 10%, #d3f2f7 90%);
+}
+
+.table-view .column-header .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: darkcyan;
+    -fx-font-weight: bold;
+    -fx-font-family: "Corbel";
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #005d5d;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #dfffef;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #f9fdff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #90f2c9;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.root{
+    /*-fx-background-color: #d3f2f7;*/
+    -fx-background-image: url("/view_FXML/vintage-leaves.png");
+}
+
+.slider
+{
+    -fx-background-color: linear-gradient(#90f2c9, #d3f2f7);
+    -fx-color: darkcyan;
+}
+
+.menu-bar{
+    -fx-background-color: aliceblue;
+    -fx-border-color: #90f2c9;
+    -fx-border-width: 1
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 13 pt;
+    -fx-font-family: "Corbel";
+    -fx-text-fill: #08b79f;
+    -fx-font-weight: bold;
+}
+
+.menu:hover {
+    -fx-background-color: #90f2c9;
+}
+
+.menu .label{
+    -fx-text-fill: darkcyan;
+    -fx-font-family: "Corbel";
+    -fx-font-weight: bold;
+}
+
+.menu-item .label{
+    -fx-font-size: 13 pt;
+    -fx-label-line-length: 6;
+    /*-fx-background-color: #90f2c9;*/
+}
+
+.menu-item .selected{
+    -fx-background-color: #90f2c9;
+    -fx-text-fill: white;
+}
+
+.tab-pane>*.tab-header-area>*.tab-header-background {
+    -fx-background-color: -fx-outer-border, -fx-text-box-border, #f0f8ff;
+}
+
+.text-area{
+    -fx-background-color: aliceblue;
+    -fx-font-size: 13 pt;
+    -fx-text-fill: darkcyan;
+    -fx-border-color: #90f2c9;
+    -fx-font-family: "Corbel";
+}
+.text-area .background{
+    -fx-background-color: aliceblue;
+}
+
+#myrectangle{
+    -fx-fill: linear-gradient(aliceblue,darkcyan,aliceblue);
+    -fx-stroke-width: 0px;
+}
+
+#hyperlinkLabel {
+    -fx-text-fill: aliceblue;
+}
+#hyperlinkLabel :hover{
+    -fx-text-fill: #90f2c9;
+}
+
+/* Remove spacing */
+.pagination > .pagination-control > .control-box {
+    -fx-spacing: 0;
+}
+
+/* You can control the actual button sizes here */
+.pagination > .pagination-control > .control-box > .number-button,
+.pagination > .pagination-control > .control-box > .bullet-button,
+.pagination > .pagination-control > .control-box > .left-arrow-button,
+.pagination > .pagination-control > .control-box > .right-arrow-button {
+    -fx-background-insets: 0, 1;
+    -fx-background-color: aliceblue, #90f2c9;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+}
+
+/* Colors on hover */
+.pagination > .pagination-control > .control-box > .number-button:hover,
+.pagination > .pagination-control > .control-box > .bullet-button:hover,
+.pagination > .pagination-control > .control-box > .left-arrow-button:hover,
+.pagination > .pagination-control > .control-box > .right-arrow-button:hover {
+    -fx-background-insets: 0;
+    -fx-background-color: aliceblue;
+}
+
+/* Selected toggle color */
+.pagination > .pagination-control > .control-box > .number-button:selected,
+.pagination > .pagination-control > .control-box > .bullet-button:selected{
+    -fx-background-insets: 0;
+    -fx-background-color: darkcyan;
+    -fx-text-fill: white;
+}

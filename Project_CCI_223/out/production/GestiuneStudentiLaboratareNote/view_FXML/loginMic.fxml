@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.controlsfx.control.HyperlinkLabel?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerLoginMic">
+   <children>
+      <AnchorPane prefHeight="219.0" prefWidth="513.0">
+         <children>
+            <VBox fx:id="vBoxLayout" layoutX="286.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle fx:id="myrectangle" arcHeight="5.0" arcWidth="5.0" height="200.0" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="2.0" width="200.0">
+                           <fill>
+                              <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="DARKCYAN" />
+                                    <Stop color="DARKCYAN" offset="0.3436426116838488" />
+                                    <Stop color="#d3f2f7" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </fill>
+                           <stroke>
+                              <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="DARKCYAN" />
+                                    <Stop color="DARKCYAN" offset="0.3436426116838488" />
+                                    <Stop color="#d3f2f7" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </stroke>
+                        </Rectangle>
+                        <JFXPasswordField fx:id="jfxPasswordFieldpass" focusColor="#2848ab" layoutX="23.0" layoutY="77.0" onAction="#handleTextField" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Password" unFocusColor="#c5eeee" />
+                        <JFXTextField fx:id="jfxTextFieldUsername" focusColor="#2848ab" layoutX="23.0" layoutY="39.0" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Username" unFocusColor="#c5eeee">
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </JFXTextField>
+                        <JFXButton fx:id="jfxButtonLogin" layoutX="125.0" layoutY="115.0" onAction="#handleLogin" text="Login" />
+                        <HyperlinkLabel fx:id="hyperlinkLabel" layoutX="23.0" layoutY="144.0" onMouseClicked="#handleForgotPassword" onMouseEntered="#handleMouseEntered" onMouseExited="#handleMouseExit" text="ForgotPassword?">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </HyperlinkLabel>
+                        <Label fx:id="labelMesaje" layoutX="23.0" layoutY="22.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="218.0" prefWidth="267.0">
+               <children>
+                  <Text fill="DARKCYAN" stroke="#d3f2f7" strokeType="OUTSIDE" strokeWidth="2.0" text="Don't you have an account?">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textClickAutentificare" fill="DARKCYAN" onMouseClicked="#handleAutentificare" onMouseEntered="#handleEntered" onMouseExited="#handleExit" stroke="#d3f2f7" strokeType="OUTSIDE" strokeWidth="2.0" text="Click here!!!">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Text>
+                  <ImageView fx:id="imageAutentificare" fitHeight="100.0" fitWidth="168.0" onMouseClicked="#handleAutentificare" onMouseEntered="#handleImageEnter" onMouseExited="#handleImageExit" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@login/icon_signup_dude.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

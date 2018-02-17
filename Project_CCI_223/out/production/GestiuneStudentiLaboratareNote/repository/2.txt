@@ -1,0 +1,2 @@
+Adaugare nota;14;8.6;6;1;fara intarziere;cu greseli
+Modificare nota;2;7.99;4;1;fara intarziere;cu greseli

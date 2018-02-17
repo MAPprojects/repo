@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import org.controlsfx.control.CheckComboBox?>
+
+<AnchorPane prefHeight="483.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerStatisticaStudentiiCareIntraInExamen">
+   <children>
+      <TableView fx:id="tableView" layoutX="10.0" layoutY="113.0" prefHeight="286.0" prefWidth="553.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="84.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="68.0" AnchorPane.topAnchor="113.0">
+         <columns>
+            <TableColumn fx:id="tableColumnIdStudent" prefWidth="75.0" text="IdStudent" />
+            <TableColumn fx:id="tableColumnNume" prefWidth="114.0" text="Nume" />
+            <TableColumn fx:id="tableColumnGrupa" prefWidth="67.0" text="Grupa" />
+            <TableColumn fx:id="tableColumnProfesor" prefWidth="98.0" text="Profesor" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="92.0" text="Email" />
+            <TableColumn fx:id="tableColumnMediaNotelor" prefWidth="92.0" text="MediaNotelor" />
+         </columns>
+      </TableView>
+      <CheckComboBox fx:id="checkComboBoxTeme" layoutX="11.0" layoutY="40.0" prefHeight="29.0" prefWidth="325.0" />
+      <TextField fx:id="textFieldPondere" layoutX="341.0" layoutY="40.0" prefHeight="29.0" prefWidth="96.0" />
+      <ImageView fx:id="imageAdd" fitHeight="29.0" fitWidth="24.0" layoutX="539.0" layoutY="43.0" onMouseClicked="#handleAddPondere" onMouseEntered="#handleImageEnterAdd" onMouseExited="#handleImageExitAdd" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@add-icon3.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="461.0" layoutY="45.0" text="Add pondere" />
+      <Button layoutX="569.0" layoutY="113.0" mnemonicParsing="false" onAction="#handleTabel" prefHeight="29.0" prefWidth="57.0" text="Tabel" />
+      <Button layoutX="569.0" layoutY="149.0" mnemonicParsing="false" onAction="#handleGrafic" prefHeight="29.0" prefWidth="57.0" text="Grafic" />
+      <ImageView fx:id="imagePdf" fitHeight="54.0" fitWidth="57.0" layoutX="573.0" layoutY="345.0" onMouseClicked="#handleSavaAsPdf" onMouseEntered="#handleImageEnterPdf" onMouseExited="#handleImageExitPdf" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@application-pdf.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Pagination fx:id="pagination" layoutX="9.0" layoutY="113.0" prefHeight="329.0" prefWidth="553.0" />
+      <Label fx:id="labelItemsPerPage" layoutX="14.0" layoutY="443.0" prefHeight="24.0" prefWidth="84.0" text="Items per page" />
+      <ComboBox fx:id="comboBoxItemsPerPage" layoutX="106.0" layoutY="444.0" prefHeight="24.0" prefWidth="104.0" promptText="10" />
+      <CheckComboBox fx:id="checkComboBoxGrupa" layoutX="239.0" layoutY="3.0" prefHeight="29.0" prefWidth="96.0" />
+      <CheckComboBox fx:id="checkComboBoxProfesor" layoutX="459.0" layoutY="3.0" prefHeight="29.0" prefWidth="104.0" />
+      <Label layoutX="14.0" layoutY="9.0" text=" Selectati grupele" />
+      <Label layoutX="341.0" layoutY="9.0" text="Selectati profesorii" />
+      <Label layoutX="10.0" layoutY="83.0" text="Media de trecere sa fie minim: " />
+      <ComboBox fx:id="comboBoxNotaFiltru" layoutX="240.0" layoutY="77.0" prefHeight="29.0" prefWidth="96.0" promptText="0" />
+      <PieChart fx:id="pieChart" layoutX="11.0" layoutY="113.0" prefHeight="329.0" prefWidth="553.0" title="StudentiiCareIntraInExamen" visible="false" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="CENTER" hgap="10.0" prefHeight="540.9999000000025" prefWidth="671.9999000000025" stylesheets="@style.css" vgap="10.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RootStudentController">
+   <children>
+      <AnchorPane prefHeight="548.0" prefWidth="750.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+         <children>
+            <TabPane fx:id="tabPane" layoutY="28.0" prefHeight="512.0" prefWidth="672.0" side="RIGHT">
+               <tabs>
+                  <Tab text="Note">
+                     <content>
+                        <AnchorPane fx:id="anchorPaneNote" prefHeight="524.0" prefWidth="643.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="TemeLaboratorNepredate">
+                     <content>
+                        <AnchorPane fx:id="anchorPaneTeme" prefHeight="200.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="Statistici">
+                     <content>
+                        <AnchorPane fx:id="anchorPaneStatistici" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+            <MenuBar layoutY="-2.0">
+               <menus>
+                  <Menu mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem fx:id="menuItemSaptamana" mnemonicParsing="false" onAction="#handleSetareSaptamana" text="Setare saptamana curenta" />
+                        <MenuItem disable="true" mnemonicParsing="false" onAction="#handleClose" text="Close">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="ESCAPE" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Tabs">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleOpenAllTabs" text="Open all tabs" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleOpenTabTeme" text="Open new tab TemeLaborator Nepredate" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleOpenTabNote" text="Open new tab Note" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleOpenTabStatistica" text="Open new tab Statistici" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleCloseCurrentTab" text="Close current tab" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleCloseAllTabs" text="Close all tabs" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Setari Cont">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleSetariCont" text="Cont" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleIesireCont" text="IesireCont" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="FisierLog">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#handleDeschidereFisierLog" text="Deschidere fisier de log" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="About" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <Label fx:id="labelSaptamana" layoutX="522.0" layoutY="6.0" prefHeight="17.0" prefWidth="143.0" />
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+</GridPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="219.0" prefWidth="513.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerAutentificare">
+   <children>
+      <VBox fx:id="vBoxLayout" layoutX="115.0" layoutY="10.0" prefHeight="200.0" prefWidth="371.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="myrectangle" arcHeight="5.0" arcWidth="5.0" height="200.0" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="2.0" width="371.0">
+                     <fill>
+                        <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="DARKCYAN" />
+                              <Stop color="DARKCYAN" offset="0.3436426116838488" />
+                              <Stop color="#d3f2f7" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                     <stroke>
+                        <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="DARKCYAN" />
+                              <Stop color="DARKCYAN" offset="0.3436426116838488" />
+                              <Stop color="#d3f2f7" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Rectangle>
+                  <JFXTextField fx:id="jfxTextFieldUsername" focusColor="#2848ab" layoutX="23.0" layoutY="37.0" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Username" unFocusColor="#c5eeee">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </JFXTextField>
+                  <JFXPasswordField fx:id="jfxPasswordFieldpass1" focusColor="#2848ab" layoutX="203.0" layoutY="37.0" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Password" unFocusColor="#c5eeee" />
+                  <ImageView fx:id="imageNext" fitHeight="29.0" fitWidth="32.0" layoutX="328.0" layoutY="157.0" onMouseClicked="#handleNext" onMouseEntered="#handleImageEnteredNext" onMouseExited="#handleImageExitNext" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@login/500px-Circle_arrow_right_font_awesome.svg.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="imagePrevious" fitHeight="29.0" fitWidth="32.0" layoutX="23.0" layoutY="157.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#handlePrevious" onMouseEntered="#handleImageEnter" onMouseExited="#handleImageExit" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@login/500px-Circle_arrow_right_font_awesome.svg.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <JFXTextField fx:id="jfxTextFieldEmail" focusColor="#2848ab" layoutX="23.0" layoutY="80.0" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Email" unFocusColor="#c5eeee">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </JFXTextField>
+                  <JFXTextField fx:id="jfxTextFieldNume" focusColor="#2848ab" layoutX="23.0" layoutY="121.0" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Nume" unFocusColor="#c5eeee">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </JFXTextField>
+                  <JFXPasswordField fx:id="jfxPasswordFieldpass2" focusColor="#2848ab" layoutX="203.0" layoutY="80.0" onMouseClicked="#handleTextField" prefHeight="29.0" prefWidth="154.0" promptText="Confirm Password" unFocusColor="#c5eeee" />
+                  <JFXComboBox fx:id="jfxComboBoxProfStudent" layoutX="203.0" layoutY="125.0" onMouseClicked="#handleTextField" prefHeight="25.0" prefWidth="154.0" promptText="Profesor sau Student?" />
+                  <Label fx:id="labelMesaje" layoutX="24.0" layoutY="14.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <ImageView fitHeight="100.0" fitWidth="168.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@login/icon_signup_dude.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
