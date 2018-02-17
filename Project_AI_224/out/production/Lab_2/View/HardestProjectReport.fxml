@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane fx:id="primaryAnchor" prefHeight="569.0" prefWidth="803.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HardestProjectController">
+    <children>
+        <Label fx:id="labelStudProf" layoutX="24.0" layoutY="38.0" text="Final grades" />
+        <HBox layoutX="634.0" layoutY="27.0" prefHeight="50.0" prefWidth="158.0" spacing="5.0">
+            <children>
+                <Button fx:id="buttonPDF" mnemonicParsing="false" onAction="#handleSavePDF" />
+            <Hyperlink fx:id="hyperPDF" onAction="#handleSavePDF" text="Save as PDF">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </Hyperlink>
+            </children>
+        </HBox>
+      <StackPane fx:id="stackPaneGradeReport" layoutX="24.0" layoutY="102.0" prefHeight="441.0" prefWidth="757.0" />
+    </children>
+</AnchorPane>

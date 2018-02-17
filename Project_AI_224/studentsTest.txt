@@ -1,0 +1,6 @@
+ 4
+ 1;bla1;224;bla1@scs.ubbcluj.ro;teacher1
+ 2;bla2;225;bla2@scs.ubbcluj.ro;teacher1
+ 3;bla3;224;bla3@scs.ubbcluj.ro;teacher2
+ 4;bla4;224;bla4@scs.ubbcluj.ro;teacher2
+

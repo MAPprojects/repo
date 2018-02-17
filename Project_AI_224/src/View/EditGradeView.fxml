@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="primaryAnchor" prefHeight="348.0" prefWidth="625.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EditGradePageController">
+    <children>
+        <TextField fx:id="txtID" layoutX="218.0" layoutY="48.0" prefHeight="36.0" prefWidth="170.0" visible="false" />
+      <SplitPane fx:id="primaryAnchor" dividerPositions="0.33236994219653176" layoutX="-3.0" layoutY="-3.0" orientation="VERTICAL" prefHeight="348.0" prefWidth="633.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="352.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../logo_ubb_white.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <VBox layoutX="57.0" layoutY="72.0" prefHeight="107.0" prefWidth="100.0" spacing="20.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="70.0">
+                     <children>
+                          <Label fx:id="lblMatricol" prefHeight="45.0" prefWidth="118.0" text="Week" />
+                          <Label fx:id="lblMatricol1" prefHeight="36.0" prefWidth="110.0" text="Grade" />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="164.0" layoutY="81.0" prefHeight="107.0" prefWidth="170.0" spacing="30.0" AnchorPane.bottomAnchor="50.0">
+                     <children>
+                        <ComboBox fx:id="comboWeek" prefHeight="36.0" prefWidth="170.0" />
+                          <TextField fx:id="txtGrade" prefHeight="38.0" prefWidth="182.0" />
+                     </children>
+                  </VBox>
+                  <Button fx:id="btnAdd" layoutX="439.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleSave" prefHeight="51.0" prefWidth="109.0" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="70.0" />
+                  <Label fx:id="labelStudProf" layoutX="70.0" layoutY="22.0" text="Edit Grade" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane minHeight="400.0" minWidth="600.0" prefHeight="800.0" prefWidth="1066.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GradeController">
+    <children>
+        <SplitPane dividerPositions="0.28010825439783493" layoutX="-50.0" layoutY="-46.0" orientation="VERTICAL" prefHeight="741.0" prefWidth="1066.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <AnchorPane fx:id="apTable" minHeight="0.0" minWidth="0.0" prefHeight="186.0" prefWidth="968.0">
+               <children>
+                  <ImageView fitHeight="118.0" fitWidth="387.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../logo_ubb_white.png" />
+                     </image>
+                  </ImageView>
+                  <HBox layoutX="53.0" layoutY="153.0" prefHeight="42.0" prefWidth="513.0" spacing="45.0">
+                     <children>
+                        <Button fx:id="buttonHome" minHeight="30.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleHomeAction" prefHeight="30.0" prefWidth="30.0" />
+                        <MenuBar prefHeight="39.0" prefWidth="522.0" stylesheets="@style.css">
+                           <menus>
+                              <Menu fx:id="sectionStudents" mnemonicParsing="false" text="Students">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#handleStudentSection" text="Go to section..." />
+                                 </items>
+                              </Menu>
+                              <Menu fx:id="sectionProjects" mnemonicParsing="false" text="Projects">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#handleProjectSection" text="Go to section..." />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Grades">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#handleGradesSection" text="Go to section..." />
+                                 </items>
+                              </Menu>
+                              <Menu fx:id="menuReports" mnemonicParsing="false" text="Reports">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#handleReportsSection" text="Go to section..." />
+                                 </items>
+                              </Menu>
+                           </menus>
+                        </MenuBar>
+                     </children>
+                  </HBox>
+                  <GridPane fx:id="gridUser" layoutX="746.0" layoutY="5.0" prefHeight="194.0" prefWidth="306.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="146.19993896484374" minWidth="10.0" prefWidth="90.399951171875" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="224.59996337890627" minWidth="10.0" prefWidth="196.000048828125" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="69.59998779296875" minHeight="10.0" prefHeight="59.800000000000004" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="45.599996948242186" minHeight="10.0" prefHeight="24.00000610351563" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="67.4" minHeight="10.0" prefHeight="22.39999694824219" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="67.4" minHeight="10.0" prefHeight="26.199987792968756" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="67.4" minHeight="10.0" prefHeight="43.00001220703126" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label fx:id="labelStudProf" prefHeight="47.0" prefWidth="198.0" GridPane.columnIndex="1">
+                           <GridPane.margin>
+                              <Insets top="10.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="labelUserName" prefHeight="18.0" prefWidth="211.0" text="Name:  " GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="labelUserGroup" prefHeight="18.0" prefWidth="207.0" text="Group:  " GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="labelUserTeacher" prefHeight="14.0" prefWidth="186.0" text="Teacher:  " GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Hyperlink fx:id="logoutHyperlink" onAction="#handleLogoutAction" text="Logout" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Hyperlink>
+                        <Label fx:id="labelUserImg" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="70.0">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </GridPane>
+               </children></AnchorPane>
+                <AnchorPane fx:id="apButtons" minHeight="0.0" minWidth="0.0" prefHeight="238.0" prefWidth="662.0">
+               <children>
+                        <TableView fx:id="tableView" layoutX="66.0" layoutY="97.0" prefHeight="304.0" prefWidth="706.0">
+                            <columns>
+                                <TableColumn fx:id="columnID" prefWidth="75.0" text="id" visible="false" />
+                        <TableColumn fx:id="columnStudentID" prefWidth="75.0" text="studentID" visible="false" />
+                                <TableColumn fx:id="columnCodMatricol" prefWidth="107.20001220703125" text="CodMatricol" />
+                                <TableColumn fx:id="columnName" prefWidth="190.4000244140625" text="Name" />
+                        <TableColumn fx:id="columnProjectID" prefWidth="75.0" text="projectID" visible="false" />
+                        <TableColumn fx:id="columnProject" prefWidth="142.39996337890625" text="Project" />
+                        <TableColumn fx:id="columnDeadline" prefWidth="84.79995727539062" text="Deadline" />
+                        <TableColumn fx:id="columnDelivered" prefWidth="86.39996337890625" text="Delivered" />
+                        <TableColumn fx:id="columnGrade" prefWidth="89.60002441406255" text="Grade" />
+                            </columns>
+                        </TableView>
+                  <HBox layoutX="92.0" layoutY="459.0" prefHeight="73.0" prefWidth="378.0" spacing="150.0" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="92.0" AnchorPane.rightAnchor="595.0" AnchorPane.topAnchor="459.0">
+                     <children>
+                        <Button fx:id="buttonAdd" mnemonicParsing="false" onAction="#handleAddAction" prefHeight="49.0" prefWidth="111.0" wrapText="true" />
+                        <Button fx:id="assignButton" mnemonicParsing="false" onAction="#handleAssignAction" prefHeight="49.0" prefWidth="111.0" wrapText="true">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Pagination fx:id="gradesPagination" layoutX="321.0" layoutY="35.0" pageCount="10" prefHeight="45.0" prefWidth="166.0" />
+               </children></AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

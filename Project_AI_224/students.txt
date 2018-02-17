@@ -1,0 +1,8 @@
+94428d4b-3709-445f-ba57-0af8d5d4b65a;21277;Pittis Florian;223;pfie2127@scs.ubbcluj.ro;Vali Sterian
+
+e400e6f9-e307-43f6-9db0-1b0af6b7bc57;21233;Vintilă Mircea;224;vmir2123@scs.ubbcluj.ro;Vali Sterian
+
+b8bd05a5-c5f7-4533-8a81-e062d4e84e76;21244;Baniciu Mircea;225;bmir2124@scs.ubbcluj.ro;Vali Sterian
+
+6a965aa6-6df0-454f-a01b-a9d0aa23c374;32144;Andries Alexandru;222;aaie@scs.ubbcluj.ro;VS
+
