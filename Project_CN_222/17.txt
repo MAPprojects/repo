@@ -1,0 +1,2 @@
+Adaugare nota, tema nr: 1; nota: 4; deadline: 14; tema predata in saptamana: 14; observatii: copiat
+Adaugare nota, tema nr: 8; nota: 10; deadline: 14; tema predata in saptamana: 14; observatii: dagsgdsag

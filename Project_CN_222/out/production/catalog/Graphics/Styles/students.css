@@ -1,0 +1,55 @@
+.admin-button {
+    -fx-font-size: 15px;
+    -fx-pref-width: 200px;
+    -fx-background-color: linear-gradient(white 0%, white 25%, white 50%, #bcd39c 100%);
+    -fx-text-fill: black;
+}
+
+.admin-button:hover {
+    -fx-background-color: white;
+}
+
+.pane {
+    -fx-background-color:
+            linear-gradient(#fffc99 0%, #b1f8f2 100%);
+
+}
+
+.table-view {
+    -fx-alignment: center;
+    -fx-pref-height: 400px;
+    -fx-pref-width: 400px;
+}
+
+.table {
+    -fx-font-size: 15px;
+    -fx-background-color: transparent;
+
+    -fx-pref-width: 400px;
+}
+
+.table-cell {
+    -fx-border-color: transparent;
+}
+
+.table-row-cell {
+    -fx-background-color: rgba(142,131,88,0.5);
+    -fx-border-width: 0px;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: rgba(10,10,10,0.6);
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}

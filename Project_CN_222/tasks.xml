@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks>
+	<task id="1">
+		<description>lab7 MAP</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="2">
+		<description>lab 5 BD</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="3">
+		<description>Proiect Facultativ</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="4">
+		<description>Lucrare Licenta Info</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="5">
+		<description>Lucrare Licenta Mate</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="6">
+		<description>Proiect RC</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="7">
+		<description>Proiect PS</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="8">
+		<description>Lab 4 BD</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="9">
+		<description>Some other task</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="10">
+		<description>Facebook</description>
+		<deadline>14</deadline>
+	</task>
+	<task id="11">
+		<description>MAP Lab 4</description>
+		<deadline>14</deadline>
+	</task>
+</tasks>

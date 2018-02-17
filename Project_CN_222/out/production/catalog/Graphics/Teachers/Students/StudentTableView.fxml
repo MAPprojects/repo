@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane prefHeight="500.0"
+            prefWidth="1000.0"
+            xmlns="http://javafx.com/javafx/9.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Graphics.Teachers.Students.StudentTableController"
+            stylesheets="/Graphics/Styles/teacher.css"
+            styleClass="bg"
+>
+    <children>
+        <HBox>
+            <VBox prefWidth="500.0">
+                <HBox>
+                    <Button fx:id="backButton" styleClass="back-button" prefHeight="50.0" prefWidth="81.0"></Button>
+                    <Label alignment="CENTER" stylesheets="/Graphics/Styles/teacher.css" styleClass="task-name-label, task-label" fx:id="taskName" />
+
+                </HBox>
+                <Pane prefHeight="60.0"></Pane>
+                <TableView fx:id="tableView" prefHeight="450.0" prefWidth="500.0" styleClass="table">
+                    <columns>
+
+                        <TableColumn fx:id="numeColumn" text="Name">
+                            <cellValueFactory><PropertyValueFactory property="studentName" /></cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn fx:id="grupaColumn" text="Group">
+                            <cellValueFactory><PropertyValueFactory property="group" /></cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn fx:id="emailColumn" text="Email">
+                            <cellValueFactory><PropertyValueFactory property="email" /></cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn fx:id="profColumn" text="Professor">
+                            <cellValueFactory><PropertyValueFactory property="professor" /></cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn fx:id="notaColumn" text="Grade">
+                            <cellValueFactory><PropertyValueFactory property="grade"/></cellValueFactory>
+                        </TableColumn>
+
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+                <Pagination stylesheets="/Graphics/Styles/pagination.css" fx:id="mainPagination"/>
+            </VBox>
+            <Pane prefWidth="50.0"></Pane>
+            <VBox styleClass="form">
+                <Label prefHeight="41.0" styleClass="task-name-label" prefWidth="98.0" text="Other Students"></Label>
+                <TextField styleClass="studenttablefield" fx:id="numeField" promptText="name" />
+                <TextField styleClass="studenttablefield" fx:id="gradeField" promptText="grade" />
+                <TextField styleClass="studenttablefield" fx:id="weekField" promptText="week" />
+                <TextArea styleClass="studenttablefield" fx:id="obsArea" prefHeight="89.0" prefWidth="308.0" promptText="observations">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font></TextArea>
+                <HBox styleClass="form">
+                    <Button styleClass="form-button, tableButton" fx:id="giveGradeBtn" text="Give grade" />
+                    <Button styleClass="form-button, tableButton" fx:id="updateGradeBtn" text="Update grade" />
+                    <Button styleClass="form-button, tableButton, mailButton" fx:id="mailButton" text="Send mail" />
+                </HBox>
+
+
+                <TableView fx:id="othersTable"
+                           styleClass="othertable"
+                           prefWidth="500.0"
+                            prefHeight="400.0"
+                >
+                    <columns>
+                        <TableColumn fx:id="otherNumeColumn" text="Name">
+                            <cellValueFactory><PropertyValueFactory property="nume" /></cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn fx:id="otherGrupaColumn" text="Group">
+                            <cellValueFactory><PropertyValueFactory property="grupa" /></cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn fx:id="otherEmailColumn" text="Email">
+                            <cellValueFactory><PropertyValueFactory property="email" /></cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn fx:id="otherProfColumn" text="Professor">
+                            <cellValueFactory><PropertyValueFactory property="profesor" /></cellValueFactory>
+                        </TableColumn>
+
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+                <!--<Pagination stylesheets="/Graphics/Styles/pagination.css" fx:id="otherPagination"/>-->
+            </VBox>
+        </HBox>
+    </children>
+    <Pane layoutY="0.0" layoutX="0.0" prefWidth="1050.0" prefHeight="650.0" fx:id="loadingPane" styleClass="loading-pane">
+        <ImageView layoutX="400.0" layoutY="200.0" >
+            <Image url="/resources/loading-circle-2.gif"></Image>
+        </ImageView>
+    </Pane>
+
+</AnchorPane>

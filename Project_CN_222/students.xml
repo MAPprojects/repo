@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student id="1">
+		<name>Abrudan Gabi</name>
+		<group>222</group>
+		<email>agir2031@scs.ubbcluj.ro</email>
+		<professor>Camelia</professor>
+	</student>
+	<student id="2">
+		<name>Beltechi Rares</name>
+		<group>222</group>
+		<email>brir2044@scs.ubbcluj.ro</email>
+		<professor>Sabina</professor>
+	</student>
+	<student id="3">
+		<name>Boros Oti</name>
+		<group>222</group>
+		<email>bfir2051@scs.ubbcluj.ro</email>
+		<professor>Gabis</professor>
+	</student>
+	<student id="4">
+		<name>Bulmez Alex</name>
+		<group>222</group>
+		<email>bair2059@scs.ubbcluj.ro</email>
+		<professor>Camelia</professor>
+	</student>
+	<student id="5">
+		<name>Burlacu Simona</name>
+		<group>222</group>
+		<email>biir2060@scs.ubbcluj.ro</email>
+		<professor>Bufny</professor>
+	</student>
+	<student id="6">
+		<name>Buta Elisabeta</name>
+		<group>222</group>
+		<email>beir2061@scs.ubbcluj.ro</email>
+		<professor>Bufny</professor>
+	</student>
+	<student id="7">
+		<name>Caba Lorena</name>
+		<group>222</group>
+		<email>clir2063@scs.ubbcluj.ro</email>
+		<professor>Istvan</professor>
+	</student>
+	<student id="8">
+		<name>Calbaza Alex</name>
+		<group>222</group>
+		<email>cair35325@scs.ubbcluj.ro</email>
+		<professor>Mircea</professor>
+	</student>
+	<student id="9">
+		<name>Camilar George</name>
+		<group>222</group>
+		<email>cair314@scs.ubbcluj.ro</email>
+		<professor>Mircea</professor>
+	</student>
+	<student id="10">
+		<name>Carlan Marcel</name>
+		<group>222</group>
+		<email>cmir2067@scs.ubbcluj.ro</email>
+		<professor>IVlad</professor>
+	</student>
+	<student id="11">
+		<name>Chise Bogdan</name>
+		<group>222</group>
+		<email>cbir2073@scs.ubbcluj.ro</email>
+		<professor>Camelia</professor>
+	</student>
+	<student id="12">
+		<name>Chis George</name>
+		<group>222</group>
+		<email>cgir@scs.ubbcluj.ro</email>
+		<professor>Bufny</professor>
+	</student>
+	<student id="13">
+		<name>Ciforac Andreea</name>
+		<group>222</group>
+		<email>cair2426@scs.ubbcluj.ro</email>
+		<professor>Camelia</professor>
+	</student>
+	<student id="14">
+		<name>Civitu Anca</name>
+		<group>222</group>
+		<email>cair2428@scs.ubbcluj.ro</email>
+		<professor>Camelia</professor>
+	</student>
+	<student id="15">
+		<name>Cosarca Alex</name>
+		<group>222</group>
+		<email>cair2080@scs.ubbcluj.ro</email>
+		<professor>Lazar</professor>
+	</student>
+	<student id="16">
+		<name>Comiati Nicolae</name>
+		<group>222</group>
+		<email>cnir2076@scs.ubbcluj.ro</email>
+		<professor>Bufny</professor>
+	</student>
+	<student id="17">
+		<name>Gheorghe Bogdan</name>
+		<group>222</group>
+		<email>gbir2109@scs.ubbcluj.ro</email>
+		<professor>Camelia</professor>
+	</student>
+	<student id="18">
+		<name>Ivan Paul</name>
+		<group>222</group>
+		<email>ipir2125@scs.ubbcluj.ro</email>
+		<professor>Sabina</professor>
+	</student>
+	<student id="19">
+		<name>Panea Andreea</name>
+		<group>222</group>
+		<email>pair2163@scs.ubbcluj.ro</email>
+		<professor>Bufny</professor>
+	</student>
+	<student id="20">
+		<name>Scurtu Laura</name>
+		<group>222</group>
+		<email>slir2189</email>
+		<professor>Camelia</professor>
+	</student>
+	<student id="21">
+		<name>Vatamanescu Dio</name>
+		<group>222</group>
+		<email>vatadio</email>
+		<professor>Prof</professor>
+	</student>
+	<student id="23">
+		<name>Cazac Toma</name>
+		<group>222</group>
+		<email>ctir2068@scs.ubbcluj.ro</email>
+		<professor>IVlad</professor>
+	</student>
+	<student id="24">
+		<name>Buzas Laura</name>
+		<group>222</group>
+		<email>blir2062@scs.ubbcluj.ro</email>
+		<professor>Istvan</professor>
+	</student>
+	<student id="25">
+		<name>Test Man</name>
+		<group>222</group>
+		<email>testman@scs.ubbcluj.ro</email>
+		<professor>Istvan</professor>
+	</student>
+	<student id="26">
+		<name>Test Too</name>
+		<group>222</group>
+		<email>testtoo@scs.ubbcluj.ro</email>
+		<professor>Istvan</professor>
+	</student>
+</students>

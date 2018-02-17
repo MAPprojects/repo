@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grades>
+	<grade id="6144">
+		<idStudent>2</idStudent>
+		<idTask>1</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="1153">
+		<idStudent>3</idStudent>
+		<idTask>1</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="9987">
+		<idStudent>5</idStudent>
+		<idTask>1</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="8390">
+		<idStudent>4</idStudent>
+		<idTask>1</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="6859">
+		<idStudent>11</idStudent>
+		<idTask>1</idTask>
+		<value>9</value>
+	</grade>
+	<grade id="4175">
+		<idStudent>1</idStudent>
+		<idTask>1</idTask>
+		<value>8</value>
+	</grade>
+	<grade id="655">
+		<idStudent>12</idStudent>
+		<idTask>1</idTask>
+		<value>2</value>
+	</grade>
+	<grade id="6927">
+		<idStudent>16</idStudent>
+		<idTask>1</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="7569">
+		<idStudent>15</idStudent>
+		<idTask>6</idTask>
+		<value>9</value>
+	</grade>
+	<grade id="5335">
+		<idStudent>13</idStudent>
+		<idTask>8</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="5210">
+		<idStudent>16</idStudent>
+		<idTask>10</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="5214">
+		<idStudent>15</idStudent>
+		<idTask>1</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="6625">
+		<idStudent>19</idStudent>
+		<idTask>1</idTask>
+		<value>6</value>
+	</grade>
+	<grade id="1889">
+		<idStudent>16</idStudent>
+		<idTask>2</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="4897">
+		<idStudent>1</idStudent>
+		<idTask>4</idTask>
+		<value>2</value>
+	</grade>
+	<grade id="610">
+		<idStudent>3</idStudent>
+		<idTask>2</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="6946">
+		<idStudent>18</idStudent>
+		<idTask>2</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="3938">
+		<idStudent>17</idStudent>
+		<idTask>8</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="2531">
+		<idStudent>1</idStudent>
+		<idTask>2</idTask>
+		<value>7</value>
+	</grade>
+	<grade id="2916">
+		<idStudent>21</idStudent>
+		<idTask>6</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="8548">
+		<idStudent>16</idStudent>
+		<idTask>7</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="8554">
+		<idStudent>13</idStudent>
+		<idTask>1</idTask>
+		<value>9</value>
+	</grade>
+	<grade id="2414">
+		<idStudent>7</idStudent>
+		<idTask>2</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="1329">
+		<idStudent>13</idStudent>
+		<idTask>6</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="4788">
+		<idStudent>18</idStudent>
+		<idTask>1</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="5812">
+		<idStudent>18</idStudent>
+		<idTask>8</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="4789">
+		<idStudent>17</idStudent>
+		<idTask>1</idTask>
+		<value>4</value>
+	</grade>
+	<grade id="6965">
+		<idStudent>6</idStudent>
+		<idTask>2</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="6328">
+		<idStudent>10</idStudent>
+		<idTask>6</idTask>
+		<value>9</value>
+	</grade>
+	<grade id="8891">
+		<idStudent>4</idStudent>
+		<idTask>2</idTask>
+		<value>10</value>
+	</grade>
+	<grade id="4350">
+		<idStudent>16</idStudent>
+		<idTask>8</idTask>
+		<value>10</value>
+	</grade>
+</grades>

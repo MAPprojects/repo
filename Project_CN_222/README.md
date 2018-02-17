@@ -1,0 +1,4 @@
+TAGS
+1. SECURITY
+2. MAIL (COMPONENT: javax.mail.*)
+3. XML (COMPONENT: StAX Parser)

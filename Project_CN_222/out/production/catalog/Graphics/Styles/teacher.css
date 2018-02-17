@@ -1,0 +1,176 @@
+
+.bg {
+    -fx-background-color: linear-gradient(#bcd39c 0%, #fffc99 50%, #eafdcf 100%);
+    -fx-font-family: "Sylfaen";
+}
+
+#settingsbox {
+    -fx-font-size: 15px;
+    -fx-pref-height: 40px;
+}
+
+.table {
+    -fx-font-size: 17px;
+    -fx-background-color: transparent;
+    -fx-pref-height: 400px;
+    -fx-pref-width: 450px;
+}
+
+.table-cell {
+    -fx-border-color: transparent;
+}
+
+.table-row-cell {
+    -fx-background-color: rgba(142,131,88,0.5);
+    -fx-border-width: 0px;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: rgba(10,10,10,0.6);
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+#addlabel {
+    -fx-font-size: 35px;
+    -fx-text-alignment: center;
+    -fx-font-family: "Harrington";
+}
+
+.editortable {
+    -fx-font-size: 17px;
+    -fx-background-color: rgba(142,131,88,0.5);
+
+    -fx-pref-width: 550px;
+    -fx-alignment: baseline-left;
+    -fx-margin: 40px;
+}
+
+.othertable {
+    -fx-font-size: 17px;
+    -fx-background-color: rgba(142,131,88,0.5);
+
+    -fx-pref-width: 500px;
+    -fx-alignment: baseline-left;
+    -fx-margin: 40px;
+}
+
+.studentfield, .teacherfield {
+    -fx-font-size: 15px;
+}
+
+.form-button {
+    -fx-font-size: 15px;
+    -fx-pref-width: 200px;
+    -fx-background-color: #bcd39c;
+    -fx-text-fill: black;
+}
+
+.form-button:hover {
+    -fx-background-color: white;
+}
+
+.admin-button {
+    -fx-font-size: 35px;
+    -fx-pref-width: 400px;
+    -fx-background-color: linear-gradient(white 0%, white 25%, white 50%, #bcd39c 100%);
+    -fx-text-fill: black;
+}
+
+.admin-button:hover {
+    -fx-background-color: white;
+}
+
+.deleteButton {
+    -fx-background-color: darkred;
+    -fx-font-size: 17px;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 100px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.gradeButton {
+    -fx-background-color: darkgoldenrod;
+    -fx-font-size: 15px;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 100px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.task-name-label {
+    -fx-font-size: 40px;
+    -fx-color-label-visible: white;
+    -fx-padding: 0px 20px 0px 20px;
+}
+
+.back-button {
+    -fx-font-size: 25px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 60px;
+    -fx-background-color: rgba(188, 211, 156, 0.7);
+    -fx-text-fill: black;
+    -fx-graphic: url("/resources/back-arrow.png")
+}
+
+.back-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+}
+
+.tableButton {
+    -fx-pref-width: 120px;
+}
+
+.studenttablefield {
+    -fx-pref-width: 360px;
+    -fx-min-width:360px;
+    -fx-font-size: 15px;
+
+}
+
+.form {
+    -fx-alignment: center;
+}
+
+
+
+.taskheader {
+    -fx-font-size: 30px;
+    -fx-font-color: white;
+    -fx-font-family: "Harrington";
+    -fx-alignment: center;
+}
+.task-name-label {
+    -fx-font-size: 30px;
+    -fx-text-fill: olive;
+    -fx-font-family: "Harrington";
+    -fx-pref-width: 300px;
+}
+
+.task-label {
+    -fx-font-size: 50px;
+}
+
+.bad-field {
+    -fx-background-color: darkred;
+}
+
+.combo-box .list-view {
+    -fx-text-fill: black;
+}
+
+.loading-pane {
+    -fx-background-color: rgba(0,0,0,0.4);
+}

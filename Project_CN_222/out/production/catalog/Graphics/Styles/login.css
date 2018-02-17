@@ -1,0 +1,34 @@
+.pane {
+    -fx-background-color: 
+        linear-gradient(#fffc99 0%, #b1f8f2 100%);
+
+}
+
+.loginform {
+    -fx-alignment: center;
+    -fx-prompt-text-fill: "#8e8358";
+}
+
+.loginbtn {
+    -fx-text-fill: white;
+    -fx-background-color: "#8e8358";
+    -fx-pref-width: 100px;
+    -fx-font-size: 15px;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.loginbtn:hover {
+    -fx-text-fill: "#8e8358";
+    -fx-background-color: white;
+}
+
+.signuptext {
+    -fx-text-fill: "#0010EE";
+}
+
+.signuptext:hover {
+    -fx-text-fill: darkblue;
+}

@@ -1,0 +1,6 @@
+Adaugare nota, tema nr: 1; nota: 10; deadline: 14; tema predata in saptamana: 14; observatii: cel mai bun
+Adaugare nota, tema nr: 2; nota: 10; deadline: 14; tema predata in saptamana: 14; observatii: cel mai cel
+Adaugare nota, tema nr: 8; nota: 10; deadline: 14; tema predata in saptamana: 14; observatii: bun
+Adaugare nota, tema nr: 10; nota: 10; deadline: 14; tema predata in saptamana: 14; observatii: facebook
+Adaugare nota, tema nr: 7; nota: 5; deadline: 14; tema predata in saptamana: 14; observatii: adsgsagsa
+Modificare nota, tema nr: 7; nota: 10; deadline: 14; tema predata in saptamana: 14; observatii: bun nice
