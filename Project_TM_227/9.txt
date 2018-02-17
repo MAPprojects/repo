@@ -1,0 +1,2 @@
+Adaugare nota Id tema 1 Valoare 10 Deadline 14 Saptamana predarii 1 Observatii efe3
+Adaugare nota Id tema 2 Valoare 10 Deadline 13 Saptamana predarii 1 Observatii efe3

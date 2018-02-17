@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <student idStudent="1">
+        <nume>Teletin Alexandra</nume>
+        <grupa>227</grupa>
+        <email>teletin.alexandraubb@gmail.com</email>
+        <cadru_didactic>Chisalita Cretu Camelia</cadru_didactic>
+    </student>
+    <student idStudent="2">
+        <nume>Voiculescu Tabita</nume>
+        <grupa>227</grupa>
+        <email>tabyadry@yahoo.com</email>
+        <cadru_didactic>Iancu Mihai</cadru_didactic>
+    </student>
+    <student idStudent="3">
+        <nume>Trifa Maria</nume>
+        <grupa>227</grupa>
+        <email>trifa_maria96@yahoo.com</email>
+        <cadru_didactic>Sotropa Diana</cadru_didactic>
+    </student>
+    <student idStudent="4">
+        <nume>Turcu Marcel</nume>
+        <grupa>221</grupa>
+        <email>tmir2206@scs.ubbcluj.ro</email>
+        <cadru_didactic>Serban Camelia</cadru_didactic>
+    </student>
+    <student idStudent="5">
+        <nume>Roman Adrian</nume>
+        <grupa>227</grupa>
+        <email>as24ady@gmail.com</email>
+        <cadru_didactic>Surdu Sabina</cadru_didactic>
+    </student>
+    <student idStudent="6">
+        <nume>Voiculescu Adriana Tabita</nume>
+        <grupa>924</grupa>
+        <email>tabita.voiculescu@gmail.com</email>
+        <cadru_didactic>Bunfea Darius</cadru_didactic>
+    </student>
+    <student idStudent="7">
+        <nume>Popescu Vasile</nume>
+        <grupa>223</grupa>
+        <email>popescu@yahoo.com</email>
+        <cadru_didactic>Patrulescu Flavius</cadru_didactic>
+    </student>
+    <student idStudent="8">
+        <nume>Suciu Ana</nume>
+        <grupa>923</grupa>
+        <email>ana@yahoo.com</email>
+        <cadru_didactic>Rusu Aurel</cadru_didactic>
+    </student>
+    <student idStudent="9">
+        <nume>Petrus Alina</nume>
+        <grupa>333</grupa>
+        <email>tmir2206@scs.ubbcluj.ro</email>
+        <cadru_didactic>Suciu Mihai</cadru_didactic>
+    </student>
+    <student idStudent="10">
+        <nume>Campean Amalia</nume>
+        <grupa>334</grupa>
+        <email>trifa_maria96@yahoo.com</email>
+        <cadru_didactic>Baciu Ana</cadru_didactic>
+    </student>
+    <student idStudent="11">
+        <nume>Teletin Alexandra</nume>
+        <grupa>227</grupa>
+        <email>teletin.alexandraubb@gmail.com</email>
+        <cadru_didactic>Chisalita Cretu Camelia</cadru_didactic>
+    </student>
+    <student idStudent="12">
+        <nume>Voiculescu Tabita</nume>
+        <grupa>227</grupa>
+        <email>tabyadry@yahoo.com</email>
+        <cadru_didactic>Iancu Mihai</cadru_didactic>
+    </student>
+    <student idStudent="13">
+        <nume>Trifa Maria</nume>
+        <grupa>227</grupa>
+        <email>trifa_maria96@yahoo.com</email>
+        <cadru_didactic>Sotropa Diana</cadru_didactic>
+    </student>
+    <student idStudent="14">
+        <nume>Turcu Marcel</nume>
+        <grupa>221</grupa>
+        <email>tmir2206@scs.ubbcluj.ro</email>
+        <cadru_didactic>Serban Camelia</cadru_didactic>
+    </student>
+    <student idStudent="15">
+        <nume>Roman Adrian</nume>
+        <grupa>227</grupa>
+        <email>as24ady@gmail.com</email>
+        <cadru_didactic>Surdu Sabina</cadru_didactic>
+    </student>
+    <student idStudent="16">
+        <nume>Voiculescu Adriana Tabita</nume>
+        <grupa>924</grupa>
+        <email>tabita.voiculescu@gmail.com</email>
+        <cadru_didactic>Bunfea Darius</cadru_didactic>
+    </student>
+    <student idStudent="17">
+        <nume>Popescu Vasile</nume>
+        <grupa>223</grupa>
+        <email>popescu@yahoo.com</email>
+        <cadru_didactic>Patrulescu Flavius</cadru_didactic>
+    </student>
+    <student idStudent="18">
+        <nume>Suciu Ana</nume>
+        <grupa>923</grupa>
+        <email>ana@yahoo.com</email>
+        <cadru_didactic>Rusu Aurel</cadru_didactic>
+    </student>
+    <student idStudent="19">
+        <nume>Petrus Alina</nume>
+        <grupa>333</grupa>
+        <email>tmir2206@scs.ubbcluj.ro</email>
+        <cadru_didactic>Suciu Mihai</cadru_didactic>
+    </student>
+    <student idStudent="20">
+        <nume>Campean Amalia</nume>
+        <grupa>334</grupa>
+        <email>trifa_maria96@yahoo.com</email>
+        <cadru_didactic>Baciu Ana</cadru_didactic>
+    </student>
+    <student idStudent="21">
+        <nume>Teletin Alexandra</nume>
+        <grupa>227</grupa>
+        <email>teletin.alexandraubb@gmail.com</email>
+        <cadru_didactic>Chisalita Cretu Camelia</cadru_didactic>
+    </student>
+    <student idStudent="22">
+        <nume>Voiculescu Tabita</nume>
+        <grupa>227</grupa>
+        <email>tabyadry@yahoo.com</email>
+        <cadru_didactic>Iancu Mihai</cadru_didactic>
+    </student>
+    <student idStudent="23">
+        <nume>Trifa Maria</nume>
+        <grupa>227</grupa>
+        <email>trifa_maria96@yahoo.com</email>
+        <cadru_didactic>Sotropa Diana</cadru_didactic>
+    </student>
+    <student idStudent="24">
+        <nume>Turcu Marcel</nume>
+        <grupa>221</grupa>
+        <email>tmir2206@scs.ubbcluj.ro</email>
+        <cadru_didactic>Serban Camelia</cadru_didactic>
+    </student>
+    <student idStudent="25">
+        <nume>Roman Adrian</nume>
+        <grupa>227</grupa>
+        <email>as24ady@gmail.com</email>
+        <cadru_didactic>Surdu Sabina</cadru_didactic>
+    </student>
+    <student idStudent="26">
+        <nume>Voiculescu Adriana Tabita</nume>
+        <grupa>924</grupa>
+        <email>tabita.voiculescu@gmail.com</email>
+        <cadru_didactic>Bunfea Darius</cadru_didactic>
+    </student>
+    <student idStudent="27">
+        <nume>Popescu Vasile</nume>
+        <grupa>223</grupa>
+        <email>popescu@yahoo.com</email>
+        <cadru_didactic>Patrulescu Flavius</cadru_didactic>
+    </student>
+    <student idStudent="28">
+        <nume>Suciu Ana</nume>
+        <grupa>923</grupa>
+        <email>ana@yahoo.com</email>
+        <cadru_didactic>Rusu Aurel</cadru_didactic>
+    </student>
+    <student idStudent="29">
+        <nume>Petrus Alina</nume>
+        <grupa>333</grupa>
+        <email>tmir2206@scs.ubbcluj.ro</email>
+        <cadru_didactic>Suciu Mihai</cadru_didactic>
+    </student>
+    <student idStudent="30">
+        <nume>Campean Amalia</nume>
+        <grupa>334</grupa>
+        <email>trifa_maria96@yahoo.com</email>
+        <cadru_didactic>Baciu Ana</cadru_didactic>
+    </student>
+    <student idStudent="31">
+        <nume>Teletin Alexandra</nume>
+        <grupa>227</grupa>
+        <email>teletin.alexandraubb@gmail.com</email>
+        <cadru_didactic>Chisalita Cretu Camelia</cadru_didactic>
+    </student>
+    <student idStudent="32">
+        <nume>Voiculescu Tabita</nume>
+        <grupa>227</grupa>
+        <email>tabyadry@yahoo.com</email>
+        <cadru_didactic>Iancu Mihai</cadru_didactic>
+    </student>
+    <student idStudent="33">
+        <nume>Trifa Maria</nume>
+        <grupa>227</grupa>
+        <email>trifa_maria96@yahoo.com</email>
+        <cadru_didactic>Sotropa Diana</cadru_didactic>
+    </student>
+    <student idStudent="34">
+        <nume>Turcu Marcel</nume>
+        <grupa>221</grupa>
+        <email>tmir2206@scs.ubbcluj.ro</email>
+        <cadru_didactic>Serban Camelia</cadru_didactic>
+    </student>
+    <student idStudent="35">
+        <nume>Roman Adrian</nume>
+        <grupa>227</grupa>
+        <email>as24ady@gmail.com</email>
+        <cadru_didactic>Surdu Sabina</cadru_didactic>
+    </student>
+    <student idStudent="36">
+        <nume>Voiculescu Adriana Tabita</nume>
+        <grupa>924</grupa>
+        <email>tabita.voiculescu@gmail.com</email>
+        <cadru_didactic>Bunfea Darius</cadru_didactic>
+    </student>
+    <student idStudent="37">
+        <nume>Popescu Vasile</nume>
+        <grupa>223</grupa>
+        <email>popescu@yahoo.com</email>
+        <cadru_didactic>Patrulescu Flavius</cadru_didactic>
+    </student>
+    <student idStudent="38">
+        <nume>Suciu Ana</nume>
+        <grupa>923</grupa>
+        <email>ana@yahoo.com</email>
+        <cadru_didactic>Rusu Aurel</cadru_didactic>
+    </student>
+    <student idStudent="39">
+        <nume>Petrus Alina</nume>
+        <grupa>333</grupa>
+        <email>tmir2206@scs.ubbcluj.ro</email>
+        <cadru_didactic>Suciu Mihai</cadru_didactic>
+    </student>
+    <student idStudent="40">
+        <nume>Campean Amalia</nume>
+        <grupa>334</grupa>
+        <email>trifa_maria96@yahoo.com</email>
+        <cadru_didactic>Baciu Ana</cadru_didactic>
+    </student>
+</company>

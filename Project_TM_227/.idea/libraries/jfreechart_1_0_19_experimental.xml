@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jfreechart-1.0.19-experimental">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jar/jfreechart-1.0.19-experimental.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/jar/jfreechart-1.0.19-swt.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/jar/jfreechart-1.0.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

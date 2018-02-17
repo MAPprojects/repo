@@ -1,0 +1,7 @@
+Modificare nota 2 10 13 1Incomplet
+Adaugare nota Id tema 3 Valoare 10 Deadline 9 Saptamana predarii 1 Observatii Nimic
+Adaugare nota Id tema 4 Valoare 10 Deadline 9 Saptamana predarii 1 Observatii Nimic
+Adaugare nota Id tema 5 Valoare 10 Deadline 10 Saptamana predarii 1 Observatii Nimic
+Adaugare nota Id tema 6 Valoare 10 Deadline 10 Saptamana predarii 1 Observatii Nimic
+Adaugare nota Id tema 7 Valoare 10 Deadline 10 Saptamana predarii 1 Observatii Nimic
+Modificare nota Id tema 2 Valoare 10 Deadline 2 Saptamana predarii 1 Observatii Nimic

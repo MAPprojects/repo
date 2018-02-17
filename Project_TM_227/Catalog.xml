@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <nota idNota="1">
+        <idStudent>1</idStudent>
+        <idTema>1</idTema>
+        <valoare>10</valoare>
+        <observatie>Nimic</observatie>
+    </nota>
+    <nota idNota="2">
+        <idStudent>1</idStudent>
+        <idTema>2</idTema>
+        <valoare>10</valoare>
+        <observatie>Nimic</observatie>
+    </nota>
+    <nota idNota="3">
+        <idStudent>2</idStudent>
+        <idTema>2</idTema>
+        <valoare>10</valoare>
+        <observatie>Perfect</observatie>
+    </nota>
+    <nota idNota="4">
+        <idStudent>10</idStudent>
+        <idTema>1</idTema>
+        <valoare>10</valoare>
+        <observatie>Nimic</observatie>
+    </nota>
+    <nota idNota="5">
+        <idStudent>10</idStudent>
+        <idTema>2</idTema>
+        <valoare>9</valoare>
+        <observatie>Incomplet</observatie>
+    </nota>
+    <nota idNota="6">
+        <idStudent>9</idStudent>
+        <idTema>1</idTema>
+        <valoare>7</valoare>
+        <observatie>Cerinte lipsa</observatie>
+    </nota>
+    <nota idNota="7">
+        <idStudent>9</idStudent>
+        <idTema>2</idTema>
+        <valoare>10</valoare>
+        <observatie>Nimic</observatie>
+    </nota>
+    <nota idNota="8">
+        <idStudent>10</idStudent>
+        <idTema>3</idTema>
+        <valoare>5</valoare>
+        <observatie>Incomplet</observatie>
+    </nota>
+    <nota idNota="9">
+        <idStudent>10</idStudent>
+        <idTema>7</idTema>
+        <valoare>8</valoare>
+        <observatie>O cerinta lipsa</observatie>
+    </nota>
+    <nota idNota="10">
+        <idStudent>10</idStudent>
+        <idTema>9</idTema>
+        <valoare>9</valoare>
+        <observatie>O cerinta lipsa</observatie>
+    </nota>
+    <nota idNota="11">
+        <idStudent>1</idStudent>
+        <idTema>3</idTema>
+        <valoare>10</valoare>
+        <observatie>Nimic</observatie>
+    </nota>
+    <nota idNota="12">
+        <idStudent>1</idStudent>
+        <idTema>4</idTema>
+        <valoare>10</valoare>
+        <observatie>Nimic</observatie>
+    </nota>
+    <nota idNota="13">
+        <idStudent>1</idStudent>
+        <idTema>5</idTema>
+        <valoare>10</valoare>
+        <observatie>Nimic</observatie>
+    </nota>
+    <nota idNota="14">
+        <idStudent>1</idStudent>
+        <idTema>6</idTema>
+        <valoare>10</valoare>
+        <observatie>Perfect</observatie>
+    </nota>
+    <nota idNota="15">
+        <idStudent>1</idStudent>
+        <idTema>7</idTema>
+        <valoare>3</valoare>
+        <observatie>Rezolvarea altei probleme</observatie>
+    </nota>
+    <nota idNota="16">
+        <idStudent>10</idStudent>
+        <idTema>12</idTema>
+        <valoare>10</valoare>
+        <observatie>Nimic</observatie>
+    </nota>
+    <nota idNota="17">
+        <idStudent>10</idStudent>
+        <idTema>11</idTema>
+        <valoare>2</valoare>
+        <observatie>Copiata</observatie>
+    </nota>
+    <nota idNota="18">
+        <idStudent>10</idStudent>
+        <idTema>4</idTema>
+        <valoare>5</valoare>
+        <observatie>Lipsa functionalitati</observatie>
+    </nota>
+    <nota idNota="19">
+        <idStudent>10</idStudent>
+        <idTema>5</idTema>
+        <valoare>5</valoare>
+        <observatie>Incompleta</observatie>
+    </nota>
+    <nota idNota="20">
+        <idStudent>6</idStudent>
+        <idTema>1</idTema>
+        <valoare>10</valoare>
+        <observatie>Perfect</observatie>
+    </nota>
+    <nota idNota="21">
+        <idStudent>3</idStudent>
+        <idTema>11</idTema>
+        <valoare>1</valoare>
+        <observatie>Incomplet Trei saptamani intarziere. </observatie>
+    </nota>
+    <nota idNota="22">
+        <idStudent>10</idStudent>
+        <idTema>6</idTema>
+        <valoare>10</valoare>
+        <observatie>Perfect</observatie>
+    </nota>
+    <nota idNota="23">
+        <idStudent>10</idStudent>
+        <idTema>10</idTema>
+        <valoare>6</valoare>
+        <observatie>Incomplet</observatie>
+    </nota>
+</company>

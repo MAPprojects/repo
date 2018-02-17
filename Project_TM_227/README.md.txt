@@ -1,0 +1,4 @@
+TAGS
+1. SECURITY
+2. MAIL(COMPONENT: MimeMessage)
+3. XML

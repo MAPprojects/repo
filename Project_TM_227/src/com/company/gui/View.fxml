@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="745.0" prefWidth="1073.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.gui.ViewController">
+   <children>
+      <TabPane layoutX="31.0" layoutY="14.0" prefHeight="745.0" prefWidth="1073.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab fx:id="studentiTab" text="Studenti">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="706.0" prefWidth="1073.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <BorderPane fx:id="borderS" prefHeight="706.0" prefWidth="570.0">
+                                 <center>
+                                    <TableView fx:id="studentiTabel" fixedCellSize="25.0" tableMenuButtonVisible="true" BorderPane.alignment="CENTER">
+                                      <columns>
+                                        <TableColumn fx:id="idCS" maxWidth="4000.0" prefWidth="50.0" text="ID STUDENT" />
+                                        <TableColumn fx:id="numeCS" maxWidth="4500.0" prefWidth="75.0" text="NUME" />
+                                          <TableColumn fx:id="grupaCS" maxWidth="3000.0" prefWidth="75.0" text="GRUPA" />
+                                          <TableColumn fx:id="emailCS" maxWidth="4000.0" prefWidth="75.0" text="EMAIL" />
+                                          <TableColumn fx:id="cadruCS" maxWidth="4000.0" prefWidth="75.0" text="CADRU DIDACTIC" />
+                                      </columns>
+                                       <columnResizePolicy>
+                                          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                       </columnResizePolicy>
+                                       <BorderPane.margin>
+                                          <Insets />
+                                       </BorderPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                       <effect>
+                                          <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.05" />
+                                       </effect>
+                                    </TableView>
+                                 </center>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <bottom>
+                                    <Button fx:id="btnRapS" mnemonicParsing="false" onAction="#rapStudenti" prefHeight="31.0" prefWidth="151.0" text=" Raport studenti" BorderPane.alignment="CENTER">
+                                       <BorderPane.margin>
+                                          <Insets bottom="55.0" top="55.0" />
+                                       </BorderPane.margin>
+                                       <effect>
+                                          <ColorAdjust brightness="0.5" contrast="1.0" />
+                                       </effect>
+                                    </Button>
+                                 </bottom>
+                              </BorderPane>
+                            <AnchorPane onMouseClicked="#clearStudent" prefHeight="706.0" prefWidth="503.0">
+                                 <children>
+                                    <GridPane layoutX="44.0" layoutY="53.0" prefHeight="187.0" prefWidth="427.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="208.0" minWidth="10.0" prefWidth="122.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.0" minWidth="10.0" prefWidth="305.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label prefHeight="21.0" prefWidth="54.0" text="Id:" />
+                                          <Label text="Nume:" GridPane.rowIndex="1" />
+                                          <Label text="Grupa:" GridPane.rowIndex="2" />
+                                          <Label text="Email:" GridPane.rowIndex="3" />
+                                          <Label text="Cadru didactic:" GridPane.rowIndex="4" />
+                                          <TextField fx:id="idFS" GridPane.columnIndex="1">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="0.15">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" color="#f5efef" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="numeFS" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" color="WHITE" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="grupaFS" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="emailFS" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="cadruFS" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                       </children>
+                                    </GridPane>
+                                    <HBox layoutX="69.0" layoutY="311.0" prefHeight="51.0" prefWidth="402.0" spacing="20.0">
+                                       <children>
+                                          <Button fx:id="btnAddS" mnemonicParsing="false" onAction="#addStudent" text="Add">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="20.0" radius="12.0" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnDeleteS" mnemonicParsing="false" onAction="#deleteStudent" text="Delete">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnUpdateS" mnemonicParsing="false" onAction="#updateStudent" text="Update">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnClearS" mnemonicParsing="false" onAction="#clearStudent" text="Clear">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnFiltersS" mnemonicParsing="false" onAction="#filtersStudent" text="Filters">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </HBox>
+                                    <ImageView fx:id="imageStudent" fitHeight="265.0" fitWidth="379.0" layoutX="69.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="temeTab" text="Teme">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="706.0" prefWidth="1073.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <BorderPane fx:id="borderT" prefHeight="706.0" prefWidth="570.0">
+                                 <center>
+                                    <TableView fx:id="temeTabel" fixedCellSize="25.0" tableMenuButtonVisible="true" BorderPane.alignment="CENTER">
+                                      <columns>
+                                        <TableColumn fx:id="idCT" maxWidth="2000.0" prefWidth="75.0" text="ID TEMA" />
+                                        <TableColumn fx:id="cerintaCT" prefWidth="75.0" text="CERINTA" />
+                                          <TableColumn fx:id="deadlineCT" prefWidth="75.0" text="DEADLINE" />
+                                      </columns>
+                                       <columnResizePolicy>
+                                          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                       </columnResizePolicy>
+                                       <effect>
+                                          <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.05" />
+                                       </effect>
+                                       <BorderPane.margin>
+                                          <Insets />
+                                       </BorderPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </TableView>
+                                 </center>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <bottom>
+                                    <Button fx:id="btnRapT" mnemonicParsing="false" onAction="#rapTeme" prefHeight="31.0" prefWidth="135.0" text="Raport teme" BorderPane.alignment="CENTER">
+                                       <BorderPane.margin>
+                                          <Insets bottom="55.0" top="55.0" />
+                                       </BorderPane.margin>
+                                       <effect>
+                                          <ColorAdjust brightness="0.5" contrast="1.0" />
+                                       </effect>
+                                    </Button>
+                                 </bottom>
+                              </BorderPane>
+                            <AnchorPane onMouseClicked="#clearTema" prefHeight="706.0" prefWidth="503.0">
+                                 <children>
+                                    <GridPane layoutX="50.0" layoutY="48.0" prefHeight="120.0" prefWidth="404.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="182.0" minWidth="10.0" prefWidth="106.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="298.0" minWidth="10.0" prefWidth="298.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label text="Id:" />
+                                          <Label text="Cerinta:" GridPane.rowIndex="1" />
+                                          <Label text="Deadline:" GridPane.rowIndex="2" />
+                                          <TextField fx:id="idFT" GridPane.columnIndex="1">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="deadlineFT" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="cerintaFT" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                       </children>
+                                    </GridPane>
+                                    <HBox layoutX="123.0" layoutY="239.0" prefHeight="52.0" prefWidth="294.0" spacing="10.0">
+                                       <children>
+                                          <Button fx:id="btnAddT" mnemonicParsing="false" onAction="#addTema" text="Add">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnUpdateT" mnemonicParsing="false" onAction="#updateTema" text="Update">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnClearT" mnemonicParsing="false" onAction="#clearTema" text="Clear">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnFiltersT" mnemonicParsing="false" onAction="#filtersTema" text="Filters">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </HBox>
+                                    <ImageView fx:id="imageTema" fitHeight="282.0" fitWidth="424.0" layoutX="44.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="noteTab" text="Note">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="706.0" prefWidth="1073.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <BorderPane fx:id="borderN" prefHeight="706.0" prefWidth="570.0">
+                                 <center>
+                                    <TableView fx:id="noteTabel" fixedCellSize="25.0" tableMenuButtonVisible="true" BorderPane.alignment="CENTER">
+                                      <columns>
+                                        <TableColumn fx:id="idCN" maxWidth="2000.0" prefWidth="75.0" text="ID NOTA" />
+                                        <TableColumn fx:id="idSCN" maxWidth="2500.0" prefWidth="75.0" text="ID STUDENT" />
+                                          <TableColumn fx:id="idTCN" maxWidth="2000.0" prefWidth="75.0" text="ID TEMA" />
+                                          <TableColumn fx:id="valoareCN" maxWidth="2500.0" prefWidth="75.0" text="VALOARE" />
+                                          <TableColumn fx:id="observatiCN" prefWidth="75.0" text="OBSERVATII" />
+                                      </columns>
+                                       <columnResizePolicy>
+                                          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                       </columnResizePolicy>
+                                       <effect>
+                                          <ColorAdjust brightness="-0.55" contrast="1.0" hue="0.05" />
+                                       </effect>
+                                       <BorderPane.margin>
+                                          <Insets />
+                                       </BorderPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </TableView>
+                                 </center>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <bottom>
+                                    <Button fx:id="btnRapN" mnemonicParsing="false" onAction="#rapNote" prefHeight="31.0" prefWidth="121.0" text="Raport note" BorderPane.alignment="CENTER">
+                                       <BorderPane.margin>
+                                          <Insets bottom="55.0" top="55.0" />
+                                       </BorderPane.margin>
+                                       <effect>
+                                          <ColorAdjust brightness="0.5" contrast="1.0" />
+                                       </effect>
+                                    </Button>
+                                 </bottom>
+                              </BorderPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" onMouseClicked="#clearNota" prefHeight="706.0" prefWidth="503.0">
+                                 <children>
+                                    <GridPane layoutX="37.0" layoutY="26.0" prefHeight="226.0" prefWidth="406.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="184.0" minWidth="10.0" prefWidth="138.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="268.0" minWidth="10.0" prefWidth="268.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label text="Id nota:" />
+                                          <Label text="Nume student:" GridPane.rowIndex="1" />
+                                          <Label text="Id tema:" GridPane.rowIndex="3" />
+                                          <Label text="Valoare:" GridPane.rowIndex="4" />
+                                          <Label text="Observatii:" GridPane.rowIndex="5" />
+                                          <TextField fx:id="idFN" editable="false" GridPane.columnIndex="1">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="idTFN" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="valoareFN" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="observatiFN" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <Label text="Id student:" GridPane.rowIndex="2" />
+                                          <TextField fx:id="numeStudentF" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow blurType="ONE_PASS_BOX" height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect></TextField>
+                                          <TextField fx:id="idSFN" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <effect>
+                                                <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0">
+                                                   <bumpInput>
+                                                      <Shadow height="255.0" radius="127.0" width="255.0" />
+                                                   </bumpInput>
+                                                   <light>
+                                                      <Light.Distant color="#a5b1dd" />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </TextField>
+                                       </children>
+                                    </GridPane>
+                                    <HBox layoutX="73.0" layoutY="276.0" prefHeight="51.0" prefWidth="416.0" spacing="10.0">
+                                       <children>
+                                          <Button fx:id="btnAddN" mnemonicParsing="false" onAction="#addNota" text="Add">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnUpdateN" mnemonicParsing="false" onAction="#updateNota" text="Update">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnSetSapt" mnemonicParsing="false" onAction="#setSaptamana" text="Set saptamana">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnClearN" mnemonicParsing="false" onAction="#clearNota" text="Clear">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="25.0" radius="13.25" width="30.0" />
+                                             </effect></Button>
+                                          <Button fx:id="btnFiltersN" mnemonicParsing="false" onAction="#filtersNota" text="Filters">
+                                             <effect>
+                                                <InnerShadow color="#6dadda" height="27.5" radius="13.875" width="30.0" />
+                                             </effect></Button>
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </HBox>
+                                    <GridPane layoutX="44.0" layoutY="598.0" prefHeight="37.0" prefWidth="392.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label text="Saptamana curenta este:">
+                                             <font>
+                                                <Font size="17.0" />
+                                             </font></Label>
+                                          <Label fx:id="saptamanaL" prefHeight="21.0" prefWidth="119.0" GridPane.columnIndex="1">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font></Label>
+                                       </children>
+                                    </GridPane>
+                                    <ImageView fx:id="imageNote" fitHeight="181.0" fitWidth="337.0" layoutX="92.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+         <effect>
+            <Lighting diffuseConstant="1.34" specularConstant="0.0" specularExponent="0.0" surfaceScale="0.0">
+               <bumpInput>
+                  <Shadow color="#a18c36" />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#f8f8f8" />
+               </light>
+            </Lighting>
+         </effect>
+      </TabPane>
+   </children>
+</AnchorPane>

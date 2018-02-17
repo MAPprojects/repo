@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <tema idTema="1">
+        <cerinta>Suma a doua numere</cerinta>
+        <deadline>2</deadline>
+    </tema>
+    <tema idTema="2">
+        <cerinta>Numa pana la valoarea 0</cerinta>
+        <deadline>2</deadline>
+    </tema>
+    <tema idTema="3">
+        <cerinta>Numar prim</cerinta>
+        <deadline>3</deadline>
+    </tema>
+    <tema idTema="4">
+        <cerinta>Cel mai mare divizor comun</cerinta>
+        <deadline>4</deadline>
+    </tema>
+    <tema idTema="5">
+        <cerinta>Produsul a n numere</cerinta>
+        <deadline>2</deadline>
+    </tema>
+    <tema idTema="6">
+        <cerinta>Cel mai mic multiplu comun</cerinta>
+        <deadline>4</deadline>
+    </tema>
+    <tema idTema="7">
+        <cerinta>String-uri Java</cerinta>
+        <deadline>5</deadline>
+    </tema>
+    <tema idTema="8">
+        <cerinta>Cub perfect</cerinta>
+        <deadline>4</deadline>
+    </tema>
+    <tema idTema="9">
+        <cerinta>Fibonacci</cerinta>
+        <deadline>6</deadline>
+    </tema>
+    <tema idTema="10">
+        <cerinta>Matrici</cerinta>
+        <deadline>7</deadline>
+    </tema>
+    <tema idTema="11">
+        <cerinta>Transpusa unei matrici</cerinta>
+        <deadline>9</deadline>
+    </tema>
+    <tema idTema="12">
+        <cerinta>Polinoame</cerinta>
+        <deadline>9</deadline>
+    </tema>
+    <tema idTema="13">
+        <cerinta>Submultimi</cerinta>
+        <deadline>13</deadline>
+    </tema>
+</company>

@@ -1,0 +1,20 @@
+Adaugare nota Id tema 1 Valoare 10 Deadline 14 Saptamana predarii 1 Observatii Nimic
+Adaugare nota Id tema 2 Valoare 7 Deadline 13 Saptamana predarii 1 Observatii Incomplet
+Modificare nota 2 10 13 1Incomplet
+Adaugare nota Id tema 3 Valoare 5 Deadline 9 Saptamana predarii 1 Observatii inc
+Adaugare nota Id tema 7 Valoare 8 Deadline 10 Saptamana predarii 1 Observatii wevr
+Adaugare nota Id tema 9 Valoare 7 Deadline 14 Saptamana predarii 1 Observatii fevf
+Modificare nota Id tema 3 Valoare 10 Deadline 9 Saptamana predarii 1 Observatii inc
+Adaugare nota Id tema 12 Valoare 10 Deadline 10 Saptamana predarii 1 Observatii wece
+Adaugare nota Id tema 11 Valoare 3 Deadline 10 Saptamana predarii 1 Observatii ecfe
+Modificare nota Id tema 11 Valoare 9 Deadline 10 Saptamana predarii 1 Observatii ecfe
+Modificare nota Id tema 11 Valoare 10 Deadline 10 Saptamana predarii 1 Observatii ecfe
+Modificare nota Id tema 9 Valoare 9 Deadline 14 Saptamana predarii 1 Observatii fevf
+Adaugare nota Id tema 4 Valoare 6 Deadline 9 Saptamana predarii 1 Observatii sdcvdsvc
+Modificare nota Id tema 4 Valoare 8 Deadline 9 Saptamana predarii 1 Observatii sdcvdsvc
+Modificare nota Id tema 4 Valoare 9 Deadline 9 Saptamana predarii 1 Observatii sdcvdsvc
+Modificare nota Id tema 4 Valoare 10 Deadline 9 Saptamana predarii 1 Observatii sdcvdsvc
+Adaugare nota Id tema 5 Valoare 5 Deadline 10 Saptamana predarii 1 Observatii fevf
+Modificare nota Id tema 12 Valoare 10 Deadline 10 Saptamana predarii 1 Observatii sssss
+Adaugare nota Id tema 6 Valoare 10 Deadline 4 Saptamana predarii 1 Observatii Perfect
+Adaugare nota Id tema 10 Valoare 6 Deadline 7 Saptamana predarii 1 Observatii Incomplet
