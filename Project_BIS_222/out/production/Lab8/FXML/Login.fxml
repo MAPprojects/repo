@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorLogin" stylesheets="@buttonMenu.css" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+   <children>
+      <StackPane layoutX="96.0" layoutY="42.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="317.0" prefWidth="408.0" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="96.0" AnchorPane.rightAnchor="96.0" AnchorPane.topAnchor="42.0">
+         <children>
+            <GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="524.0" style="-fx-border-color: #4C6E78; -fx-background-color: #abd6c7#abd6d5;" StackPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="186.0" minWidth="10.0" prefWidth="118.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="223.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="138.0" minHeight="10.0" prefHeight="105.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="121.0" minHeight="0.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="163.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="163.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="163.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="163.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Pane fx:id="gridLogin" prefHeight="70.0" prefWidth="410.0" style="-fx-background-color: #4C6E78;" GridPane.columnSpan="2" GridPane.hgrow="NEVER">
+                     <children>
+                        <Label fx:id="labelLogin" layoutX="30.0" layoutY="30.0" prefHeight="36.0" prefWidth="270.0" text="Login" textFill="#fff9f9">
+                           <font>
+                              <Font name="System Bold" size="37.0" />
+                           </font>
+                        </Label>
+                        <Hyperlink fx:id="linkCreateAccount" layoutX="196.0" layoutY="62.0" onAction="#handleCreateAccount" prefHeight="34.0" prefWidth="137.0" text="Create account now" textFill="#fff3f3" underline="true" wrapText="true">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="linkLogin" layoutX="196.0" layoutY="68.0" onAction="#handleLogin" prefHeight="23.0" prefWidth="118.0" text="Back to login" textFill="#f8f8f8" />
+                        <Hyperlink fx:id="linkSendPassword" layoutX="300.0" layoutY="3.0" onAction="#handleForgotPassword" text="Forgot password" textFill="#ebe8e8" underline="true" />
+                     </children>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Pane>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="158.0" text="Email" textAlignment="RIGHT" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="45.0" prefWidth="158.0" text="Password" textAlignment="RIGHT" textFill="WHITE" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+                  <Button fx:id="buttonLogin" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="25.0" prefWidth="189.0" style="-fx-background-color: #4C6E78;" text="Login" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Button>
+                  <PasswordField fx:id="txtPassword" maxWidth="-Infinity" prefHeight="25.0" prefWidth="186.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="txtEmail" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="188.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label fx:id="labelConfirm" prefHeight="27.0" prefWidth="155.0" text="  Confirm password" textAlignment="RIGHT" textFill="WHITE" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+                  <PasswordField fx:id="txtConfirmPassword" maxWidth="-Infinity" prefHeight="25.0" prefWidth="192.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="buttonAccount2" mnemonicParsing="false" onAction="#handleButtonRegister" prefHeight="25.0" prefWidth="188.0" style="-fx-background-color: #4C6E78;" text="Register" textFill="#f3f4f5" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Button>
+                  <Label fx:id="labelErrors" prefHeight="17.0" prefWidth="373.0" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+                  <ImageView fx:id="imgEmail" fitHeight="39.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+                  <ImageView fx:id="imgPassword" fitHeight="44.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+         </children></StackPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><teme><tema nrTema="1"><descriere> Implementati funcționalitățile definite de Iteratia 1 din fisierul TemeLaborator.pdf </descriere><deadline>4</deadline></tema><tema nrTema="2"><descriere> 1. Implementati funcționalitățile definite de Iteratia 2 din fisierul TemeLaborator.pdf -
+2. Asigurați persistența datelor folosind clase din pachetele Java IO sau Java NIO2
+3. Completați layerul UI cu un meniu care să permită utilizatorului:
+a) Efectuarea operațiilor definite de Iterația 1 și Iterația 2.
+b) Validarea datelor introduse (Definiti excepții checked).
+ </descriere><deadline>6</deadline></tema><tema nrTema="3"><descriere> Extindeți proiectul Lab2 cu umătoarele cerințe funcționale sau de proiectare:
+1. Implementati funcționalitățile definite de Iteratia 3 din fisierul TemeLaborator.pdf -
+2. In clasa Service sau EntityService (daca aveti cate unul pentru fiecare entitate), utilizati Stream.filter
+pentru a realiza cerintele iteratiei 3. Mai precis:
+a. Scrieti o metoda generica care filtreaza o lista de entitati de tipul E dupa un anumit criteriu,
+specificat ca si un Predicate in lista de parametri ai metodei. Rezultatul filtrarii va fi apoi sortat
+folosind un comparator care este de asemenea furnizat ca si parametru al metodei.
+public &lt;E&gt; List&lt;E&gt; filterAndSorter(List&lt;E&gt; lista, Predicate&lt;E&gt; p,
+Comparator&lt;T&gt; c)
+Observatie: Puteti defini clase filtre!
+b. Scrieti metode de filtrare concrete care apeleaza metoda generica de la punctul a. (3 metode
+concrete (3 filtre) pentru fiecare entitate)). Folositi lamba si referinte la metode.
+3. Folositi Optional&lt;T&gt; , oriunde este necesar, pentru a preveni NullPointerException (vezi cursul 4 slide 30)
+4. In clasa FileRepository folositi Stream pt citirea(prelucrarea) datelor din fisier.
+ </descriere><deadline>7</deadline></tema><tema nrTema="4"><descriere> Extindeți proiectul Lab4 cu umătoarele cerințe funcționale sau de proiectare:
+- Proiectati o interfata grafica, folosind JavaFX, care sa permita efectuarea de operatii CRUD pentru o
+entitate definita la Iteratia 1.
+- Separati partea de logica de partea de vizualizare si manipulare (use MVC); Atentie Controllerul din
+MVC nu este acelasi cu Controllerul GRASP pe care l-ati avut anul trecut.
+- Fara FXML (Seminar 7) </descriere><deadline>8</deadline></tema><tema nrTema="5"><descriere> Extindeți proiectul Lab5 cu umătoarele cerințe funcționale sau de proiectare:
+- Proiectati o interfata grafica, folosind JavaFX, care sa permita efectuarea operatiilor ce definesc
+functionalitatile din Iteratia1, Iteratia2 si Iteratia3.
+- Separati partea de logica de partea de vizualizare si manipulare (use MVC);
+View-l sa fie un fisier FXML (Seminar 8).
+ </descriere><deadline>11</deadline></tema><tema nrTema="6"><descriere> Conversie Lab2+Lab3 din Java IN C#</descriere><deadline>13</deadline></tema></teme>

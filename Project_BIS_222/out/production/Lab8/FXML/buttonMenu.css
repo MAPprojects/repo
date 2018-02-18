@@ -1,0 +1,123 @@
+#mainAnchorPane
+{
+ -fx-background-image: url("background.jpg");
+ -fx-background-opacity: 0.2;
+}
+
+#mainAnchorLogin
+{
+  -fx-background-image: url("background.jpg");
+  -fx-background-opacity: 0.2;
+}
+
+
+#buttonNew{
+  -fx-background-image: url("addTema.png");
+  -fx-background-color:#4C6E78;
+  -fx-background-repeat:no-repeat;
+  -fx-background-position: right;
+  -fx-background-size:28;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;
+}
+
+#buttonExcel{
+  -fx-background-image: url("excel.png");
+  -fx-background-color:#4C6E78;
+  -fx-background-repeat:no-repeat;
+  -fx-background-position: left;
+  -fx-background-size:28;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;
+}
+
+#buttonPdf{
+  -fx-background-color:#4C6E78;
+  -fx-background-repeat:no-repeat;
+  -fx-background-position: left;
+  -fx-background-size:28;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;
+}
+
+
+#buttonSendFeedbackAll{
+  -fx-background-image: url("mail.png");
+  -fx-background-color: #4C6E78;
+  -fx-background-repeat:no-repeat;
+  -fx-background-position: left;
+  -fx-background-size:28;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;
+}
+
+#buttonSearch{
+  -fx-background-image: url("search.png");
+  -fx-background-color:#4C6E78;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: left;
+  -fx-background-size:28;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;
+}
+#buttonStudent {
+  -fx-background-image: url("student.png");
+  -fx-background-color: linear-gradient(#4C6E78 0%, #96BEBD 100%);
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-text-fill:white;
+}
+#buttonHomework {
+  -fx-background-image: url("homework.png");
+  -fx-background-repeat: no-repeat;
+  -fx-background-color: linear-gradient(#4C6E78 0%, #96BEBD 100%);
+  -fx-background-position: center;
+  -fx-text-fill:white;
+}
+#buttonGrade {
+  -fx-background-image: url("grade.png");
+  -fx-background-repeat: no-repeat;
+     -fx-background-color: linear-gradient(#4C6E78 0%, #96BEBD 100%);
+  -fx-background-position: center;
+  -fx-text-fill:white;
+}
+#buttonStatistics {
+  -fx-background-image: url("statistics.png");
+  -fx-background-repeat: no-repeat;
+  -fx-background-color: linear-gradient(#4C6E78 0%, #96BEBD 100%);
+  -fx-background-position: center;
+  -fx-text-fill:white;
+}
+#buttonAccount {
+  -fx-background-image: url("account.png");
+  -fx-background-repeat: no-repeat;
+   -fx-background-color: linear-gradient(#4C6E78 0%, #96BEBD 100%);
+  -fx-background-position: center;
+  -fx-text-fill:white;
+}
+#buttonClearFilters{
+  -fx-background-image: url("nofilters.png");
+  -fx-background-color:#4C6E78;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: left;
+  -fx-background-size:28;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;
+
+}
+#buttonStudent:hover {
+
+   -fx-background-color:"#96BEBD";
+}
+#buttonHomework:hover {
+  -fx-background-color:"#96BEBD";
+}
+#buttonGrade:hover {
+  -fx-background-color:"#96BEBD";
+}
+#buttonStatistics:hover {
+  -fx-background-color:"#96BEBD";
+}
+#buttonAccount:hover {
+  -fx-background-color:"#96BEBD";
+}

@@ -1,0 +1,38 @@
+.button {
+
+  -fx-background-color: #FEA360;
+  -fx-background-position:left;
+  -fx-text-fill:white;
+  }
+
+#buttonUpdate{
+    -fx-background-color:#FEA360;
+    -fx-background-position:left;
+    -fx-text-fill:white;
+}
+
+#buttonDelete{
+
+    -fx-background-color: #D4643F;
+    -fx-background-position:left;
+    -fx-text-fill:white;
+}
+
+#buttonAddGrade{
+
+    -fx-background-color: #D4643F;
+    -fx-background-position:left;
+    -fx-text-fill:white;
+}
+
+#buttonSendFeedback{
+
+    -fx-background-color: #4C6E78;
+    -fx-background-position:left;
+    -fx-text-fill:white;
+}
+
+.button:hover
+{
+    -fx-background-radius:22;
+}

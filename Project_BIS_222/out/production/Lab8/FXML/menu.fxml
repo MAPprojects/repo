@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPaneMainID" minHeight="0.0" minWidth="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MenuController">
+<SplitPane fx:id="splitPaneID" dividerPositions="0.13879598662207357" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+  <items>
+    <AnchorPane fx:id="anchorPaneMenuID" maxWidth="80.0" minHeight="0.0" minWidth="80.0" prefWidth="80.0" style="-fx-background-color: #4C6E78;">
+         <children>
+            <ToggleButton fx:id="buttonStudent" alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" onMouseClicked="#handleButtonStudentMenu" prefHeight="80.0" prefWidth="80.0" stylesheets="@buttonMenu.css" text="Students">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="buttonHomework" alignment="BOTTOM_CENTER" layoutY="80.0" mnemonicParsing="false" onMouseClicked="#handleButtonHomeworkMenu" prefHeight="80.0" prefWidth="80.0" stylesheets="@buttonMenu.css" text="Homeworks">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="buttonGrade" alignment="BOTTOM_CENTER" layoutY="159.0" mnemonicParsing="false" onMouseClicked="#handleButtonGradeMenu" prefHeight="80.0" prefWidth="80.0" stylesheets="@buttonMenu.css" text="Grades">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="buttonStatistics" alignment="BOTTOM_CENTER" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#handleButtonStatisticsMenu" prefHeight="80.0" prefWidth="80.0" stylesheets="@buttonMenu.css" text="Statistics">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="buttonAccount" alignment="BOTTOM_CENTER" layoutY="319.0" mnemonicParsing="false" onMouseClicked="#handleButtonLogOut" prefHeight="80.0" prefWidth="80.0" stylesheets="@buttonMenu.css" text="Log Out">
+                  <font>
+                     <Font name="System Bold" size="11.0" />
+                  </font></ToggleButton>
+         </children>
+      </AnchorPane>
+    <AnchorPane fx:id="anchorPaneContent" minHeight="0.0" minWidth="0.0" prefHeight="453.0" prefWidth="559.0" />
+  </items>
+</SplitPane>
+</AnchorPane>

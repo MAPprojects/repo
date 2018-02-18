@@ -1,0 +1,74 @@
+.chart-bar {
+    -fx-background-color: rgba(0,168,355,0.05);
+    -fx-border-color: rgba(0,168,355,0.3) rgba(0,168,355,0.3)
+    transparent rgba(0,168,355,0.3);
+    -fx-background-radius: 0;
+    -fx-background-position: left center;
+}
+
+.data0.chart-bar {
+    -fx-background-color:#2ca391;
+    -fx-max-width: 80px;
+}
+.data1.chart-bar {
+    -fx-background-color:#a22b3f ;
+}
+.data2.chart-bar {
+    -fx-background-color:#2A6259;
+}
+.data3.chart-bar {
+    -fx-background-color:#ed8f3d ;
+}
+.data4.chart-bar {
+    -fx-background-color:#530201;
+}
+.data5.chart-bar {
+    -fx-background-color:#776a6c;
+}
+.data6.chart-bar {
+    -fx-background-color:#BC6578;
+}
+.data7.chart-bar {
+    -fx-background-color:#E38150;
+}
+
+
+.default-color0.chart-pie { -fx-pie-color: #BC6578; }
+.default-color1.chart-pie { -fx-pie-color: #5dc1b1}
+.default-color2.chart-pie { -fx-pie-color: #a22b3f; }
+.default-color3.chart-pie { -fx-pie-color: #2ca391; }
+.default-color4.chart-pie { -fx-pie-color: #FCAC89; }
+.default-color5.chart-pie { -fx-pie-color: #BC6578; }
+.default-color6.chart-pie { -fx-pie-color: #BCDCDB; }
+.default-color7.chart-pie { -fx-pie-color: #FBAD89; }
+.default-color8.chart-pie { -fx-pie-color: #E38150; }
+.default-color9.chart-pie { -fx-pie-color: #2A6259;}
+.default-color10.chart-pie { -fx-pie-color: #8EBBA7; }
+
+.chart-pie-label-line {
+    -fx-stroke: #4C6E78;
+    -fx-fill: #4C6E78;
+}
+
+.chart-pie-label {
+    -fx-fill: #4C6E78;
+    -fx-font-size: 1em;
+}
+.chart-legend {
+    -fx-background-color:  #8EBBA7;
+    -fx-stroke: #4C6E78;
+}
+
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.default-color0.chart-series-line { -fx-stroke: #530201; }
+.default-color1.chart-series-line { -fx-stroke:  #4C6E78; }
+.default-color2.chart-series-line { -fx-stroke: #530201; }
+
+.default-color0.chart-line-symbol { -fx-background-color: #530201, #530201; }
+.default-color1.chart-line-symbol { -fx-background-color:  #4C6E78, #4C6E78; }
+.default-color2.chart-line-symbol { -fx-background-color: #530201, #530201; }
