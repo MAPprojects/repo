@@ -1,0 +1,66 @@
+<teme>
+   <tema id="1">
+     <cerinta>Suma a doua numere</cerinta>
+     <deadline>13</deadline>
+   </tema>
+<tema id="2">
+     <cerinta>Scaderea a doua numere</cerinta>
+     <deadline>9</deadline>
+   </tema>
+<tema id="3">
+     <cerinta>Inmultire</cerinta>
+     <deadline>10</deadline>
+   </tema>
+<tema id="4">
+     <cerinta>Impartire</cerinta>
+     <deadline>11</deadline>
+   </tema>
+<tema id="6">
+     <cerinta>Microbiology</cerinta>
+     <deadline>8</deadline>
+   </tema>
+<tema id="7">
+     <cerinta>Python Project</cerinta>
+     <deadline>6</deadline>
+   </tema>
+<tema id="8">
+     <cerinta>Essay</cerinta>
+     <deadline>14</deadline>
+   </tema>
+<tema id="9">
+     <cerinta>Proiect Prolog</cerinta>
+     <deadline>11</deadline>
+   </tema>
+<tema id="11">
+     <cerinta>Inserare tabele sql</cerinta>
+     <deadline>13</deadline>
+   </tema>
+<tema id="13">
+     <cerinta>Listenings english</cerinta>
+     <deadline>13</deadline>
+   </tema>
+<tema id="15">
+     <cerinta>LeseVerstehen</cerinta>
+     <deadline>12</deadline>
+   </tema>
+<tema id="16">
+     <cerinta>C# Project</cerinta>
+     <deadline>14</deadline>
+   </tema>
+<tema id="17">
+     <cerinta>Fp Project</cerinta>
+     <deadline>10</deadline>
+   </tema>
+<tema id="18">
+     <cerinta>Macrobiology</cerinta>
+     <deadline>7</deadline>
+   </tema>
+<tema id="19">
+     <cerinta>Statistics</cerinta>
+     <deadline>9</deadline>
+   </tema>
+<tema id="20">
+     <cerinta>Astronomy</cerinta>
+     <deadline>14</deadline>
+   </tema>
+</teme>

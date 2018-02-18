@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="593.0" prefWidth="950.0" style="-fx-background-color: #fdf5e6; -fx-border-width: 4; -fx-border-color: darkred;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.LoginController">
+   <children>
+      <Label layoutX="395.0" layoutY="70.0" text="Proiect" textFill="MIDNIGHTBLUE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="475.0" layoutY="70.0" text="Practic" textFill="DARKRED">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user" layoutX="401.0" layoutY="317.0" onAction="#onEnterUser" prefHeight="25.0" prefWidth="159.0" promptText="User" />
+      <Button fx:id="loginButton" layoutX="427.0" layoutY="436.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="35.0" prefWidth="96.0" stylesheets="@Lol.css" text="Log In" />
+      <Button layoutX="847.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleSignIn" prefHeight="43.0" prefWidth="77.0" stylesheets="@Lol.css" text="Sign In" />
+      <Label layoutX="747.0" layoutY="36.0" text="Not a member?" textFill="BLUE" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="376.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@university.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="376.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@userda.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="376.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lock.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="password" layoutX="402.0" layoutY="368.0" onAction="#onEnterPassword" prefHeight="25.0" prefWidth="159.0" promptText="Password" />
+   </children>
+</AnchorPane>

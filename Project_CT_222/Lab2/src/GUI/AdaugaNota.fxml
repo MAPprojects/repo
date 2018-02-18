@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="416.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AdaugaNota">
+   <children>
+      <TextField fx:id="idStudent" layoutX="135.0" layoutY="83.0" onAction="#onEnterIdStud" />
+      <TextField fx:id="Valoare" layoutX="135.0" layoutY="108.0" onAction="#onEnterValoare" />
+      <TextField fx:id="SaptamanaPredarii" layoutX="135.0" layoutY="133.0" onAction="#onEnterSaptamanaPredarii" />
+      <Label layoutX="19.0" layoutY="87.0" text="idStudent" />
+      <Label layoutX="25.0" layoutY="18.0" text="idTema" />
+      <Label layoutX="24.0" layoutY="112.0" text="Valoare" />
+      <Label layoutX="24.0" layoutY="137.0" text="SaptamanaPredarii" />
+      <Label layoutX="24.0" layoutY="162.0" text="Observatii" />
+      <Button fx:id="adaugaButton" layoutX="89.0" layoutY="320.0" mnemonicParsing="false" onAction="#addButtonHandler" prefHeight="50.0" prefWidth="158.0" text="Adauga" />
+      <ComboBox fx:id="teme" layoutX="135.0" layoutY="14.0" prefWidth="150.0" />
+      <TextArea fx:id="Observatii" layoutX="135.0" layoutY="158.0" onDragDetected="#onEnterObservatii" prefHeight="151.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

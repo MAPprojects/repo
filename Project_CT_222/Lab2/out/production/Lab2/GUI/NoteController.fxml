@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="528.0" prefWidth="808.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.NoteController">
+   <children>
+      <TextField fx:id="filter" layoutX="441.0" layoutY="33.0" />
+      <ComboBox fx:id="comboNote" layoutX="254.0" layoutY="33.0" onAction="#filtrareNotaHandler" prefWidth="150.0" />
+      <Pagination fx:id="pagination" layoutX="6.0" layoutY="85.0" prefHeight="434.0" prefWidth="834.0" />
+      <TableView fx:id="tableView" layoutX="4.0" layoutY="78.0" prefHeight="259.0" prefWidth="595.0">
+        <columns>
+          <TableColumn fx:id="colStudent" prefWidth="122.0" text="Student" />
+          <TableColumn fx:id="colGrupa" prefWidth="166.0" text="Grupa" />
+            <TableColumn fx:id="deleteColumn" prefWidth="166.0" text="Actions" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

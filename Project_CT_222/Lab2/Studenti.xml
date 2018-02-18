@@ -1,0 +1,92 @@
+<students>
+   <student id="1">
+     <nume>Julia Little</nume>
+     <grupa>312</grupa>
+     <email>julia@gmail.com</email>
+     <profesor>Dorothy Alexander</profesor>
+   </student>
+<student id="2">
+     <nume>Eddie Prevost</nume>
+     <grupa>312</grupa>
+     <email>eddie@yahoo.com</email>
+     <profesor>Dorothy Alexander</profesor>
+   </student>
+<student id="4">
+     <nume>Simon Linke</nume>
+     <grupa>112</grupa>
+     <email>simon@scs.ubbcluj.ro</email>
+     <profesor>Douglas Fogle</profesor>
+   </student>
+<student id="5">
+     <nume>Donna Lynam</nume>
+     <grupa>415</grupa>
+     <email>donna.lynam@gmail.com</email>
+     <profesor>Dorothy Alexander</profesor>
+   </student>
+<student id="6">
+     <nume>Suse Wiegand</nume>
+     <grupa>944</grupa>
+     <email>suse_sweety@gmail.com</email>
+     <profesor>Phillipe Cohen</profesor>
+   </student>
+<student id="7">
+     <nume>Anita Drachman</nume>
+     <grupa>112</grupa>
+     <email>anita@yahoo.com</email>
+     <profesor>Patricia Bickers</profesor>
+   </student>
+<student id="8">
+     <nume>Vincent Vasseur</nume>
+     <grupa>415</grupa>
+     <email>vincent@gmail.com</email>
+     <profesor>Douglas Fogle</profesor>
+   </student>
+<student id="9">
+     <nume>John Riddy</nume>
+     <grupa>112</grupa>
+     <email>johnR@scs.ubbcluj.ro</email>
+     <profesor>Phillipe Cohen</profesor>
+   </student>
+<student id="10">
+     <nume>John Beagles</nume>
+     <grupa>944</grupa>
+     <email>BeaglesDeagles@yahoo.com</email>
+     <profesor>Douglas Fogle</profesor>
+   </student>
+<student id="12">
+     <nume>Roger Canning</nume>
+     <grupa>112</grupa>
+     <email>CanRog@gmail.com</email>
+     <profesor>Vong Phaophanit</profesor>
+   </student>
+<student id="13">
+     <nume>Guy Limone</nume>
+     <grupa>444</grupa>
+     <email>guy@mail.com</email>
+     <profesor>Patricia Bickers</profesor>
+   </student>
+<student id="14">
+     <nume>Gary Rough</nume>
+     <grupa>415</grupa>
+     <email>gary@logon.com</email>
+     <profesor>Patricia Bickers</profesor>
+   </student>
+<student id="15">
+     <nume>Annie Fletcher</nume>
+     <grupa>944</grupa>
+     <email>annie@yahoo.com</email>
+     <profesor>Dorothy Alexander</profesor>
+   </student>
+<student id="16">
+     <nume>John Snickers</nume>
+     <grupa>112</grupa>
+     <email>johnSnik@mail.com</email>
+     <profesor>Douglas Fogle</profesor>
+   </student>
+<student id="17">
+     <nume>Jason Moore</nume>
+     <grupa>444</grupa>
+     <email>jayjay@gmail.com</email>
+     <profesor>Gabi Mircea</profesor>
+   </student>
+</students>

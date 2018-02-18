@@ -1,0 +1,32 @@
+<Busers>
+   <Buser email="maria@scs.ubbcluj.ro">
+     <user>Maria</user>
+     <password>ma</password>
+     <priority>0</priority>
+   </Buser>
+<Buser email="mihai@scs.ubbcluj.ro">
+     <user>Mihai</user>
+     <password>Ion</password>
+     <priority>0</priority>
+   </Buser>
+<Buser email="mihai@gmail.com">
+     <user>Mihai</user>
+     <password>da</password>
+     <priority>1</priority>
+   </Buser>
+<Buser email="denisa@mail.com">
+     <user>denisa</user>
+     <password>tomaesmecher</password>
+     <priority>0</priority>
+   </Buser>
+<Buser email="flaviu@gmail.com">
+     <user>Flaviu</user>
+     <password>flaviu</password>
+     <priority>0</priority>
+   </Buser>
+<Buser email="ion@yahoo.com">
+     <user>Ion</user>
+     <password>Ion</password>
+     <priority>1</priority>
+   </Buser>
+</Busers>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="mainView" prefHeight="606.0" prefWidth="844.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+
+    <RadioButton fx:id="studentiBtn" prefHeight="117.0" prefWidth="231.0" text="Studenti" GridPane.columnIndex="2" GridPane.columnSpan="1" GridPane.rowIndex="1">
+      <toggleGroup>
+         <ToggleGroup fx:id="listButtonsGroup" />
+      </toggleGroup></RadioButton>
+
+    <RadioButton fx:id="temeBtn" prefHeight="120.0" prefWidth="214.0" text="Teme" toggleGroup="$listButtonsGroup" GridPane.columnIndex="3" GridPane.columnSpan="1" GridPane.rowIndex="1">
+    </RadioButton>
+
+    <RadioButton fx:id="noteBtn" prefHeight="119.0" prefWidth="218.0" text="Note" toggleGroup="$listButtonsGroup" GridPane.columnIndex="4" GridPane.rowIndex="1">
+    </RadioButton>
+   <RadioButton fx:id="backBtn" mnemonicParsing="false" prefHeight="120.0" prefWidth="224.0" text="&lt;---Log Out" GridPane.rowIndex="1" />
+   <RadioButton fx:id="statisticsButton" mnemonicParsing="false" prefHeight="120.0" prefWidth="224.0" text="Statistics" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <fx:define>
+        <ToggleGroup fx:id="listButtonsGroup" />
+    </fx:define>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="284.0" minWidth="10.0" prefWidth="220.0" />
+      <ColumnConstraints maxWidth="284.0" minWidth="10.0" prefWidth="220.0" />
+      <ColumnConstraints maxWidth="314.0" minWidth="116.0" prefWidth="202.0" />
+      <ColumnConstraints maxWidth="336.0" minWidth="67.0" prefWidth="204.0" />
+      <ColumnConstraints maxWidth="251.0" minWidth="0.0" prefWidth="218.0" />
+      <ColumnConstraints maxWidth="148.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="148.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+   </rowConstraints>
+
+</GridPane>
