@@ -1,0 +1,3 @@
+In saptamana 11 S-a adaugat nota:  a fost predata in saptamana: 11 la tema: 4 cu termenul de predare: 14 nota: 10; observatii: ceva
+In saptamana 11 S-a modificat nota:  a fost predata in saptamana: 13 la tema: 6 cu termenul de predare: 13 nota: 10; observatii: Ceva Observatie
+In saptamana 11 S-a modificat nota:  a fost predata in saptamana: 13 la tema: 6 cu termenul de predare: 13 nota: 10; observatii: bv

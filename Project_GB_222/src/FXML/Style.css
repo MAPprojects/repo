@@ -1,0 +1,95 @@
+#AnchorPane, #anchorPane{
+    -fx-background-color:#E1F0F5  ;
+    /*-fx-border-color:#C94B46 ;*/
+}
+
+#Pane{
+    -fx-background-color:#E1F0F5  ;
+}
+
+#Button, #bttLogIn, #bttCreate{
+    -fx-background-color: #FEE096;
+    -fx-text-fill: #5E526C;
+    -fx-font-weight: bold;
+    -fx-font-size: 13;
+}
+
+#buttonDelete{
+    -fx-background-color: #C94B46;
+}
+
+#TopButton{
+    -fx-background-color: #FEE096;
+    -fx-text-fill: #5E526C;
+    -fx-font-weight: bold;
+    -fx-font-size: 12;
+}
+
+#Splitter{
+    -fx-background-color: #5E526C;
+}
+
+#MenuBarAnchorPane{
+    -fx-background-color:#91AFDD  ;
+}
+
+#MenuRectangle{
+    -fx-background-color:#FEE096  ;
+}
+
+#MenuButton{
+    -fx-background-color: #FEE096;
+    -fx-background-repeat: stretch;
+    -fx-background-image: url("menuIcon3.png") ;
+    -fx-background-position: center center;
+}
+
+.split-pane > .split-pane-divider {
+    -fx-background-color: #5E526C;
+    -fx-padding: 0 0.01em 0 0.01em;
+}
+
+#Table{
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #E1F0F5 ;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #91AFDD;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-column{
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: linear-gradient(#91AFDD 0%, #E1F0F5 100%);
+}
+
+#listView{
+    -fx-background-color: linear-gradient(#91AFDD 0%, #E1F0F5 100%);
+}
+
+.list-cell{
+    -fx-background-color: #91AFDD;
+}
+
+.accordion > .titled-pane{
+    -fx-background-color: #FEE096;
+}
+
+.titled-pane{
+    -fx-background-color: #FEE096;
+}
+
+/*#612237 #E2CFBE #68AF9F #2F6963 #E1F0F5 #BBF2EC*/

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="861.0" style="" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Constrollers.MenuController" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <children>
+        <VBox prefWidth="808.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <AnchorPane id="MenuBarAnchorPane" maxHeight="-Infinity" prefHeight="38.0" prefWidth="808.0" stylesheets="@Style.css">
+                    <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#C94B46" height="38.0" layoutX="653.0" stroke="BLACK" strokeType="INSIDE" width="52.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Button id="MenuButton" layoutX="712.0" layoutY="2.0" mnemonicParsing="false" onAction="#toggleExtendableSearch" prefHeight="32.0" prefWidth="45.0" styleClass="material-icons" AnchorPane.bottomAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="2.0" />
+                    </children>
+                </AnchorPane>
+            <AnchorPane id="AnchorPane" maxHeight="-Infinity" prefWidth="571.0" stylesheets="@Style.css" VBox.vgrow="ALWAYS">
+               <children>
+                      <BorderPane id="borderPane" fx:id="borderPane" prefHeight="1000" prefWidth="808.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <center>
+                              <AnchorPane id="AnchorPane" maxHeight="-Infinity" />
+                          </center>
+                     <right>
+                              <AnchorPane id="MenuBarAnchorPane" fx:id="extendableSearchPane" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="0" onMouseExited="#toggleExtendableSearch" prefWidth="107.0" stylesheets="@Style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" BorderPane.alignment="CENTER">
+                           <Button id="Button" fx:id="studButton" alignment="BASELINE_LEFT" layoutY="10.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="103.0" text="Student" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                           <Button id="Button" fx:id="temaButton" alignment="BASELINE_LEFT" layoutY="67.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="103.0" text="Teme" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                           <Button id="Button" fx:id="notaButton" alignment="BASELINE_LEFT" layoutY="124.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="103.0" text="Note" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                           <Button id="Button" fx:id="statButton" alignment="BASELINE_LEFT" layoutY="177.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="103.0" text="Statistica" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                             <ImageView fitHeight="19.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true" x="75.0" />
+                             <ImageView fitHeight="19.0" fitWidth="26.0" layoutX="5.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" x="75.0" />
+                           <ImageView fitHeight="25.0" fitWidth="30.0" layoutX="65.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" />
+                           <effect>
+                              <Lighting diffuseConstant="1.4">
+                                 <bumpInput>
+                                    <Shadow />
+                                 </bumpInput>
+                                 <light>
+                                    <Light.Distant />
+                                 </light>
+                              </Lighting>
+                           </effect>
+                              </AnchorPane>
+                     </right>
+                      </BorderPane>
+               </children>
+            </AnchorPane>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

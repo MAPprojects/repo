@@ -1,0 +1,5 @@
+1|greu|7
+2|UI|6
+3|Fisiere|8
+4|erwer//newLine//gyuft//newLine//ft6dr|14
+5|De facut ceva nou 1|14

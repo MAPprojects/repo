@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="javax">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/javax.mail" />
+      <root url="file://$PROJECT_DIR$/pdfbox-app-2.0.8" />
+      <root url="file://$PROJECT_DIR$/poi-3.17" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/poi-3.17/docs/apidocs" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/poi-3.17" recursive="false" />
+  </library>
+</component>

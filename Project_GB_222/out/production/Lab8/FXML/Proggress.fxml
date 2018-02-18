@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="137.0" minWidth="-Infinity" prefHeight="137.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Constrollers.ProggressController">
+    <children>
+        <!--<Pane prefHeight="65.0" prefWidth="500.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="335.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />-->
+        <!--<Pane layoutY="335.0" prefHeight="65.0" prefWidth="500.0" style="-fx-background-color: black;" />-->
+        <ProgressBar fx:id="progressIndicator" layoutX="14.0" layoutY="88.0" prefHeight="25.0" prefWidth="182.0" progress="0.0" />
+        <Label layoutX="14.0" layoutY="15.0" prefHeight="58.0" prefWidth="385.0" text="Sending emails...">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonProgress" layoutX="220.0" layoutY="88.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Button" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="88.0" />
+        <Label fx:id="labelMsg" layoutX="14.0" layoutY="65.0" prefHeight="17.0" prefWidth="60.0" />
+    </children>
+</AnchorPane>

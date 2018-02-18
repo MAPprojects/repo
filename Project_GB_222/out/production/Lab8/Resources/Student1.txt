@@ -1,0 +1,3 @@
+In saptamana 7 S-a adaugat nota:  a fost predata in saptamana: 6 la tema: 2 cu termenul de predare: 6 nota: 5; observatii: obs1
+In saptamana 6 S-a adaugat nota:  a fost predata in saptamana: 12 la tema: 1 cu termenul de predare: 14 nota: 10; observatii: da
+In saptamana 6 S-a adaugat nota:  a fost predata in saptamana: 12 la tema: 2 cu termenul de predare: 13 nota: 10; observatii: obs
