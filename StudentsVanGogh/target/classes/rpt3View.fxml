@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.BubbleChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contentStd" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ReportsUI.Rpt3Ctrl">
+    <children>
+        <ImageView fx:id="imageViewStd" fitHeight="1097.0" fitWidth="1667.0" layoutX="-20.0" layoutY="-288.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../5.jpg" />
+            </image>
+        </ImageView>
+        <JFXButton fx:id="buttonBackRpt2" layoutX="18.0" layoutY="32.0" onAction="#handleBackRpt2" text="←">
+            <font>
+                <Font name="Helvetica LT 55 Roman" size="25.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="buttonDownload" layoutX="58.0" layoutY="368.0" onAction="#handleDownload" text="↓ download">
+            <font>
+                <Font name="Helvetica LT 55 Roman" size="30.0" />
+            </font>
+        </JFXButton>
+      <AnchorPane layoutX="325.0" layoutY="42.0" prefHeight="718.0" prefWidth="1179.0">
+         <children>
+            <BubbleChart fx:id="bubbleChart" layoutX="-5.0" layoutY="-2.0" prefHeight="718.4" prefWidth="1179.2" title="assignments" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <xAxis>
+                <NumberAxis label="assignment" side="BOTTOM" fx:id="xAxis" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxis" label="grade" side="LEFT" />
+              </yAxis>
+            </BubbleChart>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

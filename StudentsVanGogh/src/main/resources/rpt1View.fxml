@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contentStd" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ReportsUI.Rpt1Ctrl">
+    <children>
+        <ImageView fx:id="imageViewStd" fitHeight="1135.0" fitWidth="1671.0" layoutY="-299.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../5.jpg" />
+            </image>
+        </ImageView>
+        <JFXButton fx:id="buttonBackRpt1" layoutX="26.0" layoutY="27.0" onAction="#handleBackRpt1" text="back">
+            <font>
+                <Font name="Helvetica LT 55 Roman" size="15.0" />
+            </font>
+        </JFXButton>
+        <BarChart fx:id="barChart" layoutX="211.0" layoutY="-9.0" prefHeight="807.0" prefWidth="1323.0" title="final grades for all students" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+            <xAxis>
+                <CategoryAxis label="students" fx:id="xAxis" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" animated="false" autoRanging="false" label="final grade" minorTickCount="1" side="LEFT" tickUnit="1.0" upperBound="10.0">
+                    <tickLabelFont>
+                        <Font name="Helvetica LT 75 Bold" size="14.0" />
+                    </tickLabelFont></NumberAxis>
+            </yAxis>
+        </BarChart>
+        <JFXButton fx:id="buttonDownload" layoutX="51.0" layoutY="337.0" onAction="#handleDownload" text="↓ download">
+            <font>
+                <Font name="Helvetica LT 55 Roman" size="24.0" />
+            </font>
+        </JFXButton>
+    </children>
+</AnchorPane>

@@ -1,0 +1,110 @@
+
+.button {
+    -fx-padding: 5 22 5 22;
+    -fx-background-radius: 0;
+    -fx-background-color: #e8efd2;
+    -fx-font-family: "Helvetica CE 55 Roman";
+    -fx-font-size: 11pt;
+    -fx-text-fill: #2d2d2e;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color: #e8efd2;
+    -fx-text-fill: #2d2d2e;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: #e8efd2;
+    -fx-text-fill: #2d2d2e;
+}
+
+.table-view {
+    -fx-base: #e8efd2;
+    -fx-control-inner-background: #e8efd2;
+    -fx-background-color: #e8efd2;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+    -fx-font-family: "Helvetica CE 55 Roman";
+    -fx-font-size: 15;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-font-family: "Helvetica LT Std Compressed";
+    -fx-size: 20;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color:
+            transparent
+            transparent
+            derive(-fx-base, 80%)
+            transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 20;
+    -fx-font-family: "Helvetica LT Std Compressed";
+    -fx-text-fill:#777777;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view .column-header-background .label {
+    -fx-font-weight: lighter;
+    -fx-text-alignment: center;
+    -fx-tile-alignment: center;
+    -fx-font-family: "Helvetica LT Std Compressed";
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #57889b;
+}
+
+
+
+.table-row-cell:selected {
+    -fx-font-size: 15;
+}
+
+
+
+
+
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+
+.text-field:hover {
+    -fx-background-color: #e8efd2;
+}
+
+.text-field {
+    -fx-font-family: "Helvetica CE 55 Roman";
+    -fx-background-color: #e8efd2;
+    -fx-text-fill: #2d2d2e;
+}
+
+.label {
+    -fx-font-family: "Helvetica CE 55 Roman";
+    -fx-font-size: 5px;
+    -fx-text-fill: #e8efd2;
+    -fx-spacing: 50px;
+    -fx-alignment: center;
+}
+
+.combo-box {
+    -fx-font-family: "Helvetica CE 55 Roman";
+    -fx-font-size: 13px;
+    -fx-background-color: #e8efd2;
+    -fx-text-fill: #2d2d2e;
+    -fx-alignment: center;
+}
+

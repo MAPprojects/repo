@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="contentAsg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1550.0" stylesheets="@stdStyle.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.GradesGUI.GrdController">
+    <children>
+        <ImageView fx:id="imageViewGrd" fitHeight="1079.0" fitWidth="1554.0" layoutY="-277.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../5.jpg" />
+            </image>
+        </ImageView>
+        <BorderPane layoutX="166.0" layoutY="12.0" prefHeight="800.0" prefWidth="1550.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+            <left>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="418.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button fx:id="buttonAddGrd" layoutX="174.0" layoutY="177.0" mnemonicParsing="false" onAction="#handleAddGrd" text="add" />
+                        <Button fx:id="buttonUpdGrd" layoutX="164.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleUpdGrd" text="update" />
+                        <Button fx:id="buttonBackGrd" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBackGrd" text="←" />
+                        <TextField fx:id="textFieldGroup" layoutX="135.0" layoutY="551.0" onAction="#handleGroup" onKeyPressed="#handleGroup" onKeyTyped="#handleGroup" promptText="search by group..." />
+                    </children>
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="40.0" right="20.0" top="20.0" />
+               </BorderPane.margin>
+                </AnchorPane>
+            </left>
+            <right>
+                <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+                    <top>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <TextField fx:id="textFieldSearchNameStd" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleSearchName" onKeyPressed="#handleSearchName" onKeyTyped="#handleSearchName" prefHeight="35.0" prefWidth="1000.0" promptText="search by student's name...">
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin></TextField>
+                                <TextField fx:id="textFieldSearchAsgDesc" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleSearchDesc" onKeyPressed="#handleSearchDesc" onKeyTyped="#handleSearchDesc" prefHeight="35.0" prefWidth="1000.0" promptText="search by assignment description...">
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin></TextField>
+                            </children>
+                            <BorderPane.margin>
+                                <Insets />
+                            </BorderPane.margin>
+                        </VBox>
+                    </top>
+               <bottom>
+                  <Pagination fx:id="pagination" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="1000.0" BorderPane.alignment="CENTER" />
+               </bottom>
+               <padding>
+                  <Insets right="80.0" />
+               </padding>
+                </BorderPane>
+            </right>
+        </BorderPane>
+    </children>
+</AnchorPane>

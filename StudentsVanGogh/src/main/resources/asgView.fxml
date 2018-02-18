@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contentAsg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1550.0" stylesheets="@stdStyle.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AssignmentsGUI.AsgController">
+    <children>
+        <ImageView fx:id="imageViewAsg" fitHeight="1072.0" fitWidth="1593.0" layoutY="-272.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../5.jpg" />
+            </image>
+        </ImageView>
+        <BorderPane layoutX="-5.0" layoutY="-4.0" prefHeight="800.0" prefWidth="1550.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <left>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="418.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button fx:id="buttonBackAsg" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBackAsg" text="←" />
+                        <Button fx:id="buttonAddStd" layoutX="134.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleAddAsg" text="add assignment" />
+                        <Button fx:id="buttonUpdStd" layoutX="124.0" layoutY="205.0" mnemonicParsing="false" onAction="#handleUpdAsg" text="update assignment" />
+                        <Button fx:id="buttonDltStd" layoutX="127.0" layoutY="304.0" mnemonicParsing="false" onAction="#handleDeleteAsg" text="delete assignment" />
+                        <Button fx:id="buttonTODO" layoutX="169.0" layoutY="491.0" mnemonicParsing="false" onAction="#handleTODO" text="to do" />
+                        <Button fx:id="buttonPast" layoutX="129.0" layoutY="566.0" mnemonicParsing="false" onAction="#handlePast" text="past assignments" />
+                  <Button fx:id="buttonAll" layoutX="159.0" layoutY="642.0" mnemonicParsing="false" onAction="#handleAll" text="show all" />
+                    </children>
+                    <BorderPane.margin>
+                        <Insets bottom="20.0" left="40.0" right="20.0" top="20.0" />
+                    </BorderPane.margin>
+                </AnchorPane>
+            </left>
+            <right>
+                <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+                    <top>
+                        <TextField fx:id="textFieldSearch" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleSearch" onKeyPressed="#handleSearch" onKeyTyped="#handleSearch" prefHeight="35.0" prefWidth="1000.0" promptText="Search by description..." BorderPane.alignment="CENTER">
+                            <font>
+                                <Font name="Helvetica LT 55 Roman" size="14.0" />
+                            </font></TextField>
+                    </top>
+                    <BorderPane.margin>
+                        <Insets bottom="20.0" right="80.0" top="20.0" />
+                    </BorderPane.margin>
+               <bottom>
+                  <Pagination fx:id="pagination" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="665.0" prefWidth="1000.0" BorderPane.alignment="CENTER" />
+               </bottom>
+                </BorderPane>
+            </right>
+        </BorderPane>
+    </children>
+</AnchorPane>
