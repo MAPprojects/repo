@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.effect.DropShadow?>
+<?import MVC.AutocompletionTextField?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="MVC.NotaController"
+            stylesheets="Stylesheets/Stylesheet.css"
+            id="NotaView"
+            prefHeight="400.0" prefWidth="600.0">
+    <HBox spacing="10">
+        <VBox>
+        <TableView fx:id="notaTableView" prefWidth="550" prefHeight="450">
+            <columns>
+                <TableColumn text="Grupa" maxWidth="100" minWidth="100">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="grupaStudent"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Nume student">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="numeStudent"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Descriere tema">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="descriereTema"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Nota" maxWidth="50" minWidth="50">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="valoare"/>
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+        </TableView>
+            <StackPane fx:id="pagePanel" prefHeight="65.0" prefWidth="521.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="79.0">
+                <children>
+                    <Pagination fx:id="pagination" currentPageIndex="0" styleClass="bullet, grid-pagination">
+                        <effect>
+                            <DropShadow color="#dfdfdf5d" height="16.96825396825397" radius="7.984126984126984" width="16.96825396825397" />
+                        </effect>
+                    </Pagination>
+                </children>
+            </StackPane>
+        </VBox>
+        <VBox spacing="10" translateY="20">
+            <GridPane hgap="5" vgap="5">
+                <Label text="Nume student: " GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                <AutocompletionTextField fx:id="studentNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="0" onKeyPressed="#handleKeyPressed" opacity="0.5"/>
+                <Label text="Descriere: " GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                <AutocompletionTextField fx:id="descriptionTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" onKeyPressed="#handleKeyPressed" opacity="0.5"/>
+                <Label text="Nota: " GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                <AutocompletionTextField fx:id="valoareTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" onKeyPressed="#handleKeyPressed" opacity="0.5"/>
+                <Label text="Observatii:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+                <AutocompletionTextField fx:id="observatiiTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" onKeyPressed="#handleKeyPressed" opacity="0.5"/>
+                <Label text="Saptamana curenta:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+                <AutocompletionTextField fx:id="saptamanaTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" onKeyPressed="#handleKeyPressed" opacity="0.5"/>
+                <Label text="Grupa: " GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+                <AutocompletionTextField fx:id="grupaTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" onKeyPressed="#handleKeyPressed" opacity="0.5"/>
+            </GridPane>
+            <Button text="Adaugare nota" translateX="132" translateY="20" minWidth="180" onAction="#addNota"/>
+            <Button text="Modificare nota" translateX="132" translateY="20" minWidth="180" onAction="#updateNota"/>
+            <Button text="Stergere nota" translateX="132" translateY="20" minWidth="180" onAction="#deleteNota"/>
+            <Button text="Golire campuri" translateX="132" translateY="20" minWidth="180" onAction="#clearFields"/>
+            <GridPane hgap="5" vgap="5" translateY="40">
+                <Label text="Filtrare student dupa nume: " translateX="103" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                <Label text="Filtreaza dupa descriere: " translateX="103" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                <Label text="Filtreaza dupa grupa: " translateX="103" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                <Label text="Filtrare dupa nota (mai mare): " translateX="103" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+                <Label text="Filtrare dupa nota (mai mica): " translateX="103" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+                <CheckBox fx:id="studentNameCheckBox" translateX="103" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#updateFilter"/>
+                <CheckBox fx:id="descriptionCheckBox" translateX="103" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#updateFilter"/>
+                <CheckBox fx:id="classCheckBox" translateX="103" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#updateFilter"/>
+                <CheckBox fx:id="gradeGreaterThanCheckBox" translateX="103" GridPane.columnIndex="1" GridPane.rowIndex="3" onAction="#updateFilter"/>
+                <CheckBox fx:id="gradeLessThanCheckBox" translateX="103" GridPane.columnIndex="1" GridPane.rowIndex="4" onAction="#updateFilter"/>
+            </GridPane>
+        </VBox>
+    </HBox>
+</AnchorPane>

@@ -1,0 +1,7 @@
+0|Gestiune ferma|1
+1|Gestiune biblioteca|3
+2|Refactorizare biblioteca|4
+3|Notificari biblioteca|4
+4|Gestiune aplicatie masini|6
+5|Refactorizare aplicatie masini|8
+6|Aplicatie manager note|11

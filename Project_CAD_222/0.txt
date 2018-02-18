@@ -1,0 +1,8 @@
+Adaugare nota 6 la tema Gestiune ferma cu deadline in saptamana 1 predata in saptamana 3, avand urmatoarele observatii: intarziere
+Adaugare nota 10 la tema Gestiune biblioteca cu deadline in saptamana 3 predata in saptamana 3, avand urmatoarele observatii: intarziat
+Adaugare nota 10 la tema Refactorizare biblioteca cu deadline in saptamana 4 predata in saptamana 3, avand urmatoarele observatii: intarziat
+Adaugare nota 1 la tema Notificari biblioteca cu deadline in saptamana 4 predata in saptamana 9, avand urmatoarele observatii: intarziat
+Adaugare nota 10 la tema Gestiune aplicatie masini cu deadline in saptamana 6 predata in saptamana 5, avand urmatoarele observatii: 
+Adaugare nota 9 la tema Refactorizare aplicatie masini cu deadline in saptamana 8 predata in saptamana 5, avand urmatoarele observatii: 
+Adaugare nota 8 la tema Aplicatie manager note cu deadline in saptamana 11 predata in saptamana 12, avand urmatoarele observatii: 
+Adaugare nota 7 la tema Refactorizare manager note cu deadline in saptamana 13 predata in saptamana 13, avand urmatoarele observatii: 

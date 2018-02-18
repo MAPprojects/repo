@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="MVC.MeniuController"
+            stylesheets="Stylesheets/Stylesheet.css"
+            id="MeniuView"
+            prefHeight="600.0" prefWidth="1024.0">
+    <HBox>
+        <VBox alignment="TOP_LEFT">
+            <Button text="Teme" prefHeight="150" prefWidth="105" onAction="#afisareTeme"/>
+            <Button text="Studenti" prefHeight="150" prefWidth="105" onAction="#afisareStudenti"/>
+            <Button text="Note" prefHeight="150" prefWidth="105" onAction="#afisareNote"/>
+            <Button text="Rapoarte" prefHeight="150" prefWidth="105" onAction="#afisareRapoarte"/>
+        </VBox>
+        <Pane fx:id="content" translateX="20" translateY="20"/>
+    </HBox>
+</AnchorPane>

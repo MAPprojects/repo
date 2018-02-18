@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.TableView?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="MVC.RapoarteController"
+            stylesheets="Stylesheets/Stylesheet.css"
+            prefHeight="400.0" prefWidth="600.0"
+            id="RapoarteView">
+    <VBox>
+        <HBox>
+            <TableView fx:id="tableView" minWidth="550" maxWidth="550" minHeight="300" maxHeight="300"/>
+            <PieChart fx:id="pieChart" minWidth="400" maxWidth="400" minHeight="300" maxHeight="300"/>
+        </HBox>
+        <GridPane hgap="10" vgap="10" translateY="10">
+            <Label text="Media ponderata a notelor pentru fiecare student:" GridPane.rowIndex="0" GridPane.columnIndex="0"
+                   GridPane.columnSpan="2"/>
+            <Label text="Cele mai grele teme (cu multe penalizari):" GridPane.rowIndex="1" GridPane.columnIndex="0"
+                   GridPane.columnSpan="2"/>
+            <Label text="Studenti care pot intra in examen:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+
+            <Button text="Genereaza" GridPane.rowIndex="0" GridPane.columnIndex="2" minWidth="150" maxWidth="150"
+                    onAction="#mediaFiecaruiStudent"/>
+            <Button text="Genereaza" GridPane.rowIndex="1" GridPane.columnIndex="2" minWidth="150" maxWidth="150"
+                    onAction="#celeMaiGreleTeme"/>
+            <Button text="Genereaza" GridPane.rowIndex="2" GridPane.columnIndex="2" minWidth="150" maxWidth="150"
+                    onAction="#studentiCarePotIntraInExamen"/>
+
+            <Button text="Salvare raport in format PDF" GridPane.rowIndex="1" GridPane.columnIndex="3" minWidth="200" maxWidth="250" translateX="150"
+                    onAction="#saveAsPDF" fx:id="saveAsPDFButton"/>
+        </GridPane>
+    </VBox>
+</AnchorPane>

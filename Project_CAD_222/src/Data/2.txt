@@ -1,0 +1,4 @@
+Adaugare nota 3 la tema 1 cu deadline in saptamana 3 predata in saptamana 2, avand urmatoarele observatii:
+Neimplementare operatii crud
+Adaugare nota 4 la tema 2 cu deadline in saptamana 4 predata in saptamana 3, avand urmatoarele observatii:
+Neimplementare

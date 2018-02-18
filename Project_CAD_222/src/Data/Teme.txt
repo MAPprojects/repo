@@ -1,0 +1,7 @@
+1|Gestiune biblioteca|3
+2|Refactorizare biblioteca|4
+3|Notificari biblioteca|4
+4|Gestiune aplicatie masini|6
+5|Refactorizare aplicatie masini|8
+6|Gestiune transporturi|9
+7|Refactorizare transporturi|10
