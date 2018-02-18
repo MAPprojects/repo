@@ -1,0 +1,9 @@
+---------------------------------------------------
+                 STUDENT DATA
+            Name: BUCUR FLAVIU
+           Group: 222
+           Email: uopu1690@scs.ubbcluj.ro
+         Teacher: Prof. Serban Camelia
+---------------------------------------------------
+       HISTORY OF THE STUDENT'S GRADES
+New Grade, Assignment Nr. 3, Grade 6, Deadline week 6, Handin week 8, Observations: 

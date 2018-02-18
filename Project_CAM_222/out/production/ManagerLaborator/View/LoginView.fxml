@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.control.ListView?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.LoginController"
+            prefHeight="410.0" prefWidth="900.0"
+            stylesheets="View/DarkTheme.css"
+            id="LoginView">
+    <HBox>
+        <VBox>
+            <GridPane vgap="20" translateX="30" translateY="20">
+                <ImageView fx:id="logoImageView" GridPane.halignment="RIGHT" translateX="-20"/>
+                <Text text="Lab Manager™" GridPane.rowIndex="0" GridPane.columnIndex="1" stroke="white">
+                    <font>
+                        <Font name="Arial Black" size="30.0"/>
+                    </font>
+                </Text>
+                <Label text="Username:" GridPane.rowIndex="1" GridPane.columnIndex="0" minWidth="80" GridPane.halignment="RIGHT"/>
+                <Label text="Password:" GridPane.rowIndex="2" GridPane.columnIndex="0" minWidth="80" translateX="6"/>
+                <TextField fx:id="usernameTextField" GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.columnSpan="2"
+                          minWidth="360" maxWidth="360"/>
+                <PasswordField fx:id="passwordField" GridPane.rowIndex="2" GridPane.columnIndex="1" GridPane.columnSpan="2"
+                               minWidth="360" maxWidth="360"/>
+                <CheckBox text="Remember my account and password" GridPane.rowIndex="3" GridPane.columnIndex="1" GridPane.columnSpan="2"
+                          fx:id="rememberCheckBox" onAction="#saveRememberCheckBoxState"/>
+                <Button text="Login" GridPane.rowIndex="4" GridPane.columnIndex="1"
+                        minWidth="175" maxWidth="175" onAction="#loginHandler"/>
+                <Button text="Cancel" GridPane.rowIndex="4" GridPane.columnIndex="2"
+                        minWidth="175" maxWidth="175" translateX="-56" onAction="#closeButtonHandler"/>
+            </GridPane>
+
+            <Line startX="40" endX="490" translateX="20" translateY="40" style="-fx-stroke: #3a3a3a;"/>
+
+            <GridPane translateX="40" translateY="60" vgap="10">
+                <Label text="Need help signing in?" GridPane.rowIndex="0" GridPane.columnIndex="0" minWidth="160" translateX="12"/>
+                <Label text="Don't have an account?" GridPane.rowIndex="1" GridPane.columnIndex="0" minWidth="160"/>
+                <Button text="I can't sign in..." GridPane.rowIndex="0" GridPane.columnIndex="1"
+                        minWidth="270" maxWidth="270" onAction="#helpSignInHandler"/>
+                <Button text="Create a new account..." GridPane.rowIndex="1" GridPane.columnIndex="1"
+                        minWidth="270" maxWidth="270" onAction="#createNewAccountHandler"/>
+            </GridPane>
+        </VBox>
+        <VBox translateY="30" translateX="20" spacing="10">
+            <Text text="Account List" fill="white" translateX="135">
+                <font>
+                    <Font name="Segoe UI" size="20.0"/>
+                </font>
+            </Text>
+            <CheckBox text="Administrators" fx:id="administratorsCheckBox" minWidth="200" maxWidth="200"
+                      onAction="#accountListCheckboxHandler"/>
+            <CheckBox text="Moderators" fx:id="moderatorsCheckBox" minWidth="200" maxWidth="200"
+                      onAction="#accountListCheckboxHandler"/>
+            <CheckBox text="Standard Users" fx:id="standardUsersCheckBox" minWidth="200" maxWidth="200"
+                      onAction="#accountListCheckboxHandler"/>
+            <ListView fx:id="accountListView" minWidth="360" maxWidth="360" minHeight="223" maxHeight="223"
+                      onMouseClicked="#accountSelectHandler"/>
+        </VBox>
+    </HBox>
+</BorderPane>

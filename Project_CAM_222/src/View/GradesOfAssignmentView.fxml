@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Pagination?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.GradesOfAssignmentController"
+            prefHeight="550.0" prefWidth="1000.0"
+            stylesheets="View/DarkTheme.css"
+            id="GradesOfAssignmentView">
+    <VBox translateX="40">
+        <GridPane hgap="10" vgap="3" translateX="10">
+            <Label text="ID:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <Label text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Label text="Group:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <Label text="Teacher:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+            <Label text="Handin Week:" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+
+            <TextField fx:id="idTextField" GridPane.columnIndex="1" GridPane.rowIndex="0"
+                       minWidth="250" maxWidth="200" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="numeTextField" GridPane.columnIndex="1" GridPane.rowIndex="1"
+                       minWidth="250" maxWidth="200" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="grupaTextField" GridPane.columnIndex="1" GridPane.rowIndex="2"
+                       minWidth="250" maxWidth="200" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="emailTextField" GridPane.columnIndex="1" GridPane.rowIndex="3"
+                       minWidth="250" maxWidth="200" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="profIndrumatorTextField" GridPane.columnIndex="1" GridPane.rowIndex="4"
+                       minWidth="250" maxWidth="200" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="saptamanaTextField" GridPane.columnIndex="1" GridPane.rowIndex="5"
+                       minWidth="250" maxWidth="200" onKeyPressed="#clearTableViewSelection"/>
+
+            <CheckBox fx:id="idCheckBox" text="Filter by ID" GridPane.columnIndex="2" GridPane.rowIndex="0"
+                      onAction="#filtreaza"/>
+            <CheckBox fx:id="numeCheckBox" text="Filter by Name" GridPane.columnIndex="2" GridPane.rowIndex="1"
+                      onAction="#filtreaza"/>
+            <CheckBox fx:id="grupaCheckBox" text="Filter by Group" GridPane.columnIndex="2" GridPane.rowIndex="2"
+                      onAction="#filtreaza"/>
+            <CheckBox fx:id="emailCheckBox" text="Filter by Email" GridPane.columnIndex="2" GridPane.rowIndex="3"
+                      onAction="#filtreaza"/>
+            <CheckBox fx:id="profIndrumatorCheckBox" text="Filter by Teacher" GridPane.columnIndex="2" GridPane.rowIndex="4"
+                      onAction="#filtreaza"/>
+            <Label fx:id="assignmentNameLabel" GridPane.columnIndex="2" GridPane.rowIndex="5"
+                   GridPane.columnSpan="2" style="-fx-font-size: 14pt"/>
+
+            <Button text="Add Grade" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#addGrade"
+                    minWidth="200" maxWidth="200"/>
+            <Button text="Clear Workspace" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#clearWorkspace"
+                    minWidth="200" maxWidth="200"/>
+
+            <HBox GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <Label text="Observations: " translateY="8"/>
+                <TextField fx:id="observatiiTextField" minWidth="150" maxWidth="150" onKeyPressed="#clearTableViewSelection"/>
+            </HBox>
+            <HBox GridPane.columnIndex="3" GridPane.rowIndex="4" translateX="4">
+                <Label text="Grade Value: " translateY="8"/>
+                <TextField fx:id="gradeTextField" minWidth="150" maxWidth="150" onKeyPressed="#clearTableViewSelection"/>
+            </HBox>
+        </GridPane>
+        <TableView fx:id="studentsTableView" minWidth="927" maxWidth="927" minHeight="282" maxHeight="282"/>
+        <Pagination fx:id="studentsPagination"/>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.HelpSignInController"
+            stylesheets="View/DarkTheme.css"
+            prefHeight="280.0" prefWidth="420.0"
+            id="HelpSignInView">
+    <VBox translateY="-26" translateX="6">
+        <Label fx:id="labelDescription" minWidth="420" maxWidth="420" minHeight="300" maxHeight="300"
+               textAlignment="JUSTIFY"/>
+        <Button text="Close" fx:id="closeButton" translateY="-24" translateX="316" minWidth="100" maxWidth="100"
+                onAction="#closeButtonHandler"/>
+    </VBox>
+</BorderPane>

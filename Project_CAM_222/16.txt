@@ -1,0 +1,9 @@
+---------------------------------------------------
+                 STUDENT DATA
+            Name: CIFORAC ANDREEA-DENISA
+           Group: 222
+           Email: cair2426@scs.ubbcluj.ro
+         Teacher: Prof. Serban Camelia
+---------------------------------------------------
+       HISTORY OF THE STUDENT'S GRADES
+New Grade, Assignment Nr. 5, Grade 10, Deadline week 9, Handin week 9, Observations: 

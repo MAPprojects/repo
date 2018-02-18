@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.RootController"
+            prefHeight="600.0" prefWidth="1000.0"
+            stylesheets="View/DarkTheme.css"
+            id="RootView">
+    <VBox>
+        <HBox spacing="2" fx:id="menuHBox"/>
+        <Pane fx:id="content" translateX="10" translateY="10"/>
+    </VBox>
+</BorderPane>

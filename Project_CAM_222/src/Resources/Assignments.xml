@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <tema id="1">
+        <descriere>Cerinte seminar 1</descriere>
+        <deadline>3</deadline>
+    </tema>
+    <tema id="2">
+        <descriere>Iteratia 1</descriere>
+        <deadline>4</deadline>
+    </tema>
+    <tema id="3">
+        <descriere>Iteratia 2 + persistenta date + UI</descriere>
+        <deadline>6</deadline>
+    </tema>
+    <tema id="4">
+        <descriere>Iteratia 3 + Optional + Stream</descriere>
+        <deadline>7</deadline>
+    </tema>
+    <tema id="5">
+        <descriere>JavaFX (GUI)</descriere>
+        <deadline>9</deadline>
+    </tema>
+</class>

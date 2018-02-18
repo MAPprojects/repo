@@ -1,0 +1,5 @@
+1;Cerinte seminar 1;3
+2;Iteratia 1;4
+3;Iteratia 2 + persistenta date + UI;6
+4;Iteratia 3 + Optional + Stream;7
+5;JavaFX (GUI);8

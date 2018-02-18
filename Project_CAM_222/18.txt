@@ -1,0 +1,10 @@
+---------------------------------------------------
+                 STUDENT DATA
+            Name: COSARCA ALEXANDRU-MIHAI
+           Group: 222
+           Email: cair2080@scs.ubbcluj.ro
+         Teacher: Prof. Serban Camelia
+---------------------------------------------------
+       HISTORY OF THE STUDENT'S GRADES
+New Grade, Assignment Nr. 2, Grade 1, Deadline week 4, Handin week 13, Observations: 
+Updated Grade, Assignment Nr. 2, Grade 8, Deadline week 4, Handin week 5, Observations: 

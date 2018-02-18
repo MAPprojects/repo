@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.GradesController"
+            prefHeight="550.0" prefWidth="1000.0"
+            stylesheets="View/DarkTheme.css"
+            id="GradesView">
+    <VBox translateX="50">
+        <GridPane hgap="10" vgap="3" translateX="10">
+            <Label text="Student ID:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <Label text="Assignment ID:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Label text="Grade Value:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <Label text="Observations:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <Label text="Handin Week:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+
+            <TextField fx:id="studentIdTextField" GridPane.columnIndex="1" GridPane.rowIndex="0"
+                       minWidth="250" maxWidth="250" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="temaIdTextField" GridPane.columnIndex="1" GridPane.rowIndex="1"
+                       minWidth="250" maxWidth="250" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="valoareTextField" GridPane.columnIndex="1" GridPane.rowIndex="2"
+                       minWidth="250" maxWidth="250" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="observatiiTextField" GridPane.columnIndex="1" GridPane.rowIndex="3"
+                       minWidth="250" maxWidth="250" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="saptamanaTextField" GridPane.columnIndex="1" GridPane.rowIndex="4"
+                       minWidth="250" maxWidth="250" onKeyPressed="#clearTableViewSelection"/>
+
+            <CheckBox fx:id="studentIdCheckBox" text="Filter by Student ID" GridPane.columnIndex="2" GridPane.rowIndex="0"
+                      onAction="#filtreaza"/>
+            <CheckBox fx:id="temaIdCheckBox" text="Filter by Assignment ID" GridPane.columnIndex="2" GridPane.rowIndex="1"
+                      onAction="#filtreaza"/>
+            <CheckBox fx:id="valoareCheckBox" text="Filter by Grade Value" GridPane.columnIndex="2" GridPane.rowIndex="2"
+                      onAction="#filtreaza"/>
+
+            <Button text="Add Grade" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#addGrade"
+                    minWidth="200" maxWidth="200" fx:id="addGradeButton"/>
+            <Button text="Update Grade" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#updateGrade"
+                    minWidth="200" maxWidth="200" fx:id="updateGradeButton"/>
+            <Button text="Delete Grade" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#deleteGrade"
+                    minWidth="200" maxWidth="200" fx:id="deleteGradeButton"/>
+            <Button text="Clear Workspace" GridPane.columnIndex="3" GridPane.rowIndex="3" onAction="#clearWorkspace"
+                    minWidth="200" maxWidth="200" fx:id="clearWorkspaceButton"/>
+        </GridPane>
+        <TableView fx:id="gradesTableView" minWidth="900" maxWidth="900" minHeight="310" maxHeight="310"/>
+        <Pagination fx:id="gradesPagination"/>
+    </VBox>
+</AnchorPane>

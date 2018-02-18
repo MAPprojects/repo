@@ -1,0 +1,9 @@
+---------------------------------------------------
+                 STUDENT DATA
+            Name: ABRUDAN GABRIEL-ROBERT
+           Group: 222
+           Email: abga2000@scs.ubbcluj.ro
+         Teacher: Prof. Cojocar Grigoreta
+---------------------------------------------------
+       HISTORY OF THE STUDENT'S GRADES
+New Grade, Assignment Nr. 3, Grade 1, Deadline week 6, Handin week 13, Observations: 

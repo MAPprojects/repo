@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.AssignmentsController"
+            prefHeight="550.0" prefWidth="1000.0"
+            stylesheets="View/DarkTheme.css"
+            id="AssignmentsView">
+    <VBox translateX="120">
+        <GridPane hgap="10" vgap="3" translateX="-100">
+            <Label text="ID:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <Label text="Description:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Label text="Deadline:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+
+            <TextField fx:id="idTextField" GridPane.columnIndex="1" GridPane.rowIndex="0"
+                       minWidth="250" maxWidth="250" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="descriereTextField" GridPane.columnIndex="1" GridPane.rowIndex="1"
+                       minWidth="250" maxWidth="250" onKeyPressed="#clearTableViewSelection"/>
+            <TextField fx:id="deadlineTextField" GridPane.columnIndex="1" GridPane.rowIndex="2"
+                       minWidth="250" maxWidth="250" onKeyPressed="#clearTableViewSelection"/>
+
+            <CheckBox fx:id="idCheckBox" text="Filter by ID" GridPane.columnIndex="2" GridPane.rowIndex="0"
+                      onAction="#filtreaza"/>
+            <CheckBox fx:id="descriereCheckBox" text="Filter by Description" GridPane.columnIndex="2" GridPane.rowIndex="1"
+                      onAction="#filtreaza"/>
+            <CheckBox fx:id="deadlineCheckBox" text="Filter by Deadline" GridPane.columnIndex="2" GridPane.rowIndex="2"
+                      onAction="#filtreaza"/>
+
+            <Button text="Add Assignment" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#addAssignment"
+                    minWidth="200" maxWidth="200" fx:id="addAssignmentButton"/>
+            <Button text="Extend Deadline" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#modifyDeadline"
+                    minWidth="200" maxWidth="200" fx:id="modifyDeadlineButton"/>
+            <Button text="Update Assignment" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#updateAssignment"
+                    minWidth="200" maxWidth="200" fx:id="updateAssignmentButton"/>
+            <Button text="Delete Assignment" GridPane.columnIndex="3" GridPane.rowIndex="3" onAction="#deleteAssignment"
+                    minWidth="200" maxWidth="200" fx:id="deleteAssignmentButton"/>
+            <Button text="Clear Workspace" GridPane.columnIndex="3" GridPane.rowIndex="4" onAction="#clearWorkspace"
+                    minWidth="200" maxWidth="200" fx:id="clearWorkspaceButton"/>
+        </GridPane>
+        <TableView fx:id="assignmentsTableView" minWidth="726" maxWidth="726" minHeight="310" maxHeight="310"/>
+        <Pagination fx:id="assignmentsPagination"/>
+    </VBox>
+</AnchorPane>

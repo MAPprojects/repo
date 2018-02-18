@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <student id="0">
+        <nume>ABRUDAN GABRIEL-ROBERT</nume>
+        <grupa>222</grupa>
+        <email>abga5423@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Bota Florentin</profIndrumator>
+    </student>
+    <student id="1">
+        <nume>BELTECHI RARES</nume>
+        <grupa>222</grupa>
+        <email>pouu4325@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="2">
+        <nume>BOROS FLORIN-OTNIEL</nume>
+        <grupa>222</grupa>
+        <email>xvng2356@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Bota Florentin</profIndrumator>
+    </student>
+    <student id="3">
+        <nume>BUCUR FLAVIU</nume>
+        <grupa>222</grupa>
+        <email>uopu1690@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="4">
+        <nume>BULMEZ ALEXANDRU - FLORIN</nume>
+        <grupa>222</grupa>
+        <email>lkho0683@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="5">
+        <nume>BURLACU IOANA-SIMONA</nume>
+        <grupa>222</grupa>
+        <email>pouu5309@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Cojocar Grigoreta</profIndrumator>
+    </student>
+    <student id="6">
+        <nume>BUTA ELISABETA LIANA</nume>
+        <grupa>222</grupa>
+        <email>vncx2350@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Bota Florentin</profIndrumator>
+    </student>
+    <student id="7">
+        <nume>BUZAS LAURA-ANDRADA</nume>
+        <grupa>222</grupa>
+        <email>iojk0897@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Bota Florentin</profIndrumator>
+    </student>
+    <student id="8">
+        <nume>CABA LORENA-ALEXANDRA</nume>
+        <grupa>222</grupa>
+        <email>uioj2356@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="9">
+        <nume>CALBAZA ALEX-SEBASTIAN</nume>
+        <grupa>222</grupa>
+        <email>bxcj6327@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Cojocar Grigoreta</profIndrumator>
+    </student>
+    <student id="10">
+        <nume>CAMILAR GEORGE</nume>
+        <grupa>222</grupa>
+        <email>qwei1255@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="11">
+        <nume>CARLAN MARCEL-IONUT</nume>
+        <grupa>222</grupa>
+        <email>pboc1264@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Cojocar Grigoreta</profIndrumator>
+    </student>
+    <student id="12">
+        <nume>CAZAC TOMA-OCTAVIAN</nume>
+        <grupa>222</grupa>
+        <email>blxc1623@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="13">
+        <nume>CHISE BOGDAN</nume>
+        <grupa>222</grupa>
+        <email>iore9075@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="14">
+        <nume>CHIOREAN DELIA-CRISTINA</nume>
+        <grupa>222</grupa>
+        <email>xcvn1365@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="15">
+        <nume>CHIS GEORGE</nume>
+        <grupa>222</grupa>
+        <email>puoi0988@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Cojocar Grigoreta</profIndrumator>
+    </student>
+    <student id="16">
+        <nume>CIFORAC ANDREEA-DENISA</nume>
+        <grupa>222</grupa>
+        <email>cair2426@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="17">
+        <nume>CIVITU ANCA-ELENA</nume>
+        <grupa>222</grupa>
+        <email>hgdi1294@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Bota Florentin</profIndrumator>
+    </student>
+    <student id="18">
+        <nume>COSARCA ALEXANDRU-MIHAI</nume>
+        <grupa>222</grupa>
+        <email>cair2080@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="19">
+        <nume>CODREANU GEORGE</nume>
+        <grupa>222</grupa>
+        <email>asdf1245@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="20">
+        <nume>COMIATI NICOLAE-MIHAI</nume>
+        <grupa>222</grupa>
+        <email>asdf1256@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Cojocar Grigoreta</profIndrumator>
+    </student>
+    <student id="21">
+        <nume>CORNEA TUDOR-SEBASTIAN</nume>
+        <grupa>222</grupa>
+        <email>xvnm3621@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Bota Florentin</profIndrumator>
+    </student>
+    <student id="22">
+        <nume>CORNEA ALEXANDRU-ANTONIU</nume>
+        <grupa>222</grupa>
+        <email>hdbg2345@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+    <student id="23">
+        <nume>GHEORGHE BOGDAN</nume>
+        <grupa>222</grupa>
+        <email>astw1456@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Cojocar Grigoreta</profIndrumator>
+    </student>
+    <student id="24">
+        <nume>IVAN PAUL</nume>
+        <grupa>222</grupa>
+        <email>ajsp2362@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Cojocar Grigoreta</profIndrumator>
+    </student>
+    <student id="25">
+        <nume>PANEA ANDREEA</nume>
+        <grupa>222</grupa>
+        <email>etwo1241@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Bota Florentin</profIndrumator>
+    </student>
+    <student id="26">
+        <nume>SCURTU LAURA</nume>
+        <grupa>222</grupa>
+        <email>etwo1241@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Cojocar Grigoreta</profIndrumator>
+    </student>
+    <student id="27">
+        <nume>VATAMANESCU DIONISIE</nume>
+        <grupa>222</grupa>
+        <email>hsdb2698@scs.ubbcluj.ro</email>
+        <profIndrumator>Prof. Serban Camelia</profIndrumator>
+    </student>
+</class>
