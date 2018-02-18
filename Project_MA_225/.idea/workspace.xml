@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d213e14e-69b2-48ed-9897-0083113aba78" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/top_studenti" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitorizare_studenti.db" afterPath="$PROJECT_DIR$/monitorizare_studenti.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Monitorizarea temelor de laborator Andrei Moldovan/mainpackage/view/StudentController.class" afterPath="$PROJECT_DIR$/out/production/Monitorizarea temelor de laborator Andrei Moldovan/mainpackage/view/StudentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top_grupe.pdf" afterPath="$PROJECT_DIR$/top_grupe.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top_studenti_map.pdf" afterPath="$PROJECT_DIR$/top_studenti_map.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top_teme.pdf" afterPath="$PROJECT_DIR$/top_teme.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainpackage/view/StudentController.java" afterPath="$PROJECT_DIR$/src/mainpackage/view/StudentController.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.8984894">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/service/Service.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#Service#0;class#Service#0" expanded="false" />
+                    <element signature="docComment;method#add_student#0;class#Service#0" expanded="false" />
+                    <element signature="method#add_student#0;class#Service#0" expanded="false" />
+                    <element signature="method#setCurrent_week#0;class#Service#0" expanded="false" />
+                    <element signature="docComment;method#update_student#0;class#Service#0" expanded="false" />
+                    <element signature="method#update_student#0;class#Service#0" expanded="false" />
+                    <element signature="docComment;method#delete_student#0;class#Service#0" expanded="false" />
+                    <element signature="method#delete_student#0;class#Service#0" expanded="false" />
+                    <element signature="docComment;method#add_homework#0;class#Service#0" expanded="false" />
+                    <element signature="docComment;method#update_homework#0;class#Service#0" expanded="false" />
+                    <element signature="method#update_homework#0;class#Service#0" expanded="false" />
+                    <element signature="docComment;method#delete_homework#0;class#Service#0" expanded="false" />
+                    <element signature="method#delete_homework#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_all_student#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_all_homeworks#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_all_grades#0;class#Service#0" expanded="false" />
+                    <element signature="method#add_grade#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_and_sorter#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_students_name#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_students_email#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_students_teacher#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_homeworks_deadline#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_homework_description#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_homeworks_id#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_grades_greater#0;class#Service#0" expanded="false" />
+                    <element signature="e#13717#13764#0" expanded="false" />
+                    <element signature="method#filter_grades_smaller#0;class#Service#0" expanded="false" />
+                    <element signature="e#14031#14078#0" expanded="false" />
+                    <element signature="method#filter_grades_student_id#0;class#Service#0" expanded="false" />
+                    <element signature="method#createEvent#0;class#Service#0" expanded="false" />
+                    <element signature="class#14880:15117" expanded="false" />
+                    <element signature="method#filter_students#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_homeworks#0;class#Service#0" expanded="false" />
+                    <element signature="method#getGroups#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_extended_grades#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_student_name_for_id#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_student_group_for_id#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_all_student_ids#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_all_homework_ids#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_students_names_with_ids#0;class#Service#0" expanded="false" />
+                    <element signature="method#getHw#0;class#Service#0" expanded="false" />
+                    <element signature="method#filter_grades#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_top_studenti#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_top_teme#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_medie_for_student#0;class#Service#0" expanded="false" />
+                    <element signature="method#get_top_grupe#0;class#Service#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GradeWindow.fxml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/view/GradeWindow.fxml">
+              <provider editor-type-id="JavaFX-Scene-Builder">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="814">
+                  <caret line="37" column="67" lean-forward="false" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="67" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestTablePagination.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/TestTablePagination.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1430">
+                  <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HomeworkController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/view/HomeworkController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1012">
+                  <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+                  <folding>
+                    <element signature="method#initHomeworkTable#0;class#HomeworkController#0" expanded="false" />
+                    <element signature="e#3516#3810#0" expanded="false" />
+                    <element signature="e#3957#4252#0" expanded="false" />
+                    <element signature="e#4396#4712#0" expanded="false" />
+                    <element signature="e#4918#5792#0" expanded="false" />
+                    <element signature="e#5996#7192#0" expanded="false" />
+                    <element signature="method#notifyEvent#0;class#HomeworkController#0" expanded="false" />
+                    <element signature="method#handleX#0;class#HomeworkController#0" expanded="false" />
+                    <element signature="method#setService#0;class#HomeworkController#0" expanded="false" />
+                    <element signature="method#getHomeworkFromView#0;class#HomeworkController#0" expanded="false" />
+                    <element signature="method#handleDelete#0;class#HomeworkController#0" expanded="false" />
+                    <element signature="method#setCurrentWeek#0;class#HomeworkController#0" expanded="false" />
+                    <element signature="method#filterHomeworks#0;class#HomeworkController#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GradeController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/view/GradeController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="502">
+                  <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#4062#4394#0" expanded="false" />
+                    <element signature="e#4530#4857#0" expanded="false" />
+                    <element signature="e#4984#5276#0" expanded="false" />
+                    <element signature="e#5407#5702#0" expanded="false" />
+                    <element signature="e#5829#6150#0" expanded="false" />
+                    <element signature="method#notifyEvent#0;class#GradeController#0" expanded="false" />
+                    <element signature="method#handleX#0;class#GradeController#0" expanded="false" />
+                    <element signature="method#setService#0;class#GradeController#0" expanded="false" />
+                    <element signature="method#setCurrentWeek#0;class#GradeController#0" expanded="false" />
+                    <element signature="method#handleFilter#0;class#GradeController#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Grade.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/domain/Grade.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/view/StudentController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="770">
+                  <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+                  <folding>
+                    <element signature="docComment;field#addStudentPane#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#initStudentTable#0;class#StudentController#0" expanded="false" />
+                    <element signature="e#3158#3451#0" expanded="false" />
+                    <element signature="e#3578#3855#0" expanded="false" />
+                    <element signature="e#3986#4266#0" expanded="false" />
+                    <element signature="e#4397#4677#0" expanded="false" />
+                    <element signature="e#4817#5103#0" expanded="false" />
+                    <element signature="e#5299#5727#0" expanded="false" />
+                    <element signature="e#5924#6359#0" expanded="false" />
+                    <element signature="e#6556#6991#0" expanded="false" />
+                    <element signature="e#7192#7631#0" expanded="false" />
+                    <element signature="method#editValidationAction#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#notifyEvent#0;class#StudentController#0" expanded="false" />
+                    <element signature="e#9335#9434#0" expanded="false" />
+                    <element signature="e#9589#9645#0" expanded="false" />
+                    <element signature="method#setService#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#handleAddStudent#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#handleDeleteStudent#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#getStudentFromView#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#handleAdd#0;class#StudentController#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StudentWindow.fxml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/view/StudentWindow.fxml">
+              <provider editor-type-id="JavaFX-Scene-Builder">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/view/MainController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="484">
+                  <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+                  <folding>
+                    <element signature="method#MainController#0;class#MainController#0" expanded="false" />
+                    <element signature="method#initSubControllers#0;class#MainController#0" expanded="false" />
+                    <element signature="method#notifyEvent#0;class#MainController#0" expanded="false" />
+                    <element signature="e#3330#3372#0" expanded="false" />
+                    <element signature="method#showErrorMessage#0;class#MainController#0" expanded="false" />
+                    <element signature="method#showMessage#0;class#MainController#0" expanded="false" />
+                    <element signature="method#showStudentWindow#0;class#MainController#0" expanded="false" />
+                    <element signature="method#showHomeworkWindow#0;class#MainController#0" expanded="false" />
+                    <element signature="method#showGradeWindow#0;class#MainController#0" expanded="false" />
+                    <element signature="method#pdf_teme#0;class#MainController#0" expanded="false" />
+                    <element signature="method#top_grupe#0;class#MainController#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mainpackage/view/StudentController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+                  <folding>
+                    <element signature="docComment;field#addStudentPane#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#initStudentTable#0;class#StudentController#0" expanded="false" />
+                    <element signature="e#3158#3451#0" expanded="false" />
+                    <element signature="e#3578#3855#0" expanded="false" />
+                    <element signature="e#3986#4266#0" expanded="false" />
+                    <element signature="e#4397#4677#0" expanded="false" />
+                    <element signature="e#4817#5103#0" expanded="false" />
+                    <element signature="e#5299#5727#0" expanded="false" />
+                    <element signature="e#5924#6359#0" expanded="false" />
+                    <element signature="e#6556#6991#0" expanded="false" />
+                    <element signature="e#7192#7631#0" expanded="false" />
+                    <element signature="method#editValidationAction#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#notifyEvent#0;class#StudentController#0" expanded="false" />
+                    <element signature="e#9335#9434#0" expanded="false" />
+                    <element signature="e#9589#9645#0" expanded="false" />
+                    <element signature="method#setService#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#handleAddStudent#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#handleDeleteStudent#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#getStudentFromView#0;class#StudentController#0" expanded="false" />
+                    <element signature="method#handleAdd#0;class#StudentController#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>filterGroupBox</find>
+      <find>root</find>
+      <find>new scene</find>
+      <find>rootLayout.setOnMousePresse</find>
+      <find>idSBox</find>
+      <find>&lt;dependencies&gt;</find>
+      <find>movable</find>
+      <find>button</find>
+      <find>onMouseDragged=&quot;#movable&quot; onMousePressed=&quot;#movable&quot;</find>
+      <find>pdf_top_studenti</find>
+      <find>width</find>
+      <find>Paragraph</find>
+      <find>tuple&lt;string</find>
+      <find>table</find>
+      <find>students</find>
+      <find>student</find>
+      <find>homework</find>
+      <find>UPDATING</find>
+      <find>Opened database successfully for insert</find>
+      <find>dificultatea</find>
+      <find>TLS</find>
+      <find>send_email</find>
+      <find>modi</find>
+      <find>handleAdd</find>
+      <find>add</find>
+      <find>handle</find>
+      <find>pdf</find>
+      <find>this.studentModel.setAll</find>
+      <find>setItems</find>
+      <find>pagination</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>current_menu</replace>
+      <replace>student</replace>
+      <replace>Homework</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\amoldovan\Documents\GitHub\java\JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan\src\mainpackage\view</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/domain/hasId.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/MemoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/StudentMemoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/HomeworkMemoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/validator/HomeworkValidator.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/validator/Validator.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/exceptions/MyException.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/ui/menu/Command.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/ui/Ui.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/validator/GradeValidator.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/ui/menu/MenuCommand.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/utils/Observer.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/utils/Observable.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/utils/ListEventType.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/Repository.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/AbstractRepository.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/GradeFileRepository.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/HomeworkFileRepository.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/domain/HasId.java" />
+        <option value="$PROJECT_DIR$/src/MainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/MainView.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/StudentWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/AddCSS.css" />
+        <option value="$PROJECT_DIR$/src/mainpackage/utils/ListEvent.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/validator/StudentValidator.java" />
+        <option value="$PROJECT_DIR$/JFoenix-master/jfoenix-9.0.0.jar!/com/jfoenix/controls/RecursiveTreeItem.class" />
+        <option value="$PROJECT_DIR$/src/mainpackage/domain/Homework.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/HomeworkWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/mainpackage/domain/ExtendedGrade.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/ui/Console.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/domain/Student.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/StudentFileRepository.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/FxUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/pdf/test.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/domain/Grade.java" />
+        <option value="$PROJECT_DIR$/src/testing_table.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/DbRepo.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/GradeDbRepo.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/StudentDbRepo.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/repository/HomeworkDbRepo.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/MainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/testEmail.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/testEmail.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/AddGradeComment.fxml" />
+        <option value="$PROJECT_DIR$/src/mainpackage/Main.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/MainController.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/service/Service.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/HomeworkController.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/GradeController.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/view/StudentController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UNCHECKED_WARNING</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainpackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainpackage" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainpackage" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/google-api-java-client/libs-sources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23908046" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amoldovan\IdeaProjects\JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan\src\mainpackage" />
+      <recent name="C:\Users\amoldovan\IdeaProjects\JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan\src\mainpackage\view" />
+      <recent name="C:\Users\amoldovan\IdeaProjects\JAVAFXML Monitorizarea temelor de laborator Andrei Moldovan\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mainpackage.validator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="EMAIL" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="mainpackage.testEmail" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Monitorizarea temelor de laborator Andrei Moldovan" />
+      <envs />
+    </configuration>
+    <configuration name="Unnamed (1)" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestTablePagination" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Monitorizarea temelor de laborator Andrei Moldovan" />
+      <envs />
+    </configuration>
+    <configuration name="Unnamed (2)" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="mainpackage.repository.StudentDbRepo" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Monitorizarea temelor de laborator Andrei Moldovan" />
+      <envs />
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="mainpackage.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Monitorizarea temelor de laborator Andrei Moldovan" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EMAIL" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Unnamed (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Unnamed (2)" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d213e14e-69b2-48ed-9897-0083113aba78" name="Default" comment="" />
+      <created>1508959093125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508959093125</updated>
+      <workItem from="1508959098726" duration="8363000" />
+      <workItem from="1509102843928" duration="10297000" />
+      <workItem from="1509717981418" duration="5756000" />
+      <workItem from="1509905014430" duration="18906000" />
+      <workItem from="1510322267185" duration="2711000" />
+      <workItem from="1510850505459" duration="34318000" />
+      <workItem from="1511377945343" duration="4364000" />
+      <workItem from="1512411700498" duration="695000" />
+      <workItem from="1512416519945" duration="10539000" />
+      <workItem from="1512859982738" duration="15363000" />
+      <workItem from="1513189072736" duration="39259000" />
+      <workItem from="1513340055392" duration="1760000" />
+      <workItem from="1515008521691" duration="11723000" />
+      <workItem from="1515523193142" duration="12551000" />
+      <workItem from="1515694112424" duration="11378000" />
+      <workItem from="1515761459453" duration="611000" />
+      <workItem from="1516736841888" duration="30000" />
+      <workItem from="1518909790183" duration="105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="233761000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767764" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16861081" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39872748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mainpackage/view/GradeController.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mainpackage/view/GradeController.java</url>
+          <line>270</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="lines" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/AddCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/utils/ListEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/AddStudent.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/JFoenix-master/jfoenix-9.0.0.jar!/com/jfoenix/controls/RecursiveTreeItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/JFoenix-master/jfoenix-9.0.0.jar!/com/jfoenix/controls/JFXComboBox.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/JFoenix-master/jfoenix-9.0.0.jar!/com/jfoenix/controls/JFXTreeTableColumn.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/validator/StudentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/validator/GradeValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/HomeworkWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/domain/ExtendedGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/domain/HasId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/validator/HomeworkValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/validator/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/HomeworkFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/itext/itext5/itext5-itextpdf-5.5.12-sources.jar!/com/itextpdf/text/Paragraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2222">
+          <caret line="159" column="45" lean-forward="false" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/java/awt/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="108" column="13" lean-forward="false" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdf/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/javafx.controls/javafx/scene/control/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="563" column="0" lean-forward="false" selection-start-line="563" selection-start-column="0" selection-end-line="563" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/domain/Homework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/StudentFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/StudentMemoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/ui/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/GradeFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="90" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/HomeworkMemoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/AbstractRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="63" column="13" lean-forward="false" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/GradeDbRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/StudentDbRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/MainWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="495" column="0" lean-forward="false" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/jdk/internal/loader/ClassLoaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/jdk/internal/loader/BuiltinClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="581" column="0" lean-forward="false" selection-start-line="581" selection-start-column="0" selection-end-line="581" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="843" column="0" lean-forward="false" selection-start-line="843" selection-start-column="0" selection-end-line="843" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/testEmail.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/repository/HomeworkDbRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="98" column="13" lean-forward="true" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/FxUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/AddGradeComment.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="method#MainController#0;class#MainController#0" expanded="false" />
+            <element signature="method#initSubControllers#0;class#MainController#0" expanded="false" />
+            <element signature="method#notifyEvent#0;class#MainController#0" expanded="false" />
+            <element signature="e#3330#3372#0" expanded="false" />
+            <element signature="method#showErrorMessage#0;class#MainController#0" expanded="false" />
+            <element signature="method#showMessage#0;class#MainController#0" expanded="false" />
+            <element signature="method#showStudentWindow#0;class#MainController#0" expanded="false" />
+            <element signature="method#showHomeworkWindow#0;class#MainController#0" expanded="false" />
+            <element signature="method#showGradeWindow#0;class#MainController#0" expanded="false" />
+            <element signature="method#pdf_teme#0;class#MainController#0" expanded="false" />
+            <element signature="method#top_grupe#0;class#MainController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestTablePagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/StudentWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/domain/Grade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/HomeworkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="method#initHomeworkTable#0;class#HomeworkController#0" expanded="false" />
+            <element signature="e#3516#3810#0" expanded="false" />
+            <element signature="e#3957#4252#0" expanded="false" />
+            <element signature="e#4396#4712#0" expanded="false" />
+            <element signature="e#4918#5792#0" expanded="false" />
+            <element signature="e#5996#7192#0" expanded="false" />
+            <element signature="method#notifyEvent#0;class#HomeworkController#0" expanded="false" />
+            <element signature="method#handleX#0;class#HomeworkController#0" expanded="false" />
+            <element signature="method#setService#0;class#HomeworkController#0" expanded="false" />
+            <element signature="method#getHomeworkFromView#0;class#HomeworkController#0" expanded="false" />
+            <element signature="method#handleDelete#0;class#HomeworkController#0" expanded="false" />
+            <element signature="method#setCurrentWeek#0;class#HomeworkController#0" expanded="false" />
+            <element signature="method#filterHomeworks#0;class#HomeworkController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#addStudentPane#0;class#StudentController#0" expanded="false" />
+            <element signature="method#initStudentTable#0;class#StudentController#0" expanded="false" />
+            <element signature="e#3158#3451#0" expanded="false" />
+            <element signature="e#3578#3855#0" expanded="false" />
+            <element signature="e#3986#4266#0" expanded="false" />
+            <element signature="e#4397#4677#0" expanded="false" />
+            <element signature="e#4817#5103#0" expanded="false" />
+            <element signature="e#5299#5727#0" expanded="false" />
+            <element signature="e#5924#6359#0" expanded="false" />
+            <element signature="e#6556#6991#0" expanded="false" />
+            <element signature="e#7192#7631#0" expanded="false" />
+            <element signature="method#editValidationAction#0;class#StudentController#0" expanded="false" />
+            <element signature="method#notifyEvent#0;class#StudentController#0" expanded="false" />
+            <element signature="e#9335#9434#0" expanded="false" />
+            <element signature="e#9589#9645#0" expanded="false" />
+            <element signature="method#setService#0;class#StudentController#0" expanded="false" />
+            <element signature="method#handleAddStudent#0;class#StudentController#0" expanded="false" />
+            <element signature="method#handleDeleteStudent#0;class#StudentController#0" expanded="false" />
+            <element signature="method#getStudentFromView#0;class#StudentController#0" expanded="false" />
+            <element signature="method#handleAdd#0;class#StudentController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Service#0;class#Service#0" expanded="false" />
+            <element signature="docComment;method#add_student#0;class#Service#0" expanded="false" />
+            <element signature="method#add_student#0;class#Service#0" expanded="false" />
+            <element signature="method#setCurrent_week#0;class#Service#0" expanded="false" />
+            <element signature="docComment;method#update_student#0;class#Service#0" expanded="false" />
+            <element signature="method#update_student#0;class#Service#0" expanded="false" />
+            <element signature="docComment;method#delete_student#0;class#Service#0" expanded="false" />
+            <element signature="method#delete_student#0;class#Service#0" expanded="false" />
+            <element signature="docComment;method#add_homework#0;class#Service#0" expanded="false" />
+            <element signature="docComment;method#update_homework#0;class#Service#0" expanded="false" />
+            <element signature="method#update_homework#0;class#Service#0" expanded="false" />
+            <element signature="docComment;method#delete_homework#0;class#Service#0" expanded="false" />
+            <element signature="method#delete_homework#0;class#Service#0" expanded="false" />
+            <element signature="method#get_all_student#0;class#Service#0" expanded="false" />
+            <element signature="method#get_all_homeworks#0;class#Service#0" expanded="false" />
+            <element signature="method#get_all_grades#0;class#Service#0" expanded="false" />
+            <element signature="method#add_grade#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_and_sorter#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_students_name#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_students_email#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_students_teacher#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_homeworks_deadline#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_homework_description#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_homeworks_id#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_grades_greater#0;class#Service#0" expanded="false" />
+            <element signature="e#13717#13764#0" expanded="false" />
+            <element signature="method#filter_grades_smaller#0;class#Service#0" expanded="false" />
+            <element signature="e#14031#14078#0" expanded="false" />
+            <element signature="method#filter_grades_student_id#0;class#Service#0" expanded="false" />
+            <element signature="method#createEvent#0;class#Service#0" expanded="false" />
+            <element signature="class#14880:15117" expanded="false" />
+            <element signature="method#filter_students#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_homeworks#0;class#Service#0" expanded="false" />
+            <element signature="method#getGroups#0;class#Service#0" expanded="false" />
+            <element signature="method#get_extended_grades#0;class#Service#0" expanded="false" />
+            <element signature="method#get_student_name_for_id#0;class#Service#0" expanded="false" />
+            <element signature="method#get_student_group_for_id#0;class#Service#0" expanded="false" />
+            <element signature="method#get_all_student_ids#0;class#Service#0" expanded="false" />
+            <element signature="method#get_all_homework_ids#0;class#Service#0" expanded="false" />
+            <element signature="method#get_students_names_with_ids#0;class#Service#0" expanded="false" />
+            <element signature="method#getHw#0;class#Service#0" expanded="false" />
+            <element signature="method#filter_grades#0;class#Service#0" expanded="false" />
+            <element signature="method#get_top_studenti#0;class#Service#0" expanded="false" />
+            <element signature="method#get_top_teme#0;class#Service#0" expanded="false" />
+            <element signature="method#get_medie_for_student#0;class#Service#0" expanded="false" />
+            <element signature="method#get_top_grupe#0;class#Service#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/GradeWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="67" lean-forward="false" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainpackage/view/GradeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#4062#4394#0" expanded="false" />
+            <element signature="e#4530#4857#0" expanded="false" />
+            <element signature="e#4984#5276#0" expanded="false" />
+            <element signature="e#5407#5702#0" expanded="false" />
+            <element signature="e#5829#6150#0" expanded="false" />
+            <element signature="method#notifyEvent#0;class#GradeController#0" expanded="false" />
+            <element signature="method#handleX#0;class#GradeController#0" expanded="false" />
+            <element signature="method#setService#0;class#GradeController#0" expanded="false" />
+            <element signature="method#setCurrentWeek#0;class#GradeController#0" expanded="false" />
+            <element signature="method#handleFilter#0;class#GradeController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23908046" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Monitorizarea temelor de laborator Andrei Moldovan</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23908046" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.microsoft.sqlserver:mssql-jdbc:6.2.2.jre8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23908046" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

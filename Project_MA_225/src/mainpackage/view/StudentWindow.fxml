@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainStudentPane" layoutX="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.view.StudentController">
+   <children>
+      <JFXTreeTableView fx:id="studentTable" layoutX="227.0" layoutY="46.0" prefHeight="530.0" prefWidth="590.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="214.0" AnchorPane.topAnchor="30.0" />
+      <Label fx:id="lastOperationLabel" layoutX="2.0" layoutY="582.0" prefHeight="18.0" prefWidth="617.0" text="Label" />
+      <JFXButton fx:id="addStudentButton" layoutX="653.0" layoutY="53.0" onAction="#handleAddStudent" prefHeight="43.0" prefWidth="182.0" ripplerFill="BLACK" style="-fx-background-color: #2196f3;" text="Adauga Student" textFill="WHITE" AnchorPane.rightAnchor="14.599999999999994" />
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="776.0" layoutY="3.0" onMouseReleased="#handleX" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="3.0">
+         <image>
+            <Image url="@../gui_images/iconx.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="addStudentButton1" layoutX="683.0" layoutY="143.0" onAction="#handleDeleteStudent" prefHeight="43.0" prefWidth="182.0" ripplerFill="BLACK" style="-fx-background-color: #2196f3;" text="Sterge Student" textFill="WHITE" />
+      <Separator layoutX="669.0" layoutY="243.0" prefWidth="200.0" />
+      <JFXToggleButton fx:id="numeToggle" layoutX="666.0" layoutY="252.0" onAction="#handleFilter" text="Nume" toggleColor="#2196f3" />
+      <JFXToggleButton fx:id="profToggle" layoutX="666.0" layoutY="338.0" onAction="#handleFilter" text="Profesor" toggleColor="#2196f3" />
+      <JFXToggleButton fx:id="grupaToggle" layoutX="666.0" layoutY="430.0" onAction="#handleFilter" text="Grupa" toggleColor="#2196f3" />
+      <JFXTextField fx:id="filterNumeLabel" layoutX="678.0" layoutY="311.0" onKeyReleased="#filterchange" prefHeight="26.0" prefWidth="182.0" />
+      <JFXTextField fx:id="filterProfesorLabel" layoutX="678.0" layoutY="396.0" onKeyReleased="#filterchange" prefHeight="26.0" prefWidth="182.0" />
+      <ComboBox fx:id="filterGrupa" layoutX="723.0" layoutY="488.0" prefHeight="26.0" prefWidth="91.0" />
+      <Pagination fx:id="studentPagination" layoutX="20.0" layoutY="28.0" maxPageIndicatorCount="3" pageCount="3" prefHeight="572.0" prefWidth="646.0" />
+   </children>
+</AnchorPane>

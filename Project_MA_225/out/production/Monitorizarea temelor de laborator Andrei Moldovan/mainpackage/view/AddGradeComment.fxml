@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="commentGradePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="225.0" prefWidth="482.0" style="-fx-background-color: #2D3447;" styleClass="JFXTextField" stylesheets="@AddCSS.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.view.GradeController">
+   <children>
+      <JFXButton layoutX="179.0" layoutY="169.0" onAction="#submitGradeCommentHandle" prefHeight="42.0" prefWidth="125.0" ripplerFill="#192e38" style="-fx-background-color: #2196f3;" text="Submit" textFill="WHITE" />
+      <JFXTextArea fx:id="gradeCommenttextArea" focusColor="WHITE" layoutX="56.0" layoutY="60.0" prefHeight="78.0" prefWidth="371.0" styleClass="JFXTextField" stylesheets="@AddCSS.css" unFocusColor="WHITE" />
+      <Label layoutX="168.0" layoutY="14.0" text="Comment on the Grade" textFill="WHITE" />
+   </children>
+</AnchorPane>

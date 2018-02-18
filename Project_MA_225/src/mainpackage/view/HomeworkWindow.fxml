@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainHomeworkPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.view.HomeworkController">
+   <children>
+      <JFXTreeTableView fx:id="homeworkTable" layoutX="227.0" layoutY="46.0" prefHeight="228.0" prefWidth="832.0" AnchorPane.bottomAnchor="342.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="30.0" />
+      <Label fx:id="lastOperationLabel" layoutX="2.0" layoutY="582.0" prefHeight="18.0" prefWidth="617.0" text="Label" />
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="776.0" layoutY="3.0" onMouseReleased="#handleX" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="3.0">
+         <image>
+            <Image url="@../gui_images/iconx.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="addHw" layoutX="36.0" layoutY="524.0" onAction="#addHomework" prefHeight="43.0" prefWidth="207.0" ripplerFill="BLACK" style="-fx-background-color: #2196f3;" text="Adauga Tema" textFill="WHITE" />
+      <JFXButton fx:id="deleteHw" layoutX="662.0" layoutY="326.0" onAction="#handleDelete" prefHeight="43.0" prefWidth="182.0" ripplerFill="BLACK" style="-fx-background-color: #2196f3;" text="Sterge Tema Selectata" textFill="WHITE" />
+      <ComboBox fx:id="currentWeekBox" layoutX="779.0" layoutY="524.0" onAction="#setCurrentWeek" prefHeight="26.0" prefWidth="62.0" promptText="1" />
+      <Label layoutX="677.0" layoutY="529.0" prefHeight="18.0" prefWidth="101.0" text="Saptaman curenta" />
+      <Separator layoutX="632.0" layoutY="278.0" orientation="VERTICAL" prefHeight="307.0" prefWidth="6.0" />
+      <ComboBox fx:id="deadlineCombo" layoutX="109.0" layoutY="473.0" prefHeight="26.0" prefWidth="62.0" />
+      <JFXTextField fx:id="idLabel" layoutX="36.0" layoutY="300.0" prefHeight="26.0" prefWidth="207.0" promptText="ID Tema" />
+      <JFXTextField fx:id="descriereLabel" layoutX="36.0" layoutY="368.0" prefHeight="43.0" prefWidth="207.0" promptText="Descriere" />
+      <Label layoutX="36.0" layoutY="477.0" prefHeight="18.0" prefWidth="62.0" text="Deadline" />
+      <Separator layoutX="283.0" layoutY="278.0" orientation="VERTICAL" prefHeight="307.0" prefWidth="6.0" />
+      <JFXTextField fx:id="descriereFilter" layoutX="315.0" layoutY="388.0" onKeyReleased="#filterHomeworks" prefHeight="43.0" prefWidth="275.0" />
+      <Label layoutX="311.0" layoutY="348.0" prefHeight="18.0" prefWidth="141.0" text="Filtreaza dupa descriere:" />
+      <ComboBox fx:id="deadlineFilterBox" layoutX="508.0" layoutY="482.0" onAction="#filterHomeworksBox" prefHeight="26.0" prefWidth="62.0" />
+      <Label layoutX="315.0" layoutY="486.0" prefHeight="18.0" prefWidth="218.0" text="Deadline dupa saptamana" />
+      <Pagination fx:id="homeworkPagination" layoutX="21.0" layoutY="20.0" maxPageIndicatorCount="3" pageCount="3" prefHeight="280.0" prefWidth="832.0" />
+   </children>
+</AnchorPane>

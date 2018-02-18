@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.view.MainController">
+   <children>
+      <SplitPane dividerPositions="0.23417721518987342" layoutX="349.0" layoutY="140.0" prefHeight="600.0" prefWidth="950.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="230.0">
+               <children>
+                  <AnchorPane prefHeight="600.0" prefWidth="230.0" style="-fx-background-color: #2D3447;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Pane prefHeight="107.0" prefWidth="242.0" style="-fx-background-color: #2D3447;">
+                           <children>
+                              <Label layoutX="30.0" layoutY="29.0" prefHeight="49.0" prefWidth="177.0" text="Monitorizarea temelor de labolator" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                                 <font>
+                                    <Font name="Bookman Old Style" size="17.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <JFXButton alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutX="9.0" layoutY="107.0" onAction="#showStudentWindow" prefHeight="65.0" prefWidth="220.0" text="Studenti    " textFill="WHITE">
+                           <font>
+                              <Font name="Bookman Old Style" size="15.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0">
+                                 <image>
+                                    <Image url="@../gui_images/student2.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutX="9.0" layoutY="186.0" onAction="#showHomeworkWindow" prefHeight="65.0" prefWidth="220.0" text="Teme     " textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Bookman Old Style" size="15.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0">
+                                 <image>
+                                    <Image url="@../gui_images/homework2.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutX="9.0" layoutY="267.0" onAction="#showGradeWindow" prefHeight="65.0" prefWidth="220.0" text="Note     " textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Bookman Old Style" size="15.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0">
+                                 <image>
+                                    <Image url="@../gui_images/grade2.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <Label layoutX="21.0" layoutY="395.0" prefHeight="36.0" prefWidth="177.0" text="           Rapoarte" textFill="WHITE">
+                           <font>
+                              <Font name="Bookman Old Style" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="globalWindow" focusTraversable="true" prefHeight="598.0" prefWidth="720.0" />
+           
+        </items>
+      </SplitPane>
+      <JFXButton alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutX="22.0" layoutY="431.0" onAction="#pdf_top_studenti" prefHeight="40.0" prefWidth="190.0" text=" Topul studentilor" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="33.0">
+               <image>
+                  <Image url="@../gui_images/medal2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutX="16.0" layoutY="519.0" onAction="#top_grupe" prefHeight="40.0" prefWidth="190.0" text=" Topul Grupelor" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="41.0">
+               <image>
+                  <Image url="@../gui_images/trophy.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutX="22.0" layoutY="473.0" onAction="#pdf_teme" prefHeight="40.0" prefWidth="189.0" text="  Dificultaeta temelor" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="30.0">
+               <image>
+                  <Image url="@../gui_images/upward-trend-solid.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

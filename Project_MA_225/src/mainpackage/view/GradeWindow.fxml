@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainGradePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.view.GradeController">
+   <children>
+      <JFXTreeTableView fx:id="gradeTable" layoutX="24.0" layoutY="35.0" prefHeight="525.0" prefWidth="567.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="289.0" AnchorPane.topAnchor="35.0" />
+      <Label fx:id="lastOperationLabel" layoutX="2.0" layoutY="582.0" prefHeight="18.0" prefWidth="617.0" text="Label" />
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="776.0" layoutY="3.0" onMouseReleased="#handleX" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="3.0">
+         <image>
+            <Image url="@../gui_images/iconx.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="idSBox" editable="true" layoutX="610.0" layoutY="68.0" prefHeight="26.0" prefWidth="249.0" />
+      <ComboBox fx:id="idTBox" layoutX="609.0" layoutY="152.0" prefHeight="26.0" prefWidth="102.0" />
+      <Label layoutX="610.0" layoutY="43.0" prefHeight="18.0" prefWidth="90.0" text="Nume Student" />
+      <Label layoutX="614.0" layoutY="116.0" prefHeight="18.0" prefWidth="69.0" text="Id Tema" />
+      <JFXButton fx:id="addStudentButton" layoutX="658.0" layoutY="210.0" onAction="#handleAddGrade" prefHeight="43.0" prefWidth="138.0" ripplerFill="BLACK" style="-fx-background-color: #2196f3;" text="Adauga Nota" textFill="WHITE" />
+      <Label layoutX="763.0" layoutY="116.0" prefHeight="18.0" prefWidth="32.0" text="Nota" />
+      <JFXTextField fx:id="notaField" layoutX="756.0" layoutY="143.0" prefHeight="26.0" prefWidth="81.0" promptText="0.0" />
+      <Separator layoutX="604.0" layoutY="283.0" prefHeight="2.0" prefWidth="256.0" />
+      <Separator layoutX="600.0" layoutY="23.0" orientation="VERTICAL" prefHeight="569.0" prefWidth="0.0" />
+      <ComboBox fx:id="filterGroupBox" layoutX="727.0" layoutY="326.0" prefHeight="26.0" prefWidth="114.0" />
+      <Label layoutX="613.0" layoutY="330.0" prefHeight="18.0" prefWidth="122.0" text="Filtrare grupa" />
+      <ComboBox fx:id="filterHwBox" layoutX="727.0" layoutY="389.0" prefHeight="26.0" prefWidth="114.0" />
+      <Label layoutX="610.0" layoutY="393.0" prefHeight="18.0" prefWidth="122.0" text="Filtrare tema" />
+      <ComboBox fx:id="currentWeekBox" layoutX="806.0" layoutY="551.0" onAction="#setCurrentWeek" prefHeight="26.0" prefWidth="20.0" promptText="1" />
+      <Label layoutX="704.0" layoutY="556.0" prefHeight="18.0" prefWidth="101.0" text="Saptaman curenta" />
+      <JFXButton layoutX="626.0" layoutY="460.0" onAction="#handleFilter" prefHeight="43.0" prefWidth="90.0" ripplerFill="BLACK" style="-fx-background-color: #2196f3;" text="Filter" textFill="WHITE" />
+      <JFXButton layoutX="749.0" layoutY="460.0" onAction="#resetFilter" prefHeight="43.0" prefWidth="90.0" ripplerFill="BLACK" style="-fx-background-color: #2196f3;" text="Reset" textFill="WHITE" />
+      <Pagination fx:id="gradePagination" layoutX="15.0" layoutY="32.0" maxPageIndicatorCount="3" pageCount="3" prefHeight="569.0" prefWidth="582.0" />
+   </children>
+</AnchorPane>
