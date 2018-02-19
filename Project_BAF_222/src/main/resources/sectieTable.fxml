@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.SectieTableController">
+   <children>
+      <TableView fx:id="table" prefHeight="358.0" prefWidth="523.0">
+         <columns>
+            <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="nameColumn" prefWidth="121.60003662109375" text="Nume" />
+            <TableColumn fx:id="numberOfPlacesColumn" prefWidth="87.99993896484375" text="Numar Locuri" />
+         </columns>
+      </TableView>
+      <Pagination fx:id="pagination" layoutY="2.0" prefHeight="419.0" prefWidth="524.0" />
+   </children>
+</AnchorPane>

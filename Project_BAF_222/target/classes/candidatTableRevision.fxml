@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.CandidatTableController">
+   <children>
+      <Pagination fx:id="pagination" layoutX="-1.0" prefHeight="314.0" prefWidth="600.0" />
+      <JFXTreeTableView fx:id="table" prefHeight="262.0" prefWidth="600.0">
+         <columns>
+            <TreeTableColumn fx:id="idColumn" prefWidth="70.40002745389938" text="ID" />
+            <TreeTableColumn fx:id="nameColumn" prefWidth="123.199951171875" text="Nume" />
+            <TreeTableColumn fx:id="phoneColumn" prefWidth="97.59996032714844" text="Telefon" />
+            <TreeTableColumn fx:id="emailColumn" prefWidth="140.0" text="Email" />
+         </columns>
+      </JFXTreeTableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.OptiuneTableController">
+   <children>
+      <TableView fx:id="table" prefHeight="358.0" prefWidth="523.0">
+         <columns>
+            <TableColumn fx:id="optiuneIdColumn" prefWidth="68.79998779296875" text="ID Optiune" />
+            <TableColumn fx:id="candidatIdColumn" prefWidth="81.5999755859375" text="ID Candidat" />
+            <TableColumn fx:id="candidatNameColumn" prefWidth="128.00001525878906" text="Nume Candidat" />
+            <TableColumn fx:id="sectieIdColumn" prefWidth="75.20001220703125" text="ID Sectie" />
+            <TableColumn fx:id="sectieNameColumn" prefWidth="84.800048828125" text="Nume Sectie" />
+            <TableColumn fx:id="priorityColumn" prefWidth="81.59999389648442" text="Prioritate" />
+         </columns>
+      </TableView>
+      <Pagination fx:id="pagination" prefHeight="419.0" prefWidth="524.0" />
+   </children>
+</AnchorPane>

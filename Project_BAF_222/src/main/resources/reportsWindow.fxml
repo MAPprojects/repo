@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="600.0" styleClass="mainAnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.ReportsWindowController">
+   <children>
+      <Label fx:id="numberLabel" layoutX="43.0" layoutY="62.0" text="test" visible="false" />
+      <PieChart fx:id="pieChart" prefHeight="351.0" prefWidth="600.0" />
+      <Pagination fx:id="pagination" layoutX="-4.0" layoutY="-1.0" prefHeight="400.0" prefWidth="606.0" />
+      <JFXButton layoutX="534.0" layoutY="350.0" onAction="#handleOK" prefHeight="48.0" prefWidth="51.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_Exit_64px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="491.0" layoutY="349.0" onAction="#handlePDF" prefHeight="0.0" prefWidth="64.0">
+         <graphic>
+            <ImageView fitHeight="46.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_PDF_2_64px_1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="446.0" layoutY="358.0" onAction="#handleMail" prefHeight="43.0" prefWidth="60.0">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_Gmail_Login_64px_1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

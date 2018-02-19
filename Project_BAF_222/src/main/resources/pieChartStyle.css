@@ -1,0 +1,17 @@
+.chart-title {
+    -fx-text-fill: #000000;
+    -fx-font-size: 1.9em;
+    -fx-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    -fx-underline: true;
+}
+
+.chart-pie-label {
+    -fx-fill: #000000;
+    -fx-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    -fx-font-size: 1em;
+}
+
+.chart-legend {
+    -fx-stroke: #daa520;
+    -fx-font-size: 0.9em;
+}

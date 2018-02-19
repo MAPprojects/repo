@@ -1,0 +1,2 @@
+Adaugare optiune la sectia cu ID-ul 1 cu prioritatea 1 aceasta fiind prima optiune a candidatului.
+Update optiune la sectia cu ID-ul 1 din prioritatea 1 in prioritatea 1.

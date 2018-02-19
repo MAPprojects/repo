@@ -1,0 +1,2 @@
+Adaugare optiune la sectia cu ID-ul 4 cu prioritatea 1 aceasta fiind prima optiune a candidatului.
+Stergere optiune la sectia cu ID-ul 4 cu prioritatea 1.

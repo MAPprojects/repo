@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.CandidatFilterController">
+   <children>
+      <Label layoutX="63.0" layoutY="33.0" text="Filtrare Candidati" underline="true">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelButton" layoutX="129.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="41.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cancel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="okButton" layoutX="209.0" layoutY="314.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="41.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@tick.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="resetButton" layoutX="43.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleReset" prefHeight="41.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@reset.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <GridPane layoutX="28.0" layoutY="84.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.6" minWidth="10.0" prefWidth="142.66665344238282" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.4000244140625" minWidth="10.0" prefWidth="107.73334655761718" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="40.80001220703125" minHeight="10.0" prefHeight="36.80001220703125" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="46.4" minHeight="10.0" prefHeight="36.800006103515635" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="36.7999755859375" minHeight="10.0" prefHeight="33.59999389648438" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="30.599981689453116" minHeight="10.0" prefHeight="30.599981689453116" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="33.000018310546864" minHeight="10.0" prefHeight="31.400000000000006" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="32.99998779296874" minHeight="10.0" prefHeight="28.19999999999999" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <CheckBox fx:id="nameFilterCheckBox" mnemonicParsing="false" prefHeight="18.0" prefWidth="130.0" text="Filtrare dupa nume" />
+            <Label text="Secventa de litere cautata:" GridPane.rowIndex="1" />
+            <TextField fx:id="nameFilterTextField" prefHeight="26.0" prefWidth="126.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <CheckBox fx:id="emailFilterCheckBox" mnemonicParsing="false" text="Filtrare dupa email" GridPane.rowIndex="2" />
+            <Label text="Serviciul de posta cautat" GridPane.rowIndex="3" />
+            <ComboBox fx:id="emailFilterComboBox" prefHeight="26.0" prefWidth="106.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <CheckBox fx:id="idFieldCheckBox" mnemonicParsing="false" text="Filtrare dupa id" GridPane.rowIndex="4" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5">
+               <children>
+                  <RadioButton fx:id="idFilterMoreRadioButton" layoutY="5.0" mnemonicParsing="false" selected="true" text="Mai mare">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="toggleGroupFilterMoreLess" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="idFilterLessRadioButton" layoutX="75.0" layoutY="6.0" mnemonicParsing="false" text="Mai mic" toggleGroup="$toggleGroupFilterMoreLess" />
+               </children>
+            </AnchorPane>
+            <TextField fx:id="idFilterTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

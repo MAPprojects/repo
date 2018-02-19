@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.HelpController">
+   <children>
+      <Button layoutX="283.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleOk" text="OK" />
+      <ImageView fitHeight="349.0" fitWidth="484.0" layoutX="65.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@helpScreenShot.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

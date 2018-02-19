@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="662.0" prefWidth="1213.0" style="-fx-background-color: #150C0A;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+   <children>
+      <ImageView fitHeight="761.0" fitWidth="1218.0" opacity="0.32" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Background.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="728.0" layoutY="126.0" opacity="0.51" prefHeight="424.0" prefWidth="381.0" style="-fx-background-color: white;">
+         <children>
+            <JFXTextField fx:id="username" focusColor="#e35452" layoutX="36.0" layoutY="153.0" maxWidth="309.0" minWidth="213.0" prefHeight="37.0" prefWidth="309.0" promptText="username">
+               <unFocusColor>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#e45652" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </unFocusColor>
+            </JFXTextField>
+            <JFXPasswordField fx:id="password" layoutX="36.0" layoutY="234.0" maxWidth="303.0" minWidth="213.0" prefHeight="31.0" prefWidth="303.0" promptText="password">
+               <unFocusColor>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#e45652" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </unFocusColor>
+               <focusColor>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#e45652" />
+                        <Stop color="#e45652" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </focusColor>
+            </JFXPasswordField>
+            <JFXButton layoutX="39.0" layoutY="326.0" onAction="#toUserMenu" prefHeight="37.0" prefWidth="303.0" style="-fx-background-color: #E45652;" text="Log in" textFill="WHITE" />
+            <ImageView fitHeight="99.0" fitWidth="157.0" layoutX="141.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Login_Register_Title.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="validLogin" layoutX="39.0" layoutY="284.0" prefHeight="21.0" prefWidth="303.0" textFill="#e81d1d" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="57.0" layoutY="191.0" text="Welcome to our dictionary" textFill="#d0cdcd">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="278.0" layoutY="379.0" onAction="#toRegister" opacity="0.68" prefHeight="37.0" prefWidth="136.0" style="-fx-background-color: #E45652;" text="Register" textFill="#dddcdc" />
+      <Label layoutX="149.0" layoutY="303.0" text="If you are new here, please register using the button below." textFill="#d3d2d2" />
+   </children>
+</AnchorPane>

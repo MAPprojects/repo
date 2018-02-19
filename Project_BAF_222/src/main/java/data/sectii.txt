@@ -1,0 +1,8 @@
+1|Mate-Info|130
+2|Info-Romana|210
+3|Info-Engleza|210
+4|Filologie|500
+5|Finante Banci|150
+6|Info-Germana|40
+10|Economie|80
+56|Bio-Chimie|15

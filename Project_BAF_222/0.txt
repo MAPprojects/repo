@@ -1,0 +1,1 @@
+Update optiune la sectia cu ID-ul 0 din prioritatea 1 in prioritatea 0.

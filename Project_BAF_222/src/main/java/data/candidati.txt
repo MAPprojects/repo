@@ -1,0 +1,7 @@
+1|Petre Adelin|2356743231|sadssdsasd@bla.net
+5|Georgescu Barbu|0755432321|george@blamail.com
+67|Dan Emil|0454652342|dan@hotmail.com
+2434|Grigore Horat|0754353564|grigore@mail.com
+5641|Vasile Ilarie|0346312355|vasile@mail.com
+6778|Ionescu Iulian|9444521412|ionescu@gmail.com
+12324|Garcea Lacrima|0753453445|garcea@gmail.com

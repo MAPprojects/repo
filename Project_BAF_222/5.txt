@@ -1,0 +1,8 @@
+Adaugare optiune la sectia cu ID-ul 5 cu prioritatea 1 aceasta fiind prima optiune a candidatului.
+Adaugare optiune la sectia cu ID-ul 1 cu prioritatea 2 prioritate determinata de optiunea anterioara.
+Adaugare optiune la sectia cu ID-ul 2 cu prioritatea 3 prioritate determinata de optiunea anterioara.
+Adaugare optiune la sectia cu ID-ul 3 cu prioritatea 4 prioritate determinata de optiunea anterioara.
+Update optiune la sectia cu ID-ul 3 din prioritatea 4 in prioritatea 3.
+Update optiune la sectia cu ID-ul 2 din prioritatea 3 in prioritatea 2.
+Update optiune la sectia cu ID-ul 1 din prioritatea 2 in prioritatea 1.
+Update optiune la sectia cu ID-ul 5 din prioritatea 1 in prioritatea 4.
