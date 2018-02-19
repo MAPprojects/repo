@@ -1,0 +1,3 @@
+Adaugare nota;8;1;6;5;fadsfdas
+Adaugare nota;10;6;5;7;dfads
+Adaugare nota;9;4;10;1;dgad

@@ -1,0 +1,2 @@
+Adaugare nota;14;8;6;7;aproape bine
+Modificare nota;14;10;6;0;acuma e mai bine

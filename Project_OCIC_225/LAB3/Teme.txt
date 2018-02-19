@@ -1,0 +1,5 @@
+4;vectori;11;
+5;cerintaUpdatata;3;
+6;aaa;7;
+7;UI + repo;10;
+8;alteceva ;6;

@@ -1,0 +1,7 @@
+Adaugare nota;8;6;6;5;aproape bine
+Modificare nota;8;9;6;5;acum este corect d-ul
+Adaugare nota;8;1;6;5;fdasfda
+Adaugare nota;8;1;6;5;fsdfsd
+Adaugare nota;10;1;5;5;dgagads
+Adaugare nota;10;4;5;6;dgfadsga
+Adaugare nota;14;9;6;6;e bine

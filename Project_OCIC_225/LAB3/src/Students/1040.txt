@@ -1,0 +1,2 @@
+Adaugare nota, 1, 1, 15, 5, 
+Modificare nota, 1;10;15;5;e bine

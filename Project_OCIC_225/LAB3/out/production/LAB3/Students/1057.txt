@@ -1,0 +1,4 @@
+Adaugare nota;8;5;6;5;aproape bine
+Adaugare nota;8;1;6;5;
+Adaugare nota;8;1;6;5;dfaf
+Adaugare nota;8;6;6;5;

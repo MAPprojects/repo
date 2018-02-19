@@ -1,0 +1,3 @@
+Adaugare nota, 7, 3, 10, 5, 
+Adaugare nota, 6, 3, 8, 5, 
+Adaugare nota, 6, 1, 8, 5, nu merge ui
