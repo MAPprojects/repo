@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96a77047-d5ff-400d-903c-7ac99a3499a1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Laborator_3$Main.coverage" NAME="Main Coverage Results" MODIFIED="1510256657462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Repository/AbstractRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractFileRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Repository/AbstractFileRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utils/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding>
+                <element signature="method#setCurrentWeek#0;class#Utils#0" expanded="false" />
+                <element signature="method#getCurrentWeek#0;class#Utils#0" expanded="false" />
+                <element signature="method#sendMail#0;class#Utils#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Console.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/Console.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Console#0;class#Console#0" expanded="false" />
+                <element signature="class#DeleteAllEntitiesCommand#0;class#Console#0" expanded="false" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="class#StudentMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#AddStudentCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#DeleteStudentCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#UpdateStudentCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FindStudentCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#ShowStudentListCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+                <element signature="method#createMenu#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+                <element signature="method#StudentMenu#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#TemaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#AddTemaCommand#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#UpdateDeadlineTemaCommand#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#DeleteTemaCommand#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#ShowTemaListCommand#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+                <element signature="method#TemaMenu#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#NotaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#AddNotaCommand#0;class#NotaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#UpdateNotaCommand#0;class#NotaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#DeleteNotaCommand#0;class#NotaMenu#0;class#Console#0" expanded="false" />
+                <element signature="e#14830#14831#0" expanded="true" />
+                <element signature="e#14907#14908#0" expanded="true" />
+                <element signature="method#NotaMenu#0;class#NotaMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="method#FilterMenu#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FiltrareNotaMaxCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FiltrareNotaTemaCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FiltrareNotaSaptamanaCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FiltrareStudentiProfesorCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FiltrareStudentiGrupaCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FiltrareStudentiKeywordCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FiltrareTemeDeadlineCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#SortareTemeDeadlineCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="class#FiltrareTemeKeywordCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="method#createMenu#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+                <element signature="method#createMenu#0;class#Console#0" expanded="false" />
+                <element signature="method#runUI#0;class#Console#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>entitatea</find>
+      <find>Nu exista entitate</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Validator/ValidationException.java" />
+        <option value="$PROJECT_DIR$/src/Repository/RepositoryException.java" />
+        <option value="$PROJECT_DIR$/src/Validator/Validator.java" />
+        <option value="$PROJECT_DIR$/src/Domain/hasId.java" />
+        <option value="$PROJECT_DIR$/src/Tests.java" />
+        <option value="$PROJECT_DIR$/src/UI/AbstractUI.java" />
+        <option value="$PROJECT_DIR$/src/Validator/StudentValidator.java" />
+        <option value="$PROJECT_DIR$/src/Repository/TemeRepository.java" />
+        <option value="$PROJECT_DIR$/src/Validator/TemaValidator.java" />
+        <option value="$PROJECT_DIR$/src/Utils.java" />
+        <option value="$PROJECT_DIR$/src/UI/ConsoleUI.java" />
+        <option value="$PROJECT_DIR$/src/UI/Menu/Command.java" />
+        <option value="$PROJECT_DIR$/src/UI/UI.java" />
+        <option value="$PROJECT_DIR$/src/UI/FindStudentCommand.java" />
+        <option value="$PROJECT_DIR$/src/Validator/NotaValidatore.java" />
+        <option value="$PROJECT_DIR$/src/Repository/NotaRepository.java" />
+        <option value="$PROJECT_DIR$/src/UI/Menu/MenuCommand.java" />
+        <option value="$PROJECT_DIR$/src/CatalogStudenti/1.txt" />
+        <option value="$PROJECT_DIR$/src/CatalogStudenti/2.txt" />
+        <option value="$PROJECT_DIR$/Studenti.txt" />
+        <option value="$PROJECT_DIR$/Teme.txt" />
+        <option value="$PROJECT_DIR$/Catalog.txt" />
+        <option value="$PROJECT_DIR$/src/CatalogStudenti/10.txt" />
+        <option value="$PROJECT_DIR$/src/Utils/Table.java" />
+        <option value="$PROJECT_DIR$/src/Repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/src/Repository/TemaRepository.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Tema.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Student.java" />
+        <option value="$PROJECT_DIR$/src/Repository/StudentFileRepository.java" />
+        <option value="$PROJECT_DIR$/src/Repository/TemaFileRepository.java" />
+        <option value="$PROJECT_DIR$/src/Service/TemaService.java" />
+        <option value="$PROJECT_DIR$/src/Data/Teme.txt" />
+        <option value="$PROJECT_DIR$/src/Data/Catalog.txt" />
+        <option value="$PROJECT_DIR$/src/Domain/Nota.java" />
+        <option value="$PROJECT_DIR$/src/Repository/Repository.java" />
+        <option value="$PROJECT_DIR$/src/Repository/AbstractRepository.java" />
+        <option value="$PROJECT_DIR$/src/Repository/AbstractFileRepository.java" />
+        <option value="$PROJECT_DIR$/src/Service/Service.java" />
+        <option value="$PROJECT_DIR$/src/Service/AbstractService.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/Utils/EntityPrinter.java" />
+        <option value="$PROJECT_DIR$/src/Validator/NotaValidator.java" />
+        <option value="$PROJECT_DIR$/src/Service/NotaService.java" />
+        <option value="$PROJECT_DIR$/src/Repository/NotaFileRepository.java" />
+        <option value="$PROJECT_DIR$/src/UI/Console.java" />
+        <option value="$PROJECT_DIR$/src/Service/Filter.java" />
+        <option value="$PROJECT_DIR$/src/Utils/Utils.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="17" />
+    <option name="y" value="-16" />
+    <option name="width" value="1272" />
+    <option name="height" value="692" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laborator 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laborator 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/Libraries" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="UI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UBB\Sem_3\Metode Avansate de Programare\Laboratoare\Laborator 3\src\Data" />
+      <recent name="D:\UBB\Sem_3\Metode Avansate de Programare\Laboratoare\Laborator 3\src\CatalogStudenti" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Laborator 3" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96a77047-d5ff-400d-903c-7ac99a3499a1" name="Default" comment="" />
+      <created>1508602880123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508602880123</updated>
+      <workItem from="1508602884872" duration="6247000" />
+      <workItem from="1508669758860" duration="1828000" />
+      <workItem from="1508676584818" duration="6940000" />
+      <workItem from="1508767614097" duration="68000" />
+      <workItem from="1508767700638" duration="234000" />
+      <workItem from="1508771637766" duration="3072000" />
+      <workItem from="1508959200512" duration="45000" />
+      <workItem from="1509129695656" duration="132000" />
+      <workItem from="1509609761679" duration="39000" />
+      <workItem from="1509632528053" duration="7222000" />
+      <workItem from="1509645399671" duration="318000" />
+      <workItem from="1509712818337" duration="94000" />
+      <workItem from="1509712934252" duration="626000" />
+      <workItem from="1509718188177" duration="3866000" />
+      <workItem from="1509873387040" duration="25000" />
+      <workItem from="1509874336747" duration="5354000" />
+      <workItem from="1509990262933" duration="178000" />
+      <workItem from="1509999152282" duration="3000" />
+      <workItem from="1510167333259" duration="4218000" />
+      <workItem from="1510214643088" duration="84000" />
+      <workItem from="1510232472846" duration="2643000" />
+      <workItem from="1510246776793" duration="9977000" />
+      <workItem from="1510319249594" duration="1687000" />
+      <workItem from="1510322476722" duration="4269000" />
+      <workItem from="1510327090979" duration="68000" />
+      <workItem from="1510657551904" duration="879000" />
+      <workItem from="1510668873015" duration="4221000" />
+      <workItem from="1510819164176" duration="342000" />
+      <workItem from="1510857184846" duration="19000" />
+      <workItem from="1510860700651" duration="3089000" />
+      <workItem from="1510909062888" duration="54000" />
+      <workItem from="1510909234849" duration="4063000" />
+      <workItem from="1510927374085" duration="4663000" />
+      <workItem from="1510936954739" duration="11284000" />
+      <workItem from="1510999353569" duration="618000" />
+      <workItem from="1511002377002" duration="618000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="89087000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.54791665" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="709" y="48" width="502" height="943" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.54791665" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="709" y="48" width="502" height="943" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Validator/ValidationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="1098.3899994077237" y="999.5">UI.UI</node>
+            <node x="1316.9405650319827" y="786.0">Repository.TemaRepository</node>
+            <node x="1231.8074804548687" y="178.5">Validator.ValidationException</node>
+            <node x="381.3074804548687" y="730.0">Service.AbstractService</node>
+            <node x="40.35723169864957" y="101.0">Domain.Student</node>
+            <node x="237.65867093105908" y="1122.0">UI.StudentUI</node>
+            <node x="673.6064173181713" y="190.0">Validator.Validator</node>
+            <node x="0.0" y="1188.5">Tests</node>
+            <node x="1492.4146233120116" y="145.0">Domain.Tema</node>
+            <node x="333.8988983653162" y="112.5">Repository.Repository</node>
+            <node x="993.8074804548687" y="178.5">Repository.RepositoryException</node>
+            <node x="660.3791755508178" y="430.0">Repository.AbstractRepository</node>
+            <node x="818.5774994077237" y="0.0">Domain.hasId</node>
+            <node x="112.125" y="999.5">Service.StudentService</node>
+            <node x="102.625" y="786.0">Repository.StudentRepository</node>
+            <node x="1372.1708422174845" y="988.0">Service.TemaService</node>
+            <node x="1299.523083984838" y="1144.0">UI.TemaUI</node>
+            <node x="455.3791755508178" y="519.5">Validator.StudentValidator</node>
+            <node x="929.3791755508178" y="464.0">Service.Service</node>
+            <node x="1078.3988983653162" y="1378.0">UI.ConsoleUI</node>
+            <node x="1081.3988983653162" y="1546.0">Main</node>
+            <node x="1292.1905650319827" y="519.5">Validator.TemaValidator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Domain.Student" target="Domain.hasId">
+              <point x="0.0" y="-114.5" />
+              <point x="173.35723169864957" y="76.0" />
+              <point x="837.5774994077237" y="76.0" />
+              <point x="-19.0" y="25.5" />
+            </edge>
+            <edge source="Service.AbstractService" target="Service.Service">
+              <point x="85.0" y="-104.0" />
+              <point x="593.8074804548687" y="710.0" />
+              <point x="997.3791755508178" y="710.0" />
+              <point x="0.0" y="81.0" />
+            </edge>
+            <edge source="Validator.StudentValidator" target="Validator.Validator">
+              <point x="0.0" y="-25.5" />
+              <point x="547.8791755508178" y="400.0" />
+              <point x="692.3564173181713" y="400.0" />
+              <point x="-56.25" y="25.5" />
+            </edge>
+            <edge source="UI.TemaUI" target="UI.UI">
+              <point x="-105.0" y="-81.0" />
+              <point x="1317.023083984838" y="1102.0" />
+              <point x="1208.3899994077237" y="1102.0" />
+              <point x="44.0" y="25.5" />
+            </edge>
+            <edge source="UI.ConsoleUI" target="UI.TemaUI">
+              <point x="35.0" y="-59.0" />
+              <point x="1200.8988983653162" y="1348.0" />
+              <point x="1360.773083984838" y="1348.0" />
+              <point x="-61.25" y="81.0" />
+            </edge>
+            <edge source="Repository.StudentRepository" target="Validator.StudentValidator">
+              <point x="22.125" y="-48.0" />
+              <point x="213.25" y="690.0" />
+              <point x="547.8791755508178" y="690.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="Service.TemaService" target="Service.AbstractService">
+              <point x="-88.0" y="-37.0" />
+              <point x="1394.1708422174845" y="958.0" />
+              <point x="572.5574804548687" y="958.0" />
+              <point x="63.75" y="104.0" />
+            </edge>
+            <edge source="Service.StudentService" target="Service.AbstractService">
+              <point x="52.66666666666663" y="-25.5" />
+              <point x="243.79166666666663" y="968.0" />
+              <point x="445.0574804548687" y="968.0" />
+              <point x="-63.75" y="104.0" />
+            </edge>
+            <edge source="Service.TemaService" target="Validator.ValidationException">
+              <point x="0.0" y="-37.0" />
+              <point x="1482.1708422174845" y="968.0" />
+              <point x="1493.4405650319827" y="968.0" />
+              <point x="1493.4405650319827" y="400.0" />
+              <point x="1425.3074804548687" y="400.0" />
+              <point x="86.0" y="37.0" />
+            </edge>
+            <edge source="Repository.AbstractRepository" target="Repository.RepositoryException">
+              <point x="93.375" y="-115.0" />
+              <point x="878.2541755508178" y="400.0" />
+              <point x="1030.140813788202" y="400.0" />
+              <point x="-72.66666666666669" y="37.0" />
+            </edge>
+            <edge source="Service.TemaService" target="Domain.Tema">
+              <point x="44.0" y="-37.0" />
+              <point x="1526.1708422174845" y="958.0" />
+              <point x="1568.0574804548687" y="958.0" />
+              <point x="1568.0574804548687" y="400.0" />
+              <point x="1582.9146233120116" y="400.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="Service.StudentService" target="Domain.Student">
+              <point x="-52.66666666666663" y="-25.5" />
+              <point x="138.45833333333337" y="968.0" />
+              <point x="92.125" y="968.0" />
+              <point x="92.125" y="390.0" />
+              <point x="143.80167614309403" y="390.0" />
+              <point x="-29.555555555555543" y="114.5" />
+            </edge>
+            <edge source="UI.TemaUI" target="Repository.RepositoryException">
+              <point x="-70.0" y="-81.0" />
+              <point x="1352.023083984838" y="1092.0" />
+              <point x="1240.8899994077237" y="1092.0" />
+              <point x="1240.8899994077237" y="400.0" />
+              <point x="1175.4741471215355" y="400.0" />
+              <point x="72.66666666666674" y="37.0" />
+            </edge>
+            <edge source="UI.StudentUI" target="Service.StudentService">
+              <point x="-97.28571428571422" y="-103.0" />
+              <point x="253.87295664534486" y="1102.0" />
+              <point x="210.875" y="1102.0" />
+              <point x="19.75" y="25.5" />
+            </edge>
+            <edge source="UI.ConsoleUI" target="UI.StudentUI">
+              <point x="-35.0" y="-59.0" />
+              <point x="1130.8988983653162" y="1348.0" />
+              <point x="407.9086709310591" y="1348.0" />
+              <point x="56.75" y="103.0" />
+            </edge>
+            <edge source="Repository.StudentRepository" target="Repository.AbstractRepository">
+              <point x="66.375" y="-48.0" />
+              <point x="257.5" y="700.0" />
+              <point x="722.6291755508178" y="700.0" />
+              <point x="-62.25" y="115.0" />
+            </edge>
+            <edge source="Validator.StudentValidator" target="Domain.Student">
+              <point x="-61.66666666666666" y="-25.5" />
+              <point x="486.21250888415113" y="390.0" />
+              <point x="291.57945392087186" y="390.0" />
+              <point x="118.22222222222229" y="114.5" />
+            </edge>
+            <edge source="Service.TemaService" target="Repository.TemaRepository">
+              <point x="-44.0" y="-37.0" />
+              <point x="1438.1708422174845" y="968.0" />
+              <point x="1399.9405650319827" y="968.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="Repository.StudentRepository" target="Domain.Student">
+              <point x="-22.125" y="-48.0" />
+              <point x="169.0" y="410.0" />
+              <point x="202.9127872542051" y="410.0" />
+              <point x="29.555555555555543" y="114.5" />
+            </edge>
+            <edge source="UI.StudentUI" target="Domain.Student">
+              <point x="-32.42857142857133" y="-103.0" />
+              <point x="318.73009950248775" y="1102.0" />
+              <point x="312.2847222222222" y="1102.0" />
+              <point x="312.2847222222222" y="410.0" />
+              <point x="232.46834280976066" y="410.0" />
+              <point x="59.111111111111086" y="114.5" />
+            </edge>
+            <edge source="UI.StudentUI" target="UI.UI">
+              <point x="97.28571428571433" y="-103.0" />
+              <point x="448.4443852167734" y="1102.0" />
+              <point x="1120.3899994077237" y="1102.0" />
+              <point x="-44.0" y="25.5" />
+            </edge>
+            <edge source="Repository.AbstractRepository" target="Validator.Validator">
+              <point x="31.125" y="-115.0" />
+              <point x="816.0041755508178" y="400.0" />
+              <point x="767.3564173181713" y="400.0" />
+              <point x="18.75" y="25.5" />
+            </edge>
+            <edge source="Validator.TemaValidator" target="Domain.Tema">
+              <point x="58.0" y="-25.5" />
+              <point x="1437.1905650319827" y="410.0" />
+              <point x="1505.343194740583" y="410.0" />
+              <point x="-77.57142857142857" y="70.5" />
+            </edge>
+            <edge source="Domain.Tema" target="Domain.hasId">
+              <point x="0.0" y="-70.5" />
+              <point x="1582.9146233120116" y="76.0" />
+              <point x="875.5774994077237" y="76.0" />
+              <point x="19.0" y="25.5" />
+            </edge>
+            <edge source="Service.StudentService" target="Repository.StudentRepository">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="Tests" target="Domain.Student">
+              <point x="-75.75" y="-36.5" />
+              <point x="25.25" y="1102.0" />
+              <point x="60.65867093105908" y="1102.0" />
+              <point x="60.65867093105908" y="370.0" />
+              <point x="84.69056503198283" y="370.0" />
+              <point x="-88.66666666666674" y="114.5" />
+            </edge>
+            <edge source="Repository.TemaRepository" target="Validator.TemaValidator">
+              <point x="-20.75" y="-48.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="UI.TemaUI" target="Validator.ValidationException">
+              <point x="-35.0" y="-81.0" />
+              <point x="1387.023083984838" y="1082.0" />
+              <point x="1281.6905650319827" y="1082.0" />
+              <point x="1281.6905650319827" y="410.0" />
+              <point x="1339.3074804548687" y="410.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="Service.AbstractService" target="Repository.Repository">
+              <point x="-85.0" y="-104.0" />
+              <point x="423.8074804548687" y="680.0" />
+              <point x="385.23141731817134" y="680.0" />
+              <point x="385.23141731817134" y="410.0" />
+              <point x="358.8988983653162" y="410.0" />
+              <point x="-50.0" y="103.0" />
+            </edge>
+            <edge source="Tests" target="Service.StudentService">
+              <point x="25.25" y="-36.5" />
+              <point x="126.25" y="1102.0" />
+              <point x="131.875" y="1102.0" />
+              <point x="-59.25" y="25.5" />
+            </edge>
+            <edge source="Main" target="UI.ConsoleUI">
+              <point x="42.25" y="-25.5" />
+              <point x="1208.1488983653162" y="1521.0" />
+              <point x="1209.6488983653162" y="1521.0" />
+              <point x="43.75" y="59.0" />
+            </edge>
+            <edge source="Repository.TemaRepository" target="Repository.AbstractRepository">
+              <point x="-62.25" y="-48.0" />
+              <point x="1337.6905650319827" y="700.0" />
+              <point x="847.1291755508178" y="700.0" />
+              <point x="62.25" y="115.0" />
+            </edge>
+            <edge source="Repository.TemaRepository" target="Domain.Tema">
+              <point x="62.25" y="-48.0" />
+              <point x="1462.1905650319827" y="710.0" />
+              <point x="1557.0574804548687" y="710.0" />
+              <point x="-25.85714285714289" y="70.5" />
+            </edge>
+            <edge source="UI.TemaUI" target="Domain.Tema">
+              <point x="70.0" y="-81.0" />
+              <point x="1492.023083984838" y="1092.0" />
+              <point x="1630.8074804548687" y="1092.0" />
+              <point x="1630.8074804548687" y="410.0" />
+              <point x="1634.6289090262972" y="410.0" />
+              <point x="51.714285714285666" y="70.5" />
+            </edge>
+            <edge source="UI.ConsoleUI" target="UI.UI">
+              <point x="0.0" y="-59.0" />
+              <point x="1165.8988983653162" y="1358.0" />
+              <point x="1164.3899994077237" y="1358.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="UI.StudentUI" target="Repository.RepositoryException">
+              <point x="32.428571428571445" y="-103.0" />
+              <point x="383.5872423596305" y="1082.0" />
+              <point x="1075.8791755508178" y="1082.0" />
+              <point x="1075.8791755508178" y="400.0" />
+              <point x="1102.8074804548687" y="400.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="UI.TemaUI" target="Service.TemaService">
+              <point x="0.0" y="-81.0" />
+              <point x="1422.023083984838" y="1102.0" />
+              <point x="1427.1708422174845" y="1102.0" />
+              <point x="-55.0" y="37.0" />
+            </edge>
+            <edge source="Repository.AbstractRepository" target="Repository.Repository">
+              <point x="-93.375" y="-115.0" />
+              <point x="691.5041755508178" y="380.0" />
+              <point x="458.8988983653162" y="380.0" />
+              <point x="50.0" y="103.0" />
+            </edge>
+            <edge source="Domain.Student" target="Domain.Student">
+              <point x="-118.22222222222217" y="114.5" />
+              <point x="55.1350094764274" y="350.0" />
+              <point x="20.35723169864957" y="350.0" />
+              <point x="20.35723169864957" y="215.5" />
+              <point x="-133.0" y="-0.0" />
+            </edge>
+            <edge source="Validator.StudentValidator" target="Validator.ValidationException">
+              <point x="61.666666666666686" y="-25.5" />
+              <point x="609.5458422174845" y="410.0" />
+              <point x="1253.3074804548687" y="410.0" />
+              <point x="-86.0" y="37.0" />
+            </edge>
+            <edge source="UI.StudentUI" target="Validator.ValidationException">
+              <point x="64.85714285714289" y="-103.0" />
+              <point x="416.01581378820197" y="1092.0" />
+              <point x="1087.8899994077237" y="1092.0" />
+              <point x="1087.8899994077237" y="968.0" />
+              <point x="1258.9208422174845" y="968.0" />
+              <point x="1258.9208422174845" y="400.0" />
+              <point x="1296.3074804548687" y="400.0" />
+              <point x="-43.0" y="37.0" />
+            </edge>
+            <edge source="Validator.TemaValidator" target="Validator.ValidationException">
+              <point x="0.0" y="-25.5" />
+              <point x="1379.1905650319827" y="410.0" />
+              <point x="1382.3074804548687" y="410.0" />
+              <point x="43.0" y="37.0" />
+            </edge>
+            <edge source="Validator.TemaValidator" target="Validator.Validator">
+              <point x="-58.0" y="-25.5" />
+              <point x="1321.1905650319827" y="390.0" />
+              <point x="804.8564173181713" y="390.0" />
+              <point x="56.25" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5510204081632653" x="-63.0" y="426.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/RepositoryException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#150#151#0" expanded="false" />
+            <element signature="e#180#181#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="389" column="29" lean-forward="false" selection-start-line="389" selection-start-column="29" selection-end-line="389" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator/StudentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/FindStudentCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/UI/ConsoleUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/Validator/TemaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Menu/MenuCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Menu/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/Table.java" />
+    <entry file="file://$PROJECT_DIR$/src/UI/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Repository.StudentRepository">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Repository.StudentRepository</OriginalElement>
+          <nodes>
+            <node x="" y="">UI.Console.StudentMenu.DeleteStudentCommand</node>
+            <node x="" y="">UI.Console.StudentMenu.UpdateStudentCommand</node>
+            <node x="" y="">Repository.NotaRepository</node>
+            <node x="" y="">UI.Console.TemaMenu.ShowTemaListCommand</node>
+            <node x="" y="">Domain.Nota</node>
+            <node x="" y="">UI.Console.TemaMenu.UpdateDeadlineTemaCommand</node>
+            <node x="" y="">Service.AbstractService</node>
+            <node x="" y="">UI.Console.NotaMenu.AddNotaCommand</node>
+            <node x="" y="">UI.Console.StudentMenu</node>
+            <node x="" y="">Service.NotaService</node>
+            <node x="" y="">Domain.Tema</node>
+            <node x="" y="">Repository.AbstractRepository</node>
+            <node x="" y="">UI.Console.NotaMenu.UpdateNotaCommand</node>
+            <node x="" y="">Service.StudentService</node>
+            <node x="" y="">Repository.StudentRepository</node>
+            <node x="" y="">UI.Console.NotaMenu.ShowNotaListCommand</node>
+            <node x="" y="">UI.Console</node>
+            <node x="" y="">UI.Menu.MenuCommand</node>
+            <node x="" y="">Repository.StudentFileRepository</node>
+            <node x="" y="">Repository.NotaFileRepository</node>
+            <node x="" y="">UI.Console.StudentMenu.FindStudentCommand</node>
+            <node x="" y="">Repository.TemaFileRepository</node>
+            <node x="" y="">UI.UI</node>
+            <node x="" y="">UI.Menu.Command</node>
+            <node x="" y="">Utils.Utils</node>
+            <node x="" y="">Repository.TemaRepository</node>
+            <node x="" y="">UI.Console.StudentMenu.AddStudentCommand</node>
+            <node x="" y="">Domain.Student</node>
+            <node x="" y="">UI.Console.StudentMenu.ShowStudentListCommand</node>
+            <node x="" y="">UI.Console.TemaMenu</node>
+            <node x="" y="">Repository.RepositoryException</node>
+            <node x="" y="">Domain.hasId</node>
+            <node x="" y="">Repository.Repository</node>
+            <node x="" y="">UI.Console.NotaMenu</node>
+            <node x="" y="">Service.TemaService</node>
+            <node x="" y="">Service.NotaService.Action</node>
+            <node x="" y="">UI.Console.TemaMenu.AddTemaCommand</node>
+            <node x="" y="">Service.Service</node>
+            <node x="" y="">Main</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.4236804564907276" x="1425.0" y="1041.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#189#190#0" expanded="false" />
+            <element signature="e#234#235#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Tema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/StudentFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#216#217#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/TemaFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3091#3092#0" expanded="false" />
+            <element signature="e#3143#3144#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/TemaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#174#175#0" expanded="false" />
+            <element signature="e#216#217#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Studenti.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Teme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Nota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/TemaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="36" column="56" lean-forward="false" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CatalogStudenti/10.txt" />
+    <entry file="file://$PROJECT_DIR$/src/CatalogStudenti/4.txt" />
+    <entry file="file://$PROJECT_DIR$/src/CatalogStudenti/3.txt" />
+    <entry file="file://$PROJECT_DIR$/src/CatalogStudenti/2.txt" />
+    <entry file="file://$PROJECT_DIR$/src/CatalogStudenti/1.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/EntityPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator/NotaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="67" lean-forward="false" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/NotaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/NotaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="class#Action#0;class#NotaService#0" expanded="false" />
+            <element signature="method#diminuareNota#0;class#NotaService#0" expanded="false" />
+            <element signature="method#update#0;class#NotaService#0" expanded="false" />
+            <element signature="method#update#1;class#NotaService#0" expanded="false" />
+            <element signature="method#findByIds#0;class#NotaService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/AbstractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="e#708#709#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/NotaFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/CatalogStudenti/5462.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/CatalogStudenti/1242.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/CatalogStudenti/351.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/CatalogStudenti/5321.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/CatalogStudentiBackup/BKP_1_20171117-204251.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/Catalog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Console#0;class#Console#0" expanded="false" />
+            <element signature="class#DeleteAllEntitiesCommand#0;class#Console#0" expanded="false" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="class#StudentMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#AddStudentCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#DeleteStudentCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#UpdateStudentCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FindStudentCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#ShowStudentListCommand#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+            <element signature="method#createMenu#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+            <element signature="method#StudentMenu#0;class#StudentMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#TemaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#AddTemaCommand#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#UpdateDeadlineTemaCommand#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#DeleteTemaCommand#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#ShowTemaListCommand#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+            <element signature="method#TemaMenu#0;class#TemaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#NotaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#AddNotaCommand#0;class#NotaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#UpdateNotaCommand#0;class#NotaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#DeleteNotaCommand#0;class#NotaMenu#0;class#Console#0" expanded="false" />
+            <element signature="e#14830#14831#0" expanded="true" />
+            <element signature="e#14907#14908#0" expanded="true" />
+            <element signature="method#NotaMenu#0;class#NotaMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="method#FilterMenu#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FiltrareNotaMaxCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FiltrareNotaTemaCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FiltrareNotaSaptamanaCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FiltrareStudentiProfesorCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FiltrareStudentiGrupaCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FiltrareStudentiKeywordCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FiltrareTemeDeadlineCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#SortareTemeDeadlineCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="class#FiltrareTemeKeywordCommand#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="method#createMenu#0;class#FilterMenu#0;class#Console#0" expanded="false" />
+            <element signature="method#createMenu#0;class#Console#0" expanded="false" />
+            <element signature="method#runUI#0;class#Console#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/AbstractRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="method#setCurrentWeek#0;class#Utils#0" expanded="false" />
+            <element signature="method#getCurrentWeek#0;class#Utils#0" expanded="false" />
+            <element signature="method#sendMail#0;class#Utils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/AbstractFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Laborator 3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Libraries</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

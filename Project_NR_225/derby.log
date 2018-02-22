@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Feb 02 20:34:49 EET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0161-57cc-b6a6-00000e906bd8 
+on database directory D:\UBB\Sem_3\Metode Avansate de Programare\Laboratoare\Laborator 3\Data\Database with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@3b764bce 
+Loaded from file:/D:/UBB/Sem_3/Metode%20Avansate%20de%20Programare/Laboratoare/Laborator%203/libs/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=9+181
+user.dir=D:\UBB\Sem_3\Metode Avansate de Programare\Laboratoare\Laborator 3
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
