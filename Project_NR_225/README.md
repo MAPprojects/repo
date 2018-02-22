@@ -1,5 +1,4 @@
-# Manager de studenti 
----
+# Manager de studenti
 
 ### Tags
 - **Security** : 3 tipuri de utilizatori (admin, profesor, student) cu drepturi diferite in aplicatie. Adminul poate adauga studenti si utilizatori, cat si reseta parole. Profesorul poate adauga teme, poate da note si poate genera rapoarte despre notele studentilor, iar studentii pot vedea detalii despre propriile note. Toti utilizatori isi pot modifica parola asociata contului. Utilizatorii sunt stocati prin username si parola prin hash cu salt.
