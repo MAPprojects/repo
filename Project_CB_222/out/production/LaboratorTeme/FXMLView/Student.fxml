@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" styleClass="principal-color-for-background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLView.StudentController">
+   <children>
+      <AnchorPane layoutX="-18.0" layoutY="-2.0" prefHeight="408.0" prefWidth="618.0">
+         <children>
+            <AnchorPane layoutX="15.0" layoutY="-5.0" prefHeight="800.0" prefWidth="200.0" styleClass="principal-background" stylesheets="@style.css">
+               <children>
+                  <Button fx:id="panelStudent" layoutY="225.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" styleClass="menu-button" stylesheets="@style.css" text="Student" />
+                  <Button fx:id="panelHomework" layoutY="275.0" mnemonicParsing="false" onAction="#handleHomeworkPanelClickedButton" prefHeight="50.0" prefWidth="200.0" styleClass="menu-button" stylesheets="@style.css" text="Homework" />
+                  <Button fx:id="panelGrade" layoutY="325.0" mnemonicParsing="false" onAction="#handleGradePanelClickedButton" prefHeight="50.0" prefWidth="200.0" styleClass="menu-button" stylesheets="@style.css" text="Grade" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="195.0" prefHeight="30.0" prefWidth="200.0" styleClass="menu-name" stylesheets="@style.css" text="General Menu" textAlignment="CENTER" wrapText="true" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="668.0" layoutY="72.0" maxHeight="530.0" maxWidth="250.0" minHeight="530.0" minWidth="250.0" prefHeight="530.0" prefWidth="240.0">
+               <children>
+                  <ListView fx:id="listViewOfStudents" onMouseClicked="#ItemSelectedFromList" prefHeight="540.0" prefWidth="250.0" />
+               </children>
+            </AnchorPane>
+            <TextField fx:id="nameField" layoutX="320.0" layoutY="155.0" prefHeight="25.0" prefWidth="150.0" />
+            <TextField fx:id="groupField" layoutX="320.0" layoutY="205.0" prefHeight="25.0" prefWidth="150.0" />
+            <TextField fx:id="emailField" layoutX="320.0" layoutY="255.0" prefHeight="25.0" prefWidth="150.0" />
+            <TextField fx:id="teacherField" layoutX="320.0" layoutY="305.0" />
+            <Label layoutX="270.0" layoutY="150.0" prefHeight="30.0" text="Name" textFill="#111111">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="270.0" layoutY="200.0" prefHeight="30.0" text="Group" textFill="#111111">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="255.0" layoutY="300.0" prefHeight="30.0" text="Teacher" textFill="#111111">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="270.0" layoutY="250.0" prefHeight="30.0" text="Email" textFill="#111111">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="add" layoutX="500.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleAddStudent" prefWidth="100.0" styleClass="actionButtons" stylesheets="@style.css" text="ADD" />
+            <Label layoutX="206.0" prefHeight="70.0" prefWidth="725.0" styleClass="upLabel" stylesheets="@style.css" text="  Student">
+               <font>
+                  <Font name="System Bold" size="49.0" />
+               </font>
+            </Label>
+            <Label fx:id="selectedStudentLabel" layoutX="500.0" layoutY="72.0" prefHeight="150.0" prefWidth="140.0" />
+            <Button fx:id="cancelSelectedStudent" layoutX="560.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleCancelStudentSelected" />
+            <Button fx:id="update" layoutX="500.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleUpdateStudent" prefWidth="100.0" styleClass="actionButtons" stylesheets="@style.css" text="UPDATE" />
+            <Label layoutX="215.0" layoutY="410.0" prefHeight="47.0" prefWidth="463.0" styleClass="upLabel" stylesheets="@style.css" text="   Filters">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nameFilter" layoutX="320.0" layoutY="470.0" onKeyPressed="#handleFilterField" prefHeight="25.0" prefWidth="150.0" />
+            <Label layoutX="260.0" layoutY="465.0" prefHeight="30.0" text="Name" textFill="#111111">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="260.0" layoutY="515.0" prefHeight="30.0" text="Group" textFill="#111111">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="teacherFilter" layoutX="320.0" layoutY="570.0" onKeyPressed="#handleFilterField" prefHeight="25.0" prefWidth="150.0" />
+            <Label layoutX="245.0" layoutY="565.0" prefHeight="30.0" text="Teacher" textFill="#111111">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="groupFilter" layoutX="320.0" layoutY="520.0" onAction="#handleFilterField" prefWidth="150.0" />
+            <Button fx:id="emailStudentButton" layoutX="370.0" layoutY="370.0" mnemonicParsing="false" onAction="#emailStudent" prefWidth="100.0" styleClass="actionButtons" stylesheets="@style.css" text="Email Student" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="bigAnchorPane" maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" styleClass="principal-color-for-background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLView.GradeController">
+
+    <children>
+        <AnchorPane layoutX="-18.0" layoutY="-2.0" prefHeight="408.0" prefWidth="618.0">
+            <children>
+                <AnchorPane layoutX="15.0" layoutY="-5.0" prefHeight="800.0" prefWidth="200.0" styleClass="principal-background" stylesheets="@style.css">
+                    <children>
+                        <Button fx:id="panelStudent" layoutY="225.0" mnemonicParsing="false" onAction="#handleStudentPanelClickedButton" prefHeight="50.0" prefWidth="200.0" styleClass="menu-button" stylesheets="@style.css" text="Student" />
+                        <Button fx:id="panelHomework" layoutY="275.0" mnemonicParsing="false" onAction="#handleHomeWorkPanelClickedButton" prefHeight="50.0" prefWidth="200.0" styleClass="menu-button" stylesheets="@style.css" text="Homework" />
+                        <Button fx:id="panelGrade" layoutY="325.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" styleClass="menu-button" stylesheets="@style.css" text="Grade" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="195.0" prefHeight="30.0" prefWidth="200.0" styleClass="menu-name" stylesheets="@style.css" text="General Menu" textAlignment="CENTER" wrapText="true" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="718.0" layoutY="101.0" prefHeight="502.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="listViewOfHomeworks" onMouseClicked="#ItemSelectedFromListHomeworks" prefHeight="502.0" prefWidth="200.0" />
+                  <ListView fx:id="listViewOfGrades" layoutX="-10.0" onMouseClicked="#ItemSelectedFromListGrades" prefHeight="502.0" prefWidth="210.0" stylesheets="@style.css" />
+               </children>
+                </AnchorPane>
+                <ToggleButton fx:id="upBarAdd" layoutX="215.0" layoutY="70.0" mnemonicParsing="false" onAction="#addUpBarClicked" prefHeight="30.0" prefWidth="230.0" styleClass="menu-button" stylesheets="@style.css" text="Add Grade" />
+                <ToggleButton fx:id="upBarDelete" layoutX="445.0" layoutY="70.0" mnemonicParsing="false" onAction="#deleteUpdateUpBarClicked" prefHeight="30.0" prefWidth="245.0" styleClass="menu-button" stylesheets="@style.css" text="Delete/Update Grade" />
+                <ToggleButton fx:id="upBarUpdate" layoutX="690.0" layoutY="70.0" mnemonicParsing="false" onAction="#reportsUpBarClicked" prefHeight="30.0" prefWidth="230.0" styleClass="menu-button" stylesheets="@style.css" text="Reports" />
+                <Label layoutX="250.0" prefHeight="71.0" prefWidth="271.0" text="Grade">
+                    <font>
+                        <Font name="System Bold" size="49.0" />
+                    </font>
+                </Label>
+            <Label fx:id="selectedGradeLabel" layoutX="350.0" layoutY="100.0" prefHeight="150.0" prefWidth="140.0" />
+            <Button fx:id="cancelSelectedGrade" layoutX="430.0" layoutY="200.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#handleCancelGradeSelected" prefHeight="30.0" prefWidth="30.0" />
+            <AnchorPane layoutX="215.0" layoutY="101.0" prefHeight="502.0" prefWidth="185.0">
+               <children>
+                  <ListView fx:id="listViewOfStudents" onMouseClicked="#ItemSelectedFromListStudents" prefHeight="502.0" prefWidth="185.0" stylesheets="@style.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="filterPane" layoutX="425.0" layoutY="357.0" prefHeight="245.0" prefWidth="300.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="271.0" styleClass="upLabel" stylesheets="@style.css" text="   Filter Students">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutY="115.0" prefHeight="17.0" prefWidth="271.0" styleClass="upLabel" stylesheets="@style.css" text="   Filter Homeworks">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="31.0" text="Name">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="110.0" layoutY="30.0" text="Group">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="200.0" layoutY="30.0" text="Teacher">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nameFilter" layoutX="5.0" layoutY="70.0" onKeyPressed="#handleFilterStudents" prefHeight="25.0" prefWidth="80.0" />
+                  <ComboBox fx:id="groupFilter" layoutX="95.0" layoutY="70.0" onAction="#handleFilterStudents" prefHeight="25.0" prefWidth="80.0" />
+                  <TextField fx:id="teacherFilter" layoutX="185.0" layoutY="70.0" onKeyPressed="#handleFilterStudents" prefHeight="25.0" prefWidth="80.0" />
+                  <Label layoutX="20.0" layoutY="155.0" text="Title">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="200.0" text="Deadline">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="titleFilter" layoutX="95.0" layoutY="155.0" onKeyPressed="#handleFilterHomworks" />
+                   <TextField fx:id="deadlineFilter" layoutX="95.0" layoutY="200.0" onKeyPressed="#handleFilterHomworks" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="studentHomeworkLabelPane" layoutX="386.0" layoutY="100.0" prefHeight="110.0" prefWidth="270.0">
+               <children>
+                  <Label fx:id="studentSelected" layoutX="55.0" layoutY="2.0" prefHeight="110.0" prefWidth="135.0" />
+                  <Label fx:id="homeworkSelected" layoutX="180.0" layoutY="2.0" prefHeight="110.0" prefWidth="135.0" />
+                  <Button fx:id="cancelHomework" layoutX="260.0" layoutY="85.0" mnemonicParsing="false" onAction="#handleCancelHomeworkButton" />
+                  <Button fx:id="cancelStudent" layoutX="125.0" layoutY="85.0" mnemonicParsing="false" onAction="#handleCancelStudentButton" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="filterGrades" layoutX="370.0" layoutY="350.0" prefHeight="200.0" prefWidth="329.0">
+               <children>
+                  <Label layoutX="30.0" prefHeight="17.0" prefWidth="271.0" styleClass="upLabel" stylesheets="@style.css" text="   Filter Grades">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="90.0" layoutY="50.0" text="Title">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="90.0" prefHeight="25.0" prefWidth="120.0" text="Lower Deadline">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="titleGradeFilter" layoutX="130.0" layoutY="50.0" onKeyPressed="#handleFilterGrades" />
+                  <TextField fx:id="deadlineGradeFilter" layoutX="130.0" layoutY="90.0" onKeyPressed="#handleFilterGrades" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="inputGradeAnchor" layoutX="380.0" layoutY="219.0" prefHeight="141.0" prefWidth="335.0">
+               <children>
+                      <Button fx:id="add" layoutX="161.0" layoutY="121.0" mnemonicParsing="false" onAction="#handleAddGrade" prefWidth="100.0" styleClass="actionButtons" stylesheets="@style.css" text="ADD" />
+                      <Button fx:id="update" layoutX="161.0" layoutY="121.0" mnemonicParsing="false" onAction="#handleUpdateGrade" prefWidth="100.0" styleClass="actionButtons" stylesheets="@style.css" text="UPDATE" />
+                  <Label layoutX="30.0" layoutY="70.0" prefHeight="30.0" text="Observations" textFill="#111111">
+                     <font>
+                        <Font name="Georgia" size="18.0" />
+                     </font>
+                  </Label>
+                      <TextArea fx:id="observationTextArea" layoutX="140.0" layoutY="50.0" prefHeight="50.0" prefWidth="150.0" />
+                  <TextField fx:id="markField" layoutX="140.0" layoutY="5.0" prefWidth="120.0" />
+                  <Label layoutX="90.0" layoutY="3.0" prefHeight="30.0" text="Mark" textFill="#111111">
+                     <font>
+                        <Font name="Georgia" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <BarChart fx:id="barChart" layoutX="300.0" layoutY="180.0">
+              <xAxis>
+                  <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxis" side="LEFT" />
+              </yAxis>
+            </BarChart>
+            <PieChart fx:id="pieChart" layoutX="300.0" layoutY="180.0" />
+            <BarChart fx:id="barChartHomeworks" layoutX="300.0" layoutY="180.0">
+               <xAxis>
+                  <CategoryAxis side="BOTTOM" fx:id="xAxisHomeworks" />
+               </xAxis>
+               <yAxis>
+                  <NumberAxis fx:id="yAxisHomeworks" side="LEFT" />
+               </yAxis>
+            </BarChart>
+            </children>
+        </AnchorPane>
+      <Button fx:id="homeworksaverageGrades" layoutX="200.0" layoutY="130.0" mnemonicParsing="false" onAction="#handleHomeworksAverageGrades" prefHeight="20.0" prefWidth="170.0" styleClass="actionButtons" stylesheets="@style.css" text="Homeworks Average Grades" />
+      <Button fx:id="promotionPercentage" layoutX="400.0" layoutY="130.0" mnemonicParsing="false" onAction="#handlePromotionPercentage" prefHeight="20.0" prefWidth="140.0" styleClass="actionButtons" stylesheets="@style.css" text="Promotion Percentage" />
+      <Button fx:id="studentsAverageGrades" layoutX="570.0" layoutY="130.0" mnemonicParsing="false" onAction="#handleStudentsAverageGrades" prefHeight="20.0" prefWidth="150.0" styleClass="actionButtons" stylesheets="@style.css" text="Students Average Grades" />
+      <Button fx:id="exportCharts" layoutX="750.0" layoutY="130.0" mnemonicParsing="false" onAction="#handleExportToPDF" prefHeight="20.0" prefWidth="130.0" styleClass="actionButtons" stylesheets="@style.css" text="Export Charts to PDF" />
+    </children>
+
+</AnchorPane>

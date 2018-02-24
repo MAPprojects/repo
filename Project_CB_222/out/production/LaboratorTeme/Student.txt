@@ -1,0 +1,12 @@
+1;Bogdan;212;chise_b;alisa
+2;Bobo;213;chise_b;alisa
+3;Aurica;212;chise_b@yaho.com;alisa
+4;Aurica;222;chise_b@yaho.com;Ionel Bucur
+5;asfd;21;afsd;afsasdf
+6;asdf;124;asdf;asdfdfas
+7;fsdz;21;asdf;asdf
+8;Iocsa;222;chise_b@yahoo.com;Ionut
+9;Bogdan;222;chise_b;ovi
+10;sadfasf;212;1212;asdfasdf
+11;Aurica;222;chise_b@yaho.com;Ionel Bucur
+12;Oana;212;chise.dana;Adi

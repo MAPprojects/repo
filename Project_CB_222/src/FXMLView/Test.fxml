@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLView.Test">
+
+
+    <AnchorPane layoutX="48.0" layoutY="258.0" prefHeight="347.0" prefWidth="191.0" />
+   <VBox layoutX="100.0" layoutY="85.0" prefHeight="436.0" prefWidth="272.0">
+      <children>
+            <ListView fx:id="listViewOfUsers" prefHeight="439.0" prefWidth="272.0" />
+      </children>
+   </VBox>
+
+</AnchorPane>

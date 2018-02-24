@@ -1,0 +1,7 @@
+Student adaugat; ID Tema:  3; Valoarea notei: 10; Deadline: 9; Saptamana predarii: 7; Observatii: 
+Student adaugat; Titlu tema:  title1; Valoarea notei: 9; Deadline: 9; Saptamana predarii: 0; Observatii: Fara
+Student adaugat; Titlu tema:  title1; Valoarea notei: 10; Deadline: 12; Saptamana predarii: 12; Observatii: Fara
+GRADE:    Tema: Tema 4   Nota: 5   Deadline: 12   Saptamana predarii: 2   Observatii: Aproape bine!
+--------------------------------------------------------------------------------------------------------------------------
+GRADE:    Tema: Tema 13   Nota: 10   Deadline: 13   Saptamana predarii: 2   Observatii: Foarte bine!
+--------------------------------------------------------------------------------------------------------------------------

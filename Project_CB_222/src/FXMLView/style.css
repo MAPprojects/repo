@@ -1,0 +1,138 @@
+.sidenav {
+    -fx-background-color: #111;
+}
+
+.menu-button {
+    -fx-text-fill : ffffff;
+    -fx-background-radius: 0%;
+    -fx-background-color: #111;
+    -fx-font-size : 20;
+    -fx-font-weight:bold;
+}
+
+.menu-name{
+
+ -fx-text-fill : ffffff;
+    -fx-background-radius: 0%;
+    -fx-text-align: center;
+    -fx-background-color: #111;
+    -fx-font-size : 20;
+    -fx-font-weight:bold;
+
+}
+
+.principal-color-for-background{
+
+    -fx-background-color : white;
+
+}
+
+.clickedEffect{
+  -fx-background-color: #616770;
+  -fx-background-radius: 0%;
+  -fx-text-fill:white;
+  -fx-font-weight:bold;
+}
+
+.upLabel{
+
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: black;
+}
+
+.toggle-button:selected {
+     -fx-background-color: #616770;
+      -fx-background-radius: 0%;
+      -fx-text-fill:white;
+      -fx-font-weight:bold;
+}
+
+.menu-button:hover{
+  -fx-background-color:#109895;
+  -fx-background-radius: 0%;
+  -fx-text-fill:black;
+  -fx-font-weight:bold;
+}
+
+.textFormat {
+
+    -fx-text-fill: #111;
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+}
+
+.principal-background{
+    -fx-background-color: #111;
+
+}
+
+.list-view {
+    -fx-background-color: #111;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+
+}
+
+.deleteButton:hover{
+
+    -fx-graphic: url('Resources/trashPictogram.png');
+}
+
+.actionButtons{
+    -fx-border: #111;
+    -fx-color: rgb(96,96,96);
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.actionButtons:hover,
+.actionButtons:active{
+    -fx-color: #111;
+    -fx-padding: 0;
+    -fx-background: rgb(96,96,96);
+}
+
+.text-field:not(#filterField) {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused:not(#filterField) {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.scroll-bar:vertical .thumb {
+ -fx-background-color: #111;
+ -fx-background-insets: 0 4 0 4;
+ -fx-background-radius: 2em;
+}
+
+.scroll-bar{
+ -fx-background-color: rgb(96,96,96);
+ -fx-background-radius: 2em;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+
+    -fx-background-color: linear-gradient(#333 0%, #777 25%, #aaa 75%, #eee 100%);
+    -fx-text-fill: white; /* 5 */
+}
+
+.dialog-pane {
+    -fx-background-color: black;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: black;
+}
+
+.dialog-pane:header .header-panel .label {
+    -fx-font-style: italic;
+    -fx-font-size: 2em;
+}
+

@@ -1,0 +1,7 @@
+Student adaugat; Titlu tema:  title1; Valoarea notei: 9; Deadline: 12; Saptamana predarii: 12; Observatii: 
+UPDATE:    Id: 3   Nume: Aurelia   Grupa: 212   Email: chise_b@yahoo.com   Cadru didactic: Ionel Bucur
+--------------------------------------------------------------------------------------------------------------------------
+GRADE:    Tema: title1   Nota: 9   Deadline: 9   Saptamana predarii: 0   Observatii: bine
+--------------------------------------------------------------------------------------------------------------------------
+GRADE:    Tema: Tema 2   Nota: 5   Deadline: 12   Saptamana predarii: 2   Observatii: Foarte bine!
+--------------------------------------------------------------------------------------------------------------------------
